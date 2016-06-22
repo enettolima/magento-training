@@ -66,9 +66,7 @@ class VendorList extends Template
                 ->create()
                 ->addProductFilter($this->getProductId());
         }
-
         return $this->collection;
-
     }
 
     /**
@@ -76,7 +74,8 @@ class VendorList extends Template
      */
     private function getProductId()
     {
-        return $this->getProduct()->getId();
+        //return $this->getProduct()->getId();
+        return 1;
     }
 
     /**
