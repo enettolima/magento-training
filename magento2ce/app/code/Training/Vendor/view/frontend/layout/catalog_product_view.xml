@@ -5,7 +5,7 @@
         <referenceContainer name="content">
             <block class="Training\Vendor\Block\Product\VendorList"
                    name="vendor.list"
-                   template="Training_Vendor::vendor_list.phtml" />
+                   template="Training_Vendor::vendor_list.phtml" cacheable="false" />
         </referenceContainer>
     </body>
 </page>
