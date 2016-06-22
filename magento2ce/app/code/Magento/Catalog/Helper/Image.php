@@ -76,7 +76,7 @@ class Image extends AbstractHelper
     protected $_watermarkImageOpacity;
 
     /**
-     * Current Product
+     * Current Detail
      *
      * @var \Magento\Catalog\Model\Product
      */
@@ -102,7 +102,7 @@ class Image extends AbstractHelper
     protected $_assetRepo;
 
     /**
-     * Product image factory
+     * Detail image factory
      *
      * @var \Magento\Catalog\Model\Product\ImageFactory
      */
@@ -689,7 +689,7 @@ class Image extends AbstractHelper
     }
 
     /**
-     * Set current Product
+     * Set current Detail
      *
      * @param \Magento\Catalog\Model\Product $product
      * @return $this
@@ -701,7 +701,7 @@ class Image extends AbstractHelper
     }
 
     /**
-     * Get current Product
+     * Get current Detail
      *
      * @return \Magento\Catalog\Model\Product
      */

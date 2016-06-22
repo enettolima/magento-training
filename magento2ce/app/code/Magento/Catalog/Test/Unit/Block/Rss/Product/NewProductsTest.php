@@ -9,7 +9,7 @@ use Magento\Framework\TestFramework\Unit\Helper\ObjectManager as ObjectManagerHe
 
 /**
  * Class NewProductsTest
- * @package Magento\Catalog\Block\Rss\Product
+ * @package Magento\Catalog\Block\Rss\Detail
  */
 class NewProductsTest extends \PHPUnit_Framework_TestCase
 {
@@ -123,8 +123,8 @@ class NewProductsTest extends \PHPUnit_Framework_TestCase
         $item->expects($this->once())->method('setAllowedPriceInRss')->with(true);
         $item->expects($this->once())->method('getAllowedPriceInRss')->will($this->returnValue(true));
         $item->expects($this->once())->method('getAllowedInRss')->will($this->returnValue(true));
-        $item->expects($this->once())->method('getDescription')->will($this->returnValue('Product Description'));
-        $item->expects($this->once())->method('getName')->will($this->returnValue('Product Name'));
+        $item->expects($this->once())->method('getDescription')->will($this->returnValue('Detail Description'));
+        $item->expects($this->once())->method('getName')->will($this->returnValue('Detail Name'));
         $item->expects($this->any())->method('getProductUrl')->will(
             $this->returnValue('http://magento.com/product-name.html')
         );
@@ -151,7 +151,7 @@ class NewProductsTest extends \PHPUnit_Framework_TestCase
             'language' => null,
             'entries' => [
                 [
-                    'title' => 'Product Name',
+                    'title' => 'Detail Name',
                     'link' => 'http://magento.com/product-name.html',
                 ],
             ],
@@ -162,7 +162,7 @@ class NewProductsTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($data, $rssData);
         $this->assertContains('<a href="http://magento.com/product-name.html">', $description);
         $this->assertContains('<img src="image_link" border="0" align="left" height="75" width="75">', $description);
-        $this->assertContains('<td style="text-decoration:none;">Product Description </td>', $description);
+        $this->assertContains('<td style="text-decoration:none;">Detail Description </td>', $description);
     }
 
     public function testGetCacheLifetime()

@@ -5,7 +5,7 @@
  */
 
 /**
- * Product information tabs
+ * Detail information tabs
  */
 namespace Magento\Catalog\Block\Product\View;
 

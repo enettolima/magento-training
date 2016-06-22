@@ -9,7 +9,7 @@ namespace Magento\Weee\Test\Block\Cart;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Product item fpt block on cart page
+ * Detail item fpt block on cart page
  */
 class CartItem extends \Magento\Checkout\Test\Block\Cart\CartItem
 {

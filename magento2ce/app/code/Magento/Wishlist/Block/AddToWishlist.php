@@ -12,7 +12,7 @@ namespace Magento\Wishlist\Block;
 class AddToWishlist extends \Magento\Framework\View\Element\Template
 {
     /**
-     * Product types
+     * Detail types
      *
      * @var array|null
      */

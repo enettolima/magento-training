@@ -18,7 +18,7 @@ use Magento\Catalog\Model\ResourceModel\Product\Attribute\CollectionFactory as A
 class Layer extends \Magento\Framework\DataObject
 {
     /**
-     * Product collections array
+     * Detail collections array
      *
      * @var array
      */

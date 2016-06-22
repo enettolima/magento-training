@@ -5,7 +5,7 @@
  */
 
 /**
- * Product options abstract type block
+ * Detail options abstract type block
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */
@@ -16,14 +16,14 @@ use Magento\Catalog\Pricing\Price\CustomOptionPriceInterface;
 abstract class AbstractOptions extends \Magento\Framework\View\Element\Template
 {
     /**
-     * Product object
+     * Detail object
      *
      * @var \Magento\Catalog\Model\Product
      */
     protected $_product;
 
     /**
-     * Product option object
+     * Detail option object
      *
      * @var \Magento\Catalog\Model\Product\Option
      */
@@ -57,7 +57,7 @@ abstract class AbstractOptions extends \Magento\Framework\View\Element\Template
     }
 
     /**
-     * Set Product object
+     * Set Detail object
      *
      * @param \Magento\Catalog\Model\Product $product
      * @return \Magento\Catalog\Block\Product\View\Options\AbstractOptions
@@ -69,7 +69,7 @@ abstract class AbstractOptions extends \Magento\Framework\View\Element\Template
     }
 
     /**
-     * Retrieve Product object
+     * Retrieve Detail object
      *
      * @return \Magento\Catalog\Model\Product
      */

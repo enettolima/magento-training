@@ -5,7 +5,7 @@
  */
 
 /**
- * Product image attribute frontend
+ * Detail image attribute frontend
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

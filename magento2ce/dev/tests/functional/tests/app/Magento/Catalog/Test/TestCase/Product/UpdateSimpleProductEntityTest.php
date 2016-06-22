@@ -15,7 +15,7 @@ use Magento\Mtf\TestCase\Injectable;
 /**
  * Precondition:
  * 1. Category is created.
- * 2. Product is created and assigned to created category.
+ * 2. Detail is created and assigned to created category.
  *
  * Steps:
  * 1. Login to backend.
@@ -37,7 +37,7 @@ class UpdateSimpleProductEntityTest extends Injectable
     /* end tags */
 
     /**
-     * Product page with a grid.
+     * Detail page with a grid.
      *
      * @var CatalogProductIndex
      */

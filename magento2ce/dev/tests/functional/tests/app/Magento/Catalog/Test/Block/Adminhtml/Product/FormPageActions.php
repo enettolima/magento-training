@@ -11,7 +11,7 @@ use Magento\Mtf\Client\Locator;
 use Magento\Mtf\Fixture\FixtureInterface;
 
 /**
- * Product Form page actions.
+ * Detail Form page actions.
  */
 class FormPageActions extends ParentFormPageActions
 {

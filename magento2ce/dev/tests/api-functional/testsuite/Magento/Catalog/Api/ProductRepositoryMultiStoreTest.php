@@ -21,13 +21,13 @@ class ProductRepositoryMultiStoreTest extends WebapiAbstract
     private $productData = [
         [
             Product::SKU => 'simple',
-            Product::NAME => 'Simple Related Product',
+            Product::NAME => 'Simple Related Detail',
             Product::TYPE_ID => 'simple',
             Product::PRICE => 10
         ],
         [
             Product::SKU => 'simple_with_cross',
-            Product::NAME => 'Simple Product With Related Product',
+            Product::NAME => 'Simple Detail With Related Detail',
             Product::TYPE_ID => 'simple',
             Product::PRICE => 10
         ],
@@ -69,17 +69,17 @@ class ProductRepositoryMultiStoreTest extends WebapiAbstract
 
         $requestData = ['id' => $sku, 'sku' => $sku];
         $defaultStoreResponse = $this->_webApiCall($serviceInfo, $requestData);
-        $nameInDefaultStore = 'Simple Product';
+        $nameInDefaultStore = 'Simple Detail';
         $this->assertEquals(
             $nameInDefaultStore,
             $defaultStoreResponse[Product::NAME],
-            'Product name in default store is invalid.'
+            'Detail name in default store is invalid.'
         );
         $fixtureStoreResponse = $this->_webApiCall($serviceInfo, $requestData, null, self::STORE_CODE_FROM_FIXTURE);
         $this->assertEquals(
             $nameInFixtureStore,
             $fixtureStoreResponse[Product::NAME],
-            'Product name in fixture store is invalid.'
+            'Detail name in fixture store is invalid.'
         );
     }
 

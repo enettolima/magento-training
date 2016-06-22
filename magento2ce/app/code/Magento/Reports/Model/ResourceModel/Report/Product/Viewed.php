@@ -29,7 +29,7 @@ class Viewed extends \Magento\Sales\Model\ResourceModel\Report\AbstractReport
     const AGGREGATION_YEARLY = 'report_viewed_product_aggregated_yearly';
 
     /**
-     * Product resource instance
+     * Detail resource instance
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product
      */

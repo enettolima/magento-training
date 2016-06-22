@@ -14,7 +14,7 @@ use Magento\Customer\Api\CustomerRepositoryInterface;
 class ListCustomer extends \Magento\Customer\Block\Account\Dashboard
 {
     /**
-     * Product reviews collection
+     * Detail reviews collection
      *
      * @var \Magento\Review\Model\ResourceModel\Review\Product\Collection
      */

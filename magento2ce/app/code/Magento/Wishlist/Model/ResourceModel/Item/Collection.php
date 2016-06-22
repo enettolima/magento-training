@@ -16,14 +16,14 @@ use Magento\Framework\EntityManager\MetadataPool;
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
     /**
-     * Product Visibility Filter to product collection flag
+     * Detail Visibility Filter to product collection flag
      *
      * @var bool
      */
     protected $_productVisible = false;
 
     /**
-     * Product Salable Filter to product collection flag
+     * Detail Salable Filter to product collection flag
      *
      * @var bool
      */
@@ -37,7 +37,7 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
     protected $_productInStock = false;
 
     /**
-     * Product Ids array
+     * Detail Ids array
      *
      * @var array
      */
@@ -422,7 +422,7 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
 
     /**
      * Set Salable Filter.
-     * This filter apply Salable Product Types Filter to product collection.
+     * This filter apply Salable Detail Types Filter to product collection.
      *
      * @param bool $flag
      * @return $this

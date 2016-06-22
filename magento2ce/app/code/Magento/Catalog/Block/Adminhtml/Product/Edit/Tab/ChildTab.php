@@ -5,7 +5,7 @@
  */
 
 /**
- * Product Child tab
+ * Detail Child tab
  */
 namespace Magento\Catalog\Block\Adminhtml\Product\Edit\Tab;
 

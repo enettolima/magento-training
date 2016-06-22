@@ -34,11 +34,11 @@ return [
             'values' => [
                 'default' => [
                     'value' => 'product/widget/link/link_block.phtml',
-                    'label' => 'Product Link Block Template',
+                    'label' => 'Detail Link Block Template',
                 ],
                 'link_inline' => [
                     'value' => 'product/widget/link/link_inline.phtml',
-                    'label' => 'Product Link Inline Template',
+                    'label' => 'Detail Link Inline Template',
                 ],
             ],
             'visible' => '1',

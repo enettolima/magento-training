@@ -81,7 +81,7 @@ interface InvoiceItemInterface extends \Magento\Framework\Api\ExtensibleDataInte
      */
     const ROW_TOTAL_INCL_TAX = 'row_total_incl_tax';
     /*
-     * Product ID.
+     * Detail ID.
      */
     const PRODUCT_ID = 'product_id';
     /*
@@ -253,7 +253,7 @@ interface InvoiceItemInterface extends \Magento\Framework\Api\ExtensibleDataInte
     /**
      * Gets the product ID for the invoice item.
      *
-     * @return int|null Product ID.
+     * @return int|null Detail ID.
      */
     public function getProductId();
 

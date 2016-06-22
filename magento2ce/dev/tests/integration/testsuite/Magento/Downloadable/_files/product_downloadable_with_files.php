@@ -18,7 +18,7 @@ $downloadableData = [
         [
             'is_delete' => 0,
             'sample_id' => 0,
-            'title' => 'Downloadable Product Sample Title',
+            'title' => 'Downloadable Detail Sample Title',
             'type' => \Magento\Downloadable\Helper\Download::LINK_TYPE_FILE,
             'file' => json_encode(
                 [
@@ -44,7 +44,7 @@ $product->setTypeId(
 )->setWebsiteIds(
     [1]
 )->setName(
-    'Downloadable Product'
+    'Downloadable Detail'
 )->setSku(
     'downloadable-product'
 )->setPrice(
@@ -60,7 +60,7 @@ $links = [];
 $linkData = [
     'product_id' => 1,
     'sort_order' => '0',
-    'title' => 'Downloadable Product Link',
+    'title' => 'Downloadable Detail Link',
     'sample' => [
         'type' => \Magento\Downloadable\Helper\Download::LINK_TYPE_FILE,
         'url' => null,

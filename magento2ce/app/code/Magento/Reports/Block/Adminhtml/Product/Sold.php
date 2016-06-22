@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Product;
 
 /**
- * Backend Report Sold Product Content Block
+ * Backend Report Sold Detail Content Block
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

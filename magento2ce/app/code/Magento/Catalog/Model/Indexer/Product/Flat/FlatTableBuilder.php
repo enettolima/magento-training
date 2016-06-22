@@ -190,7 +190,7 @@ class FlatTableBuilder
             );
         }
 
-        $table->setComment("Catalog Product Flat (Store {$storeId})");
+        $table->setComment("Catalog Detail Flat (Store {$storeId})");
 
         $this->_connection->dropTable(
             $this->_getTemporaryTableName($this->_productIndexerHelper->getFlatTableName($storeId))

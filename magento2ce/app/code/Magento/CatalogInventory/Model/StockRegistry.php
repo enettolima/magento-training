@@ -135,7 +135,7 @@ class StockRegistry implements StockRegistryInterface
     }
 
     /**
-     * Retrieve Product stock status
+     * Retrieve Detail stock status
      * @param int $productId
      * @param int $scopeId
      * @return int
@@ -206,7 +206,7 @@ class StockRegistry implements StockRegistryInterface
         if (!$productId) {
             throw new \Magento\Framework\Exception\NoSuchEntityException(
                 __(
-                    'Product with SKU "%1" does not exist',
+                    'Detail with SKU "%1" does not exist',
                     $productSku
                 )
             );

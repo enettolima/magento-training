@@ -50,7 +50,7 @@ class Edit extends \Magento\Catalog\Controller\Adminhtml\Product\Set
             $attributeSet->getId() ? $attributeSet->getAttributeSetName() : __('New Set')
         );
         $resultPage->addBreadcrumb(__('Catalog'), __('Catalog'));
-        $resultPage->addBreadcrumb(__('Manage Product Sets'), __('Manage Product Sets'));
+        $resultPage->addBreadcrumb(__('Manage Detail Sets'), __('Manage Detail Sets'));
         return $resultPage;
     }
 }

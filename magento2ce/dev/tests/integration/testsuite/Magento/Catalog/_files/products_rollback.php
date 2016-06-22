@@ -19,14 +19,14 @@ try {
     $product = $productRepository->get('simple', false, null, true);
     $productRepository->delete($product);
 } catch (\Magento\Framework\Exception\NoSuchEntityException $e) {
-    //Product already removed
+    //Detail already removed
 }
 
 try {
     $customDesignProduct = $productRepository->get('custom-design-simple-product', false, null, true);
     $productRepository->delete($customDesignProduct);
 } catch (\Magento\Framework\Exception\NoSuchEntityException $e) {
-    //Product already removed
+    //Detail already removed
 }
 
 $registry->unregister('isSecureArea');

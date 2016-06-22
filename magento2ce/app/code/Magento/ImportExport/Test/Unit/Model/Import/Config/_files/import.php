@@ -13,11 +13,11 @@ return [
             'types' => [
                     'product_type_one' => [
                         'name' => 'product_type_one',
-                        'model' => 'Product\Type\One',
+                        'model' => 'Detail\Type\One',
                     ],
                     'type_two' => [
                         'name' => 'type_two',
-                        'model' => 'Product\Type\Two',
+                        'model' => 'Detail\Type\Two',
                     ],
                 ],
             'relatedIndexers' => [

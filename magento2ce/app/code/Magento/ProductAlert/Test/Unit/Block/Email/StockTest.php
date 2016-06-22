@@ -6,7 +6,7 @@
 namespace Magento\ProductAlert\Test\Unit\Block\Email;
 
 /**
- * Test class for \Magento\ProductAlert\Block\Product\View\Stock
+ * Test class for \Magento\ProductAlert\Block\Detail\View\Stock
  */
 class StockTest extends \PHPUnit_Framework_TestCase
 {

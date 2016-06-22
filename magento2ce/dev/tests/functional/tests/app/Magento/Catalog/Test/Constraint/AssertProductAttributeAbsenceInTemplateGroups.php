@@ -46,12 +46,12 @@ class AssertProductAttributeAbsenceInTemplateGroups extends AbstractConstraint
     }
 
     /**
-     * Text absent Product Attribute in Attribute set's Groups section
+     * Text absent Detail Attribute in Attribute set's Groups section
      *
      * @return string
      */
     public function toString()
     {
-        return "Product Attribute is absent in Attribute set's Groups section.";
+        return "Detail Attribute is absent in Attribute set's Groups section.";
     }
 }

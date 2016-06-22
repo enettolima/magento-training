@@ -181,7 +181,7 @@ class Category extends \Magento\Catalog\Model\AbstractModel implements
     protected $_catalogConfig;
 
     /**
-     * Product collection factory
+     * Detail collection factory
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory
      */
@@ -996,7 +996,7 @@ class Category extends \Magento\Catalog\Model\AbstractModel implements
     }
 
     /**
-     * Retrieve Available int Product Listing sort by
+     * Retrieve Available int Detail Listing sort by
      *
      * @return null|array
      */
@@ -1013,7 +1013,7 @@ class Category extends \Magento\Catalog\Model\AbstractModel implements
     }
 
     /**
-     * Retrieve Available Product Listing  Sort By
+     * Retrieve Available Detail Listing  Sort By
      * code as key, value - name
      *
      * @return array
@@ -1038,7 +1038,7 @@ class Category extends \Magento\Catalog\Model\AbstractModel implements
     }
 
     /**
-     * Retrieve Product Listing Default Sort By
+     * Retrieve Detail Listing Default Sort By
      *
      * @return string
      */

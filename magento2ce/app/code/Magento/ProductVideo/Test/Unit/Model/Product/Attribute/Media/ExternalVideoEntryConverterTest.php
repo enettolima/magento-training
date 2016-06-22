@@ -45,7 +45,7 @@ class ExternalVideoEntryConverterTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @var \Magento\Framework\TestFramework\Unit\Helper\ObjectManager
-     * |\Magento\ProductVideo\Model\Product\Attribute\Media\ExternalVideoEntryConverter
+     * |\Magento\ProductVideo\Model\Detail\Attribute\Media\ExternalVideoEntryConverter
      */
     protected $modelObject;
 

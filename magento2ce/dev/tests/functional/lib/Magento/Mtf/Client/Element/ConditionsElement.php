@@ -30,7 +30,7 @@ use Magento\Mtf\Client\ElementInterface;
  * {Products subselection|total amount|greater than|135|ANY:[[Price in cart|is|100][Quantity in cart|is|100]]}
  * {Conditions combination:[
  *     [Subtotal|is|100]
- *     {Product attribute combination|NOT FOUND|ANY:[[Attribute Set|is|Default][Attribute Set|is|Default]]}
+ *     {Detail attribute combination|NOT FOUND|ANY:[[Attribute Set|is|Default][Attribute Set|is|Default]]}
  * ]}
  *
  * @SuppressWarnings(PHPMD.TooManyFields)

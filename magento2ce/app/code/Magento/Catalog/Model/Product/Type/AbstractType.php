@@ -20,7 +20,7 @@ use Magento\Framework\Exception\LocalizedException;
 abstract class AbstractType
 {
     /**
-     * Product type instance id
+     * Detail type instance id
      *
      * @var string
      */
@@ -102,7 +102,7 @@ abstract class AbstractType
     protected $_fileStorageDb;
 
     /**
-     * Cache key for Product Attributes
+     * Cache key for Detail Attributes
      *
      * @var string
      */
@@ -787,8 +787,8 @@ abstract class AbstractType
     /**
      * Default action to get sku of product with option
      *
-     * @param \Magento\Catalog\Model\Product $product Product with Custom Options
-     * @param string $sku Product SKU without option
+     * @param \Magento\Catalog\Model\Product $product Detail with Custom Options
+     * @param string $sku Detail SKU without option
      * @return string
      */
     public function getOptionSku($product, $sku = '')

@@ -7,7 +7,7 @@
 namespace Magento\Reports\Model\ResourceModel\Product\Index;
 
 /**
- * Reports Product Index Abstract Resource Model
+ * Reports Detail Index Abstract Resource Model
  */
 abstract class AbstractIndex extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
@@ -117,7 +117,7 @@ abstract class AbstractIndex extends \Magento\Framework\Model\ResourceModel\Db\A
     }
 
     /**
-     * Save Product Index data (forced save)
+     * Save Detail Index data (forced save)
      *
      * @param \Magento\Framework\Model\AbstractModel $object
      * @return $this|\Magento\Framework\Model\ResourceModel\Db\AbstractDb

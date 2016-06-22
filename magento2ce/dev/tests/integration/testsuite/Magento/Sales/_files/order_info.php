@@ -15,7 +15,7 @@ $product = $objectManager->create(\Magento\Catalog\Model\Product::class);
 $product->setTypeId('virtual')
     ->setId(1)
     ->setAttributeSetId(4)
-    ->setName('Simple Product')
+    ->setName('Simple Detail')
     ->setSku('simple')
     ->setPrice(10)
     ->setStockData([

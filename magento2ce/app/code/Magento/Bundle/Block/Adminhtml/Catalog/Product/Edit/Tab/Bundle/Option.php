@@ -95,7 +95,7 @@ class Option extends \Magento\Backend\Block\Widget
     }
 
     /**
-     * Retrieve Product object
+     * Retrieve Detail object
      *
      * @return \Magento\Catalog\Model\Product
      */

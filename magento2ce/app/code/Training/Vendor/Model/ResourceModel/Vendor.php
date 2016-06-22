@@ -27,4 +27,13 @@ class Vendor extends AbstractDb
         $this->getConnection()
             ->insertMultiple('training_vendor2product', $data);
     }
+
+    public function getAssociatedProductsIds($vendorId){
+        $select = $this->getConnection()->select();
+        $select->from(
+            ['v2p' => $this->getTable('training_vendor2product')],
+            'product_id'
+        )->where('v2p.vendor_id=?',$vendorId);
+        return $this->getConnection()->fetchCol($select);
+    }
 }

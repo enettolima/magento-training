@@ -14,7 +14,7 @@ use Magento\Mtf\Fixture\InjectableFixture;
 class CatalogProductLink extends ParametersForm
 {
     /**
-     * Catalog Product Link grid block.
+     * Catalog Detail Link grid block.
      *
      * @var string
      */

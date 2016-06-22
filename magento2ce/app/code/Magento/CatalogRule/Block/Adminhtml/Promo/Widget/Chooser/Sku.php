@@ -106,7 +106,7 @@ class Sku extends \Magento\Backend\Block\Widget\Grid\Extended
     }
 
     /**
-     * Prepare Catalog Product Collection for attribute SKU in Promo Conditions SKU chooser
+     * Prepare Catalog Detail Collection for attribute SKU in Promo Conditions SKU chooser
      *
      * @return $this
      */
@@ -195,7 +195,7 @@ class Sku extends \Magento\Backend\Block\Widget\Grid\Extended
         );
         $this->addColumn(
             'chooser_name',
-            ['header' => __('Product'), 'name' => 'chooser_name', 'index' => 'name']
+            ['header' => __('Detail'), 'name' => 'chooser_name', 'index' => 'name']
         );
 
         return parent::_prepareColumns();

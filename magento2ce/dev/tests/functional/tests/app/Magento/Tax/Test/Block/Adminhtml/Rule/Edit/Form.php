@@ -60,7 +60,7 @@ class Form extends FormInterface
     protected $taxCustomerBlock = '[class*=tax_customer_class]';
 
     /**
-     * Product Tax Class block.
+     * Detail Tax Class block.
      *
      * @var string
      */

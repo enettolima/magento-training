@@ -11,7 +11,7 @@ namespace Magento\Downloadable\Block\Catalog\Product;
 use Magento\Downloadable\Model\ResourceModel\Sample;
 
 /**
- * Downloadable Product Samples part block
+ * Downloadable Detail Samples part block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

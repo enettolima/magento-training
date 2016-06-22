@@ -9,7 +9,7 @@ namespace Magento\Catalog\Test\Block\Adminhtml\Product\Edit\Section\Attributes;
 use Magento\Ui\Test\Block\Adminhtml\DataGrid;
 
 /**
- * Product attributes grid.
+ * Detail attributes grid.
  */
 class Grid extends DataGrid
 {

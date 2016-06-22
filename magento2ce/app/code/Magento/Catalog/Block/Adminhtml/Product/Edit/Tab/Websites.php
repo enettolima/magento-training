@@ -5,7 +5,7 @@
  */
 
 /**
- * Product Stores tab
+ * Detail Stores tab
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

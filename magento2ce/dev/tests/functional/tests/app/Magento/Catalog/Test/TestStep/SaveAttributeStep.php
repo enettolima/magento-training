@@ -24,7 +24,7 @@ class SaveAttributeStep implements TestStepInterface
     protected $attributeNew;
 
     /**
-     * Product attribute fixture.
+     * Detail attribute fixture.
      *
      * @var CatalogProductAttribute
      */

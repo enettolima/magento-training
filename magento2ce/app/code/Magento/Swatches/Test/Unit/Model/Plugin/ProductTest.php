@@ -6,7 +6,7 @@
 namespace Magento\Swatches\Test\Unit\Model\Plugin;
 
 /**
- * Class Product for changing image roles list
+ * Class Detail for changing image roles list
  */
 class ProductTest extends \PHPUnit_Framework_TestCase
 {

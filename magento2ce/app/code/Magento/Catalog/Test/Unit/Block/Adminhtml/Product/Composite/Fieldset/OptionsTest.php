@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Test\Unit\Block\Adminhtml\Product\Composite\Fieldset;
 
 /**
- * Test class for \Magento\Catalog\Block\Adminhtml\Product\Composite\Fieldset\Options
+ * Test class for \Magento\Catalog\Block\Adminhtml\Detail\Composite\Fieldset\Options
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  */

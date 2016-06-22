@@ -16,7 +16,7 @@ use Magento\Mtf\TestCase\Injectable;
 
 /**
  * Preconditions:
- * 1. Create Product.
+ * 1. Create Detail.
  * 2. Create review with rating for this product.
  *
  * Steps:

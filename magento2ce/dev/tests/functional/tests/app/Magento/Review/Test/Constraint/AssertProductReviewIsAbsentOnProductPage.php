@@ -55,6 +55,6 @@ class AssertProductReviewIsAbsentOnProductPage extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product do not have a review on product page.';
+        return 'Detail do not have a review on product page.';
     }
 }

@@ -37,11 +37,11 @@ $productOne->setTypeId(
 )->setSku(
     'simple_product_1'
 )->setName(
-    'Simple Product 1 Name'
+    'Simple Detail 1 Name'
 )->setDescription(
-    'Simple Product 1 Full Description'
+    'Simple Detail 1 Full Description'
 )->setShortDescription(
-    'Simple Product 1 Short Description'
+    'Simple Detail 1 Short Description'
 )->setPrice(
     1234.56
 )->setTaxClassId(
@@ -54,11 +54,11 @@ $productOne->setTypeId(
         'is_in_stock'               => 1,
     ]
 )->setMetaTitle(
-    'Simple Product 1 Meta Title'
+    'Simple Detail 1 Meta Title'
 )->setMetaKeyword(
-    'Simple Product 1 Meta Keyword'
+    'Simple Detail 1 Meta Keyword'
 )->setMetaDescription(
-    'Simple Product 1 Meta Description'
+    'Simple Detail 1 Meta Description'
 )->setVisibility(
     \Magento\Catalog\Model\Product\Visibility::VISIBILITY_BOTH
 )->setStatus(
@@ -81,11 +81,11 @@ $productTwo->setTypeId(
 )->setSku(
     'simple_product_2'
 )->setName(
-    'Simple Product 2 Name'
+    'Simple Detail 2 Name'
 )->setDescription(
-    'Simple Product 2 Full Description'
+    'Simple Detail 2 Full Description'
 )->setShortDescription(
-    'Simple Product 2 Short Description'
+    'Simple Detail 2 Short Description'
 )->setPrice(
     987.65
 )->setTaxClassId(

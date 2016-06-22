@@ -59,7 +59,7 @@ class PriceModifier
         if ($tierPricesQty == count($prices)) {
             throw new NoSuchEntityException(
                 __(
-                    'Product hasn\'t group price with such data: customerGroupId = \'%1\''
+                    'Detail hasn\'t group price with such data: customerGroupId = \'%1\''
                     . ', website = %2, qty = %3',
                     [$customerGroupId, $websiteId, $qty]
                 )

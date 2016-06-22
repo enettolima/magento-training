@@ -19,7 +19,7 @@ try {
     $firstProduct = $productRepository->get('simple', false, null, true);
     $productRepository->delete($firstProduct);
 } catch (\Magento\Framework\Exception\NoSuchEntityException $exception) {
-    //Product already removed
+    //Detail already removed
 }
 
 $registry->unregister('isSecureArea');

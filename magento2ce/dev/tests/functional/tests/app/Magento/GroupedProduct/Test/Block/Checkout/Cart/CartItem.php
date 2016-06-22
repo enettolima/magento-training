@@ -11,7 +11,7 @@ use Magento\Checkout\Test\Block\Cart\CartItem as CheckoutCartItem;
 
 /**
  * Class CartItem
- * Product item block on checkout page
+ * Detail item block on checkout page
  */
 class CartItem extends AbstractCartItem
 {

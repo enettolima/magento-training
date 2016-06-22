@@ -138,7 +138,7 @@ class WishlistTest extends \PHPUnit_Framework_TestCase
         $wishlistSharingUrl = 'wishlist/shared/index/1';
         $locale = 'en_US';
         $productUrl = 'http://product.url/';
-        $productName = 'Product name';
+        $productName = 'Detail name';
 
         $customer = $this->getMockBuilder('Magento\Customer\Model\Customer')
             ->setMethods(['getName', '__wakeup', 'load'])
@@ -214,8 +214,8 @@ class WishlistTest extends \PHPUnit_Framework_TestCase
     {
         $imgThumbSrc = 'http://source-for-thumbnail';
         $priceHtmlForTest = '<div class="price">Price is 10 for example</div>';
-        $productDescription = 'Product description';
-        $productShortDescription = 'Product short description';
+        $productDescription = 'Detail description';
+        $productShortDescription = 'Detail short description';
 
         $wishlistItem = $this->getMock('Magento\Wishlist\Model\Item', [], [], '', false);
         $wishlistItemsCollection = [

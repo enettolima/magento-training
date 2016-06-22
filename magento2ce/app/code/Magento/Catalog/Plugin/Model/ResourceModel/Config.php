@@ -8,7 +8,7 @@ namespace Magento\Catalog\Plugin\Model\ResourceModel;
 class Config
 {
     /**#@+
-     * Product listing attributes cache ids
+     * Detail listing attributes cache ids
      */
     const PRODUCT_LISTING_ATTRIBUTES_CACHE_ID = 'PRODUCT_LISTING_ATTRIBUTES';
     const PRODUCT_LISTING_SORT_BY_ATTRIBUTES_CACHE_ID = 'PRODUCT_LISTING_SORT_BY_ATTRIBUTES';

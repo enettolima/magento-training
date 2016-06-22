@@ -13,7 +13,7 @@ use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory;
 class ProductDataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
 {
     /**
-     * Product collection
+     * Detail collection
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\Collection
      */

@@ -17,7 +17,7 @@ use Magento\Framework\App\Action\Action;
 class ListCompare extends \Magento\Catalog\Block\Product\AbstractProduct
 {
     /**
-     * Product Compare items collection
+     * Detail Compare items collection
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\Compare\Item\Collection
      */
@@ -142,7 +142,7 @@ class ListCompare extends \Magento\Catalog\Block\Product\AbstractProduct
     }
 
     /**
-     * Retrieve Product Compare items collection
+     * Retrieve Detail Compare items collection
      *
      * @return \Magento\Catalog\Model\ResourceModel\Product\Compare\Item\Collection
      */
@@ -173,7 +173,7 @@ class ListCompare extends \Magento\Catalog\Block\Product\AbstractProduct
     }
 
     /**
-     * Retrieve Product Compare Attributes
+     * Retrieve Detail Compare Attributes
      *
      * @return array
      */
@@ -187,7 +187,7 @@ class ListCompare extends \Magento\Catalog\Block\Product\AbstractProduct
     }
 
     /**
-     * Retrieve Product Attribute Value
+     * Retrieve Detail Attribute Value
      *
      * @param Product $product
      * @param \Magento\Catalog\Model\ResourceModel\Eav\Attribute $attribute

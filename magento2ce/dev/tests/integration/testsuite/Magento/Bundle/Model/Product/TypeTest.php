@@ -7,7 +7,7 @@
 namespace Magento\Bundle\Model\Product;
 
 /**
- * Test class for \Magento\Bundle\Model\Product\Type (bundle product type)
+ * Test class for \Magento\Bundle\Model\Detail\Type (bundle product type)
  */
 class TypeTest extends \PHPUnit_Framework_TestCase
 {
@@ -57,7 +57,7 @@ class TypeTest extends \PHPUnit_Framework_TestCase
         $this->indexer->reindexAll();
 
         $select = $this->connectionMock->select()->from($this->resource->getTableName('catalogsearch_fulltext_scope1'))
-            ->where('`data_index` LIKE ?', '%' . 'Bundle Product Items' . '%');
+            ->where('`data_index` LIKE ?', '%' . 'Bundle Detail Items' . '%');
 
         $result = $this->connectionMock->fetchAll($select);
         $this->assertCount(1, $result);

@@ -6,12 +6,12 @@
 
 
 /**
- * CatalogWidget Rule Product Condition data model
+ * CatalogWidget Rule Detail Condition data model
  */
 namespace Magento\CatalogWidget\Model\Rule\Condition;
 
 /**
- * Class Product
+ * Class Detail
  */
 class Product extends \Magento\Rule\Model\Condition\Product\AbstractProduct
 {

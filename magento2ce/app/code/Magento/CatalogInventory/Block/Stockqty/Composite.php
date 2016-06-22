@@ -9,7 +9,7 @@ namespace Magento\CatalogInventory\Block\Stockqty;
 use Magento\Catalog\Model\Product;
 
 /**
- * Product stock qty block for abstract composite product
+ * Detail stock qty block for abstract composite product
  */
 abstract class Composite extends DefaultStockqty
 {

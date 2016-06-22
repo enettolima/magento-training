@@ -56,7 +56,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     const ENTITY = 'catalog_product';
 
     /**
-     * Product cache tag
+     * Detail cache tag
      */
     const CACHE_TAG = 'catalog_product';
 
@@ -66,7 +66,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     const CACHE_PRODUCT_CATEGORY_TAG = 'catalog_category_product';
 
     /**
-     * Product Store Id
+     * Detail Store Id
      */
     const STORE_ID = 'store_id';
 
@@ -91,28 +91,28 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     protected $_canAffectOptions = false;
 
     /**
-     * Product type singleton instance
+     * Detail type singleton instance
      *
      * @var \Magento\Catalog\Model\Product\Type\AbstractType
      */
     protected $_typeInstance = null;
 
     /**
-     * Product link instance
+     * Detail link instance
      *
      * @var Product\Link
      */
     protected $_linkInstance;
 
     /**
-     * Product object customization (not stored in DB)
+     * Detail object customization (not stored in DB)
      *
      * @var array
      */
     protected $_customOptions = [];
 
     /**
-     * Product Url Instance
+     * Detail Url Instance
      *
      * @var Product\Url
      */
@@ -129,14 +129,14 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     protected $_errors = [];
 
     /**
-     * Product option factory
+     * Detail option factory
      *
      * @var Product\OptionFactory
      */
     protected $optionFactory;
 
     /**
-     * Product option
+     * Detail option
      *
      * @var Product\Option
      */
@@ -278,7 +278,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     protected $entityCollectionProvider;
 
     /*
-     * @param \Magento\Catalog\Model\Product\LinkTypeProvider
+     * @param \Magento\Catalog\Model\Detail\LinkTypeProvider
      */
     protected $linkProvider;
 
@@ -344,7 +344,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     protected $linkTypeProvider;
 
     /**
-     * Product constructor.
+     * Detail constructor.
      * @param \Magento\Framework\Model\Context $context
      * @param \Magento\Framework\Registry $registry
      * @param \Magento\Framework\Api\ExtensionAttributesFactory $extensionFactory
@@ -518,7 +518,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     }
 
     /**
-     * Validate Product Data
+     * Validate Detail Data
      *
      * @todo implement full validation process with errors returning which are ignoring now
      *
@@ -650,7 +650,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     /**
      * Set type instance for the product
      *
-     * @param \Magento\Catalog\Model\Product\Type\AbstractType|null $instance  Product type instance
+     * @param \Magento\Catalog\Model\Product\Type\AbstractType|null $instance  Detail type instance
      * @return \Magento\Catalog\Model\Product
      */
     public function setTypeInstance($instance)
@@ -1556,7 +1556,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     }
 
     /**
-     * Check Product visible in catalog
+     * Check Detail visible in catalog
      *
      * @return bool
      */
@@ -1576,7 +1576,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     }
 
     /**
-     * Check Product visible in site
+     * Check Detail visible in site
      *
      * @return bool
      */
@@ -1714,7 +1714,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
     }
 
     /**
-     * Retrieve Product URL
+     * Retrieve Detail URL
      *
      * @param  bool $useSid
      * @return string
@@ -1962,7 +1962,7 @@ class Product extends \Magento\Catalog\Model\AbstractModel implements
      *
      * @param   string $code    Option code
      * @param   mixed  $value   Value of the option
-     * @param   int|Product    $product Product ID
+     * @param   int|Product    $product Detail ID
      * @return  $this
      */
     public function addCustomOption($code, $value, $product = null)

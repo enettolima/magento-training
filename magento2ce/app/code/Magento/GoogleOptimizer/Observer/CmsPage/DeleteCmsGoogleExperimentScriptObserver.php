@@ -25,7 +25,7 @@ class DeleteCmsGoogleExperimentScriptObserver implements ObserverInterface
     }
 
     /**
-     * Delete Product scripts after deleting product
+     * Delete Detail scripts after deleting product
      *
      * @param \Magento\Framework\Event\Observer $observer
      * @return $this

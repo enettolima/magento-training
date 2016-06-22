@@ -65,7 +65,7 @@ class View extends \Magento\Catalog\Controller\Product
     }
 
     /**
-     * Product view action
+     * Detail view action
      *
      * @return \Magento\Framework\Controller\Result\Forward|\Magento\Framework\Controller\Result\Redirect
      */

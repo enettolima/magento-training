@@ -284,7 +284,7 @@ class Configurable extends \Magento\ConfigurableProduct\Block\Product\View\Type\
     }
 
     /**
-     * Generate Product Media array
+     * Generate Detail Media array
      *
      * @param string $attributeCode
      * @param integer $optionId

@@ -9,7 +9,7 @@ use Magento\Framework\TestFramework\Unit\Helper\ObjectManager as ObjectManagerHe
 
 /**
  * Class NotifyStockTest
- * @package Magento\Catalog\Model\Rss\Product
+ * @package Magento\Catalog\Model\Rss\Detail
  */
 class NotifyStockTest extends \PHPUnit_Framework_TestCase
 {

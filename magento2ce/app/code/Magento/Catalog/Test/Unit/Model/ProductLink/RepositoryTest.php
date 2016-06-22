@@ -289,7 +289,7 @@ class RepositoryTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \Magento\Framework\Exception\NoSuchEntityException
-     * @expectedExceptionMessage Product with SKU 'linkedProduct' is not linked to product with SKU 'product'
+     * @expectedExceptionMessage Detail with SKU 'linkedProduct' is not linked to product with SKU 'product'
      */
     public function testDeleteWithNoSuchEntityException()
     {

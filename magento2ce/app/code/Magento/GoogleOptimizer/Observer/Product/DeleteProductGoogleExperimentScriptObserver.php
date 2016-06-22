@@ -1,6 +1,6 @@
 <?php
 /**
- * Google Experiment Product observer
+ * Google Experiment Detail observer
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.
@@ -25,7 +25,7 @@ class DeleteProductGoogleExperimentScriptObserver implements ObserverInterface
     }
 
     /**
-     * Delete Product scripts after deleting product
+     * Delete Detail scripts after deleting product
      *
      * @param \Magento\Framework\Event\Observer $observer
      * @return $this

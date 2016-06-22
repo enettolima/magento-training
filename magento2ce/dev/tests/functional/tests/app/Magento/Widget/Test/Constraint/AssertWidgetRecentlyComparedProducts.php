@@ -16,7 +16,7 @@ use Magento\Mtf\Client\BrowserInterface;
 use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
- * Check that widget with type Recently Compared Products is present on Product Compare page
+ * Check that widget with type Recently Compared Products is present on Detail Compare page
  */
 class AssertWidgetRecentlyComparedProducts extends AbstractConstraint
 {
@@ -49,7 +49,7 @@ class AssertWidgetRecentlyComparedProducts extends AbstractConstraint
     protected $cmsIndex;
 
     /**
-     * Assert that widget with type Recently Compared Products is present on Product Compare page
+     * Assert that widget with type Recently Compared Products is present on Detail Compare page
      *
      * @param CatalogProductCompare $catalogProductCompare
      * @param CmsIndex $cmsIndex
@@ -93,7 +93,7 @@ class AssertWidgetRecentlyComparedProducts extends AbstractConstraint
 
         \PHPUnit_Framework_Assert::assertTrue(
             $this->catalogProductCompare->getWidgetView()->isWidgetVisible($widget, 'Recently Compared'),
-            'Widget is absent on Product Compare page.'
+            'Widget is absent on Detail Compare page.'
         );
     }
 
@@ -131,6 +131,6 @@ class AssertWidgetRecentlyComparedProducts extends AbstractConstraint
      */
     public function toString()
     {
-        return "Widget with type Recently Compared Products is present on Product Compare page";
+        return "Widget with type Recently Compared Products is present on Detail Compare page";
     }
 }

@@ -5,7 +5,7 @@
  */
 
 /**
- * Product type model
+ * Detail type model
  */
 namespace Magento\Catalog\Model\Product;
 
@@ -45,7 +45,7 @@ class Type implements OptionSourceInterface
     protected $_config;
 
     /**
-     * Product types
+     * Detail types
      *
      * @var array|string
      */
@@ -66,14 +66,14 @@ class Type implements OptionSourceInterface
     protected $_priceModels;
 
     /**
-     * Product types by type indexing priority
+     * Detail types by type indexing priority
      *
      * @var array
      */
     protected $_typesPriority;
 
     /**
-     * Product type factory
+     * Detail type factory
      *
      * @var \Magento\Catalog\Model\Product\Type\Pool
      */
@@ -135,7 +135,7 @@ class Type implements OptionSourceInterface
     }
 
     /**
-     * Product type price model factory
+     * Detail type price model factory
      *
      * @param   string $productType
      * @return  \Magento\Catalog\Model\Product\Type\Price
@@ -159,7 +159,7 @@ class Type implements OptionSourceInterface
     }
 
     /**
-     * Get Product Price Info object
+     * Get Detail Price Info object
      *
      * @param Product $saleableItem
      * @return \Magento\Framework\Pricing\PriceInfoInterface

@@ -9,14 +9,14 @@
 namespace Magento\Catalog\Model\Product;
 
 /**
- * Catalog Product Mass Action processing model
+ * Catalog Detail Mass Action processing model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
 class Action extends \Magento\Framework\Model\AbstractModel
 {
     /**
-     * Product website factory
+     * Detail website factory
      *
      * @var \Magento\Catalog\Model\Product\WebsiteFactory
      */

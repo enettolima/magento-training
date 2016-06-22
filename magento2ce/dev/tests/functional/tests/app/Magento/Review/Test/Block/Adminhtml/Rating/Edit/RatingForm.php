@@ -10,7 +10,7 @@ use Magento\Backend\Test\Block\Widget\FormTabs;
 
 /**
  * Class RatingForm
- * Product rating form on backend product rating page
+ * Detail rating form on backend product rating page
  */
 class RatingForm extends FormTabs
 {

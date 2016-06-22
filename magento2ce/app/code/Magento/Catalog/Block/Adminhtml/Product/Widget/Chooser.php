@@ -5,7 +5,7 @@
  */
 
 /**
- * Product Chooser for "Product Link" Cms Widget Plugin
+ * Detail Chooser for "Detail Link" Cms Widget Plugin
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */
@@ -305,7 +305,7 @@ class Chooser extends Extended
         $this->addColumn(
             'chooser_name',
             [
-                'header' => __('Product'),
+                'header' => __('Detail'),
                 'name' => 'chooser_name',
                 'index' => 'name',
                 'header_css_class' => 'col-product',

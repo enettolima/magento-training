@@ -16,14 +16,14 @@ use Magento\Mtf\Fixture\FixtureInterface;
 class PromotedSection extends Block
 {
     /**
-     * Product item block.
+     * Detail item block.
      *
      * @var string
      */
     protected $productItem = 'li.product-item';
 
     /**
-     * Product item block by product name.
+     * Detail item block by product name.
      *
      * @var string
      */

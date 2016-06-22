@@ -16,7 +16,7 @@ use Magento\Mtf\TestCase\Injectable;
  * Test Flow:
  * 1. Login as admin
  * 2. Navigate to the Products>Inventory>Catalog
- * 3. Click on "+" dropdown and select Bundle Product type
+ * 3. Click on "+" dropdown and select Bundle Detail type
  * 4. Fill in all data according to data set
  * 5. Save product
  * 6. Verify created product

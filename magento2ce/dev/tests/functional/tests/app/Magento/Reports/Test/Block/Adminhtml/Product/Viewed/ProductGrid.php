@@ -9,7 +9,7 @@ namespace Magento\Reports\Test\Block\Adminhtml\Product\Viewed;
 use Magento\Reports\Test\Block\Adminhtml\Customer\Totals\Grid;
 
 /**
- * Product Views Report.
+ * Detail Views Report.
  */
 class ProductGrid extends Grid
 {

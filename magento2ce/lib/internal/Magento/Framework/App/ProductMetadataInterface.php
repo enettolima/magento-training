@@ -10,21 +10,21 @@ namespace Magento\Framework\App;
 interface ProductMetadataInterface
 {
     /**
-     * Get Product version
+     * Get Detail version
      *
      * @return string
      */
     public function getVersion();
 
     /**
-     * Get Product edition
+     * Get Detail edition
      *
      * @return string
      */
     public function getEdition();
 
     /**
-     * Get Product name
+     * Get Detail name
      *
      * @return string
      */

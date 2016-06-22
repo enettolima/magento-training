@@ -20,7 +20,7 @@ class AssociatedProductsCollection extends \Magento\Catalog\Model\ResourceModel\
     protected $_coreRegistry = null;
 
     /**
-     * Product types config
+     * Detail types config
      *
      * @var \Magento\Catalog\Model\ProductTypes\ConfigInterface
      */

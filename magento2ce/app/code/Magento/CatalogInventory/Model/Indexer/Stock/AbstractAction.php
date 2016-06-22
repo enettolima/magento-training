@@ -110,7 +110,7 @@ abstract class AbstractAction
     }
 
     /**
-     * Retrieve Stock Indexer Models per Product Type
+     * Retrieve Stock Indexer Models per Detail Type
      *
      * @return \Magento\CatalogInventory\Model\ResourceModel\Indexer\Stock\StockInterface[]
      */

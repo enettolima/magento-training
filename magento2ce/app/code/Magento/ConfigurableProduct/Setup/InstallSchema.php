@@ -35,14 +35,14 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['identity' => true, 'unsigned' => true, 'nullable' => false, 'primary' => true],
-                'Product Super Attribute ID'
+                'Detail Super Attribute ID'
             )
             ->addColumn(
                 'product_id',
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'attribute_id',
@@ -79,7 +79,7 @@ class InstallSchema implements InstallSchemaInterface
                 'entity_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Super Attribute Table');
+            ->setComment('Catalog Detail Super Attribute Table');
 
         $installer->getConnection()->createTable($table);
 
@@ -100,7 +100,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product Super Attribute ID'
+                'Detail Super Attribute ID'
             )
             ->addColumn(
                 'store_id',
@@ -155,7 +155,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Super Attribute Label Table');
+            ->setComment('Catalog Detail Super Attribute Label Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -175,7 +175,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'parent_id',
@@ -216,7 +216,7 @@ class InstallSchema implements InstallSchemaInterface
                 'entity_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Super Link Table');
+            ->setComment('Catalog Detail Super Link Table');
 
         $installer->getConnection()->createTable($table);
 

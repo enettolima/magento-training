@@ -15,7 +15,7 @@ interface SampleInterface extends \Magento\Framework\Api\ExtensibleDataInterface
 {
 
     /**
-     * Product sample id
+     * Detail sample id
      *
      * @return int|null Sample(or link) id
      */

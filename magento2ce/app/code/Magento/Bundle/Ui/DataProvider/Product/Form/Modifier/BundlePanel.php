@@ -16,7 +16,7 @@ use Magento\Ui\Component\Form;
 use Magento\Ui\Component\Modal;
 
 /**
- * Create Ship Bundle Items and Affect Bundle Product Selections fields
+ * Create Ship Bundle Items and Affect Bundle Detail Selections fields
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class BundlePanel extends AbstractModifier

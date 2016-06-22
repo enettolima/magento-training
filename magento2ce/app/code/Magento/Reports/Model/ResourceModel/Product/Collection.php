@@ -19,21 +19,21 @@ class Collection extends \Magento\Catalog\Model\ResourceModel\Product\Collection
     const SELECT_COUNT_SQL_TYPE_CART = 1;
 
     /**
-     * Product entity identifier
+     * Detail entity identifier
      *
      * @var int
      */
     protected $_productEntityId;
 
     /**
-     * Product entity table name
+     * Detail entity table name
      *
      * @var string
      */
     protected $_productEntityTableName;
 
     /**
-     * Product entity attribute set identifier
+     * Detail entity attribute set identifier
      *
      * @var int
      */

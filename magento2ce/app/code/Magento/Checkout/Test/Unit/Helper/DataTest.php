@@ -202,7 +202,7 @@ class DataTest extends \PHPUnit_Framework_TestCase
                 'shippingAddress' => $shippingAddress,
                 'shippingMethod' => 'Ground Shipping',
                 'paymentMethod' => 'Check Money Order',
-                'items' => "Product One  x 2  USD 10<br />\nProduct Two  x 3  USD 60<br />\n",
+                'items' => "Detail One  x 2  USD 10<br />\nDetail Two  x 3  USD 60<br />\n",
                 'total' => 'USD 70'
             ]
         )->will(
@@ -222,11 +222,11 @@ class DataTest extends \PHPUnit_Framework_TestCase
         $this->_translator->expects($this->at(1))->method('resume');
 
         $productOne = $this->getMock('\Magento\Catalog\Model\Product', [], [], '', false);
-        $productOne->expects($this->once())->method('getName')->will($this->returnValue('Product One'));
+        $productOne->expects($this->once())->method('getName')->will($this->returnValue('Detail One'));
         $productOne->expects($this->once())->method('getFinalPrice')->with(2)->will($this->returnValue(10));
 
         $productTwo = $this->getMock('\Magento\Catalog\Model\Product', [], [], '', false);
-        $productTwo->expects($this->once())->method('getName')->will($this->returnValue('Product Two'));
+        $productTwo->expects($this->once())->method('getName')->will($this->returnValue('Detail Two'));
         $productTwo->expects($this->once())->method('getFinalPrice')->with(3)->will($this->returnValue(60));
 
         $quote = new \Magento\Framework\DataObject(

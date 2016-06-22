@@ -143,7 +143,7 @@
     $.mage.Webapi.prototype.constructor = $.mage.Webapi;
 
     /**
-     * Syntax sugar over call(). Example usage: $.mage.webapi.Product('v1').get({...})
+     * Syntax sugar over call(). Example usage: $.mage.webapi.Detail('v1').get({...})
      *
      * @param {string} version API version (e.g. 'v1')
      * @returns {{get: Function, create: Function}}
@@ -183,7 +183,7 @@
              *                        "weight": 1,
              *                        "status": 1,
              *                        "visibility": 4,
-             *                        "name": "Simple Product",
+             *                        "name": "Simple Detail",
              *                        "description": "Simple Description",
              *                        "short_description": "Simple Short Description",
              *                        "price": 99.95,

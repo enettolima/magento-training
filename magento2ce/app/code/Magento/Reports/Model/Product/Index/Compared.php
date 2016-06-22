@@ -6,17 +6,17 @@
 namespace Magento\Reports\Model\Product\Index;
 
 /**
- * Catalog Compared Product Index Model
+ * Catalog Compared Detail Index Model
  *
  * @method \Magento\Reports\Model\ResourceModel\Product\Index\Compared _getResource()
  * @method \Magento\Reports\Model\ResourceModel\Product\Index\Compared getResource()
- * @method \Magento\Reports\Model\Product\Index\Compared setVisitorId(int $value)
- * @method \Magento\Reports\Model\Product\Index\Compared setCustomerId(int $value)
+ * @method \Magento\Reports\Model\Detail\Index\Compared setVisitorId(int $value)
+ * @method \Magento\Reports\Model\Detail\Index\Compared setCustomerId(int $value)
  * @method int getProductId()
- * @method \Magento\Reports\Model\Product\Index\Compared setProductId(int $value)
- * @method \Magento\Reports\Model\Product\Index\Compared setStoreId(int $value)
+ * @method \Magento\Reports\Model\Detail\Index\Compared setProductId(int $value)
+ * @method \Magento\Reports\Model\Detail\Index\Compared setStoreId(int $value)
  * @method string getAddedAt()
- * @method \Magento\Reports\Model\Product\Index\Compared setAddedAt(string $value)
+ * @method \Magento\Reports\Model\Detail\Index\Compared setAddedAt(string $value)
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
@@ -92,7 +92,7 @@ class Compared extends \Magento\Reports\Model\Product\Index\AbstractIndex
     }
 
     /**
-     * Retrieve Exclude Product Ids List for Collection
+     * Retrieve Exclude Detail Ids List for Collection
      *
      * @return array
      */

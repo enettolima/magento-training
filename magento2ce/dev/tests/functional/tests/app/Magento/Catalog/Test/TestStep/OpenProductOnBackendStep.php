@@ -16,7 +16,7 @@ use Magento\Mtf\TestStep\TestStepInterface;
 class OpenProductOnBackendStep implements TestStepInterface
 {
     /**
-     * Product fixture.
+     * Detail fixture.
      *
      * @var InjectableFixture
      */

@@ -17,7 +17,7 @@ use Magento\Framework\EntityManager\MetadataPool;
 use Magento\Catalog\Api\Data\CategoryInterface;
 
 /**
- * Product collection
+ * Detail collection
  * @SuppressWarnings(PHPMD.ExcessivePublicCount)
  * @SuppressWarnings(PHPMD.TooManyFields)
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity)
@@ -44,21 +44,21 @@ class Collection extends \Magento\Catalog\Model\ResourceModel\Collection\Abstrac
     protected $_idFieldName = 'entity_id';
 
     /**
-     * Catalog Product Flat is enabled cache per store
+     * Catalog Detail Flat is enabled cache per store
      *
      * @var array
      */
     protected $_flatEnabled = [];
 
     /**
-     * Product websites table name
+     * Detail websites table name
      *
      * @var string
      */
     protected $_productWebsiteTable;
 
     /**
-     * Product categories table name
+     * Detail categories table name
      *
      * @var string
      */
@@ -213,7 +213,7 @@ class Collection extends \Magento\Catalog\Model\ResourceModel\Collection\Abstrac
     protected $_catalogUrl;
 
     /**
-     * Product option factory
+     * Detail option factory
      *
      * @var \Magento\Catalog\Model\Product\OptionFactory
      */
@@ -399,7 +399,7 @@ class Collection extends \Magento\Catalog\Model\ResourceModel\Collection\Abstrac
     }
 
     /**
-     * Retrieve Catalog Product Flat Helper object
+     * Retrieve Catalog Detail Flat Helper object
      *
      * @return \Magento\Catalog\Model\Indexer\Product\Flat\State
      */
@@ -832,7 +832,7 @@ class Collection extends \Magento\Catalog\Model\ResourceModel\Collection\Abstrac
     }
 
     /**
-     * Filter Product by Categories
+     * Filter Detail by Categories
      *
      * @param array $categoriesFilter
      */
@@ -1835,7 +1835,7 @@ class Collection extends \Magento\Catalog\Model\ResourceModel\Collection\Abstrac
     }
 
     /**
-     * Join Product Price Table
+     * Join Detail Price Table
      *
      * @return $this
      */
@@ -1845,7 +1845,7 @@ class Collection extends \Magento\Catalog\Model\ResourceModel\Collection\Abstrac
     }
 
     /**
-     * Join Product Price Table with left-join possibility
+     * Join Detail Price Table with left-join possibility
      *
      * @see \Magento\Catalog\Model\ResourceModel\Product\Collection::_productLimitationJoinPrice()
      * @param bool $joinLeft

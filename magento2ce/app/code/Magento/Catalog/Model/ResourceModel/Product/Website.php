@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\ResourceModel\Product;
 
 /**
- * Catalog Product Website Resource Model
+ * Catalog Detail Website Resource Model
  */
 class Website extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {

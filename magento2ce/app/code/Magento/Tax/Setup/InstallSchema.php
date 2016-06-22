@@ -207,7 +207,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
             null,
             ['nullable' => false],
-            'Product Tax Class Id'
+            'Detail Tax Class Id'
         )->addIndex(
             $setup->getIdxName('tax_calculation', ['tax_calculation_rule_id']),
             ['tax_calculation_rule_id']

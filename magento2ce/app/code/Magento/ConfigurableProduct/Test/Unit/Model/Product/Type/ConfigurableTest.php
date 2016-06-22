@@ -16,7 +16,7 @@ use Magento\Framework\EntityManager\EntityMetadata;
 use Magento\Framework\EntityManager\MetadataPool;
 
 /**
- * Class \Magento\ConfigurableProduct\Test\Unit\Model\Product\Type\ConfigurableTest
+ * Class \Magento\ConfigurableProduct\Test\Unit\Model\Detail\Type\ConfigurableTest
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)

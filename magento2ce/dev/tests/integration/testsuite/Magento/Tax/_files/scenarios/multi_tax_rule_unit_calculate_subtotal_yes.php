@@ -26,14 +26,14 @@ $taxCalculationData['multi_tax_rule_unit_calculate_subtotal_yes'] = [
         SetupUtil::TAX_RULE_OVERRIDES => [
             [
                 //tax rule 1 for product
-                'code' => 'Product Tax Rule TX',
+                'code' => 'Detail Tax Rule TX',
                 'product_tax_class_ids' => [SetupUtil::PRODUCT_TAX_CLASS_1],
                 'tax_rate_ids' => [SetupUtil::TAX_RATE_TX],
                 'priority' => 1,
             ],
             [
                 //tax rule 2 for product
-                'code' => 'Product Tax Rule AUSTIN',
+                'code' => 'Detail Tax Rule AUSTIN',
                 'product_tax_class_ids' => [SetupUtil::PRODUCT_TAX_CLASS_1],
                 'tax_rate_ids' => [SetupUtil::TAX_RATE_AUSTIN],
                 'priority' => 2,

@@ -30,7 +30,7 @@ class AdvancedPricingTest extends \PHPUnit_Framework_TestCase
     protected $fileSystem;
 
     /**
-     * Expected Product Tier Price mapping with data
+     * Expected Detail Tier Price mapping with data
      *
      * @var array
      */

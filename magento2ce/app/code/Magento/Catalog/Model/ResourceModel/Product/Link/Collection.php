@@ -13,21 +13,21 @@ namespace Magento\Catalog\Model\ResourceModel\Product\Link;
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
     /**
-     * Product object
+     * Detail object
      *
      * @var \Magento\Catalog\Model\Product
      */
     protected $_product;
 
     /**
-     * Product Link model class
+     * Detail Link model class
      *
      * @var \Magento\Catalog\Model\Product\Link
      */
     protected $_linkModel;
 
     /**
-     * Product Link Type identifier
+     * Detail Link Type identifier
      *
      * @var \Magento\Catalog\Model\Product\Type
      */

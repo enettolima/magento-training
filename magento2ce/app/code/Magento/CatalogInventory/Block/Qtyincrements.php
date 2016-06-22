@@ -10,7 +10,7 @@ use Magento\Framework\DataObject\IdentityInterface;
 use Magento\Framework\View\Element\Template;
 
 /**
- * Product qty increments block
+ * Detail qty increments block
  */
 class Qtyincrements extends Template implements IdentityInterface
 {

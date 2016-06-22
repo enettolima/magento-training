@@ -104,6 +104,6 @@ class ImagesResizeCommand extends Command
         }
 
         $output->write("\n");
-        $output->writeln("<info>Product images resized successfully</info>");
+        $output->writeln("<info>Detail images resized successfully</info>");
     }
 }

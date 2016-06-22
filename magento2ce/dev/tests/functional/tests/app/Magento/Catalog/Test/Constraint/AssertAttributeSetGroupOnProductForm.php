@@ -62,13 +62,13 @@ class AssertAttributeSetGroupOnProductForm extends AbstractConstraint
 
         \PHPUnit_Framework_Assert::assertTrue(
             $productEdit->getProductForm()->isCustomSectionVisible($attributeSet->getGroup()),
-            "Product Group is absent on Product form sections."
+            "Detail Group is absent on Detail form sections."
         );
 
         $productEdit->getProductForm()->openCustomSection($attributeSet->getGroup());
         \PHPUnit_Framework_Assert::assertTrue(
             $productEdit->getProductForm()->checkAttributeLabel($productAttributeOriginal),
-            "Product Attribute is absent on Product form."
+            "Detail Attribute is absent on Detail form."
         );
     }
 
@@ -79,6 +79,6 @@ class AssertAttributeSetGroupOnProductForm extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product Group and Product Attribute are present on the Product form.';
+        return 'Detail Group and Detail Attribute are present on the Detail form.';
     }
 }

@@ -10,7 +10,7 @@ use Magento\Framework\Data\Form\Element\Factory;
 use Magento\Framework\Escaper;
 
 /**
- * Product form MSRP field helper
+ * Detail form MSRP field helper
  */
 class Price extends \Magento\Framework\Data\Form\Element\Select
 {

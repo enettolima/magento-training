@@ -6,7 +6,7 @@
 namespace Magento\Sitemap\Model\ResourceModel\Catalog;
 
 /**
- * Test class for \Magento\Sitemap\Model\ResourceModel\Catalog\Product.
+ * Test class for \Magento\Sitemap\Model\ResourceModel\Catalog\Detail.
  * - test products collection generation for sitemap
  *
  * @magentoDataFixtureBeforeTransaction Magento/CatalogSearch/_files/full_reindex.php
@@ -104,7 +104,7 @@ class ProductTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(
             'catalog/product/s/e/second_image_1.png',
             $products[5]->getImages()->getThumbnail(),
-            'Product thumbnail is incorrect'
+            'Detail thumbnail is incorrect'
         );
     }
 
@@ -157,7 +157,7 @@ class ProductTest extends \PHPUnit_Framework_TestCase
         // Check no selection
         $this->assertEmpty($products[5]->getThumbnail(), 'thumbnail is not empty');
         $this->assertEquals('no_selection', $products[5]->getImage(), 'image is incorrect');
-        $this->assertEmpty($products[5]->getImages(), 'Product images were loaded');
+        $this->assertEmpty($products[5]->getImages(), 'Detail images were loaded');
     }
 
     /**

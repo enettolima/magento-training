@@ -74,7 +74,7 @@ class Sortby extends \Magento\Eav\Model\Entity\Attribute\Backend\AbstractBackend
             );
             if (!in_array($data, $available) && !in_array('available_sort_by', $postDataConfig)) {
                 throw new \Magento\Framework\Exception\LocalizedException(
-                    __('Default Product Listing Sort by does not exist in Available Product Listing Sort By.')
+                    __('Default Detail Listing Sort by does not exist in Available Detail Listing Sort By.')
                 );
             }
         }

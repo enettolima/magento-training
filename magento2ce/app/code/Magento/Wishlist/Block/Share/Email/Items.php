@@ -19,7 +19,7 @@ class Items extends \Magento\Wishlist\Block\AbstractBlock
     protected $_template = 'email/items.phtml';
 
     /**
-     * Retrieve Product View URL
+     * Retrieve Detail View URL
      *
      * @param \Magento\Catalog\Model\Product $product
      * @param array $additional

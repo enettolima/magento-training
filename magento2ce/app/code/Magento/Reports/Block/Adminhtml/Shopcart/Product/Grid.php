@@ -83,7 +83,7 @@ class Grid extends \Magento\Reports\Block\Adminhtml\Grid\Shopcart
         $this->addColumn(
             'name',
             [
-                'header' => __('Product'),
+                'header' => __('Detail'),
                 'index' => 'name',
                 'sortable' => false,
                 'header_css_class' => 'col-product',

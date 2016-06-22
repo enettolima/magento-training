@@ -18,14 +18,14 @@ use Magento\Mtf\Fixture\FixtureInterface;
 class AssertProductPage extends AbstractAssertForm
 {
     /**
-     * Product view block on frontend page
+     * Detail view block on frontend page
      *
      * @var \Magento\Catalog\Test\Block\Product\View
      */
     protected $productView;
 
     /**
-     * Product fixture
+     * Detail fixture
      *
      * @var FixtureInterface
      */
@@ -33,7 +33,7 @@ class AssertProductPage extends AbstractAssertForm
 
     /**
      * Assert that displayed product data on product page(front-end) equals passed from fixture:
-     * 1. Product Name
+     * 1. Detail Name
      * 2. Price
      * 3. Special price
      * 4. SKU
@@ -198,6 +198,6 @@ class AssertProductPage extends AbstractAssertForm
      */
     public function toString()
     {
-        return 'Product on product view page is correct.';
+        return 'Detail on product view page is correct.';
     }
 }

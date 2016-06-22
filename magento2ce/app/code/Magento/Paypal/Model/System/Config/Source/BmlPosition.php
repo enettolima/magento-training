@@ -35,7 +35,7 @@ class BmlPosition
     }
 
     /**
-     * Bml positions source getter for Catalog Product Page
+     * Bml positions source getter for Catalog Detail Page
      *
      * @return array
      */

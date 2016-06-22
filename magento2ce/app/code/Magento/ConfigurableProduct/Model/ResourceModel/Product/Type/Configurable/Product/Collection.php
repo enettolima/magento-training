@@ -132,7 +132,7 @@ class Collection extends \Magento\Catalog\Model\ResourceModel\Product\Collection
     }
 
     /**
-     * Set Product filter to result
+     * Set Detail filter to result
      *
      * @param \Magento\Catalog\Model\Product $product
      * @return $this

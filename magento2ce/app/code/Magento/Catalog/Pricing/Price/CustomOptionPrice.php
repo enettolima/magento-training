@@ -176,7 +176,7 @@ class CustomOptionPrice extends AbstractPrice implements CustomOptionPriceInterf
     }
 
     /**
-     * Process Product Options
+     * Process Detail Options
      *
      * @param array $values
      * @return float
@@ -200,7 +200,7 @@ class CustomOptionPrice extends AbstractPrice implements CustomOptionPriceInterf
     }
 
     /**
-     * Get Product Options
+     * Get Detail Options
      *
      * @return array
      */

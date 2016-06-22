@@ -101,7 +101,7 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
             'product_name',
             'note',
             [
-                'label' => __('Product'),
+                'label' => __('Detail'),
                 'text' => '<a href="' . $this->getUrl(
                     'catalog/product/edit',
                     ['id' => $product->getId()]

@@ -14,12 +14,12 @@ use Magento\Mtf\TestCase\Injectable;
 
 /**
  * Precondition:
- * 1. Product is created.
+ * 1. Detail is created.
  *
  * Steps:
  * 1. Login to backend.
  * 2. Navigate to PRODUCTS > Catalog.
- * 3. Click Product from grid.
+ * 3. Click Detail from grid.
  * 4. Click "Save & Duplicate".
  * 5. Perform asserts.
  *
@@ -41,7 +41,7 @@ class DuplicateProductEntityTest extends Injectable
     protected $category;
 
     /**
-     * Product page with a grid.
+     * Detail page with a grid.
      *
      * @var CatalogProductIndex
      */

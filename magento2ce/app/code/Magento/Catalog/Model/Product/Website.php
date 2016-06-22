@@ -7,7 +7,7 @@
 // @codingStandardsIgnoreFile
 
 /**
- * Catalog Product Website Model
+ * Catalog Detail Website Model
  *
  * @method \Magento\Catalog\Model\ResourceModel\Product\Website _getResource()
  * @method \Magento\Catalog\Model\ResourceModel\Product\Website getResource()

@@ -5,7 +5,7 @@
  */
 
 /**
- * Product reports admin controller
+ * Detail reports admin controller
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

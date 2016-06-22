@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Category\Attribute;
 
 /**
- * Product options management class
+ * Detail options management class
  */
 class OptionManagement implements \Magento\Catalog\Api\CategoryAttributeOptionManagementInterface
 {

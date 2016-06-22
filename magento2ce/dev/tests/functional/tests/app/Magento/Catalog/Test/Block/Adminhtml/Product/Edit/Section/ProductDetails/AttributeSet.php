@@ -10,7 +10,7 @@ use Magento\Mtf\Client\Element\SuggestElement;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Set and Get Attribute Set on the Product form.
+ * Set and Get Attribute Set on the Detail form.
  */
 class AttributeSet extends SuggestElement
 {

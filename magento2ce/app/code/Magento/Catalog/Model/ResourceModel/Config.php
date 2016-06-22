@@ -108,7 +108,7 @@ class Config extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Retrieve Product Attributes Used in Catalog Product listing
+     * Retrieve Detail Attributes Used in Catalog Detail listing
      *
      * @return array
      */
@@ -137,7 +137,7 @@ class Config extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Retrieve Used Product Attributes for Catalog Product Listing Sort By
+     * Retrieve Used Detail Attributes for Catalog Detail Listing Sort By
      *
      * @return array
      */

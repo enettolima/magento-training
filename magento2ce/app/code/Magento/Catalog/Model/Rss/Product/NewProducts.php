@@ -7,7 +7,7 @@ namespace Magento\Catalog\Model\Rss\Product;
 
 /**
  * Class NewProducts
- * @package Magento\Catalog\Model\Rss\Product
+ * @package Magento\Catalog\Model\Rss\Detail
  */
 class NewProducts
 {

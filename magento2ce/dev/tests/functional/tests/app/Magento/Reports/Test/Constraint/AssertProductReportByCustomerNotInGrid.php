@@ -16,12 +16,12 @@ use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
  * Class AssertProductReportByCustomerNotInGrid
- * Check that Customer Product Review not available in grid
+ * Check that Customer Detail Review not available in grid
  */
 class AssertProductReportByCustomerNotInGrid extends AbstractConstraint
 {
     /**
-     * Asserts Customer Product Review not available in grid
+     * Asserts Customer Detail Review not available in grid
      *
      * @param ReviewIndex $reviewIndex
      * @param Review $review

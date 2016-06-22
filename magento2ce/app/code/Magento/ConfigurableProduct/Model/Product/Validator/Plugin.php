@@ -86,7 +86,7 @@ class Plugin
     }
 
     /**
-     * Product variations attributes validation
+     * Detail variations attributes validation
      *
      * @param Product $parentProduct
      * @param array $products

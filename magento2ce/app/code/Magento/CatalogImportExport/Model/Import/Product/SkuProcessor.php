@@ -37,21 +37,21 @@ class SkuProcessor
     protected $productTypeModels;
 
     /**
-     * Product metadata pool
+     * Detail metadata pool
      *
      * @var \Magento\Framework\EntityManager\MetadataPool
      */
     private $metadataPool;
 
     /**
-     * Product entity link field
+     * Detail entity link field
      *
      * @var string
      */
     private $productEntityLinkField;
 
     /**
-     * Product entity identifier field
+     * Detail entity identifier field
      *
      * @var string
      */

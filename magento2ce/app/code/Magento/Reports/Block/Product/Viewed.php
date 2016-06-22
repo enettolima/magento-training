@@ -21,7 +21,7 @@ class Viewed extends AbstractProduct implements IdentityInterface
     const XML_PATH_RECENTLY_VIEWED_COUNT = 'catalog/recently_products/viewed_count';
 
     /**
-     * Viewed Product Index type
+     * Viewed Detail Index type
      *
      * @var string
      */

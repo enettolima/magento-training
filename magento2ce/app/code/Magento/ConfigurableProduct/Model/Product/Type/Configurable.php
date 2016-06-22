@@ -24,19 +24,19 @@ use Magento\Catalog\Model\Product\Gallery\ReadHandler as GalleryReadHandler;
 class Configurable extends \Magento\Catalog\Model\Product\Type\AbstractType
 {
     /**
-     * Product type code
+     * Detail type code
      */
     const TYPE_CODE = 'configurable';
 
     /**
-     * Cache key for Used Product Attribute Ids
+     * Cache key for Used Detail Attribute Ids
      *
      * @var string
      */
     protected $usedProductAttributeIds = '_cache_instance_used_product_attribute_ids';
 
     /**
-     * Cache key for Used Product Attributes
+     * Cache key for Used Detail Attributes
      *
      * @var string
      */
@@ -71,14 +71,14 @@ class Configurable extends \Magento\Catalog\Model\Product\Type\AbstractType
     protected $_usedProducts = '_cache_instance_products';
 
     /**
-     * Product is composite
+     * Detail is composite
      *
      * @var bool
      */
     protected $_isComposite = true;
 
     /**
-     * Product is configurable
+     * Detail is configurable
      *
      * @var bool
      */
@@ -100,14 +100,14 @@ class Configurable extends \Magento\Catalog\Model\Product\Type\AbstractType
      * Attribute collection factory
      *
      * @var
-     * \Magento\ConfigurableProduct\Model\ResourceModel\Product\Type\Configurable\Attribute\CollectionFactory
+     * \Magento\ConfigurableProduct\Model\ResourceModel\Detail\Type\Configurable\Attribute\CollectionFactory
      */
     protected $_attributeCollectionFactory;
 
     /**
-     * Product collection factory
+     * Detail collection factory
      *
-     * @var \Magento\ConfigurableProduct\Model\ResourceModel\Product\Type\Configurable\Product\CollectionFactory
+     * @var \Magento\ConfigurableProduct\Model\ResourceModel\Detail\Type\Configurable\Product\CollectionFactory
      */
     protected $_productCollectionFactory;
 
@@ -287,7 +287,7 @@ class Configurable extends \Magento\Catalog\Model\Product\Type\AbstractType
      * @param   array $ids
      * @param   \Magento\Catalog\Model\Product $product
      * @return  \Magento\ConfigurableProduct\Model\Product\Type\Configurable
-     * @deprecated use \Magento\ConfigurableProduct\Model\Product\Type\Configurable::setUsedProductAttributes instead
+     * @deprecated use \Magento\ConfigurableProduct\Model\Detail\Type\Configurable::setUsedProductAttributes instead
      */
     public function setUsedProductAttributeIds($ids, $product)
     {
@@ -617,7 +617,7 @@ class Configurable extends \Magento\Catalog\Model\Product\Type\AbstractType
      * @param \Magento\Catalog\Model\Product $product
      * @return $this
      * @throws \InvalidArgumentException
-     * @deprecated the \Magento\ConfigurableProduct\Model\Product\SaveHandler::execute should be used instead
+     * @deprecated the \Magento\ConfigurableProduct\Model\Detail\SaveHandler::execute should be used instead
      */
     public function save($product)
     {

@@ -158,7 +158,7 @@ abstract class AbstractItem extends \Magento\Framework\Model\AbstractExtensibleM
 
     /**
      * Returns special download params (if needed) for custom option with type = 'file'
-     * Needed to implement \Magento\Catalog\Model\Product\Configuration\Item\Interface.
+     * Needed to implement \Magento\Catalog\Model\Detail\Configuration\Item\Interface.
      * Return null, as quote item needs no additional configuration.
      *
      * @return null|\Magento\Framework\DataObject

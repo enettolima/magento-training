@@ -37,7 +37,7 @@ class AssertMsrpOnCategoryPage extends AbstractConstraint
         $productBlock = $catalogCategoryView->getMsrpListProductBlock()->getProductItem($product);
         \PHPUnit_Framework_Assert::assertTrue(
             $productBlock->isVisible(),
-            'Product is invisible on Category page.'
+            'Detail is invisible on Category page.'
         );
 
         $priceBlock = $productBlock->getPriceBlock();
@@ -74,6 +74,6 @@ class AssertMsrpOnCategoryPage extends AbstractConstraint
      */
     public function toString()
     {
-        return "Displayed Product MAP data on category page is correct.";
+        return "Displayed Detail MAP data on category page is correct.";
     }
 }

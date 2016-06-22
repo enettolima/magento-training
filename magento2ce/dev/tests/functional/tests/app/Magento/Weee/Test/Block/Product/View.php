@@ -7,7 +7,7 @@
 namespace Magento\Weee\Test\Block\Product;
 
 /**
- * Product view block on the product page.
+ * Detail view block on the product page.
  */
 class View extends \Magento\Catalog\Test\Block\Category\View
 {

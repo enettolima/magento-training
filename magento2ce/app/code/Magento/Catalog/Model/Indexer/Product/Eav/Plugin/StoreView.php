@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\Indexer\Product\Eav\Plugin;
 class StoreView
 {
     /**
-     * Product attribute indexer processor
+     * Detail attribute indexer processor
      *
      * @var \Magento\Catalog\Model\Indexer\Product\Eav\Processor
      */

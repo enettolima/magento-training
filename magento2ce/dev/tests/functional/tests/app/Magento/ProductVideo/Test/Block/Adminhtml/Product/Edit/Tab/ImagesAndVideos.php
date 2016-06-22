@@ -10,7 +10,7 @@ use Magento\Backend\Test\Block\Widget\Tab;
 use Magento\Mtf\Client\Element\SimpleElement;
 
 /**
- * Product images tab.
+ * Detail images tab.
  */
 class ImagesAndVideos extends Tab
 {

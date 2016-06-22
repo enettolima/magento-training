@@ -1024,18 +1024,18 @@ class ProductRepositoryTest extends \PHPUnit_Framework_TestCase
         // No existing, new links
         $data['scenario_1'] = [
             'newLinks' => [
-                "product_sku" => "Simple Product 1",
+                "product_sku" => "Simple Detail 1",
                 "link_type" => "associated",
-                "linked_product_sku" => "Simple Product 2",
+                "linked_product_sku" => "Simple Detail 2",
                 "linked_product_type" => "simple",
                 "position" => 0,
                 "qty" => 1,
             ],
             'existingLinks' => [],
             'expectedData' => [[
-                "product_sku" => "Simple Product 1",
+                "product_sku" => "Simple Detail 1",
                 "link_type" => "associated",
-                "linked_product_sku" => "Simple Product 2",
+                "linked_product_sku" => "Simple Detail 2",
                 "linked_product_type" => "simple",
                 "position" => 0,
                 "qty" => 1,
@@ -1047,9 +1047,9 @@ class ProductRepositoryTest extends \PHPUnit_Framework_TestCase
         $data['scenario_2'] = [
             'newLinks' => [],
             'existingLinks' => [
-                "product_sku" => "Simple Product 1",
+                "product_sku" => "Simple Detail 1",
                 "link_type" => "related",
-                "linked_product_sku" => "Simple Product 2",
+                "linked_product_sku" => "Simple Detail 2",
                 "linked_product_type" => "simple",
                 "position" => 0,
             ],
@@ -1060,24 +1060,24 @@ class ProductRepositoryTest extends \PHPUnit_Framework_TestCase
         // Existing and new links
         $data['scenario_3'] = [
             'newLinks' => [
-                "product_sku" => "Simple Product 1",
+                "product_sku" => "Simple Detail 1",
                 "link_type" => "related",
-                "linked_product_sku" => "Simple Product 2",
+                "linked_product_sku" => "Simple Detail 2",
                 "linked_product_type" => "simple",
                 "position" => 0,
             ],
             'existingLinks' => [
-                "product_sku" => "Simple Product 1",
+                "product_sku" => "Simple Detail 1",
                 "link_type" => "related",
-                "linked_product_sku" => "Simple Product 3",
+                "linked_product_sku" => "Simple Detail 3",
                 "linked_product_type" => "simple",
                 "position" => 0,
             ],
             'expectedData' => [
                 [
-                    "product_sku" => "Simple Product 1",
+                    "product_sku" => "Simple Detail 1",
                     "link_type" => "related",
-                    "linked_product_sku" => "Simple Product 2",
+                    "linked_product_sku" => "Simple Detail 2",
                     "linked_product_type" => "simple",
                     "position" => 0,
                 ],

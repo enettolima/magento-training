@@ -10,7 +10,7 @@ namespace Magento\ConfigurableProduct\Plugin\Model;
 use Magento\ConfigurableProduct\Model\Product\Type\Configurable;
 
 /**
- * Plugin for Product Identity
+ * Plugin for Detail Identity
  */
 class Product
 {

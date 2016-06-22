@@ -19,7 +19,7 @@ class AssertProductOptionsAbsentInShoppingCart extends AssertCartItemsOptions
      *
      * @var string
      */
-    protected $notice = "\nProduct options from shopping cart are equals to passed from fixture:\n";
+    protected $notice = "\nDetail options from shopping cart are equals to passed from fixture:\n";
 
     /**
      * Error message for verify options
@@ -59,6 +59,6 @@ class AssertProductOptionsAbsentInShoppingCart extends AssertCartItemsOptions
      */
     public function toString()
     {
-        return 'Product with options are absent in shopping cart.';
+        return 'Detail with options are absent in shopping cart.';
     }
 }

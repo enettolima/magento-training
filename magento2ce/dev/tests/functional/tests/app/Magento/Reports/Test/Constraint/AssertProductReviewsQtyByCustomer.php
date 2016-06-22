@@ -45,6 +45,6 @@ class AssertProductReviewsQtyByCustomer extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product reviews qty column in \'Review Report by Customer\' grid is correct.';
+        return 'Detail reviews qty column in \'Review Report by Customer\' grid is correct.';
     }
 }

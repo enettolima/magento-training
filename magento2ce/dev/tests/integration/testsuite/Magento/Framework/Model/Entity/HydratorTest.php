@@ -27,7 +27,7 @@ class HydratorTest extends \PHPUnit_Framework_TestCase
         /** @var \Magento\Framework\Api\AttributeInterface $customAttribute */
         $customAttribute = $this->objectManager->create(\Magento\Framework\Api\AttributeInterface::class);
         $customAttribute->setAttributeCode(self::CUSTOM_ATTRIBUTE_CODE)
-            ->setValue('Product description');
+            ->setValue('Detail description');
 
         /** @var \Magento\CatalogInventory\Api\Data\StockItemInterface $extensionAttribute */
         $stockItem = $this->objectManager->create(
@@ -48,7 +48,7 @@ class HydratorTest extends \PHPUnit_Framework_TestCase
         /** @var \Magento\Catalog\Api\Data\ProductInterface $product */
         $product = $this->objectManager->create(\Magento\Catalog\Api\Data\ProductInterface::class);
         $product->setSku('sku')
-            ->setName('Product name')
+            ->setName('Detail name')
             ->setCustomAttributes([self::CUSTOM_ATTRIBUTE_CODE => $customAttribute])
             ->setExtensionAttributes($productExtension)
             ->setProductLinks([$productLink]);

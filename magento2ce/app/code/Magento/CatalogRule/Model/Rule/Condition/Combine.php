@@ -52,7 +52,7 @@ class Combine extends \Magento\Rule\Model\Condition\Combine
                     'value' => 'Magento\CatalogRule\Model\Rule\Condition\Combine',
                     'label' => __('Conditions Combination'),
                 ],
-                ['label' => __('Product Attribute'), 'value' => $attributes]
+                ['label' => __('Detail Attribute'), 'value' => $attributes]
             ]
         );
         return $conditions;

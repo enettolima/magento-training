@@ -5,7 +5,7 @@
  */
 
 /**
- * Catalog Rule Product Aggregated Price per date Model
+ * Catalog Rule Detail Aggregated Price per date Model
  *
  * @method \Magento\CatalogRule\Model\ResourceModel\Rule\Product\Price _getResource()
  * @method \Magento\CatalogRule\Model\ResourceModel\Rule\Product\Price getResource()

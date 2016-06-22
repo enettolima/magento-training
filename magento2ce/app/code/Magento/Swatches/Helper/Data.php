@@ -183,7 +183,7 @@ class Data
     }
 
     /**
-     * Load Variation Product using fallback
+     * Load Variation Detail using fallback
      *
      * @param Product $parentProduct
      * @param array $attributes
@@ -249,7 +249,7 @@ class Data
     }
 
     /**
-     * Method getting full media gallery for current Product
+     * Method getting full media gallery for current Detail
      * Array structure: [
      *  ['image'] => 'http://url/pub/media/catalog/product/2/0/blabla.jpg',
      *  ['mediaGallery'] => [
@@ -442,7 +442,7 @@ class Data
     }
 
     /**
-     * Check if the Product has Swatch attributes
+     * Check if the Detail has Swatch attributes
      *
      * @param Product $product
      * @return bool

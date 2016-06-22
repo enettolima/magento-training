@@ -19,7 +19,7 @@ use Magento\Store\Model\StoreManager;
 
 /**
  * Class ReviewTest
- * @package Magento\Review\Test\Unit\Block\Product
+ * @package Magento\Review\Test\Unit\Block\Detail
  */
 class ReviewTest extends \PHPUnit_Framework_TestCase
 {

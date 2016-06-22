@@ -28,13 +28,13 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     private $productData = [
         [
             ProductInterface::SKU => 'simple',
-            ProductInterface::NAME => 'Simple Related Product',
+            ProductInterface::NAME => 'Simple Related Detail',
             ProductInterface::TYPE_ID => 'simple',
             ProductInterface::PRICE => 10,
         ],
         [
             ProductInterface::SKU => 'simple_with_cross',
-            ProductInterface::NAME => 'Simple Product With Related Product',
+            ProductInterface::NAME => 'Simple Detail With Related Detail',
             ProductInterface::TYPE_ID => 'simple',
             ProductInterface::PRICE => 10
         ],
@@ -203,7 +203,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
         // Create simple product
         $productData = [
             ProductInterface::SKU => "product_simple_500",
-            ProductInterface::NAME => "Product Simple 500",
+            ProductInterface::NAME => "Detail Simple 500",
             ProductInterface::VISIBILITY => 4,
             ProductInterface::TYPE_ID => 'simple',
             ProductInterface::PRICE => 100,
@@ -222,7 +222,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
                             "position" => 0, "extension_attributes" => []];
         $productWithRelatedData =  [
             ProductInterface::SKU => "product_simple_with_related_500",
-            ProductInterface::NAME => "Product Simple with Related 500",
+            ProductInterface::NAME => "Detail Simple with Related 500",
             ProductInterface::VISIBILITY => 4,
             ProductInterface::TYPE_ID => 'simple',
             ProductInterface::PRICE => 100,
@@ -246,7 +246,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
                             "position" => 0, "extension_attributes" => []];
         $productWithUpsellData =  [
             ProductInterface::SKU => "product_simple_with_related_500",
-            ProductInterface::NAME => "Product Simple with Related 500",
+            ProductInterface::NAME => "Detail Simple with Related 500",
             ProductInterface::VISIBILITY => 4,
             ProductInterface::TYPE_ID => 'simple',
             ProductInterface::PRICE => 100,
@@ -266,7 +266,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
         // Remove link
         $productWithNoLinkData =  [
             ProductInterface::SKU => "product_simple_with_related_500",
-            ProductInterface::NAME => "Product Simple with Related 500",
+            ProductInterface::NAME => "Detail Simple with Related 500",
             ProductInterface::VISIBILITY => 4,
             ProductInterface::TYPE_ID => 'simple',
             ProductInterface::PRICE => 100,
@@ -492,7 +492,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     public function testUpdate()
     {
         $productData = [
-            ProductInterface::NAME => 'Very Simple Product', //new name
+            ProductInterface::NAME => 'Very Simple Detail', //new name
             ProductInterface::SKU => 'simple', //sku from fixture
         ];
         $product = $this->getSimpleProductData($productData);
@@ -643,7 +643,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Get Simple Product Data
+     * Get Simple Detail Data
      *
      * @param array $productData
      * @return array
@@ -691,7 +691,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Delete Product
+     * Delete Detail
      *
      * @param string $sku
      * @return boolean

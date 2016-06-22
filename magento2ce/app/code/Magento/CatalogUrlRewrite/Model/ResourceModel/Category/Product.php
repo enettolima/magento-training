@@ -10,7 +10,7 @@ use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 class Product extends AbstractDb
 {
     /**
-     * Product/Category relation table name
+     * Detail/Category relation table name
      */
     const TABLE_NAME = 'catalog_url_rewrite_product_category';
 

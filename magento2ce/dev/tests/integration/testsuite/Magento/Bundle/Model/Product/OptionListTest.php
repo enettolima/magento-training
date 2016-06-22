@@ -40,6 +40,6 @@ class OptionListTest extends \PHPUnit_Framework_TestCase
         $optionList = $this->objectManager->create('\Magento\Bundle\Model\Product\OptionList');
         $options = $optionList->getItems($this->product);
         $this->assertEquals(1, count($options));
-        $this->assertEquals('Bundle Product Items', $options[0]->getTitle());
+        $this->assertEquals('Bundle Detail Items', $options[0]->getTitle());
     }
 }

@@ -33,7 +33,7 @@ class Viewed extends \Magento\Reports\Controller\Adminhtml\Report\Product
                 __('Products Most Viewed Report'),
                 __('Products Most Viewed Report')
             );
-            $this->_view->getPage()->getConfig()->getTitle()->prepend(__('Product Views Report'));
+            $this->_view->getPage()->getConfig()->getTitle()->prepend(__('Detail Views Report'));
 
             $gridBlock = $this->_view->getLayout()->getBlock('adminhtml_product_viewed.grid');
             $filterFormBlock = $this->_view->getLayout()->getBlock('grid.filter.form');

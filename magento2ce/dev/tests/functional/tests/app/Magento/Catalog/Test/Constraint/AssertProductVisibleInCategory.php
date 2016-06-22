@@ -22,14 +22,14 @@ class AssertProductVisibleInCategory extends AbstractConstraint
      *
      * @var string
      */
-    protected $errorMessage = 'Product is absent on category page.';
+    protected $errorMessage = 'Detail is absent on category page.';
 
     /**
      * Message for passing test
      *
      * @var string
      */
-    protected $successfulMessage = 'Product is visible in the assigned category.';
+    protected $successfulMessage = 'Detail is visible in the assigned category.';
 
     /**
      * Assert that product is visible in the assigned category
@@ -59,7 +59,7 @@ class AssertProductVisibleInCategory extends AbstractConstraint
 
         if (($product->getVisibility() === 'Search') || ($this->getStockStatus($product) === 'Out of Stock')) {
             $isProductVisible = !$isProductVisible;
-            $this->errorMessage = 'Product found in this category.';
+            $this->errorMessage = 'Detail found in this category.';
             $this->successfulMessage = 'Asserts that the product could not be found in this category.';
         }
 

@@ -13,7 +13,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
 
 /**
  * Class AssertProductReviewNotInGrid
- * Check that Product Review not available in grid
+ * Check that Detail Review not available in grid
  */
 class AssertProductReviewNotInGrid extends AbstractConstraint
 {
@@ -35,7 +35,7 @@ class AssertProductReviewNotInGrid extends AbstractConstraint
     ];
 
     /**
-     * Asserts Product Review not available in grid
+     * Asserts Detail Review not available in grid
      *
      * @param ReviewIndex $reviewIndex
      * @param Review $review

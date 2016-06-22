@@ -18,7 +18,7 @@ class AssertSalesPrintOrderProducts extends AbstractConstraint
     /**
      * Template for error message.
      */
-    const ERROR_MESSAGE = "Product with name: '%s' was not found on sales guest print page.\n";
+    const ERROR_MESSAGE = "Detail with name: '%s' was not found on sales guest print page.\n";
 
     /**
      * Assert that products printed correctly on sales guest print page.

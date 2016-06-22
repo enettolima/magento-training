@@ -68,11 +68,11 @@ class VirtualTest extends \PHPUnit_Framework_TestCase
             '_attribute_set' => 'Default',
             'sku' => 'downloadablesku1',
             'product_type' => 'virtual',
-            'name' => 'Downloadable Product 1'
+            'name' => 'Downloadable Detail 1'
         ];
 
         $expectedResult = [
-            'name' => 'Downloadable Product 1',
+            'name' => 'Downloadable Detail 1',
             'weight' => null
         ];
 

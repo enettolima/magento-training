@@ -32,7 +32,7 @@ class AssertProductSearchableBySku extends AbstractConstraint
      *
      * @var string
      */
-    protected $successfulMessage = 'Product successfully found by SKU.';
+    protected $successfulMessage = 'Detail successfully found by SKU.';
 
     /**
      * Assert that product can be searched via Quick Search using searchable product attributes (Search by SKU)

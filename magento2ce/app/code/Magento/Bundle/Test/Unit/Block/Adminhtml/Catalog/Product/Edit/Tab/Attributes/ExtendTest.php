@@ -29,7 +29,7 @@ class ExtendTest extends \PHPUnit_Framework_TestCase
         )->getMock();
         $this->objectManagerHelper = new \Magento\Framework\TestFramework\Unit\Helper\ObjectManager($this);
         $this->object = $this->objectManagerHelper->getObject(
-            'Magento\\Bundle\\Block\\Adminhtml\\Catalog\\Product\\Edit\\Tab\\Attributes\\Extend',
+            'Magento\\Bundle\\Block\\Adminhtml\\Catalog\\Detail\\Edit\\Tab\\Attributes\\Extend',
             ['registry' => $this->registry, 'formFactory' => $this->formFactory]
         );
     }

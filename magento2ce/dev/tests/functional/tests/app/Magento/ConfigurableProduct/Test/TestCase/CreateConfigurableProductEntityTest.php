@@ -23,9 +23,9 @@ use Magento\Mtf\TestCase\Injectable;
  *
  * Steps:
  * 1. Go to Backend
- * 2. Open Product -> Catalog
- * 3. Click on narrow near "Add Product" button
- * 4. Select Configurable Product
+ * 2. Open Detail -> Catalog
+ * 3. Click on narrow near "Add Detail" button
+ * 4. Select Configurable Detail
  * 5. Fill in data according to data sets
  *  5.1 If field "attributeNew/dataset" is not empty - search created attribute by putting it's name
  *      to variation Search field.
@@ -45,7 +45,7 @@ class CreateConfigurableProductEntityTest extends Injectable
     /* end tags */
 
     /**
-     * Product page with a grid.
+     * Detail page with a grid.
      *
      * @var CatalogProductIndex
      */

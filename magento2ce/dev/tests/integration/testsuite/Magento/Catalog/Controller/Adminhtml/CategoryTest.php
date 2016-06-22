@@ -93,7 +93,7 @@ class CategoryTest extends \Magento\TestFramework\TestCase\AbstractBackendContro
             $this->assertArrayHasKey('messages', $result);
             $this->assertFalse($result['error']);
             $category = $result['category'];
-            $this->assertEquals('Category Created From Product Creation Page', $category['name']);
+            $this->assertEquals('Category Created From Detail Creation Page', $category['name']);
             $this->assertEquals(1, $category['is_active']);
             $this->assertEquals(0, $category['include_in_menu']);
             $this->assertEquals(2, $category['parent_id']);
@@ -110,7 +110,7 @@ class CategoryTest extends \Magento\TestFramework\TestCase\AbstractBackendContro
     {
         /* Keep in sync with new-category-dialog.js */
         $postData = [
-            'name' => 'Category Created From Product Creation Page',
+            'name' => 'Category Created From Detail Creation Page',
             'is_active' => 1,
             'include_in_menu' => 0,
             'use_config' => [

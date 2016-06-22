@@ -23,7 +23,7 @@ $product = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create('
 $product->setTypeId(\Magento\Catalog\Model\Product\Type::TYPE_SIMPLE)
     ->setAttributeSetId(4)
     ->setWebsiteIds([1])
-    ->setName('Simple Product')
+    ->setName('Simple Detail')
     ->setSku('simple')
     ->setPrice(10)
     ->setCategoryIds([$category1->getId()])

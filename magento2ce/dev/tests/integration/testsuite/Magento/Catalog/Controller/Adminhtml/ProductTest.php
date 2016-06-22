@@ -73,25 +73,25 @@ class ProductTest extends \Magento\TestFramework\TestCase\AbstractBackendControl
             '#add_new_product',
             1,
             $body,
-            '"Add Product" button container should be present on Manage Products page, if the limit is not  reached'
+            '"Add Detail" button container should be present on Manage Products page, if the limit is not  reached'
         );
         $this->assertSelectCount(
             '#add_new_product-button',
             1,
             $body,
-            '"Add Product" button should be present on Manage Products page, if the limit is not reached'
+            '"Add Detail" button should be present on Manage Products page, if the limit is not reached'
         );
         $this->assertSelectCount(
             '#add_new_product-button.disabled',
             0,
             $body,
-            '"Add Product" button should be enabled on Manage Products page, if the limit is not reached'
+            '"Add Detail" button should be enabled on Manage Products page, if the limit is not reached'
         );
         $this->assertSelectCount(
             '#add_new_product .action-toggle',
             1,
             $body,
-            '"Add Product" button split should be present on Manage Products page, if the limit is not reached'
+            '"Add Detail" button split should be present on Manage Products page, if the limit is not reached'
         );
     }
 
@@ -105,18 +105,18 @@ class ProductTest extends \Magento\TestFramework\TestCase\AbstractBackendControl
         $this->dispatch('backend/catalog/product/edit/id/' . $product->getEntityId());
         $body = $this->getResponse()->getBody();
 
-        $this->assertSelectCount('#save-button', 1, $body, '"Save" button isn\'t present on Edit Product page');
+        $this->assertSelectCount('#save-button', 1, $body, '"Save" button isn\'t present on Edit Detail page');
         $this->assertSelectCount(
             '#save_and_new',
             1,
             $body,
-            '"Save & New" button isn\'t present on Edit Product page'
+            '"Save & New" button isn\'t present on Edit Detail page'
         );
         $this->assertSelectCount(
             '#save_and_duplicate',
             1,
             $body,
-            '"Save & Duplicate" button isn\'t present on Edit Product page'
+            '"Save & Duplicate" button isn\'t present on Edit Detail page'
         );
     }
 }

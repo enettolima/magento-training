@@ -230,7 +230,7 @@ class Curl extends AbstractCurl implements CatalogProductSimpleInterface
 
         if (!strpos($response, 'data-ui-id="messages-message-success"')) {
             $this->_eventManager->dispatchEvent(['curl_failed'], [$response]);
-            throw new \Exception('Product creation by curl handler was not successful!');
+            throw new \Exception('Detail creation by curl handler was not successful!');
         }
 
         return $this->parseResponse($response);
@@ -289,7 +289,7 @@ class Curl extends AbstractCurl implements CatalogProductSimpleInterface
     }
 
     /**
-     * Preparation of "Product Details" tab data.
+     * Preparation of "Detail Details" tab data.
      *
      * @return void
      */

@@ -127,7 +127,7 @@ class ImagesResizeCommandTest extends \PHPUnit_Framework_TestCase
         $commandTester->execute([]);
 
         $this->assertContains(
-            'Product images resized successfully',
+            'Detail images resized successfully',
             $commandTester->getDisplay()
         );
     }

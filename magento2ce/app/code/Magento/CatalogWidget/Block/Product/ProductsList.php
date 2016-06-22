@@ -60,7 +60,7 @@ class ProductsList extends \Magento\Catalog\Block\Product\AbstractProduct implem
     protected $catalogProductVisibility;
 
     /**
-     * Product collection factory
+     * Detail collection factory
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory
      */

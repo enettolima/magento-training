@@ -77,7 +77,7 @@ abstract class Rewrite extends Action
     }
 
     /**
-     * Get Product from request
+     * Get Detail from request
      *
      * @return Product
      */

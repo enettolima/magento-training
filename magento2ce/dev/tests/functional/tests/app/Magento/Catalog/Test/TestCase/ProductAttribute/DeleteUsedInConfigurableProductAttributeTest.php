@@ -22,7 +22,7 @@ use Magento\Mtf\TestCase\Injectable;
  *
  * Steps:
  * 1. Log in as default admin user.
- * 2. Go to Stores > Attributes > Product.
+ * 2. Go to Stores > Attributes > Detail.
  * 3. Search product attribute in grid by given data.
  * 4. Open this attribute by clicking.
  * 5. Click on the "Delete Attribute" button.

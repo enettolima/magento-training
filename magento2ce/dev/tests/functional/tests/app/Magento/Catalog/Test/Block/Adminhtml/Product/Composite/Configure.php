@@ -33,7 +33,7 @@ class Configure extends AbstractConfigureBlock
     protected $customOptionsSelector = '#product_composite_configure_fields_options';
 
     /**
-     * Product quantity selector.
+     * Detail quantity selector.
      *
      * @var string
      */

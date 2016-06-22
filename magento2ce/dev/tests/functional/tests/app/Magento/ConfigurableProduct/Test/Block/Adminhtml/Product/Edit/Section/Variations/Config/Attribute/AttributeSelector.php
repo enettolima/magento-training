@@ -9,7 +9,7 @@ namespace Magento\ConfigurableProduct\Test\Block\Adminhtml\Product\Edit\Section\
 use Magento\Mtf\Client\Element\SuggestElement;
 
 /**
- * Form Attribute Search on Product page.
+ * Form Attribute Search on Detail page.
  */
 class AttributeSelector extends SuggestElement
 {

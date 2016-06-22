@@ -13,12 +13,12 @@ use Magento\Widget\Test\Fixture\Widget;
 use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
- * Check that after click on widget link on frontend system redirects you to Product page defined in widget.
+ * Check that after click on widget link on frontend system redirects you to Detail page defined in widget.
  */
 class AssertWidgetProductLink extends AbstractConstraint
 {
     /**
-     * Assert that after click on widget link on frontend system redirects you to Product page defined in widget.
+     * Assert that after click on widget link on frontend system redirects you to Detail page defined in widget.
      *
      * @param CmsIndex $cmsIndex
      * @param CatalogProductView $productView
@@ -55,6 +55,6 @@ class AssertWidgetProductLink extends AbstractConstraint
      */
     public function toString()
     {
-        return "Widget link on frontend system redirects to Product page defined in widget.";
+        return "Widget link on frontend system redirects to Detail page defined in widget.";
     }
 }

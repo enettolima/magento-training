@@ -15,7 +15,7 @@ use Magento\Framework\TestFramework\Unit\Helper\ObjectManager as ObjectManagerHe
 use Magento\Catalog\Model\Product\Attribute\Source\Status as Status;
 
 /**
- * Product Test
+ * Detail Test
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  * @SuppressWarnings(PHPMD.TooManyFields)
@@ -985,9 +985,9 @@ class ProductTest extends \PHPUnit_Framework_TestCase
     public function testGetProductLinks()
     {
         $outputRelatedLink = $this->objectManagerHelper->getObject('Magento\Catalog\Model\ProductLink\Link');
-        $outputRelatedLink->setSku("Simple Product 1");
+        $outputRelatedLink->setSku("Simple Detail 1");
         $outputRelatedLink->setLinkType("related");
-        $outputRelatedLink->setLinkedProductSku("Simple Product 2");
+        $outputRelatedLink->setLinkedProductSku("Simple Detail 2");
         $outputRelatedLink->setLinkedProductType("simple");
         $outputRelatedLink->setPosition(0);
         $expectedOutput = [$outputRelatedLink];
@@ -1002,9 +1002,9 @@ class ProductTest extends \PHPUnit_Framework_TestCase
     public function testSetProductLinks()
     {
         $link = $this->objectManagerHelper->getObject('Magento\Catalog\Model\ProductLink\Link');
-        $link->setSku("Simple Product 1");
+        $link->setSku("Simple Detail 1");
         $link->setLinkType("upsell");
-        $link->setLinkedProductSku("Simple Product 2");
+        $link->setLinkedProductSku("Simple Detail 2");
         $link->setLinkedProductType("simple");
         $link->setPosition(0);
         $productLinks = [$link];

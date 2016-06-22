@@ -22,7 +22,7 @@ class AssertTierPriceOnGroupedProductPage extends AbstractAssertPriceOnGroupedPr
      *
      * @var string
      */
-    protected $errorMessage = 'For "%s" Product tier price on product page is not correct.';
+    protected $errorMessage = 'For "%s" Detail tier price on product page is not correct.';
 
     /**
      * Successful message

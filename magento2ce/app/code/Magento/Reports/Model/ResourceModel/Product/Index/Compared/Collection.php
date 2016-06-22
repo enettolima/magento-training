@@ -5,7 +5,7 @@
  */
 
 /**
- * Reports Compared Product Index Resource Collection
+ * Reports Compared Detail Index Resource Collection
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
@@ -14,7 +14,7 @@ namespace Magento\Reports\Model\ResourceModel\Product\Index\Compared;
 class Collection extends \Magento\Reports\Model\ResourceModel\Product\Index\Collection\AbstractCollection
 {
     /**
-     * Retrieve Product Index table name
+     * Retrieve Detail Index table name
      *
      * @return string
      */

@@ -128,14 +128,14 @@ class Product extends \Magento\ImportExport\Model\Export\Entity\AbstractEntity
     protected $_attributeTypes = [];
 
     /**
-     * Product collection
+     * Detail collection
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory
      */
     protected $_entityCollectionFactory;
 
     /**
-     * Product collection
+     * Detail collection
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\Collection
      */
@@ -315,7 +315,7 @@ class Product extends \Magento\ImportExport\Model\Export\Entity\AbstractEntity
     protected $metadataPool;
 
     /**
-     * Product entity link field
+     * Detail entity link field
      *
      * @var string
      */

@@ -5,7 +5,7 @@
  */
 
 /**
- * Reports Viewed Product Index Resource Model
+ * Reports Viewed Detail Index Resource Model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

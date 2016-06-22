@@ -20,7 +20,7 @@ class ItemTest extends \PHPUnit_Framework_TestCase
         for ($i = 1; $i <= $amountOption; $i++) {
             $options[] = [
                 'label' => "testLabel{$i}",
-                'value' => ['1 x Configurable Product 49-option 3 <span class="price">$10.00</span>']
+                'value' => ['1 x Configurable Detail 49-option 3 <span class="price">$10.00</span>']
             ];
         }
 
@@ -119,9 +119,9 @@ class ItemTest extends \PHPUnit_Framework_TestCase
                             <div class="product-title">testProductName</div>
                             <dl class="item-options">
                                 <dt>testLabel1</dt>
-                                <dd>1 x Configurable Product 49-option 3 <span class="price">$10.00</span></dd>
+                                <dd>1 x Configurable Detail 49-option 3 <span class="price">$10.00</span></dd>
                                 <dt>testLabel2</dt>
-                                <dd>1 x Configurable Product 49-option 3 <span class="price">$10.00</span></dd>
+                                <dd>1 x Configurable Detail 49-option 3 <span class="price">$10.00</span></dd>
                             </dl>
                         </xhtml>
 HTML
@@ -133,7 +133,7 @@ HTML
                             <div class="product-title">testProductName</div>
                             <dl class="item-options">
                                 <dt>testLabel1</dt>
-                                <dd>1 x Configurable Product 49-option 3 <span class="price">$10.00</span></dd>
+                                <dd>1 x Configurable Detail 49-option 3 <span class="price">$10.00</span></dd>
                             </dl>
                         </xhtml>
 HTML

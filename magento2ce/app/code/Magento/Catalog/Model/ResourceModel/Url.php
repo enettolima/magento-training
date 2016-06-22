@@ -37,7 +37,7 @@ class Url extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     protected $_categoryAttributes = [];
 
     /**
-     * Product attribute properties cache
+     * Detail attribute properties cache
      *
      * @var array
      */
@@ -523,7 +523,7 @@ class Url extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Retrieve Product data objects
+     * Retrieve Detail data objects
      *
      * @param int|array $productIds
      * @param int $storeId
@@ -603,7 +603,7 @@ class Url extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Retrieve Product data object
+     * Retrieve Detail data object
      *
      * @param int $productId
      * @param int $storeId
@@ -620,7 +620,7 @@ class Url extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Retrieve Product data obects for store
+     * Retrieve Detail data obects for store
      *
      * @param int $storeId
      * @param int &$lastEntityId

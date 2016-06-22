@@ -9,7 +9,7 @@ use Magento\Quote\Model\Quote\Item;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Reports\Block\Adminhtml\Shopcart\Product\Grid
+ * Test class for \Magento\Reports\Block\Adminhtml\Shopcart\Detail\Grid
  *
  * @magentoAppArea adminhtml
  * @magentoDataFixture Magento/Sales/_files/quote.php
@@ -34,6 +34,6 @@ class GridTest extends \Magento\Reports\Block\Adminhtml\Shopcart\GridTestAbstrac
         $this->assertInstanceOf('Magento\Quote\Model\Quote\Item', $quoteItem);
 
         $this->assertGreaterThan(0, (int)$quoteItem->getProductId());
-        $this->assertEquals('Simple Product', $quoteItem->getName());
+        $this->assertEquals('Simple Detail', $quoteItem->getName());
     }
 }

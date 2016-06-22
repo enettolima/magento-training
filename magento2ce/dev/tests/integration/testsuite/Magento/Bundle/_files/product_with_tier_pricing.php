@@ -16,7 +16,7 @@ $product = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create('
 $product->setTypeId('bundle')
     ->setAttributeSetId(4)
     ->setWebsiteIds([1])
-    ->setName('Bundle Product')
+    ->setName('Bundle Detail')
     ->setSku('bundle-product')
     ->setVisibility(\Magento\Catalog\Model\Product\Visibility::VISIBILITY_BOTH)
     ->setStatus(\Magento\Catalog\Model\Product\Attribute\Source\Status::STATUS_ENABLED)
@@ -24,8 +24,8 @@ $product->setTypeId('bundle')
     ->setBundleOptionsData(
         [
             [
-                'title' => 'Bundle Product Items',
-                'default_title' => 'Bundle Product Items',
+                'title' => 'Bundle Detail Items',
+                'default_title' => 'Bundle Detail Items',
                 'type' => 'select', 'required' => 1,
                 'delete' => '',
             ],

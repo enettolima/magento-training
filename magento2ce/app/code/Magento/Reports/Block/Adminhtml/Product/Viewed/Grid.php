@@ -64,7 +64,7 @@ class Grid extends \Magento\Reports\Block\Adminhtml\Grid\AbstractGrid
         $this->addColumn(
             'product_name',
             [
-                'header' => __('Product'),
+                'header' => __('Detail'),
                 'index' => 'product_name',
                 'type' => 'string',
                 'sortable' => false,

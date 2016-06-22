@@ -89,7 +89,7 @@ class Curl extends ProductCurl implements BundleProductInterface
     }
 
     /**
-     * Preparation of "Product Details" tab data.
+     * Preparation of "Detail Details" tab data.
      *
      * @return void
      */

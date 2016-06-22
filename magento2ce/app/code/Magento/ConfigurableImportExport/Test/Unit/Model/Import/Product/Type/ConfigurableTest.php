@@ -10,7 +10,7 @@ use \Magento\ConfigurableImportExport;
 
 /**
  * Class ConfigurableTest
- * @package Magento\ConfigurableImportExport\Test\Unit\Model\Import\Product\Type
+ * @package Magento\ConfigurableImportExport\Test\Unit\Model\Import\Detail\Type
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class ConfigurableTest extends \Magento\ImportExport\Test\Unit\Model\Import\AbstractImportTestCase
@@ -334,7 +334,7 @@ class ConfigurableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
             'store_view_code' => null,
             'attribute_set_code' => 'Default',
             'product_type' => 'configurable',
-            'name' => 'Configurable Product 21',
+            'name' => 'Configurable Detail 21',
             'product_websites' => 'website_1',
             'configurable_variation_labels' => 'testattr2=Select Color, testattr3=Select Size',
             'configurable_variations' =>
@@ -379,7 +379,7 @@ class ConfigurableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 'store_view_code' => null,
                 'attribute_set_code' => 'Default',
                 'product_type' => 'configurable',
-                'name' => 'Configurable Product 21 Without Labels',
+                'name' => 'Configurable Detail 21 Without Labels',
                 'product_websites' => 'website_1',
                 'configurable_variations' => '
                 sku=testconf2-attr2val1-testattr3v1,testattr2=attr2val1,testattr3=testattr3v1,display=1|
@@ -397,7 +397,7 @@ class ConfigurableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 'store_view_code' => null,
                 'attribute_set_code' => 'Default',
                 'product_type' => 'configurable',
-                'name' => 'Configurable Product 21 Without Labels',
+                'name' => 'Configurable Detail 21 Without Labels',
                 'product_websites' => 'website_1',
                 '_store' => null,
                 '_attribute_set' => 'Default',
@@ -409,7 +409,7 @@ class ConfigurableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 'store_view_code' => null,
                 'attribute_set_code' => 'Default',
                 'product_type' => 'configurable',
-                'name' => 'Configurable Product 21',
+                'name' => 'Configurable Detail 21',
                 'product_websites' => 'website_1',
                 'configurable_variation_labels' => 'testattr2=Select Color, testattr3=Select Size',
                 'configurable_variations' =>
@@ -593,7 +593,7 @@ class ConfigurableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
             'store_view_code' => null,
             'attribute_set_code' => 'Default',
             'product_type' => 'configurable',
-            'name' => 'Configurable Product 21 BadPrice',
+            'name' => 'Configurable Detail 21 BadPrice',
             'product_websites' => 'website_1',
             'configurable_variation_labels' => 'testattr2=Select Color, testattr3=Select Size',
             'configurable_variations' =>
@@ -610,7 +610,7 @@ class ConfigurableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
             '_product_websites' => 'website_1',
         ];
         $bunch[] = $badProduct;
-        // Set _attributes to avoid error in Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType.
+        // Set _attributes to avoid error in Magento\CatalogImportExport\Model\Import\Detail\Type\AbstractType.
         $this->setPropertyValue($this->configurable, '_attributes', [
             $badProduct[\Magento\CatalogImportExport\Model\Import\Product::COL_ATTR_SET] => [],
         ]);

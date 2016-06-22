@@ -53,7 +53,7 @@ class Advanced extends \Magento\Framework\Model\AbstractModel
     protected $_searchCriterias = [];
 
     /**
-     * Product collection
+     * Detail collection
      *
      * @var ProductCollection
      */
@@ -88,7 +88,7 @@ class Advanced extends \Magento\Framework\Model\AbstractModel
     protected $_storeManager;
 
     /**
-     * Product factory
+     * Detail factory
      *
      * @var ProductFactory
      */

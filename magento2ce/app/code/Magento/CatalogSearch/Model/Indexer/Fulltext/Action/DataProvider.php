@@ -28,14 +28,14 @@ class DataProvider
     private $separator = ' | ';
 
     /**
-     * Product Type Instances cache
+     * Detail Type Instances cache
      *
      * @var array
      */
     private $productTypes = [];
 
     /**
-     * Product Emulators cache
+     * Detail Emulators cache
      *
      * @var array
      */
@@ -338,7 +338,7 @@ class DataProvider
     }
 
     /**
-     * Retrieve Product Type Instance
+     * Retrieve Detail Type Instance
      *
      * @param string $typeId
      * @return \Magento\Catalog\Model\Product\Type\AbstractType
@@ -356,8 +356,8 @@ class DataProvider
     /**
      * Return all product children ids
      *
-     * @param int $productId Product Entity Id
-     * @param string $typeId Super Product Link Type
+     * @param int $productId Detail Entity Id
+     * @param string $typeId Super Detail Link Type
      * @return array|null
      */
     public function getProductChildIds($productId, $typeId)
@@ -390,7 +390,7 @@ class DataProvider
     }
 
     /**
-     * Retrieve Product Emulator (Magento Object)
+     * Retrieve Detail Emulator (Magento Object)
      *
      * @param string $typeId
      * @return \Magento\Framework\DataObject

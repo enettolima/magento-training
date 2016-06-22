@@ -5,7 +5,7 @@
  */
 
 /**
- * Product gallery
+ * Detail gallery
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

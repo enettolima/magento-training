@@ -79,10 +79,10 @@ class Matrix extends Form
      *
      * @var string
      */
-    protected $deleteVariation = '[data-bind*="Remove Product"]';
+    protected $deleteVariation = '[data-bind*="Remove Detail"]';
 
     /**
-     * Choose a different Product button selector.
+     * Choose a different Detail button selector.
      *
      * @var string
      */

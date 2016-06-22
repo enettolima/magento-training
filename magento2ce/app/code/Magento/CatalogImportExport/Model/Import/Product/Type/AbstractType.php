@@ -32,7 +32,7 @@ abstract class AbstractType
     public static $attributeCodeToId = [];
 
     /**
-     * Product type attribute sets and attributes parameters.
+     * Detail type attribute sets and attributes parameters.
      *
      * Example: [attr_set_name_1] => array(
      *     [attr_code_1] => array(
@@ -94,14 +94,14 @@ abstract class AbstractType
     protected $_customFieldsMapping = [];
 
     /**
-     * Product entity object.
+     * Detail entity object.
      *
      * @var \Magento\CatalogImportExport\Model\Import\Product
      */
     protected $_entityModel;
 
     /**
-     * Product type (simple, etc.).
+     * Detail type (simple, etc.).
      *
      * @var string
      */
@@ -128,14 +128,14 @@ abstract class AbstractType
     protected $connection;
 
     /**
-     * Product metadata pool
+     * Detail metadata pool
      *
      * @var \Magento\Framework\EntityManager\MetadataPool
      */
     protected $metadataPool;
 
     /**
-     * Product entity link field
+     * Detail entity link field
      *
      * @var string
      */
@@ -225,7 +225,7 @@ abstract class AbstractType
     /**
      * Return product attributes for its attribute set specified in row data.
      *
-     * @param array|string $attrSetData Product row data or simply attribute set name.
+     * @param array|string $attrSetData Detail row data or simply attribute set name.
      * @return array
      */
     protected function _getProductAttributes($attrSetData)

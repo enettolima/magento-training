@@ -5,7 +5,7 @@
  */
 
 /**
- * Product attribute add/edit form options tab
+ * Detail attribute add/edit form options tab
  *
  * @method \Magento\Catalog\Block\Adminhtml\Product\Attribute\Edit\Tab\Options setReadOnly(bool $value)
  * @method null|bool getReadOnly()

@@ -22,7 +22,7 @@ use Magento\Mtf\TestCase\Injectable;
  *
  * Test Flow:
  * 1. Log in to Backend.
- * 2. Navigate to Stores > Attributes > Product.
+ * 2. Navigate to Stores > Attributes > Detail.
  * 3. Select created attribute from preconditions
  * 4. Fill data from dataset
  * 5. Click 'Save Attribute' button

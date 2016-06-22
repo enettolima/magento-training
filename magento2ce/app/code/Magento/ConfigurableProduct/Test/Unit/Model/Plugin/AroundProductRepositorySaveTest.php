@@ -196,7 +196,7 @@ class AroundProductRepositorySaveTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \Magento\Framework\Exception\InputException
-     * @expectedExceptionMessage Product with id "4" does not contain required attribute "color".
+     * @expectedExceptionMessage Detail with id "4" does not contain required attribute "color".
      */
     public function testAroundSaveWithLinksWithMissingAttribute()
     {

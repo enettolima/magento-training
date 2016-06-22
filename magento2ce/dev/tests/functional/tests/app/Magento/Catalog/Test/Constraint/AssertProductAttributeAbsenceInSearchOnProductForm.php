@@ -12,12 +12,12 @@ use Magento\Catalog\Test\Page\Adminhtml\CatalogProductNew;
 use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
- * Checks that product attribute cannot be added to attribute set on Product Page via Add Attribute control.
+ * Checks that product attribute cannot be added to attribute set on Detail Page via Add Attribute control.
  */
 class AssertProductAttributeAbsenceInSearchOnProductForm extends AbstractConstraint
 {
     /**
-     * Assert that deleted attribute can't be added to attribute set on Product Page via Add Attribute control.
+     * Assert that deleted attribute can't be added to attribute set on Detail Page via Add Attribute control.
      *
      * @param CatalogProductAttribute $productAttribute
      * @param CatalogProductIndex $productGrid
@@ -42,12 +42,12 @@ class AssertProductAttributeAbsenceInSearchOnProductForm extends AbstractConstra
     }
 
     /**
-     * Text absent Product Attribute in Attribute Search form.
+     * Text absent Detail Attribute in Attribute Search form.
      *
      * @return string
      */
     public function toString()
     {
-        return "Product Attribute is absent in Attribute Search form.";
+        return "Detail Attribute is absent in Attribute Search form.";
     }
 }

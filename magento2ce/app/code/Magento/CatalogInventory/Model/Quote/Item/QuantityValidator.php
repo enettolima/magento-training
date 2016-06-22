@@ -1,6 +1,6 @@
 <?php
 /**
- * Product inventory data validator
+ * Detail inventory data validator
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.
@@ -83,7 +83,7 @@ class QuantityValidator
         );
         /* @var $stockItem \Magento\CatalogInventory\Api\Data\StockItemInterface */
         if (!$stockItem instanceof \Magento\CatalogInventory\Api\Data\StockItemInterface) {
-            throw new \Magento\Framework\Exception\LocalizedException(__('The stock item for Product is not valid.'));
+            throw new \Magento\Framework\Exception\LocalizedException(__('The stock item for Detail is not valid.'));
         }
 
         $parentStockItem = false;

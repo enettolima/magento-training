@@ -44,6 +44,6 @@ class AssertProductDuplicateMessage extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product duplicated message is present.';
+        return 'Detail duplicated message is present.';
     }
 }

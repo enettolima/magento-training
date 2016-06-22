@@ -155,7 +155,7 @@
     width: 60px;
 }
 
-/* Select Associated Product popup window */
+/* Select Associated Detail popup window */
 #configurable_associated_products_grid .filter-actions,
 #configurable_associated_products_grid .filter {
     display: none;

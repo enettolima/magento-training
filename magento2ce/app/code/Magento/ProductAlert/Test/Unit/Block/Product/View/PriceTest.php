@@ -6,7 +6,7 @@
 namespace Magento\ProductAlert\Test\Unit\Block\Product\View;
 
 /**
- * Test class for \Magento\ProductAlert\Block\Product\View\Price
+ * Test class for \Magento\ProductAlert\Block\Detail\View\Price
  */
 class PriceTest extends \PHPUnit_Framework_TestCase
 {

@@ -60,14 +60,14 @@ class GroupedTest extends \PHPUnit_Framework_TestCase
         $data = [
             1 => [
                 'sku' => 'simple',
-                'name' => 'Simple Product',
+                'name' => 'Simple Detail',
                 'price' => '10',
                 'qty' => '1',
                 'position' => '1'
             ],
             21 => [
                 'sku' => 'virtual-product',
-                'name' => 'Virtual Product',
+                'name' => 'Virtual Detail',
                 'price' => '10',
                 'qty' => '2',
                 'position' => '2'

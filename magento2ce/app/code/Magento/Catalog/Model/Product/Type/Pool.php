@@ -5,7 +5,7 @@
  */
 
 /**
- * Product type factory
+ * Detail type factory
  */
 namespace Magento\Catalog\Model\Product\Type;
 

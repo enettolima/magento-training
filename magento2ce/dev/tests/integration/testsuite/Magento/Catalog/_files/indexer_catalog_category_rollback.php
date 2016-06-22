@@ -21,7 +21,7 @@ foreach (['simple 01', 'simple 02', 'simple 03'] as $sku) {
         $product = $productRepository->get($sku, false, null, true);
         $productRepository->delete($product);
     } catch (\Magento\Framework\Exception\NoSuchEntityException $exception) {
-        //Product already removed
+        //Detail already removed
     }
 }
 

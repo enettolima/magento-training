@@ -49,7 +49,7 @@ class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
+     * @magentoApiDataFixture Magento/Catalog/Model/Detail/Attribute/_files/select_attribute.php
      */
     public function testAdd()
     {
@@ -97,7 +97,7 @@ class ProductAttributeOptionManagementInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/select_attribute.php
+     * @magentoApiDataFixture Magento/Catalog/Model/Detail/Attribute/_files/select_attribute.php
      */
     public function testDelete()
     {

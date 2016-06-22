@@ -20,12 +20,12 @@ use Magento\Framework\Pricing\PriceCurrencyInterface;
 class Type extends \Magento\Catalog\Model\Product\Type\AbstractType
 {
     /**
-     * Product type
+     * Detail type
      */
     const TYPE_CODE = 'bundle';
 
     /**
-     * Product is composite
+     * Detail is composite
      *
      * @var bool
      */
@@ -74,7 +74,7 @@ class Type extends \Magento\Catalog\Model\Product\Type\AbstractType
     protected $_keyUsedOptionsIds = '_cache_instance_used_options_ids';
 
     /**
-     * Product is possible to configure
+     * Detail is possible to configure
      *
      * @var bool
      */
@@ -909,7 +909,7 @@ class Type extends \Magento\Catalog\Model\Product\Type\AbstractType
         $optionArr['bundle_options'] = $bundleOptions;
 
         /**
-         * Product Prices calculations save
+         * Detail Prices calculations save
          */
         if ($product->getPriceType()) {
             $optionArr['product_calculations'] = self::CALCULATE_PARENT;

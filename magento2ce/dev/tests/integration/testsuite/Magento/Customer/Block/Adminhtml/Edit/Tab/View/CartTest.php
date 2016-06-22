@@ -95,7 +95,7 @@ class CartTest extends \PHPUnit_Framework_TestCase
     public function testToHtmlCartItem()
     {
         $html = $this->block->toHtml();
-        $this->assertContains('Simple Product', $html);
+        $this->assertContains('Simple Detail', $html);
         $this->assertContains('simple', $html);
         $this->assertContains('$10.00', $html);
         $this->assertContains('catalog/product/edit/id/1', $html);

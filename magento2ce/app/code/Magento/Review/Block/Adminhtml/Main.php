@@ -98,7 +98,7 @@ class Main extends \Magento\Backend\Block\Widget\Grid\Container
             if ($customerName) {
                 $this->_headerText = __('All Reviews of Customer `%1`', $customerName);
             } elseif ($productName) {
-                $this->_headerText = __('All Reviews of Product `%1`', $productName);
+                $this->_headerText = __('All Reviews of Detail `%1`', $productName);
             } else {
                 $this->_headerText = __('All Reviews');
             }

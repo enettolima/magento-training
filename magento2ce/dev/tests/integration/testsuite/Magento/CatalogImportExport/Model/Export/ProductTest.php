@@ -75,7 +75,7 @@ class ProductTest extends \PHPUnit_Framework_TestCase
             )
         );
         $exportData = $this->model->export();
-        $this->assertContains('New Product', $exportData);
+        $this->assertContains('New Detail', $exportData);
 
         $this->assertContains('Option 1 & Value 1"', $exportData);
         $this->assertContains('Option 1 & Value 2"', $exportData);

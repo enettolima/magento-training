@@ -6,7 +6,7 @@
 namespace Magento\UrlRewrite\Block\Catalog\Product;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Catalog\Product\Grid
+ * Test for \Magento\UrlRewrite\Block\Catalog\Detail\Grid
  * @magentoAppArea adminhtml
  */
 class GridTest extends \PHPUnit_Framework_TestCase

@@ -81,7 +81,7 @@ class InstallSchema implements InstallSchemaInterface
                 'entity_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Bundle Option');
+            ->setComment('Catalog Detail Bundle Option');
 
         $installer->getConnection()->createTable($table);
 
@@ -139,7 +139,7 @@ class InstallSchema implements InstallSchemaInterface
                 'option_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Bundle Option Value');
+            ->setComment('Catalog Detail Bundle Option Value');
 
         $installer->getConnection()->createTable($table);
 
@@ -167,14 +167,14 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false],
-                'Parent Product Id'
+                'Parent Detail Id'
             )
             ->addColumn(
                 'product_id',
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'position',
@@ -250,7 +250,7 @@ class InstallSchema implements InstallSchemaInterface
                 'entity_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Bundle Selection');
+            ->setComment('Catalog Detail Bundle Selection');
 
         $installer->getConnection()->createTable($table);
 
@@ -315,7 +315,7 @@ class InstallSchema implements InstallSchemaInterface
                 'selection_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Bundle Selection Price');
+            ->setComment('Catalog Detail Bundle Selection Price');
 
         $installer->getConnection()->createTable($table);
 
@@ -403,7 +403,7 @@ class InstallSchema implements InstallSchemaInterface
                 'website_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Bundle Price Index');
+            ->setComment('Catalog Detail Bundle Price Index');
 
         $installer->getConnection()->createTable($table);
 
@@ -449,7 +449,7 @@ class InstallSchema implements InstallSchemaInterface
                 ['default' => '0'],
                 'Stock Status'
             )
-            ->setComment('Catalog Product Bundle Stock Index');
+            ->setComment('Catalog Detail Bundle Stock Index');
 
         $installer->getConnection()->createTable($table);
 
@@ -549,7 +549,7 @@ class InstallSchema implements InstallSchemaInterface
                 [],
                 'Base Tier'
             )
-            ->setComment('Catalog Product Index Price Bundle Idx');
+            ->setComment('Catalog Detail Index Price Bundle Idx');
 
         $installer->getConnection()->createTable($table);
 
@@ -653,7 +653,7 @@ class InstallSchema implements InstallSchemaInterface
                 'type',
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
-            ->setComment('Catalog Product Index Price Bundle Tmp');
+            ->setComment('Catalog Detail Index Price Bundle Tmp');
 
         $installer->getConnection()->createTable($table);
 
@@ -725,7 +725,7 @@ class InstallSchema implements InstallSchemaInterface
                 [],
                 'Tier Price'
             )
-            ->setComment('Catalog Product Index Price Bundle Sel Idx');
+            ->setComment('Catalog Detail Index Price Bundle Sel Idx');
 
         $installer->getConnection()->createTable($table);
 
@@ -801,7 +801,7 @@ class InstallSchema implements InstallSchemaInterface
                 'type',
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
-            ->setComment('Catalog Product Index Price Bundle Sel Tmp');
+            ->setComment('Catalog Detail Index Price Bundle Sel Tmp');
 
         $installer->getConnection()->createTable($table);
 
@@ -873,7 +873,7 @@ class InstallSchema implements InstallSchemaInterface
                 [],
                 'Alt Tier Price'
             )
-            ->setComment('Catalog Product Index Price Bundle Opt Idx');
+            ->setComment('Catalog Detail Index Price Bundle Opt Idx');
 
         $installer->getConnection()->createTable($table);
 
@@ -949,7 +949,7 @@ class InstallSchema implements InstallSchemaInterface
                 'type',
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
-            ->setComment('Catalog Product Index Price Bundle Opt Tmp');
+            ->setComment('Catalog Detail Index Price Bundle Opt Tmp');
 
         $installer->getConnection()->createTable($table);
 

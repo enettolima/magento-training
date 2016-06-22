@@ -15,7 +15,7 @@ use Magento\CatalogImportExport\Model\Import\Product as ImportProduct;
 
 /**
  * Importing configurable products
- * @package Magento\ConfigurableImportExport\Model\Import\Product\Type
+ * @package Magento\ConfigurableImportExport\Model\Import\Detail\Type
  * @SuppressWarnings(PHPMD.TooManyFields)
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -151,14 +151,14 @@ class Configurable extends \Magento\CatalogImportExport\Model\Import\Product\Typ
     protected $_productColFac;
 
     /**
-     * Product data.
+     * Detail data.
      *
      * @var array
      */
     protected $_productData;
 
     /**
-     * Product super data.
+     * Detail super data.
      *
      * @var array
      */
@@ -186,7 +186,7 @@ class Configurable extends \Magento\CatalogImportExport\Model\Import\Product\Typ
     protected $_nextAttrId;
 
     /**
-     * Product entity identifier field
+     * Detail entity identifier field
      *
      * @var string
      */

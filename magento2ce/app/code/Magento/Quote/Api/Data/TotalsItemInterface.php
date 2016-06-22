@@ -432,7 +432,7 @@ interface TotalsItemInterface extends \Magento\Framework\Api\ExtensibleDataInter
     /**
      * Returns the product name.
      *
-     * @return string|null Product name. Otherwise, null.
+     * @return string|null Detail name. Otherwise, null.
      */
     public function getName();
 

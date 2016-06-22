@@ -143,7 +143,7 @@ class AdapterTest extends \PHPUnit_Framework_TestCase
             'documents' => [
                 [
                     'product_id' => 1,
-                    'sku' => 'Product',
+                    'sku' => 'Detail',
                 ],
             ],
             'aggregations' => [

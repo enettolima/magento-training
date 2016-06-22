@@ -376,7 +376,7 @@ class ItemCarrierTest extends \PHPUnit_Framework_TestCase
         $itemOneMock->expects($this->once())
             ->method('addToCart')
             ->with($this->cartMock, $isOwner)
-            ->willThrowException(new \Magento\Catalog\Model\Product\Exception(__('Product Exception.')));
+            ->willThrowException(new \Magento\Catalog\Model\Product\Exception(__('Detail Exception.')));
         $itemTwoMock->expects($this->once())
             ->method('addToCart')
             ->with($this->cartMock, $isOwner)

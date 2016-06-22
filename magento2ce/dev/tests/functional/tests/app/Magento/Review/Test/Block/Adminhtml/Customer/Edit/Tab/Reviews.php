@@ -14,7 +14,7 @@ use Magento\Backend\Test\Block\Widget\Tab;
 class Reviews extends Tab
 {
     /**
-     * Product reviews block selector.
+     * Detail reviews block selector.
      *
      * @var string
      */

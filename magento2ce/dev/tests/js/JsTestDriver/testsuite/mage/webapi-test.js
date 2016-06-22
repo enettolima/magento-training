@@ -93,7 +93,7 @@ WebapiTest.prototype.testCallProductCreate = function() {
         "weight": 1,
         "status": 1,
         "visibility": 4,
-        "name": "Simple Product",
+        "name": "Simple Detail",
         "description": "Simple Description",
         "price": 99.95,
         "tax_class_id": 0

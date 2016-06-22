@@ -50,14 +50,14 @@ class Config extends \Magento\Eav\Model\Config
     protected $_productAttributes;
 
     /**
-     * Product Attributes used in product listing
+     * Detail Attributes used in product listing
      *
      * @var array
      */
     protected $_usedInProductListing;
 
     /**
-     * Product Attributes For Sort By
+     * Detail Attributes For Sort By
      *
      * @var array
      */
@@ -104,7 +104,7 @@ class Config extends \Magento\Eav\Model\Config
     protected $_groupCollectionFactory;
 
     /**
-     * Product type factory
+     * Detail type factory
      *
      * @var \Magento\Catalog\Model\Product\TypeFactory
      */
@@ -391,7 +391,7 @@ class Config extends \Magento\Eav\Model\Config
     }
 
     /**
-     * Load Product attributes
+     * Load Detail attributes
      *
      * @return array
      */
@@ -474,7 +474,7 @@ class Config extends \Magento\Eav\Model\Config
     }
 
     /**
-     * Retrieve Product List Default Sort By
+     * Retrieve Detail List Default Sort By
      *
      * @param mixed $store
      * @return string

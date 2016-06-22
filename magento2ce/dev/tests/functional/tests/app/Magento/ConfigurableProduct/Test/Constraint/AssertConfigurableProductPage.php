@@ -16,7 +16,7 @@ class AssertConfigurableProductPage extends AssertProductPage
 {
     /**
      * Verify displayed product data on product page(front-end) equals passed from fixture:
-     * 1. Product Name
+     * 1. Detail Name
      * 2. Price
      * 3. SKU
      * 4. Description

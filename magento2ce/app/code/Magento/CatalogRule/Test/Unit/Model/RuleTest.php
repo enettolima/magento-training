@@ -169,7 +169,7 @@ class RuleTest extends \PHPUnit_Framework_TestCase
             'entity_type_id' => '4',
             'attribute_set_id' => '4',
             'type_id' => 'simple',
-            'sku' => 'Product',
+            'sku' => 'Detail',
             'has_options' => '0',
             'required_options' => '0',
             'created_at' => '2014-06-25 13:14:30',

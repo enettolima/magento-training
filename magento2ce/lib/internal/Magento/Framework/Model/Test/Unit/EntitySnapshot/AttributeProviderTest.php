@@ -58,7 +58,7 @@ class AttributeProviderTest extends \PHPUnit_Framework_TestCase
 
     public function testGetAttributes()
     {
-        $entityType = 'Product';
+        $entityType = 'Detail';
         $entityTable = 'entity_table';
         $linkField = 'some_id';
         $identifierField = 'id';

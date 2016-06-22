@@ -41,14 +41,14 @@ class Full
     protected $dates = [];
 
     /**
-     * Product Type Instances cache
+     * Detail Type Instances cache
      *
      * @var array
      */
     protected $productTypes = [];
 
     /**
-     * Product Emulators cache
+     * Detail Emulators cache
      *
      * @var array
      */
@@ -266,7 +266,7 @@ class Full
      * Regenerate search index for specific store
      *
      * @param int $storeId Store View Id
-     * @param int|array $productIds Product Entity Id
+     * @param int|array $productIds Detail Entity Id
      * @return \Generator
      *
      * @SuppressWarnings(PHPMD.CyclomaticComplexity)
@@ -417,7 +417,7 @@ class Full
     }
 
     /**
-     * Retrieve Product Type Instance
+     * Retrieve Detail Type Instance
      *
      * @param string $typeId
      * @return \Magento\Catalog\Model\Product\Type\AbstractType
@@ -433,7 +433,7 @@ class Full
     }
 
     /**
-     * Retrieve Product Emulator (Magento Object)
+     * Retrieve Detail Emulator (Magento Object)
      *
      * @param string $typeId
      * @return \Magento\Framework\DataObject

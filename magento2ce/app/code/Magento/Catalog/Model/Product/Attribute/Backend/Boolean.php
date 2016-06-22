@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\Product\Attribute\Backend;
 use Magento\Catalog\Model\Product\Attribute\Source\Boolean as BooleanSource;
 
 /**
- * Product attribute for enable/disable option
+ * Detail attribute for enable/disable option
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

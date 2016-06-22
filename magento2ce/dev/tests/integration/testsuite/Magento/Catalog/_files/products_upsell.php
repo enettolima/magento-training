@@ -45,7 +45,7 @@ $product->setTypeId(
 )->setAttributeSetId(
     4
 )->setName(
-    'Simple Product With Up Sell'
+    'Simple Detail With Up Sell'
 )->setSku(
     'simple_with_upsell'
 )->setPrice(

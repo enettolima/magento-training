@@ -123,7 +123,7 @@ define([
                         widget = this;
 
                     importContainer.modal({
-                        title: $.mage.__('Select Product'),
+                        title: $.mage.__('Select Detail'),
                         type: 'slide',
                         opened: function () {
                             $(document).off().on('click', '#productGrid_massaction-form button', function () {

@@ -25,7 +25,7 @@
             <caption class="table-caption"><?php /* @escapeNotVerified */ echo __('Please select a shipping address for applicable items.') ?></caption>
             <thead>
             <tr>
-                <th class="col product" scope="col"><?php /* @escapeNotVerified */ echo __('Product') ?></th>
+                <th class="col product" scope="col"><?php /* @escapeNotVerified */ echo __('Detail') ?></th>
                 <th class="col qty" scope="col"><?php /* @escapeNotVerified */ echo __('Qty') ?></th>
                 <th class="col address" scope="col"><?php /* @escapeNotVerified */ echo __('Send To') ?></th>
                 <th class="col actions" scope="col">&nbsp;</th>
@@ -35,7 +35,7 @@
             <?php foreach ($block->getItems() as $_index => $_item): ?>
                 <?php if ($_item->getQuoteItem()) : ?>
                     <tr>
-                        <td class="col product" data-th="<?php echo $block->escapeHtml(__('Product'));?>"><?php echo $block->getItemHtml($_item->getQuoteItem()) ?></td>
+                        <td class="col product" data-th="<?php echo $block->escapeHtml(__('Detail'));?>"><?php echo $block->getItemHtml($_item->getQuoteItem()) ?></td>
                         <td class="col qty" data-th="<?php echo $block->escapeHtml(__('Qty'));?>">
                             <div class="field qty">
                                 <label for="ship-<?php /* @escapeNotVerified */ echo $_index ?>-<?php /* @escapeNotVerified */ echo $_item->getQuoteItemId() ?>-qty" class="label">

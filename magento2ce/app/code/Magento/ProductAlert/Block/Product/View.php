@@ -6,7 +6,7 @@
 namespace Magento\ProductAlert\Block\Product;
 
 /**
- * Product view price and stock alerts
+ * Detail view price and stock alerts
  */
 class View extends \Magento\Framework\View\Element\Template
 {

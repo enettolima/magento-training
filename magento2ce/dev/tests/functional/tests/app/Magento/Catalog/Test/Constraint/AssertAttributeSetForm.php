@@ -21,7 +21,7 @@ class AssertAttributeSetForm extends AbstractConstraint
     /**
      * Assert that after save a attribute set on edit product set page displays:
      * 1. Correct attribute set name in Attribute set name field passed from fixture
-     * 2. Created Product Attribute (if was added)
+     * 2. Created Detail Attribute (if was added)
      *
      * @param CatalogProductSetIndex $productSet
      * @param CatalogProductSetEdit $productSetEdit
@@ -51,7 +51,7 @@ class AssertAttributeSetForm extends AbstractConstraint
             $attributeLabel = $productAttribute->getFrontendLabel();
             \PHPUnit_Framework_Assert::assertTrue(
                 $productSetEdit->getAttributeSetEditBlock()->checkProductAttribute($attributeLabel),
-                "Product Attribute is absent on Attribute Set Groups"
+                "Detail Attribute is absent on Attribute Set Groups"
             );
         }
     }

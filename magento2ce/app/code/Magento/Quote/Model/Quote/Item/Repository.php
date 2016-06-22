@@ -20,7 +20,7 @@ class Repository implements \Magento\Quote\Api\CartItemRepositoryInterface
     protected $quoteRepository;
 
     /**
-     * Product repository.
+     * Detail repository.
      *
      * @var \Magento\Catalog\Api\ProductRepositoryInterface
      */

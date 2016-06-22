@@ -1,6 +1,6 @@
 <?php
 /**
- * Product Media Attribute
+ * Detail Media Attribute
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.

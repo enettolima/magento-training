@@ -9,7 +9,7 @@ use Magento\Downloadable\Model\Product\TypeHandler\Link;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager as ObjectManagerHelper;
 
 /**
- * Test for \Magento\Downloadable\Model\Product\TypeHandler\Link
+ * Test for \Magento\Downloadable\Model\Detail\TypeHandler\Link
  */
 class LinkTest extends \PHPUnit_Framework_TestCase
 {
@@ -100,7 +100,7 @@ class LinkTest extends \PHPUnit_Framework_TestCase
                             'link_id' => 0,
                             'product_id' => 1,
                             'sort_order' => '0',
-                            'title' => 'Downloadable Product Link',
+                            'title' => 'Downloadable Detail Link',
                             'sample' => [
                                 'type' => \Magento\Downloadable\Helper\Download::LINK_TYPE_FILE,
                                 'url' => null,
@@ -127,7 +127,7 @@ class LinkTest extends \PHPUnit_Framework_TestCase
                         [
                             'is_delete' => 0,
                             'sample_id' => 0,
-                            'title' => 'Downloadable Product Sample Title',
+                            'title' => 'Downloadable Detail Sample Title',
                             'type' => \Magento\Downloadable\Helper\Download::LINK_TYPE_FILE,
                             'file' => json_encode(
                                 [
@@ -147,7 +147,7 @@ class LinkTest extends \PHPUnit_Framework_TestCase
                 'modelData' => [
                     'product_id' => 1,
                     'sort_order' => '0',
-                    'title' => 'Downloadable Product Link',
+                    'title' => 'Downloadable Detail Link',
                     'type' => \Magento\Downloadable\Helper\Download::LINK_TYPE_FILE,
                     'is_shareable' => \Magento\Downloadable\Model\Link::LINK_SHAREABLE_CONFIG,
                     'link_url' => null,

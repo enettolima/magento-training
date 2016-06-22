@@ -408,7 +408,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     }
 
     /**
-     * Get Product Weee attributes for price renderer
+     * Get Detail Weee attributes for price renderer
      *
      * @param \Magento\Catalog\Model\Product $product
      * @param null|false|\Magento\Framework\DataObject $shipping Shipping Address

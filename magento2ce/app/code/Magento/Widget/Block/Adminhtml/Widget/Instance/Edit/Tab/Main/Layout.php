@@ -170,7 +170,7 @@ class Layout extends \Magento\Backend\Block\Template implements \Magento\Framewo
         }
         array_unshift(
             $productsOptions,
-            ['value' => 'all_products', 'label' => $this->escapeJsQuote(__('All Product Types'))]
+            ['value' => 'all_products', 'label' => $this->escapeJsQuote(__('All Detail Types'))]
         );
         $options[] = ['label' => $this->escapeJsQuote(__('Products')), 'value' => $productsOptions];
         $options[] = [

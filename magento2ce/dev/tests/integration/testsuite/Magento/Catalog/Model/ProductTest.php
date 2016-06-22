@@ -79,7 +79,7 @@ class ProductTest extends \PHPUnit_Framework_TestCase
         )->setAttributeSetId(
             4
         )->setName(
-            'Simple Product 1'
+            'Simple Detail 1'
         )->setSku(
             uniqid()
         )->setPrice(
@@ -407,7 +407,7 @@ class ProductTest extends \PHPUnit_Framework_TestCase
         )->setAttributeSetId(
             4
         )->setName(
-            'Simple Product'
+            'Simple Detail'
         )->setSku(
             uniqid('', true) . uniqid('', true) . uniqid('', true)
         )->setPrice(
@@ -448,7 +448,7 @@ class ProductTest extends \PHPUnit_Framework_TestCase
         )->setAttributeSetId(
             4
         )->setName(
-            'Simple Product with non-unique value'
+            'Simple Detail with non-unique value'
         )->setSku(
             'some product SKU'
         )->setPrice(

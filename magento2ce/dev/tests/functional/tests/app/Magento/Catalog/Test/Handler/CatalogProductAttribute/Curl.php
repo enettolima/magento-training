@@ -13,7 +13,7 @@ use Magento\Mtf\Util\Protocol\CurlTransport\BackendDecorator;
 
 /**
  * Class Curl
- * Create new Product Attribute via curl
+ * Create new Detail Attribute via curl
  */
 class Curl extends AbstractCurl implements CatalogProductAttributeInterface
 {
@@ -32,7 +32,7 @@ class Curl extends AbstractCurl implements CatalogProductAttributeInterface
             'Dropdown' => 'select',
             'Price' => 'price',
             'Media Image' => 'media_image',
-            'Fixed Product Tax' => 'weee',
+            'Fixed Detail Tax' => 'weee',
         ],
         'is_required' => [
             'Yes' => 1,
@@ -50,7 +50,7 @@ class Curl extends AbstractCurl implements CatalogProductAttributeInterface
     ];
 
     /**
-     * Post request for creating Product Attribute
+     * Post request for creating Detail Attribute
      *
      * @param FixtureInterface|null $fixture [optional]
      * @return array
@@ -83,7 +83,7 @@ class Curl extends AbstractCurl implements CatalogProductAttributeInterface
         $curl->close();
 
         if (!strpos($response, 'data-ui-id="messages-message-success"')) {
-            throw new \Exception("Product Attribute creating by curl handler was not successful! \n" . $response);
+            throw new \Exception("Detail Attribute creating by curl handler was not successful! \n" . $response);
         }
 
         $resultData = [];

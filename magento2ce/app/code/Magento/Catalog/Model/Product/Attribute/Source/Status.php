@@ -10,12 +10,12 @@ use Magento\Eav\Model\Entity\Attribute\Source\SourceInterface;
 use Magento\Framework\Data\OptionSourceInterface;
 
 /**
- * Product status functionality model
+ * Detail status functionality model
  */
 class Status extends AbstractSource implements SourceInterface, OptionSourceInterface
 {
     /**#@+
-     * Product Status values
+     * Detail Status values
      */
     const STATUS_ENABLED = 1;
 
@@ -35,7 +35,7 @@ class Status extends AbstractSource implements SourceInterface, OptionSourceInte
 
     /**
      * Retrieve Saleable Status Ids
-     * Default Product Enable status
+     * Default Detail Enable status
      *
      * @return int[]
      */

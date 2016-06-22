@@ -41,7 +41,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     protected $_wishlist;
 
     /**
-     * Wishlist Product Items Collection
+     * Wishlist Detail Items Collection
      *
      * @var \Magento\Wishlist\Model\ResourceModel\Item\Collection
      */
@@ -595,7 +595,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     }
 
     /**
-     * Retrieve URL to item Product
+     * Retrieve URL to item Detail
      *
      * @param  \Magento\Wishlist\Model\Item|\Magento\Catalog\Model\Product $item
      * @param  array $additional

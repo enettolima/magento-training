@@ -16,7 +16,7 @@ use Magento\Catalog\Test\Block\Adminhtml\Product\Edit\Section\Options\AbstractOp
 use Magento\Catalog\Test\Block\Adminhtml\Product\Edit\Section\Options\Row;
 
 /**
- * Product custom options section.
+ * Detail custom options section.
  */
 class Options extends Section
 {

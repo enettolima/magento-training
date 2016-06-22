@@ -12,7 +12,7 @@ use Zend_Validate_Exception;
 class DefaultValidator extends \Magento\Framework\Validator\AbstractValidator
 {
     /**
-     * Product option types
+     * Detail option types
      *
      * @var string[]
      */

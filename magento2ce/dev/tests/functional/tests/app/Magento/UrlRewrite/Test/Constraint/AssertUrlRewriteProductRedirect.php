@@ -47,12 +47,12 @@ class AssertUrlRewriteProductRedirect extends AbstractConstraint
     }
 
     /**
-     * Product available by new URL on the front
+     * Detail available by new URL on the front
      *
      * @return string
      */
     public function toString()
     {
-        return 'Product available by new URL on the front.';
+        return 'Detail available by new URL on the front.';
     }
 }

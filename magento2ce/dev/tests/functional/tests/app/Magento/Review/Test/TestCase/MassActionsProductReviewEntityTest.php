@@ -15,7 +15,7 @@ use Magento\Mtf\TestCase\Injectable;
 /**
  * Preconditions:
  * 1. Simple product created.
- * 2. Product Review created on frontend.
+ * 2. Detail Review created on frontend.
  *
  * Steps:
  * 1. Login to backend.

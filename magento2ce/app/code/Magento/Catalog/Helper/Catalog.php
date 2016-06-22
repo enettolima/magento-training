@@ -27,7 +27,7 @@ class Catalog extends \Magento\Framework\App\Helper\AbstractHelper
     protected $_categoryAttributeTabBlock;
 
     /**
-     * Retrieve Attribute Tab Block Name for Product Edit
+     * Retrieve Attribute Tab Block Name for Detail Edit
      *
      * @return string
      */
@@ -37,7 +37,7 @@ class Catalog extends \Magento\Framework\App\Helper\AbstractHelper
     }
 
     /**
-     * Set Custom Attribute Tab Block Name for Product Edit
+     * Set Custom Attribute Tab Block Name for Detail Edit
      *
      * @param string $attributeTabBlock
      * @return $this

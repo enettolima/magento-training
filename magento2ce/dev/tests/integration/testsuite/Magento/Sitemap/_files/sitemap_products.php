@@ -30,7 +30,7 @@ $product->setTypeId(
 )->setAttributeSetId(
     4
 )->setName(
-    'Simple Product Enabled'
+    'Simple Detail Enabled'
 )->setSku(
     'simple_no_images'
 )->setPrice(
@@ -60,7 +60,7 @@ $product->setTypeId(
 )->setAttributeSetId(
     4
 )->setName(
-    'Simple Product Invisible'
+    'Simple Detail Invisible'
 )->setSku(
     'simple_invisible'
 )->setPrice(
@@ -92,7 +92,7 @@ $product->setTypeId(
 )->setAttributeSetId(
     4
 )->setName(
-    'Simple Product Disabled'
+    'Simple Detail Disabled'
 )->setSku(
     'simple_disabled'
 )->setPrice(

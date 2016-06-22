@@ -96,7 +96,7 @@ class TaxClass extends DataSource
 
         preg_match('~<option value="(\d+)".*>' . $taxClassName . '</option>~', $response, $matches);
         if (!isset($matches[1]) || empty($matches[1])) {
-            throw new \Exception('Product tax class id ' . $taxClassName . ' undefined!');
+            throw new \Exception('Detail tax class id ' . $taxClassName . ' undefined!');
         }
 
         $this->taxClassId = (int)$matches[1];

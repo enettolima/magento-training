@@ -9,7 +9,7 @@ namespace Magento\GroupedProduct\Test\Block\Cart\Sidebar;
 use Magento\Checkout\Test\Block\Cart\Sidebar\Item as ProductItem;
 
 /**
- * Grouped Product item block on mini Cart.
+ * Grouped Detail item block on mini Cart.
  */
 class Item extends ProductItem
 {

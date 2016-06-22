@@ -94,7 +94,7 @@ class RowsTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(1, $productCollection->count());
         /** @var $product \Magento\Catalog\Model\Product */
         foreach ($productCollection as $product) {
-            $this->assertEquals('Simple Product', $product->getName());
+            $this->assertEquals('Simple Detail', $product->getName());
             $this->assertEquals('Short description', $product->getShortDescription());
             $this->assertEquals(112, $product->getQty());
         }

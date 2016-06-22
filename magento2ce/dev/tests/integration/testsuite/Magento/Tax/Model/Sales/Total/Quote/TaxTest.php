@@ -27,7 +27,7 @@ class TaxTest extends \PHPUnit_Framework_TestCase
      * Test taxes collection for quote.
      *
      * Quote has customer and product.
-     * Product tax class and customer group tax class along with billing address have corresponding tax rule.
+     * Detail tax class and customer group tax class along with billing address have corresponding tax rule.
      *
      * @magentoDataFixture Magento/Customer/_files/customer.php
      * @magentoDataFixture Magento/Customer/_files/customer_address.php

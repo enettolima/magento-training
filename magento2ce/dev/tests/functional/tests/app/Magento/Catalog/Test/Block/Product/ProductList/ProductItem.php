@@ -11,7 +11,7 @@ use Magento\Mtf\Block\Block;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Product item block on frontend category view.
+ * Detail item block on frontend category view.
  */
 class ProductItem extends Block
 {
@@ -37,7 +37,7 @@ class ProductItem extends Block
     protected $addToCard = "button.action.tocart";
 
     /**
-     * Product base image.
+     * Detail base image.
      *
      * @var string
      */

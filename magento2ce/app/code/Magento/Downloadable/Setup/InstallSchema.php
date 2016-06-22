@@ -42,7 +42,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'sort_order',
@@ -238,14 +238,14 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                 255,
                 [],
-                'Product name'
+                'Detail name'
             )
             ->addColumn(
                 'product_sku',
                 \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                 255,
                 [],
-                'Product sku'
+                'Detail sku'
             )
             ->addColumn(
                 'link_section_title',
@@ -314,7 +314,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => true, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'link_hash',
@@ -519,7 +519,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'sample_url',

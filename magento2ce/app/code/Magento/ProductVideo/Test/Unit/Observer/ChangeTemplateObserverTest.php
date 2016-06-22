@@ -15,7 +15,7 @@ class ChangeTemplateObserverTest extends \PHPUnit_Framework_TestCase
 
         /**
          * @var \PHPUnit_Framework_MockObject_MockObject
-         * |\Magento\ProductVideo\Block\Adminhtml\Product\Edit\NewVideo $block
+         * |\Magento\ProductVideo\Block\Adminhtml\Detail\Edit\NewVideo $block
          */
         $block = $this->getMock('\Magento\ProductVideo\Block\Adminhtml\Product\Edit\NewVideo', [], [], '', false);
         $block->expects($this->once())

@@ -169,7 +169,7 @@ class StockManagement implements StockManagementInterface
     }
 
     /**
-     * Get Product type
+     * Get Detail type
      *
      * @param int $productId
      * @return string

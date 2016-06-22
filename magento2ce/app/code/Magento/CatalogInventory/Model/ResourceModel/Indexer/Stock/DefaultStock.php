@@ -18,14 +18,14 @@ use Magento\CatalogInventory\Api\StockConfigurationInterface;
 class DefaultStock extends AbstractIndexer implements StockInterface
 {
     /**
-     * Current Product Type Id
+     * Current Detail Type Id
      *
      * @var string
      */
     protected $_typeId;
 
     /**
-     * Product Type is composite flag
+     * Detail Type is composite flag
      *
      * @var bool
      */
@@ -111,7 +111,7 @@ class DefaultStock extends AbstractIndexer implements StockInterface
     }
 
     /**
-     * Set active Product Type Id
+     * Set active Detail Type Id
      *
      * @param string $typeId
      * @return $this
@@ -123,7 +123,7 @@ class DefaultStock extends AbstractIndexer implements StockInterface
     }
 
     /**
-     * Retrieve active Product Type Id
+     * Retrieve active Detail Type Id
      *
      * @return string
      * @throws \Magento\Framework\Exception\LocalizedException
@@ -137,7 +137,7 @@ class DefaultStock extends AbstractIndexer implements StockInterface
     }
 
     /**
-     * Set Product Type Composite flag
+     * Set Detail Type Composite flag
      *
      * @param bool $flag
      * @return $this

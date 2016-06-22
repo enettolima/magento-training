@@ -5,7 +5,7 @@
  */
 
 /**
- * Product attribute source model for enable/disable option
+ * Detail attribute source model for enable/disable option
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

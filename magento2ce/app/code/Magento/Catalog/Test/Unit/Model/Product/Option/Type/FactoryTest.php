@@ -69,7 +69,7 @@ class FactoryTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \Magento\Framework\Exception\LocalizedException
-     * @expectedExceptionMessage WrongClass doesn't extends \Magento\Catalog\Model\Product\Option\Type\DefaultType
+     * @expectedExceptionMessage WrongClass doesn't extends \Magento\Catalog\Model\Detail\Option\Type\DefaultType
      */
     public function testWrongTypeException()
     {

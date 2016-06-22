@@ -14,7 +14,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
 use Magento\Mtf\Fixture\InjectableFixture;
 
 /**
- * Catalog Product Attribute form.
+ * Catalog Detail Attribute form.
  */
 class AttributeForm extends FormTabs
 {

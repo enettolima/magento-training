@@ -20,14 +20,14 @@ class Configurable extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     protected $catalogProductRelation;
 
     /**
-     * Product metadata pool
+     * Detail metadata pool
      *
      * @var \Magento\Framework\EntityManager\MetadataPool
      */
     private $metadataPool;
 
     /**
-     * Product entity link field
+     * Detail entity link field
      *
      * @var string
      */

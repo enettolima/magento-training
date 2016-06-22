@@ -9,7 +9,7 @@ namespace Magento\Catalog\Api\Data;
 use Magento\Framework\Api\ExtensibleDataInterface;
 
 /**
- * Product type details
+ * Detail type details
  * @api
  */
 interface ProductTypeInterface extends ExtensibleDataInterface

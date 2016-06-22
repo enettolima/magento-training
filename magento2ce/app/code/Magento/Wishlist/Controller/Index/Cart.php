@@ -107,7 +107,7 @@ class Cart extends \Magento\Wishlist\Controller\AbstractIndex
     /**
      * Add wishlist item to shopping cart and remove from wishlist
      *
-     * If Product has required options - item removed from wishlist and redirect
+     * If Detail has required options - item removed from wishlist and redirect
      * to product view page with message about needed defined required options
      *
      * @return \Magento\Framework\Controller\ResultInterface

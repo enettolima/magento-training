@@ -12,12 +12,12 @@ use Magento\Mtf\Fixture\FixtureInterface;
 use Magento\Widget\Test\Block\Adminhtml\Widget\Instance\Edit\Tab\WidgetInstanceType\Product\Grid;
 
 /**
- * Filling Product type layout.
+ * Filling Detail type layout.
  */
 class Products extends WidgetInstanceForm
 {
     /**
-     * Product grid block.
+     * Detail grid block.
      *
      * @var string
      */

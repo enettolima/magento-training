@@ -18,7 +18,7 @@ try {
     $product = $productRepository->get('simple', false, null, true);
     $productRepository->delete($product);
 } catch (\Magento\Framework\Exception\NoSuchEntityException $exception) {
-    //Product already removed
+    //Detail already removed
 }
 
 /** @var \Magento\Catalog\Model\ResourceModel\Product\Collection $collection */

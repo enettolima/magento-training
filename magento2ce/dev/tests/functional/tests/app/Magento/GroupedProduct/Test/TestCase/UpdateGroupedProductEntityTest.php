@@ -13,14 +13,14 @@ use Magento\Mtf\TestCase\Injectable;
 
 /**
  * Preconditions:
- * 1. Create Grouped Product.
+ * 1. Create Grouped Detail.
  *
  * Steps:
  * 1. Login to the backend.
  * 2. Navigate to Products > Catalog.
  * 3. Open grouped product from preconditions.
  * 4. Fill in data according to dataset.
- * 5. Save the Product.
+ * 5. Save the Detail.
  * 6. Perform all assertions.
  *
  * @group Grouped_Product_(MX)

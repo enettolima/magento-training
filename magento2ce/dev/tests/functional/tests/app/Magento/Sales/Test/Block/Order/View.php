@@ -102,14 +102,14 @@ class View extends Block
     protected $shippingInclTax = '.shipping_incl span';
 
     /**
-     * Product price excluding tax search mask
+     * Detail price excluding tax search mask
      *
      * @var string
      */
     protected $itemExclTax = '//tr[contains (.,"%s")]/td[@class="col price"]/span[@class="price-excluding-tax"]/span';
 
     /**
-     * Product price including tax search mask
+     * Detail price including tax search mask
      *
      * @var string
      */
@@ -117,14 +117,14 @@ class View extends Block
 
     // @codingStandardsIgnoreStart
     /**
-     * Product price subtotal excluding tax search mask
+     * Detail price subtotal excluding tax search mask
      *
      * @var string
      */
     protected $itemSubExclTax = '//tr[contains (.,"%s")]/td[@class="col subtotal"]/span[@class="price-excluding-tax"]/span';
 
     /**
-     * Product price subtotal including tax search mask
+     * Detail price subtotal including tax search mask
      *
      * @var string
      */

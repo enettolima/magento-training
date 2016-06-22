@@ -148,7 +148,7 @@ class CartPriceRulesFixtureTest extends \PHPUnit_Framework_TestCase
         $result = $this->model->generateAdvancedCondition($ruleId, $categoriesArray);
         if ($ruleId < ($ruleCount - 200)) {
             $firstCondition = [
-                'type'      => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product',
+                'type'      => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail',
                 'attribute' => 'category_ids',
                 'operator'  => '==',
                 'value'     => null,
@@ -169,7 +169,7 @@ class CartPriceRulesFixtureTest extends \PHPUnit_Framework_TestCase
                         'new_child' => '',
                     ],
                     '1--1'=> [
-                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Found',
+                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Found',
                         'aggregator' => 'all',
                         'value' => '1',
                         'new_child' => '',
@@ -179,7 +179,7 @@ class CartPriceRulesFixtureTest extends \PHPUnit_Framework_TestCase
                 ],
                 'actions' => [
                     1 => [
-                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Combine',
+                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Combine',
                         'aggregator' => 'all',
                         'value' => '1',
                         'new_child' => '',
@@ -222,7 +222,7 @@ class CartPriceRulesFixtureTest extends \PHPUnit_Framework_TestCase
                 ],
                 'actions' => [
                     1 => [
-                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Combine',
+                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Combine',
                         'aggregator' => 'all',
                         'value' => '1',
                         'new_child' => '',

@@ -7,7 +7,7 @@ namespace Magento\Review\Model;
 
 /**
  * Class Rss
- * @package Magento\Catalog\Model\Rss\Product
+ * @package Magento\Catalog\Model\Rss\Detail
  */
 class Rss extends \Magento\Framework\Model\AbstractModel
 {

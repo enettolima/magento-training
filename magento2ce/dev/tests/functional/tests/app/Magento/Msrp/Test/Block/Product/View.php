@@ -9,26 +9,26 @@ namespace Magento\Msrp\Test\Block\Product;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Product view block on the product page.
+ * Detail view block on the product page.
  */
 class View extends \Magento\Catalog\Test\Block\Product\View
 {
     /**
-     * Click for Price link on Product page.
+     * Click for Price link on Detail page.
      *
      * @var string
      */
     protected $clickForPrice = '[id*=msrp-popup]';
 
     /**
-     * MAP popup on Product page.
+     * MAP popup on Detail page.
      *
      * @var string
      */
     protected $mapPopupBlock = '//ancestor::*[@id="map-popup-click-for-price"]/..';
 
     /**
-     * Open MAP block on Product View page.
+     * Open MAP block on Detail View page.
      *
      * @return void
      */

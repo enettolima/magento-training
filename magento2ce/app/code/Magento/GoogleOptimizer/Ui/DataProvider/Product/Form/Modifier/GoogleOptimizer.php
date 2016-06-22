@@ -16,7 +16,7 @@ use Magento\GoogleOptimizer\Helper\Data as DataHelper;
 use Magento\GoogleOptimizer\Helper\Code as CodeHelper;
 
 /**
- * Class GoogleOptimizer adds Product View Optimization Panel
+ * Class GoogleOptimizer adds Detail View Optimization Panel
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class GoogleOptimizer extends AbstractModifier
@@ -91,7 +91,7 @@ class GoogleOptimizer extends AbstractModifier
     }
 
     /**
-     * Add Google Experiment data for Product View Optimization panel
+     * Add Google Experiment data for Detail View Optimization panel
      *
      * @param array $data
      * @return array
@@ -123,7 +123,7 @@ class GoogleOptimizer extends AbstractModifier
     }
 
     /**
-     * Add Product View Optimization Panel
+     * Add Detail View Optimization Panel
      *
      * @param array $meta
      * @return array
@@ -135,7 +135,7 @@ class GoogleOptimizer extends AbstractModifier
                 'data' => [
                     'config' => [
                         'componentType' => Fieldset::NAME,
-                        'label' => __('Product View Optimization'),
+                        'label' => __('Detail View Optimization'),
                         'collapsible' => true,
                         'opened' => false,
                         'sortOrder' => $this->getNextGroupSortOrder(

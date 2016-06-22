@@ -20,7 +20,7 @@ use Magento\Mtf\TestCase\Injectable;
  *
  * Precondition:
  * 1. Category is created.
- * 2. Product is created(before each variation).
+ * 2. Detail is created(before each variation).
  *
  * Steps:
  * 1. Login to backend.
@@ -48,7 +48,7 @@ class UpdateDownloadableProductEntityTest extends Injectable
     protected $product;
 
     /**
-     * Product page with a grid
+     * Detail page with a grid
      *
      * @var CatalogProductIndex
      */

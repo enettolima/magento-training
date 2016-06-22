@@ -40,7 +40,7 @@ define([
         initialize: function (options) {
             this._super(options);
             this.productsModal = $(this.gridSelector).modal({
-                title: $.mage.__('Select Associated Product'),
+                title: $.mage.__('Select Associated Detail'),
                 type: 'slide',
                 buttons: [
                     {

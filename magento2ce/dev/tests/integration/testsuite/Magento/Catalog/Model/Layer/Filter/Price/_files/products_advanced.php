@@ -75,7 +75,7 @@ foreach ($prices as $price) {
     )->setWebsiteIds(
         [1]
     )->setName(
-        'Simple Product ' . $productId
+        'Simple Detail ' . $productId
     )->setSku(
         'simple-' . $productId
     )->setPrice(

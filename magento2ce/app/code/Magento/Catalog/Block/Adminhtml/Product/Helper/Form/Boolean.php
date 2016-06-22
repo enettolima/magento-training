@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Adminhtml\Product\Helper\Form;
 
 /**
- * Product form boolean field helper
+ * Detail form boolean field helper
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

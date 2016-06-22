@@ -5,12 +5,12 @@
  */
 
 /**
- * Test class for \Magento\Downloadable\Model\Product\Type
+ * Test class for \Magento\Downloadable\Model\Detail\Type
  */
 namespace Magento\Downloadable\Model\Product;
 
 /**
- * Test for \Magento\Downloadable\Model\Product\Type
+ * Test for \Magento\Downloadable\Model\Detail\Type
  */
 class TypeTest extends \PHPUnit_Framework_TestCase
 {

@@ -19,7 +19,7 @@ define([
         $('in_category_products').value = Object.toJSON(categoryProducts);
 
         /**
-         * Register Category Product
+         * Register Category Detail
          *
          * @param {Object} grid
          * @param {Object} element

@@ -59,7 +59,7 @@ class Combine extends \Magento\Rule\Model\Condition\Combine
             [
                 [
                     'value' => 'Magento\SalesRule\Model\Rule\Condition\Product\Found',
-                    'label' => __('Product attribute combination'),
+                    'label' => __('Detail attribute combination'),
                 ],
                 [
                     'value' => 'Magento\SalesRule\Model\Rule\Condition\Product\Subselect',

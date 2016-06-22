@@ -63,14 +63,14 @@ class Rss extends \Magento\Backend\Block\AbstractBlock implements DataProviderIn
             ]);
 
             $storeName = $this->storeManager->getStore($item->getStoreId())->getName();
-            $description = '<p>' . __('Product: <a href="%1" target="_blank">%2</a> <br/>', $url, $item->getName())
+            $description = '<p>' . __('Detail: <a href="%1" target="_blank">%2</a> <br/>', $url, $item->getName())
                 . __('Summary of review: %1 <br/>', $item->getTitle()) . __('Review: %1 <br/>', $item->getDetail())
                 . __('Store: %1 <br/>', $storeName)
                 . __('Click <a href="%1">here</a> to see the review.', $reviewUrl)
                 . '</p>';
 
             $data['entries'][] = [
-                'title' => __('Product: "%1" reviewed by: %2', $item->getName(), $item->getNickname()),
+                'title' => __('Detail: "%1" reviewed by: %2', $item->getName(), $item->getNickname()),
                 'link' => $item->getProductUrl(),
                 'description' => $description,
             ];

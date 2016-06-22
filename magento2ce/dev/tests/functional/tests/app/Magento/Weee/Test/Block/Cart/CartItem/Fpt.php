@@ -10,7 +10,7 @@ use Magento\Mtf\Block\Block;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Product item fpt block on cart page
+ * Detail item fpt block on cart page
  */
 class Fpt extends Block
 {

@@ -10,7 +10,7 @@ use Magento\Framework\EntityManager\MetadataPool;
 use Magento\TestFramework\Helper\Bootstrap;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Gallery\ReadHandler.
+ * Test class for \Magento\Catalog\Model\Detail\Gallery\ReadHandler.
  *
  * @magentoDataFixture Magento/Catalog/_files/product_with_image.php
  */

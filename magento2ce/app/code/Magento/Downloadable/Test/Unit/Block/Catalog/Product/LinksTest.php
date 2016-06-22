@@ -9,7 +9,7 @@ namespace Magento\Downloadable\Test\Unit\Block\Catalog\Product;
 use Magento\Catalog\Pricing\Price\FinalPrice;
 
 /**
- * Tests Magento\Downloadable\Block\Catalog\Product\Links
+ * Tests Magento\Downloadable\Block\Catalog\Detail\Links
  */
 class LinksTest extends \PHPUnit_Framework_TestCase
 {

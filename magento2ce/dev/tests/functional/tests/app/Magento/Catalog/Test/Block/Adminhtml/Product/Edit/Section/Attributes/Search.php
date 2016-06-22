@@ -11,7 +11,7 @@ use Magento\Catalog\Test\Fixture\CatalogProductAttribute;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Form Attribute Search on Product page.
+ * Form Attribute Search on Detail page.
  */
 class Search extends SuggestElement
 {

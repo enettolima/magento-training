@@ -64,7 +64,7 @@ class DefaultShipment extends \Magento\Sales\Model\Order\Pdf\Items\AbstractItems
         $page = $this->getPage();
         $lines = [];
 
-        // draw Product name
+        // draw Detail name
         $lines[0] = [['text' => $this->string->split($item->getName(), 60, true, true), 'feed' => 100]];
 
         // draw QTY

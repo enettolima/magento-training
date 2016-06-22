@@ -8,7 +8,7 @@ namespace Magento\Downloadable\Model\ResourceModel;
 use Magento\Catalog\Api\Data\ProductInterface;
 
 /**
- * Downloadable Product  Samples resource model
+ * Downloadable Detail  Samples resource model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

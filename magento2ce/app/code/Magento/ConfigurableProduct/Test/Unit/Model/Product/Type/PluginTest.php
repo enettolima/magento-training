@@ -9,7 +9,7 @@
 namespace Magento\ConfigurableProduct\Test\Unit\Model\Product\Type;
 
 /**
- * Class \Magento\ConfigurableProduct\Test\Unit\Model\Product\Type\PluginTest
+ * Class \Magento\ConfigurableProduct\Test\Unit\Model\Detail\Type\PluginTest
  */
 class PluginTest extends \PHPUnit_Framework_TestCase
 {

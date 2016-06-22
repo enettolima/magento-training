@@ -21,7 +21,7 @@ class AbstractItems extends Block
     protected $rowItem = 'tbody';
 
     /**
-     * Locator for "Product" column.
+     * Locator for "Detail" column.
      *
      * @var string
      */

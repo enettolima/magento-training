@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Product;
 
 /**
- * Test class for \Magento\Catalog\Block\Product\New.
+ * Test class for \Magento\Catalog\Block\Detail\New.
  *
  * @magentoDataFixture Magento/Catalog/_files/products_new.php
  */
@@ -107,7 +107,7 @@ class NewTest extends \PHPUnit_Framework_TestCase
 
         $html = $this->_block->toHtml();
         $this->assertNotEmpty($html);
-        $this->assertContains('New Product', $html);
+        $this->assertContains('New Detail', $html);
         $this->assertInstanceOf(
             'Magento\Catalog\Model\ResourceModel\Product\Collection',
             $this->_block->getProductCollection()

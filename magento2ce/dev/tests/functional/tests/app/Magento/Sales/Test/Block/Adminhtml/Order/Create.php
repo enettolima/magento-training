@@ -87,7 +87,7 @@ class Create extends Block
     protected $updateItems = '[onclick="order.itemsUpdate()"]';
 
     /**
-     * 'Add Selected Product(s) to Order' button.
+     * 'Add Selected Detail(s) to Order' button.
      *
      * @var string
      */
@@ -339,7 +339,7 @@ class Create extends Block
     }
 
     /**
-     * Click "Add Selected Product(s) to Order" button.
+     * Click "Add Selected Detail(s) to Order" button.
      *
      * @return void
      */

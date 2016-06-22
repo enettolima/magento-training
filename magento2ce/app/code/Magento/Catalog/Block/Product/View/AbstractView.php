@@ -5,7 +5,7 @@
  */
 
 /**
- * Product view abstract block
+ * Detail view abstract block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

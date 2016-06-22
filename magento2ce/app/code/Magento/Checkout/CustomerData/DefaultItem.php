@@ -130,7 +130,7 @@ class DefaultItem extends AbstractItem
     }
 
     /**
-     * Check Product has URL
+     * Check Detail has URL
      *
      * @return bool
      */
@@ -161,7 +161,7 @@ class DefaultItem extends AbstractItem
     }
 
     /**
-     * Retrieve URL to item Product
+     * Retrieve URL to item Detail
      *
      * @return string
      */

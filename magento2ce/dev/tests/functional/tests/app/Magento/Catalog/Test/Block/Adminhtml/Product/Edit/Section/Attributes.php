@@ -9,7 +9,7 @@ namespace Magento\Catalog\Test\Block\Adminhtml\Product\Edit\Section;
 use Magento\Ui\Test\Block\Adminhtml\Section;
 
 /**
- * Product attributes section.
+ * Detail attributes section.
  */
 class Attributes extends Section
 {

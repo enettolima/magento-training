@@ -5,7 +5,7 @@
  */
 
 /**
- * Reports Product Index Abstract Product Resource Collection
+ * Reports Detail Index Abstract Detail Resource Collection
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
@@ -103,7 +103,7 @@ abstract class AbstractCollection extends \Magento\Catalog\Model\ResourceModel\P
     }
 
     /**
-     * Retrieve Product Index table name
+     * Retrieve Detail Index table name
      *
      * @return string
      */
@@ -206,7 +206,7 @@ abstract class AbstractCollection extends \Magento\Catalog\Model\ResourceModel\P
     }
 
     /**
-     * Add exclude Product Ids
+     * Add exclude Detail Ids
      *
      * @param int|array $productIds
      * @return $this

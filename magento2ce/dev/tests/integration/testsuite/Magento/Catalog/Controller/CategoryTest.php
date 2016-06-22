@@ -31,7 +31,7 @@ class CategoryTest extends \Magento\TestFramework\TestCase\AbstractController
                     '%acategory-category-1-1-1%a',
                     '%a<title>Category 1.1.1 - Category 1.1 - Category 1</title>%a',
                     '%a<h1%a>%SCategory 1.1.1%S</h1>%a',
-                    '%aSimple Product Two%a',
+                    '%aSimple Detail Two%a',
                     '%a$45.67%a'
                 ],
             ],
@@ -43,9 +43,9 @@ class CategoryTest extends \Magento\TestFramework\TestCase\AbstractController
                     '%acategory-category-1-1%a',
                     '%a<title>Category 1.1 - Category 1</title>%a',
                     '%a<h1%a>%SCategory 1.1%S</h1>%a',
-                    '%aSimple Product%a',
+                    '%aSimple Detail%a',
                     '%a$10.00%a',
-                    '%aSimple Product Two%a',
+                    '%aSimple Detail Two%a',
                     '%a$45.67%a'
                 ],
             ]

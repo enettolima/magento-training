@@ -29,7 +29,7 @@ use Magento\Mtf\Handler\Curl;
  * {Products subselection|total amount|greater than|135|ANY:[[Price in cart|is|100][Quantity in cart|is|100]]}
  * {Conditions combination:[
  *     [Subtotal|is|100]
- *     {Product attribute combination|NOT FOUND|ANY:[[Attribute Set|is|Default][Attribute Set|is|Default]]}
+ *     {Detail attribute combination|NOT FOUND|ANY:[[Attribute Set|is|Default][Attribute Set|is|Default]]}
  * ]}
  */
 abstract class Conditions extends Curl
@@ -56,7 +56,7 @@ abstract class Conditions extends Curl
             'equals or greater than' => '>=',
         ],
         'value_type' => [
-            'same_as' => 'the Same as Matched Product Categories',
+            'same_as' => 'the Same as Matched Detail Categories',
         ],
         'value' => [
             'California' => '12',

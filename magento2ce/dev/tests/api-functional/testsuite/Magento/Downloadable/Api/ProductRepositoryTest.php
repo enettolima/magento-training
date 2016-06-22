@@ -11,7 +11,7 @@ use Magento\Framework\Api\ExtensibleDataInterface;
 use Magento\TestFramework\TestCase\WebapiAbstract;
 
 /**
- * Class ProductRepositoryTest for testing ProductRepository interface with Downloadable Product
+ * Class ProductRepositoryTest for testing ProductRepository interface with Downloadable Detail
  */
 class ProductRepositoryTest extends WebapiAbstract
 {

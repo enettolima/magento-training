@@ -50,7 +50,7 @@ class Product extends \Magento\Backend\Block\Widget\Container
     {
         $addButtonProps = [
             'id' => 'add_new_product',
-            'label' => __('Add Product'),
+            'label' => __('Add Detail'),
             'class' => 'add',
             'button_class' => '',
             'class_name' => 'Magento\Backend\Block\Widget\Button\SplitButton',
@@ -62,7 +62,7 @@ class Product extends \Magento\Backend\Block\Widget\Container
     }
 
     /**
-     * Retrieve options for 'Add Product' split button
+     * Retrieve options for 'Add Detail' split button
      *
      * @return array
      */

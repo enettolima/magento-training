@@ -36,14 +36,14 @@ class CreateProductRatingEntityTest extends Injectable
     /* end tags */
 
     /**
-     * Product rating fixture.
+     * Detail rating fixture.
      *
      * @var Rating
      */
     protected $productRating;
 
     /**
-     * Product rating grid page.
+     * Detail rating grid page.
      *
      * @var RatingIndex
      */
@@ -96,7 +96,7 @@ class CreateProductRatingEntityTest extends Injectable
     }
 
     /**
-     * Run create backend Product Rating test.
+     * Run create backend Detail Rating test.
      *
      * @param Rating $productRating
      * @return void

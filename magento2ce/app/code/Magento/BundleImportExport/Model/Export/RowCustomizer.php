@@ -82,7 +82,7 @@ class RowCustomizer implements RowCustomizerInterface
     ];
 
     /**
-     * Product's bundle data
+     * Detail's bundle data
      *
      * @var array
      */

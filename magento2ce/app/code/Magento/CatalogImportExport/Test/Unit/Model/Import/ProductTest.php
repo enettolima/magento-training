@@ -1615,7 +1615,7 @@ class ProductTest extends \Magento\ImportExport\Test\Unit\Model\Import\AbstractI
      *
      * @see _rewriteGetOptionEntityInImportProduct()
      * @see _setValidatorMockInImportProduct()
-     * @param \Magento\CatalogImportExport\Model\Import\Product
+     * @param \Magento\CatalogImportExport\Model\Import\Detail
      *  Param should go with rewritten getOptionEntity method.
      * @return \Magento\CatalogImportExport\Model\Import\Product\Option|\PHPUnit_Framework_MockObject_MockObject
      */
@@ -1633,7 +1633,7 @@ class ProductTest extends \Magento\ImportExport\Test\Unit\Model\Import\AbstractI
      * Used in group of validateRow method's tests.
      * Set validator mock in importProduct, return true for isValid method.
      *
-     * @param \Magento\CatalogImportExport\Model\Import\Product
+     * @param \Magento\CatalogImportExport\Model\Import\Detail
      * @return \Magento\CatalogImportExport\Model\Import\Product\Validator|\PHPUnit_Framework_MockObject_MockObject
      */
     private function _setValidatorMockInImportProduct($importProduct)
@@ -1648,7 +1648,7 @@ class ProductTest extends \Magento\ImportExport\Test\Unit\Model\Import\AbstractI
      * Used in group of validateRow method's tests.
      * Make getOptionEntity return option mock.
      *
-     * @param \Magento\CatalogImportExport\Model\Import\Product
+     * @param \Magento\CatalogImportExport\Model\Import\Detail
      *  Param should go with rewritten getOptionEntity method.
      * @return \Magento\CatalogImportExport\Model\Import\Product\Option|\PHPUnit_Framework_MockObject_MockObject
      */

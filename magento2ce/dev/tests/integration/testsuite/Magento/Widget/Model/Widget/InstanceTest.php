@@ -134,6 +134,6 @@ class InstanceTest extends \PHPUnit_Framework_TestCase
         $this->assertContains('<argument name="value" xsi:type="string">type_1,type_2</argument>', $result);
         $this->assertContains('<argument name="name" xsi:type="string">conditions_encoded</argument>', $result);
         $this->assertContains('s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`', $result);
-        $this->assertContains('s:50:`Magento|CatalogWidget|Model|Rule|Condition|Product`', $result);
+        $this->assertContains('s:50:`Magento|CatalogWidget|Model|Rule|Condition|Detail`', $result);
     }
 }

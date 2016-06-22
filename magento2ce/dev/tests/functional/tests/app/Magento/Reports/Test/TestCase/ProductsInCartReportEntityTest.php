@@ -43,7 +43,7 @@ class ProductsInCartReportEntityTest extends Injectable
     protected $cmsIndex;
 
     /**
-     * Product view page
+     * Detail view page
      *
      * @var CatalogProductView
      */

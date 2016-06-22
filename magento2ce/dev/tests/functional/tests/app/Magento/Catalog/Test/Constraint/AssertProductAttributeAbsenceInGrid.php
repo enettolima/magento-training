@@ -43,12 +43,12 @@ class AssertProductAttributeAbsenceInGrid extends AbstractConstraint
     }
 
     /**
-     * Text absent Product Attribute in Attribute Grid
+     * Text absent Detail Attribute in Attribute Grid
      *
      * @return string
      */
     public function toString()
     {
-        return 'Product Attribute is absent in Attribute grid.';
+        return 'Detail Attribute is absent in Attribute grid.';
     }
 }

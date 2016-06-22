@@ -54,8 +54,8 @@ class AddFieldsToAttributeObserver implements ObserverInterface
             'select',
             [
                 'name' => 'update_product_preview_image',
-                'label' => __('Update Product Preview Image'),
-                'title' => __('Update Product Preview Image'),
+                'label' => __('Update Detail Preview Image'),
+                'title' => __('Update Detail Preview Image'),
                 'note' => __('Filtering by this attribute will update the product image on catalog page'),
                 'values' => $yesnoSource,
             ],
@@ -66,8 +66,8 @@ class AddFieldsToAttributeObserver implements ObserverInterface
             'select',
             [
                 'name' => 'use_product_image_for_swatch',
-                'label' => __('Use Product Image for Swatch if Possible'),
-                'title' => __('Use Product Image for Swatch if Possible'),
+                'label' => __('Use Detail Image for Swatch if Possible'),
+                'title' => __('Use Detail Image for Swatch if Possible'),
                 'note' => __('Allows use fallback logic for replacing swatch image with product swatch or base image'),
                 'values' => $yesnoSource
             ],

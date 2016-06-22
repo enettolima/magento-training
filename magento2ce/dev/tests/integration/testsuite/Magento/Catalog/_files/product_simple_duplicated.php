@@ -9,7 +9,7 @@ $product = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create('
 $product->setTypeId(\Magento\Catalog\Model\Product\Type::TYPE_SIMPLE)
     ->setAttributeSetId(4)
     ->setWebsiteIds([1])
-    ->setName('Simple Product')
+    ->setName('Simple Detail')
     ->setSku('simple-1')
     ->setPrice(10)
     ->setDescription('Description with <b>html tag</b>')

@@ -11,7 +11,7 @@ use Magento\Mtf\Block\Form;
 use Magento\Mtf\Client\Element\SimpleElement;
 
 /**
- * Product attribute massaction edit page.
+ * Detail attribute massaction edit page.
  */
 class Attribute extends Form
 {

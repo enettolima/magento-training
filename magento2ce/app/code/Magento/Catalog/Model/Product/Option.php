@@ -109,7 +109,7 @@ class Option extends AbstractExtensibleModel implements ProductCustomOptionInter
     protected $productOptionValue;
 
     /**
-     * Product option factory
+     * Detail option factory
      *
      * @var \Magento\Catalog\Model\Product\Option\Type\Factory
      */
@@ -462,7 +462,7 @@ class Option extends AbstractExtensibleModel implements ProductCustomOptionInter
     }
 
     /**
-     * Get Product Option Collection
+     * Get Detail Option Collection
      *
      * @param Product $product
      * @return \Magento\Catalog\Model\ResourceModel\Product\Option\Collection

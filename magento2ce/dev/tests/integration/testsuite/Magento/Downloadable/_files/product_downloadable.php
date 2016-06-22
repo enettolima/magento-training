@@ -12,7 +12,7 @@ $product
     ->setId(1)
     ->setAttributeSetId(4)
     ->setWebsiteIds([1])
-    ->setName('Downloadable Product')
+    ->setName('Downloadable Detail')
     ->setSku('downloadable-product')
     ->setPrice(10)
     ->setVisibility(\Magento\Catalog\Model\Product\Visibility::VISIBILITY_BOTH)
@@ -32,7 +32,7 @@ $linkFactory = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()
     ->get('Magento\Downloadable\Api\Data\LinkInterfaceFactory');
 $links = [];
 $linkData = [
-    'title' => 'Downloadable Product Link',
+    'title' => 'Downloadable Detail Link',
     'type' => \Magento\Downloadable\Helper\Download::LINK_TYPE_URL,
     'is_shareable' => \Magento\Downloadable\Model\Link::LINK_SHAREABLE_CONFIG,
     'link_url' => 'http://example.com/downloadable.txt',

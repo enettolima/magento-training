@@ -32,7 +32,7 @@ class Collection extends \Magento\Rule\Model\Action\Collection
         $actions = array_merge_recursive(
             $actions,
             [
-                ['value' => 'Magento\CatalogRule\Model\Rule\Action\Product', 'label' => __('Update the Product')]
+                ['value' => 'Magento\CatalogRule\Model\Rule\Action\Product', 'label' => __('Update the Detail')]
             ]
         );
         return $actions;

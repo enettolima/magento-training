@@ -8,7 +8,7 @@ namespace Magento\Catalog\Helper\Product\Flat;
 use Magento\Framework\App\ResourceConnection;
 
 /**
- * Catalog Product Flat Indexer Helper
+ * Catalog Detail Flat Indexer Helper
  *
  * @SuppressWarnings(PHPMD.TooManyFields)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -454,7 +454,7 @@ class Indexer extends \Magento\Framework\App\Helper\AbstractHelper
     }
 
     /**
-     * Retrieve Catalog Product Flat Table name
+     * Retrieve Catalog Detail Flat Table name
      *
      * @param int $storeId
      * @return string

@@ -243,13 +243,13 @@
         <var name="product_base_image_size">275</var>           <!-- Override for base product image -->
         <var name="product_base_image_icon_size">48</var>       <!-- Base product image icon size -->
 
-        <var name="product_list_image_size">166</var>           <!-- New Product image size used in product list -->
-        <var name="product_zoom_image_size">370</var>           <!-- New Product image size used for zooming -->
+        <var name="product_list_image_size">166</var>           <!-- New Detail image size used in product list -->
+        <var name="product_zoom_image_size">370</var>           <!-- New Detail image size used for zooming -->
 
         <var name="product_image_white_borders">0</var>
     </vars>
     <vars module="Magento_Bundle">
-        <var name="product_summary_image_size">58</var>         <!-- New Product image size used for summary block-->
+        <var name="product_summary_image_size">58</var>         <!-- New Detail image size used for summary block-->
     </vars>
 
     <vars module="Magento_ConfigurableProduct">

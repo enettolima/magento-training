@@ -15,7 +15,7 @@ use Magento\ConfigurableProduct\Test\Fixture\ConfigurableProduct;
 use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
- * Check that deleted attribute can't be added to attribute set on Product Page via Add Attribute control.
+ * Check that deleted attribute can't be added to attribute set on Detail Page via Add Attribute control.
  */
 class AssertProductAttributeAbsenceInVariationsSearch extends AbstractConstraint
 {
@@ -25,7 +25,7 @@ class AssertProductAttributeAbsenceInVariationsSearch extends AbstractConstraint
     const TAB_VARIATIONS = 'variations';
 
     /**
-     * Assert that deleted attribute can't be added to attribute set on Product Page via Add Attribute control.
+     * Assert that deleted attribute can't be added to attribute set on Detail Page via Add Attribute control.
      *
      * @param CatalogProductAttribute $productAttribute
      * @param ConfigurableProduct $assertProduct
@@ -49,17 +49,17 @@ class AssertProductAttributeAbsenceInVariationsSearch extends AbstractConstraint
         $attributesGrid = $variationsTab->getAttributeBlock()->getAttributesGrid();
         \PHPUnit_Framework_Assert::assertFalse(
             $attributesGrid->isRowVisible(['frontend_label' => $productAttribute->getFrontendLabel()]),
-            "Product attribute found in Attribute Search form."
+            "Detail attribute found in Attribute Search form."
         );
     }
 
     /**
-     * Text absent Product Attribute in Attribute Search form.
+     * Text absent Detail Attribute in Attribute Search form.
      *
      * @return string
      */
     public function toString()
     {
-        return "Product Attribute is absent in Attribute Search form.";
+        return "Detail Attribute is absent in Attribute Search form.";
     }
 }

@@ -10,7 +10,7 @@ use Magento\Mtf\Client\Locator;
 
 /**
  * Class CartItem
- * Product item block on checkout page
+ * Detail item block on checkout page
  */
 class CartItem extends AbstractCartItem
 {

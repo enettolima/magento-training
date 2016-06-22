@@ -18,14 +18,14 @@ use Magento\Mtf\Fixture\FixtureInterface;
 class AssertImagesAreVisibleOnProductPage extends AbstractAssertForm
 {
     /**
-     * Product view block on frontend page
+     * Detail view block on frontend page
      *
      * @var \Magento\Catalog\Test\Block\Product\View
      */
     protected $productView;
 
     /**
-     * Product fixture
+     * Detail fixture
      *
      * @var FixtureInterface
      */
@@ -34,9 +34,9 @@ class AssertImagesAreVisibleOnProductPage extends AbstractAssertForm
     /**
      * Assert that media gallery images are displayed correctly on product page(front-end).
      *
-     * 1. Product Gallery
-     * 2. Product Base image
-     * 3. Product Full image
+     * 1. Detail Gallery
+     * 2. Detail Base image
+     * 3. Detail Full image
      *
      * @param BrowserInterface $browser
      * @param CatalogProductView $catalogProductView
@@ -148,6 +148,6 @@ class AssertImagesAreVisibleOnProductPage extends AbstractAssertForm
      */
     public function toString()
     {
-        return 'Product images on product view page are correct.';
+        return 'Detail images on product view page are correct.';
     }
 }

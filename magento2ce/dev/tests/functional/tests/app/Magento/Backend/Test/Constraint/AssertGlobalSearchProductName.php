@@ -35,7 +35,7 @@ class AssertGlobalSearchProductName extends AbstractConstraint
 
         \PHPUnit_Framework_Assert::assertTrue(
             $isVisibleInResult,
-            'Product name ' . $productName . ' is absent in search results'
+            'Detail name ' . $productName . ' is absent in search results'
         );
     }
 
@@ -46,6 +46,6 @@ class AssertGlobalSearchProductName extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product name is present in search results';
+        return 'Detail name is present in search results';
     }
 }

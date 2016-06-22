@@ -9,7 +9,7 @@ use Magento\Catalog\Model\Product\Attribute\Source\Status as ProductStatus;
 use Magento\Catalog\Api\Data\ProductInterface;
 
 /**
- * Catalog Product Eav Select and Multiply Select Attributes Indexer resource model
+ * Catalog Detail Eav Select and Multiply Select Attributes Indexer resource model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

@@ -271,7 +271,7 @@ class CategorySetup extends EavSetup
                     ],
                     'available_sort_by' => [
                         'type' => 'text',
-                        'label' => 'Available Product Listing Sort By',
+                        'label' => 'Available Detail Listing Sort By',
                         'input' => 'multiselect',
                         'source' => 'Magento\Catalog\Model\Category\Attribute\Source\Sortby',
                         'backend' => 'Magento\Catalog\Model\Category\Attribute\Backend\Sortby',
@@ -282,7 +282,7 @@ class CategorySetup extends EavSetup
                     ],
                     'default_sort_by' => [
                         'type' => 'varchar',
-                        'label' => 'Default Product Listing Sort By',
+                        'label' => 'Default Detail Listing Sort By',
                         'input' => 'select',
                         'source' => 'Magento\Catalog\Model\Category\Attribute\Source\Sortby',
                         'backend' => 'Magento\Catalog\Model\Category\Attribute\Backend\Sortby',
@@ -604,7 +604,7 @@ class CategorySetup extends EavSetup
                     ],
                     'news_from_date' => [
                         'type' => 'datetime',
-                        'label' => 'Set Product as New from Date',
+                        'label' => 'Set Detail as New from Date',
                         'input' => 'date',
                         'backend' => 'Magento\Catalog\Model\Attribute\Backend\Startdate',
                         'required' => false,
@@ -617,7 +617,7 @@ class CategorySetup extends EavSetup
                     ],
                     'news_to_date' => [
                         'type' => 'datetime',
-                        'label' => 'Set Product as New to Date',
+                        'label' => 'Set Detail as New to Date',
                         'input' => 'date',
                         'backend' => 'Magento\Eav\Model\Entity\Attribute\Backend\Datetime',
                         'required' => false,
@@ -744,7 +744,7 @@ class CategorySetup extends EavSetup
                     ],
                     'options_container' => [
                         'type' => 'varchar',
-                        'label' => 'Display Product Options In',
+                        'label' => 'Display Detail Options In',
                         'input' => 'select',
                         'source' => 'Magento\Catalog\Model\Entity\Product\Attribute\Design\Options\Container',
                         'required' => false,

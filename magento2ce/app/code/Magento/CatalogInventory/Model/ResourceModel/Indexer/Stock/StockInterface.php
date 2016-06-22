@@ -27,7 +27,7 @@ interface StockInterface
     public function reindexEntity($entityIds);
 
     /**
-     * Set Product Type Id for indexer
+     * Set Detail Type Id for indexer
      *
      * @param string $typeId
      * @return $this
@@ -35,7 +35,7 @@ interface StockInterface
     public function setTypeId($typeId);
 
     /**
-     * Retrieve Product Type Id for indexer
+     * Retrieve Detail Type Id for indexer
      *
      * @return string
      * @throws \Magento\Framework\Exception\LocalizedException

@@ -5,7 +5,7 @@
  */
 
 /**
- * Product variations matrix block
+ * Detail variations matrix block
  */
 namespace Magento\ConfigurableProduct\Block\Adminhtml\Product\Edit\Tab\Variations\Config;
 

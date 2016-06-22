@@ -5,7 +5,7 @@
  */
 
 /**
- * Product attributes tab
+ * Detail attributes tab
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

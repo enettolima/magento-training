@@ -6,7 +6,7 @@
 namespace Magento\ProductAlert\Model\ResourceModel;
 
 /**
- * Product alert for back in abstract resource model
+ * Detail alert for back in abstract resource model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

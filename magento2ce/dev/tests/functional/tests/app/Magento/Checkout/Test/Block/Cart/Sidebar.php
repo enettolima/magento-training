@@ -58,7 +58,7 @@ class Sidebar extends Block
     protected $cartContent = 'div.block-minicart';
 
     /**
-     * Product list in mini shopping cart.
+     * Detail list in mini shopping cart.
      *
      * @var string
      */

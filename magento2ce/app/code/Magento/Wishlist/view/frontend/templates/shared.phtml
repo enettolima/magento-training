@@ -16,7 +16,7 @@
                 <caption class="table-caption"><?php /* @escapeNotVerified */ echo __('Wish List'); ?></caption>
                 <thead>
                 <tr>
-                    <th class="col product" scope="col"><?php /* @escapeNotVerified */ echo __('Product') ?></th>
+                    <th class="col product" scope="col"><?php /* @escapeNotVerified */ echo __('Detail') ?></th>
                     <th class="col comment" scope="col"><?php /* @escapeNotVerified */ echo __('Comment') ?></th>
                     <th class="col actions" scope="col"><?php /* @escapeNotVerified */ echo __('Add to Cart') ?></th>
                 </tr>
@@ -28,7 +28,7 @@
                     $isVisibleProduct = $product->isVisibleInSiteVisibility();
                     ?>
                     <tr>
-                        <td data-th="<?php echo $block->escapeHtml(__('Product')) ?>" class="col product">
+                        <td data-th="<?php echo $block->escapeHtml(__('Detail')) ?>" class="col product">
                             <a class="product photo" href="<?php /* @escapeNotVerified */ echo $block->getProductUrl($item) ?>" title="<?php echo $block->escapeHtml($product->getName()) ?>">
                                 <?php echo $block->getImage($product, 'customer_shared_wishlist')->toHtml(); ?>
                             </a>

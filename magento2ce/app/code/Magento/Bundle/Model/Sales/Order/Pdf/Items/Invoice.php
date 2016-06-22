@@ -103,7 +103,7 @@ class Invoice extends AbstractItems
                 }
             }
 
-            /* in case Product name is longer than 80 chars - it is written in a few lines */
+            /* in case Detail name is longer than 80 chars - it is written in a few lines */
             if ($childItem->getOrderItem()->getParentItem()) {
                 $feed = 40;
                 $name = $this->getValueHtml($childItem);

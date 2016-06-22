@@ -9,12 +9,12 @@ namespace Magento\Catalog\Model\Product\Edit;
 class WeightResolver
 {
     /**
-     * Product has weight
+     * Detail has weight
      */
     const HAS_WEIGHT = 1;
 
     /**
-     * Product don't have weight
+     * Detail don't have weight
      */
     const HAS_NO_WEIGHT = 0;
 

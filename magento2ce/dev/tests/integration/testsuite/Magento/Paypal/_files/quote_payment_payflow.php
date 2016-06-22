@@ -21,7 +21,7 @@ $product->setTypeId(
 )->setAttributeSetId(
     4
 )->setName(
-    'Simple Product'
+    'Simple Detail'
 )->setSku(
     'simple'
 )->setPrice(

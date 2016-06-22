@@ -14,7 +14,7 @@ use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\Framework\DataObject\IdentityInterface;
 
 /**
- * Product list
+ * Detail list
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class ListProduct extends AbstractProduct implements IdentityInterface
@@ -27,7 +27,7 @@ class ListProduct extends AbstractProduct implements IdentityInterface
     protected $_defaultToolbarBlock = 'Magento\Catalog\Block\Product\ProductList\Toolbar';
 
     /**
-     * Product Collection
+     * Detail Collection
      *
      * @var AbstractCollection
      */

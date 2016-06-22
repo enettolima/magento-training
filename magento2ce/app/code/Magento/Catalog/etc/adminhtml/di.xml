@@ -8,9 +8,9 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <preference for="Magento\Catalog\Controller\Adminhtml\Product\Initialization\Helper\HandlerInterface" type="Magento\Catalog\Controller\Adminhtml\Product\Initialization\Helper\Plugin\Handler\Composite" />
     <preference for="Magento\Catalog\Model\Locator\LocatorInterface" type="Magento\Catalog\Model\Locator\RegistryLocator"/>
-    <!--<preference for="Magento\Catalog\Ui\DataProvider\Product\Form\Container\MetaInterface" type="Magento\Catalog\Ui\DataProvider\Product\Form\Container\Meta"/>-->
-    <!--<preference for="Magento\Catalog\Ui\DataProvider\Product\Form\Container\DataInterface" type="Magento\Catalog\Ui\DataProvider\Product\Form\Container\Data"/>-->
-    <!--<preference for="Magento\Catalog\Ui\DataProvider\Product\Form\Container\LocatorInterface" type="Magento\Catalog\Ui\DataProvider\Product\Form\Container\RegistryLocator"/>-->
+    <!--<preference for="Magento\Catalog\Ui\DataProvider\Detail\Form\Container\MetaInterface" type="Magento\Catalog\Ui\DataProvider\Detail\Form\Container\Meta"/>-->
+    <!--<preference for="Magento\Catalog\Ui\DataProvider\Detail\Form\Container\DataInterface" type="Magento\Catalog\Ui\DataProvider\Detail\Form\Container\Data"/>-->
+    <!--<preference for="Magento\Catalog\Ui\DataProvider\Detail\Form\Container\LocatorInterface" type="Magento\Catalog\Ui\DataProvider\Detail\Form\Container\RegistryLocator"/>-->
     <type name="Magento\Catalog\Controller\Adminhtml\Product\Attribute">
         <arguments>
             <argument name="attributeLabelCache" xsi:type="object">Magento\Framework\App\Cache\Type\Translate</argument>

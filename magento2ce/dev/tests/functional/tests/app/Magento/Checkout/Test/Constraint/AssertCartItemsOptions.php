@@ -159,6 +159,6 @@ class AssertCartItemsOptions extends AbstractAssertForm
      */
     public function toString()
     {
-        return 'Product options on the page match.';
+        return 'Detail options on the page match.';
     }
 }

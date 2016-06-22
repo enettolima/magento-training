@@ -104,7 +104,7 @@ class AroundProductRepositorySave
             foreach ($attributeCodes as $attributeCode) {
                 if (!$variation->getData($attributeCode)) {
                     throw new InputException(
-                        __('Product with id "%1" does not contain required attribute "%2".', $productId, $attributeCode)
+                        __('Detail with id "%1" does not contain required attribute "%2".', $productId, $attributeCode)
                     );
                 }
                 $valueKey = $valueKey . $attributeCode . ':' . $variation->getData($attributeCode) . ';';

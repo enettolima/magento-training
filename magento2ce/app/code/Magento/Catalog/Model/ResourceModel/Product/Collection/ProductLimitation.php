@@ -11,7 +11,7 @@ namespace Magento\Catalog\Model\ResourceModel\Product\Collection;
 class ProductLimitation implements \ArrayAccess
 {
     /**
-     * Product limitation filters
+     * Detail limitation filters
      * Allowed filters
      *  store_id                int;
      *  category_id             int;

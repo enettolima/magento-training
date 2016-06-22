@@ -11,7 +11,7 @@ namespace Magento\Dhl\Model\Source\Method;
 class Freedoc extends \Magento\Dhl\Model\Source\Method\AbstractMethod
 {
     /**
-     * Carrier Product Type Indicator
+     * Carrier Detail Type Indicator
      *
      * @var string $_contentType
      */

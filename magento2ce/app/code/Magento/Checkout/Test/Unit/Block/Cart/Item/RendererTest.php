@@ -73,7 +73,7 @@ class RendererTest extends \PHPUnit_Framework_TestCase
             '',
             false
         );
-        $product->expects($this->any())->method('getName')->will($this->returnValue('Parent Product'));
+        $product->expects($this->any())->method('getName')->will($this->returnValue('Parent Detail'));
 
         /** @var Item|\PHPUnit_Framework_MockObject_MockObject $item */
         $item = $this->getMock('Magento\Quote\Model\Quote\Item', [], [], '', false);

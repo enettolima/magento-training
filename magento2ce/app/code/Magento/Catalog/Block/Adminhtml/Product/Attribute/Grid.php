@@ -5,7 +5,7 @@
  */
 
 /**
- * Product attributes grid
+ * Detail attributes grid
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

@@ -99,7 +99,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product id'
+                'Detail id'
             )
             ->addColumn(
                 'status_id',
@@ -244,7 +244,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_BIGINT,
                 null,
                 ['nullable' => false, 'default' => '0'],
-                'Product id'
+                'Detail id'
             )
             ->addColumn(
                 'entity_type',
@@ -521,7 +521,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_BIGINT,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => 0],
-                'Product id'
+                'Detail id'
             )
             ->addColumn(
                 'rating_id',
@@ -596,7 +596,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_BIGINT,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => 0],
-                'Product id'
+                'Detail id'
             )
             ->addColumn(
                 'vote_count',

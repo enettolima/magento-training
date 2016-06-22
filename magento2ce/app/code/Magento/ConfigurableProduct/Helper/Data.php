@@ -69,7 +69,7 @@ class Data
     }
 
     /**
-     * Get Options for Configurable Product Options
+     * Get Options for Configurable Detail Options
      *
      * @param \Magento\Catalog\Model\Product $currentProduct
      * @param array $allowedProducts

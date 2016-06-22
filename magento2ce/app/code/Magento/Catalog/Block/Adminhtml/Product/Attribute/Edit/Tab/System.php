@@ -5,7 +5,7 @@
  */
 
 /**
- * Product attribute add/edit form system tab
+ * Detail attribute add/edit form system tab
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

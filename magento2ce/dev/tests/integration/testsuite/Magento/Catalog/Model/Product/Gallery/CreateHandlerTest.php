@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Product\Gallery;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Gallery\CreateHandler.
+ * Test class for \Magento\Catalog\Model\Detail\Gallery\CreateHandler.
  *
  * @magentoDataFixture Magento/Catalog/_files/product_simple.php
  * @magentoDataFixture Magento/Catalog/_files/product_image.php

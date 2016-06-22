@@ -17,7 +17,7 @@ use Magento\Mtf\Fixture\FixtureFactory;
 
 /**
  * Class AssertAttributeSetOnProductForm
- * Check Attribute Set and Product Attribute on Product form
+ * Check Attribute Set and Detail Attribute on Detail form
  */
 class AssertAttributeSetOnProductForm extends AbstractConstraint
 {
@@ -66,7 +66,7 @@ class AssertAttributeSetOnProductForm extends AbstractConstraint
         \PHPUnit_Framework_Assert::assertEquals(
             $attributeSet->getAttributeSetName(),
             $formAttributeSet,
-            'Attribute Set not found on Product form.'
+            'Attribute Set not found on Detail form.'
             . "\nExpected: " . $attributeSet->getAttributeSetName()
             . "\nActual: " . $formAttributeSet
         );
@@ -76,18 +76,18 @@ class AssertAttributeSetOnProductForm extends AbstractConstraint
 
             \PHPUnit_Framework_Assert::assertTrue(
                 $productEdit->getProductForm()->checkAttributeLabel($productAttribute),
-                "Product Attribute is absent on Product form."
+                "Detail Attribute is absent on Detail form."
             );
         }
     }
 
     /**
-     * Text of Product Attribute and Attribute Set are present on the Product form.
+     * Text of Detail Attribute and Attribute Set are present on the Detail form.
      *
      * @return string
      */
     public function toString()
     {
-        return 'Product Attribute and Attribute Set are present on the Product form.';
+        return 'Detail Attribute and Attribute Set are present on the Detail form.';
     }
 }

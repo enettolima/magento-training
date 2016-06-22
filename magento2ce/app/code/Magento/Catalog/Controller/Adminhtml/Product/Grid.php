@@ -28,7 +28,7 @@ class Grid extends \Magento\Catalog\Controller\Adminhtml\Product
     }
 
     /**
-     * Product grid for AJAX request
+     * Detail grid for AJAX request
      *
      * @return \Magento\Backend\Model\View\Result\Page
      */

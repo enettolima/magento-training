@@ -31,7 +31,7 @@ class AssertProductDuplicatedInGrid extends AbstractConstraint
             'visibility' => $product->getVisibility(),
             'status' => 'Disabled',
             'sku' => $product->getSku() . '-1',
-            'type' => ucfirst($config['create_url_params']['type']) . ' Product',
+            'type' => ucfirst($config['create_url_params']['type']) . ' Detail',
             'price_to' => number_format($product->getPrice(), 2),
         ];
 
@@ -42,7 +42,7 @@ class AssertProductDuplicatedInGrid extends AbstractConstraint
         $filter['price_to'] = '$' . $filter['price_to'];
         \PHPUnit_Framework_Assert::assertTrue(
             $productGrid->getProductGrid()->isRowVisible($filter, false),
-            'Product duplicate is absent in Products grid.'
+            'Detail duplicate is absent in Products grid.'
         );
     }
 

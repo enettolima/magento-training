@@ -7,7 +7,7 @@ namespace Magento\Catalog\Block\Product\View\Options\Type;
 
 
 /**
- * Product options text type block
+ * Detail options text type block
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  */

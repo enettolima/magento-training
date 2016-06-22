@@ -195,7 +195,7 @@ class Repository implements \Magento\Catalog\Api\ProductLinkRepositoryInterface
         if (!$linkId) {
             throw new NoSuchEntityException(
                 __(
-                    'Product with SKU \'%1\' is not linked to product with SKU \'%2\'',
+                    'Detail with SKU \'%1\' is not linked to product with SKU \'%2\'',
                     $entity->getLinkedProductSku(),
                     $entity->getSku()
                 )
@@ -224,7 +224,7 @@ class Repository implements \Magento\Catalog\Api\ProductLinkRepositoryInterface
         }
         throw new NoSuchEntityException(
             __(
-                'Product %1 doesn\'t have linked %2 as %3',
+                'Detail %1 doesn\'t have linked %2 as %3',
                 [
                     $sku,
                     $linkedProductSku,

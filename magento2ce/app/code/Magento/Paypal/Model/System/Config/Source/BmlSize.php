@@ -79,7 +79,7 @@ class BmlSize
     }
 
     /**
-     * Options getter for Catalog Product Page and position Center
+     * Options getter for Catalog Detail Page and position Center
      *
      * @return array
      */
@@ -96,7 +96,7 @@ class BmlSize
     }
 
     /**
-     * Options getter for Catalog Product Page and position Near Bill Me Later checkout button
+     * Options getter for Catalog Detail Page and position Near Bill Me Later checkout button
      *
      * @return array
      */

@@ -389,14 +389,14 @@ abstract class AbstractProductExportImportTestCase extends \PHPUnit_Framework_Te
 
         $this->assertEmpty(
             $errorMessage,
-            'Product import from file ' . $csvfile . ' validation errors: ' . $errorMessage
+            'Detail import from file ' . $csvfile . ' validation errors: ' . $errorMessage
         );
         $importModel->importData();
         $importErrors = $importModel->getErrorAggregator()->getAllErrors();
         $importErrorMessage = $this->extractErrorMessage($importErrors);
         $this->assertEmpty(
             $importErrorMessage,
-            'Product import from file ' . $csvfile . ' errors: ' . $importErrorMessage
+            'Detail import from file ' . $csvfile . ' errors: ' . $importErrorMessage
         );
     }
 

@@ -42,7 +42,7 @@ interface ShipmentItemInterface extends \Magento\Framework\Api\ExtensibleDataInt
      */
     const QTY = 'qty';
     /*
-     * Product ID.
+     * Detail ID.
      */
     const PRODUCT_ID = 'product_id';
     /*
@@ -126,7 +126,7 @@ interface ShipmentItemInterface extends \Magento\Framework\Api\ExtensibleDataInt
     /**
      * Gets the product ID for the shipment item.
      *
-     * @return int|null Product ID.
+     * @return int|null Detail ID.
      */
     public function getProductId();
 

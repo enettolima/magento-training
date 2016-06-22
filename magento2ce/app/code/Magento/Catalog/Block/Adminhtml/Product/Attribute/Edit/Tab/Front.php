@@ -5,7 +5,7 @@
  */
 
 /**
- * Product attribute add/edit form main tab
+ * Detail attribute add/edit form main tab
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
@@ -162,8 +162,8 @@ class Front extends Generic
             'select',
             [
                 'name' => 'used_in_product_listing',
-                'label' => __('Used in Product Listing'),
-                'title' => __('Used in Product Listing'),
+                'label' => __('Used in Detail Listing'),
+                'title' => __('Used in Detail Listing'),
                 'note' => __('Depends on design theme.'),
                 'values' => $yesnoSource
             ]
@@ -174,8 +174,8 @@ class Front extends Generic
             'select',
             [
                 'name' => 'used_for_sort_by',
-                'label' => __('Used for Sorting in Product Listing'),
-                'title' => __('Used for Sorting in Product Listing'),
+                'label' => __('Used for Sorting in Detail Listing'),
+                'title' => __('Used for Sorting in Detail Listing'),
                 'note' => __('Depends on design theme.'),
                 'values' => $yesnoSource
             ]

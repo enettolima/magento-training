@@ -20,7 +20,7 @@ class TaxSetup
     protected $salesSetup;
 
     /**
-     * Product type config
+     * Detail type config
      *
      * @var ConfigInterface
      */

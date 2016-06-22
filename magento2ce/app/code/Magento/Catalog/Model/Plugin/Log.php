@@ -23,7 +23,7 @@ class Log
     }
 
     /**
-     * Catalog Product Compare Items Clean
+     * Catalog Detail Compare Items Clean
      * after plugin for clean method
      *
      * @param \Magento\Customer\Model\ResourceModel\Visitor $subject

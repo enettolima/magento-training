@@ -32,7 +32,7 @@ class AddAttributeToAttributeSetStep implements TestStepInterface
     protected $catalogProductSetEdit;
 
     /**
-     * Catalog Product Attribute fixture.
+     * Catalog Detail Attribute fixture.
      *
      * @var CatalogProductAttribute
      */

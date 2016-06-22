@@ -73,7 +73,7 @@ class Creditmemo extends \Magento\Downloadable\Model\Sales\Order\Pdf\Items\Abstr
         $page = $this->getPage();
         $lines = [];
 
-        // draw Product name
+        // draw Detail name
         $lines[0] = [['text' => $this->string->split($item->getName(), 35, true, true), 'feed' => 35]];
 
         // draw SKU

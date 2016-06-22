@@ -192,7 +192,7 @@ class CreateTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals(
             1,
             $updatedWishlist->getItemsCount(),
-            'Wish List must contain a Product which was added to it earlier.'
+            'Wish List must contain a Detail which was added to it earlier.'
         );
 
         /** Try to load wishlist from cache in the class after it is deleted from DB */
@@ -578,7 +578,7 @@ class CreateTest extends \PHPUnit_Framework_TestCase
             'Precondition failed: Address data is invalid in create order model'
         );
         $this->assertEquals(
-            'Simple Product',
+            'Simple Detail',
             $this->_model->getQuote()->getItemByProduct($product)->getData('name'),
             'Precondition failed: Quote items data is invalid in create order model'
         );

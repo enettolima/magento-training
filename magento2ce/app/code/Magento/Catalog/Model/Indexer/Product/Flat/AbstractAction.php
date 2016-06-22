@@ -169,7 +169,7 @@ abstract class AbstractAction
     }
 
     /**
-     * Retrieve Product Type Instances
+     * Retrieve Detail Type Instances
      * as key - type code, value - instance model
      *
      * @return array

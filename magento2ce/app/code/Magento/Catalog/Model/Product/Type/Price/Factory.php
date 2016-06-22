@@ -5,7 +5,7 @@
  */
 
 /**
- * Product type price factory
+ * Detail type price factory
  */
 namespace Magento\Catalog\Model\Product\Type\Price;
 

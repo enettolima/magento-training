@@ -25,7 +25,7 @@ interface StockConfigurationInterface
     public function getIsQtyTypeIds($filter = null);
 
     /**
-     * Check if Stock Management is applicable for the given Product Type
+     * Check if Stock Management is applicable for the given Detail Type
      *
      * @param int $productTypeId
      * @return bool

@@ -19,7 +19,7 @@ class TypeTest extends \PHPUnit_Framework_TestCase
     protected $_objectHelper;
 
     /**
-     * Product types config values
+     * Detail types config values
      *
      * @var array
      */

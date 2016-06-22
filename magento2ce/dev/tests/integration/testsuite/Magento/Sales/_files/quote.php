@@ -8,7 +8,7 @@ $product = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create('
 $product->setTypeId('simple')
     ->setId(1)
     ->setAttributeSetId(4)
-    ->setName('Simple Product')
+    ->setName('Simple Detail')
     ->setSku('simple')
     ->setPrice(10)
     ->setTaxClassId(0)

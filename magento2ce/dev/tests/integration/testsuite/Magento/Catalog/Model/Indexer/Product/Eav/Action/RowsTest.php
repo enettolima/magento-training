@@ -60,7 +60,7 @@ class RowsTest extends \PHPUnit_Framework_TestCase
 
         /** @var $product \Magento\Catalog\Model\Product */
         foreach ($productCollection as $product) {
-            $this->assertEquals('Simple Product', $product->getName());
+            $this->assertEquals('Simple Detail', $product->getName());
             $this->assertEquals('Short description', $product->getShortDescription());
             $this->assertEquals(11, $product->getWeight());
         }

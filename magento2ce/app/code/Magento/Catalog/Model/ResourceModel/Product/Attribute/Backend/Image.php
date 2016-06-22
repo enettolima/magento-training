@@ -9,7 +9,7 @@ use Magento\Eav\Model\Entity\Attribute\Backend\AbstractBackend;
 use Magento\Framework\App\Filesystem\DirectoryList;
 
 /**
- * Product image attribute backend
+ * Detail image attribute backend
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

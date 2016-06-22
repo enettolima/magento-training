@@ -7,7 +7,7 @@
 namespace Magento\Catalog\Block\Product;
 
 /**
- * Product price block
+ * Detail price block
  */
 class Price extends \Magento\Framework\View\Element\Template implements \Magento\Framework\DataObject\IdentityInterface
 {
@@ -150,7 +150,7 @@ class Price extends \Magento\Framework\View\Element\Template implements \Magento
     }
 
     /**
-     * Get Product Price valid JS string
+     * Get Detail Price valid JS string
      *
      * @param \Magento\Catalog\Model\Product $product
      * @return string

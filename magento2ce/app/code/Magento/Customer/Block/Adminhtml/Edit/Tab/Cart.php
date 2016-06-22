@@ -125,7 +125,7 @@ class Cart extends \Magento\Backend\Block\Widget\Grid\Extended
         $this->addColumn(
             'name',
             [
-                'header' => __('Product'),
+                'header' => __('Detail'),
                 'index' => 'name',
                 'renderer' => 'Magento\Customer\Block\Adminhtml\Edit\Tab\View\Grid\Renderer\Item'
             ]

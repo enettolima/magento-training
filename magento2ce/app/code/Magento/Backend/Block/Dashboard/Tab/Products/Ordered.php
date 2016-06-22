@@ -88,7 +88,7 @@ class Ordered extends \Magento\Backend\Block\Dashboard\Grid
         $this->addColumn(
             'name',
             [
-                'header' => __('Product'),
+                'header' => __('Detail'),
                 'sortable' => false,
                 'index' => 'product_name',
                 'header_css_class' => 'col-product',
@@ -129,7 +129,7 @@ class Ordered extends \Magento\Backend\Block\Dashboard\Grid
 
     /**
      * Returns row url to show in admin dashboard
-     * $row is bestseller row wrapped in Product model
+     * $row is bestseller row wrapped in Detail model
      *
      * @param \Magento\Catalog\Model\Product $row
      * @return string

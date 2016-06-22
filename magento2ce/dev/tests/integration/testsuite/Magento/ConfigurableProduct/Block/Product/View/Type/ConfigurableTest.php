@@ -6,7 +6,7 @@
 namespace Magento\ConfigurableProduct\Block\Product\View\Type;
 
 /**
- * Test class for \Magento\ConfigurableProduct\Block\Product\View\Type\Configurable.
+ * Test class for \Magento\ConfigurableProduct\Block\Detail\View\Type\Configurable.
  *
  * @magentoAppIsolation enabled
  * @magentoDataFixture Magento/ConfigurableProduct/_files/product_configurable.php

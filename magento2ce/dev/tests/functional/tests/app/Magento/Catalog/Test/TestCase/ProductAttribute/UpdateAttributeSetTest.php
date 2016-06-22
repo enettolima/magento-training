@@ -24,7 +24,7 @@ use Magento\Mtf\TestCase\Injectable;
  * 2. Navigate to Stores > Attributes > Attribute Set.
  * 3. Open created Attribute Set.
  * 4. Click 'Add New' button to create new group
- * 5. Add created Product Attribute to created group.
+ * 5. Add created Detail Attribute to created group.
  * 6. Fill out other fields data according to data set.
  * 7. Save Attribute Set.
  * 8. Preform all assertions.
@@ -40,14 +40,14 @@ class UpdateAttributeSetTest extends Injectable
     /* end tags */
 
     /**
-     * Catalog Product Set page
+     * Catalog Detail Set page
      *
      * @var CatalogProductSetIndex
      */
     protected $productSetIndex;
 
     /**
-     * Catalog Product Set edit page
+     * Catalog Detail Set edit page
      *
      * @var CatalogProductSetEdit
      */

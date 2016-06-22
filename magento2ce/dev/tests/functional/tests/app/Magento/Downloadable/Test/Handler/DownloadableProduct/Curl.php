@@ -117,7 +117,7 @@ class Curl extends ProductCurl implements DownloadableProductInterface
         $curl->close();
 
         if (!strpos($response, 'data-ui-id="messages-message-success"')) {
-            throw new \Exception("Product creation by curl handler was not successful! Response: $response");
+            throw new \Exception("Detail creation by curl handler was not successful! Response: $response");
         }
         preg_match("~Location: [^\s]*\/id\/(\d+)~", $response, $matches);
         $checkoutData = isset($data['product']['checkout_data']) ? $data['product']['checkout_data'] : null;

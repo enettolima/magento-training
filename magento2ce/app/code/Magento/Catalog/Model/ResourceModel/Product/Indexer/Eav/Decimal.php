@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\ResourceModel\Product\Indexer\Eav;
 use Magento\Catalog\Api\Data\ProductInterface;
 
 /**
- * Catalog Product Eav Decimal Attributes Indexer resource model
+ * Catalog Detail Eav Decimal Attributes Indexer resource model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

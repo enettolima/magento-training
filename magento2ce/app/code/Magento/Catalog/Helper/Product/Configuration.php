@@ -23,7 +23,7 @@ class Configuration extends AbstractHelper implements ConfigurationInterface
     protected $filter;
 
     /**
-     * Product option factory
+     * Detail option factory
      *
      * @var \Magento\Catalog\Model\Product\OptionFactory
      */

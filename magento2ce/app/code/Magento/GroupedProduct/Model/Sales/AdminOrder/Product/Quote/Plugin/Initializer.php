@@ -5,7 +5,7 @@
  */
 
 /**
- * Product quote initializer plugin
+ * Detail quote initializer plugin
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  *

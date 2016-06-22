@@ -84,7 +84,7 @@ interface CreditmemoItemInterface extends \Magento\Framework\Api\ExtensibleDataI
      */
     const ROW_TOTAL_INCL_TAX = 'row_total_incl_tax';
     /*
-     * Product ID.
+     * Detail ID.
      */
     const PRODUCT_ID = 'product_id';
     /*
@@ -317,7 +317,7 @@ interface CreditmemoItemInterface extends \Magento\Framework\Api\ExtensibleDataI
     /**
      * Gets the product ID for a credit memo item.
      *
-     * @return int|null Product ID.
+     * @return int|null Detail ID.
      */
     public function getProductId();
 

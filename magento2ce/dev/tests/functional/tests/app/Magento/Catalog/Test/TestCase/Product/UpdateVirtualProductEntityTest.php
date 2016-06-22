@@ -48,7 +48,7 @@ class UpdateVirtualProductEntityTest extends Injectable
     protected $product;
 
     /**
-     * Product page with a grid
+     * Detail page with a grid
      *
      * @var CatalogProductIndex
      */

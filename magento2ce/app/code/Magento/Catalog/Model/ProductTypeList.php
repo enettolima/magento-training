@@ -1,6 +1,6 @@
 <?php
 /**
- * Product type provider
+ * Detail type provider
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.
@@ -13,14 +13,14 @@ use Magento\Catalog\Model\ProductTypes\ConfigInterface;
 class ProductTypeList implements ProductTypeListInterface
 {
     /**
-     * Product type configuration provider
+     * Detail type configuration provider
      *
      * @var ConfigInterface
      */
     private $productTypeConfig;
 
     /**
-     * Product type factory
+     * Detail type factory
      *
      * @var \Magento\Catalog\Api\Data\ProductTypeInterfaceFactory
      */

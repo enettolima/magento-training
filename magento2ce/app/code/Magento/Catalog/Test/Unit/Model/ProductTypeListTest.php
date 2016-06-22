@@ -44,7 +44,7 @@ class ProductTypeListTest extends \PHPUnit_Framework_TestCase
     {
         $simpleProductType = [
             'name' => 'simple',
-            'label' => 'Simple Product',
+            'label' => 'Simple Detail',
         ];
         $productTypeData = [
             'simple' => $simpleProductType,

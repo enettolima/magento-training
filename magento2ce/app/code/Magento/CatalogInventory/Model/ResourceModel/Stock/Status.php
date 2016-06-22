@@ -71,7 +71,7 @@ class Status extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Save Product Status per website
+     * Save Detail Status per website
      *
      * @param int $productId
      * @param int $status
@@ -152,7 +152,7 @@ class Status extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Retrieve Product Type
+     * Retrieve Detail Type
      *
      * @param array|int $productIds
      * @return array
@@ -174,7 +174,7 @@ class Status extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Retrieve Product part Collection array
+     * Retrieve Detail part Collection array
      * Return array as key product id, value product type
      *
      * @param int $lastEntityId
@@ -277,7 +277,7 @@ class Status extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Retrieve Product(s) status for store
+     * Retrieve Detail(s) status for store
      * Return array where key is a product_id, value - status
      *
      * @param int[] $productIds

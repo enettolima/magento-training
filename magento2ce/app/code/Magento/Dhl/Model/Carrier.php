@@ -26,7 +26,7 @@ use Magento\Framework\Xml\Security;
 class Carrier extends \Magento\Dhl\Model\AbstractDhl implements \Magento\Shipping\Model\Carrier\CarrierInterface
 {
     /**#@+
-     * Carrier Product indicator
+     * Carrier Detail indicator
      */
     const DHL_CONTENT_TYPE_DOC = 'D';
     const DHL_CONTENT_TYPE_NON_DOC = 'N';

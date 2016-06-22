@@ -13,7 +13,7 @@ namespace Magento\Catalog\Model\Indexer\Product\Price;
 abstract class AbstractAction
 {
     /**
-     * Default Product Type Price indexer resource model
+     * Default Detail Type Price indexer resource model
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\DefaultPrice
      */
@@ -287,7 +287,7 @@ abstract class AbstractAction
     }
 
     /**
-     * Retrieve Price indexer by Product Type
+     * Retrieve Price indexer by Detail Type
      *
      * @param string $productTypeId
      * @return \Magento\Catalog\Model\ResourceModel\Product\Indexer\Price\PriceInterface

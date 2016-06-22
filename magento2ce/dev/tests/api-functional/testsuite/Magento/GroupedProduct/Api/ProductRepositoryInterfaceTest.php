@@ -16,7 +16,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     const RESOURCE_PATH = '/V1/products';
 
     /**
-     * Get Product
+     * Get Detail
      *
      * @param $sku
      * @return ProductInterface
@@ -40,7 +40,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Update Product
+     * Update Detail
      *
      * @param $product
      * @return mixed
@@ -69,7 +69,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Save Product
+     * Save Detail
      *
      * @param $product
      * @return mixed
@@ -92,7 +92,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Delete Product
+     * Delete Detail
      *
      * @param string $sku
      * @return boolean
@@ -120,7 +120,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
         // Create simple product
         $productData =  [
             ProductInterface::SKU => "product_simple_500",
-            ProductInterface::NAME => "Product Simple 500",
+            ProductInterface::NAME => "Detail Simple 500",
             ProductInterface::VISIBILITY => 4,
             ProductInterface::TYPE_ID => 'simple',
             ProductInterface::PRICE => 100,
@@ -140,7 +140,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
                             "position" => 0, "extension_attributes" => ["qty" => 1]];
         $productWithGroupData =  [
             ProductInterface::SKU => "group_product_500",
-            ProductInterface::NAME => "Group Product 500",
+            ProductInterface::NAME => "Group Detail 500",
             ProductInterface::VISIBILITY => 4,
             ProductInterface::TYPE_ID => 'grouped',
             ProductInterface::PRICE => 300,
@@ -156,7 +156,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
         $this->assertEquals(1, count($links));
         $this->assertEquals($productLinkData, $links[0]);
 
-        // update link information for Group Product
+        // update link information for Group Detail
         $productLinkData1 = ["sku" => "group_product_500", "link_type" => "associated",
                             "linked_product_sku" => "product_simple_500", "linked_product_type" => "simple",
                             "position" => 0, "extension_attributes" => ["qty" => 4]];
@@ -165,7 +165,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
                              "position" => 0, "extension_attributes" => []];
         $productWithGroupData =  [
             ProductInterface::SKU => "group_product_500",
-            ProductInterface::NAME => "Group Product 500",
+            ProductInterface::NAME => "Group Detail 500",
             ProductInterface::VISIBILITY => 4,
             ProductInterface::TYPE_ID => 'grouped',
             ProductInterface::PRICE => 300,
@@ -186,7 +186,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
         // Remove link
         $productWithNoLinkData =  [
             ProductInterface::SKU => "group_product_500",
-            ProductInterface::NAME => "Group Product 500",
+            ProductInterface::NAME => "Group Detail 500",
             ProductInterface::VISIBILITY => 4,
             ProductInterface::TYPE_ID => 'grouped',
             ProductInterface::PRICE => 300,

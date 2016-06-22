@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\ResourceModel\Product;
 
 /**
- * Catalog Product Relations Resource model
+ * Catalog Detail Relations Resource model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

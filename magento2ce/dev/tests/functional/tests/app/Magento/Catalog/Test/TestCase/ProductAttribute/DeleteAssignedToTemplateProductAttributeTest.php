@@ -18,7 +18,7 @@ use Magento\Mtf\TestCase\Injectable;
  *
  * Test Flow:
  * 1. Log in to Backend.
- * 2. Go to Stores > Attributes > Product.
+ * 2. Go to Stores > Attributes > Detail.
  * 3. Search product attribute in grid by given data.
  * 4. Open this attribute by clicking.
  * 5. Click on the "Delete Attribute" button.
@@ -35,14 +35,14 @@ class DeleteAssignedToTemplateProductAttributeTest extends Injectable
     /* end tags */
 
     /**
-     * Catalog Product Attribute index page.
+     * Catalog Detail Attribute index page.
      *
      * @var CatalogProductAttributeIndex
      */
     protected $attributeIndex;
 
     /**
-     * Catalog Product Attribute new page.
+     * Catalog Detail Attribute new page.
      *
      * @var CatalogProductAttributeNew
      */

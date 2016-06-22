@@ -9,7 +9,7 @@
 ?>
 <?php
 /**
- * Product list template
+ * Detail list template
  *
  * @see \Magento\Catalog\Block\Product\ListProduct
  */
@@ -43,7 +43,7 @@ $_helper = $this->helper('Magento\Catalog\Helper\Output');
         <?php foreach ($_productCollection as $_product): ?>
         <?php /* @escapeNotVerified */ echo($iterator++ == 1) ? '<li class="item product">' : '</li><li class="item product">' ?>
             <div class="product">
-                <?php // Product Image ?>
+                <?php // Detail Image ?>
                 <a href="<?php /* @escapeNotVerified */ echo $_product->getProductUrl() ?>" class="product photo">
                     <?php echo $block->getImage($_product, $image)->toHtml(); ?>
                 </a>

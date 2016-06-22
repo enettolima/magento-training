@@ -12,7 +12,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Store\Model\StoreManagerInterface;
 
 /**
- * Product validate
+ * Detail validate
  *
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */

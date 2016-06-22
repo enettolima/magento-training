@@ -18,7 +18,7 @@ use Magento\Mtf\Constraint\AbstractConstraint;
 class AssertBundlePriceType extends AbstractConstraint
 {
     /**
-     * Product price type
+     * Detail price type
      *
      * @var string
      */

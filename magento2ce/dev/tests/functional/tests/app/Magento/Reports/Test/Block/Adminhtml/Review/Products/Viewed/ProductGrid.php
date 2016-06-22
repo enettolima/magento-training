@@ -11,12 +11,12 @@ use Magento\Mtf\Client\Locator;
 
 /**
  * Class ProductGrid
- * Product Views Report
+ * Detail Views Report
  */
 class ProductGrid extends Grid
 {
     /**
-     * Product in grid locator
+     * Detail in grid locator
      *
      * @var string
      */

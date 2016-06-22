@@ -47,7 +47,7 @@ class CombineTest extends \PHPUnit_Framework_TestCase
         $expectedOptions = [
             ['value' => '', 'label' => __('Please choose a condition to add.')],
             ['value' => 'Magento\CatalogWidget\Model\Rule\Condition\Combine', 'label' => __('Conditions Combination')],
-            ['label' => __('Product Attribute'), 'value' => [
+            ['label' => __('Detail Attribute'), 'value' => [
                 ['value' => 'Magento\CatalogWidget\Model\Rule\Condition\Product|sku', 'label' => 'SKU'],
                 ['value' => 'Magento\CatalogWidget\Model\Rule\Condition\Product|category', 'label' => 'Category'],
             ]],
