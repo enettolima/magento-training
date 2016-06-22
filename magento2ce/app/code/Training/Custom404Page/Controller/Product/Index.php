@@ -23,6 +23,6 @@ class Index extends Action
      */
     public function execute()
     {
-        $this->getResponse()->setBody('No product found.');
+        //$this->getResponse()->setBody('No product found.');
     }
 }
