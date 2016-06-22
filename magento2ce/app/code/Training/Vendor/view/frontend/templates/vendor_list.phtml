@@ -1,9 +1,10 @@
 <?php /** @var \Training\Vendor\Block\Product\VendorList $block */ ?>
+
 <div class="vendors">
     <h2>Vendors</h2>
     <?php if ($block->hasVendors()): ?>
         <?php foreach ($block->getVendors() as $vendor): ?>
-            <div><?php echo $vendor->getVendorName(); ?></div>
+            <div><?php echo $vendor->getVendorName() ?></div>
         <?php endforeach; ?>
     <?php else : ?>
         <span>No Vendors. </span>

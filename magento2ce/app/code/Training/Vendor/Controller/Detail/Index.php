@@ -1,20 +1,43 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: enettolima
- * Date: 6/22/16
- * Time: 1:32 PM
+ * User: ryan
+ * Date: 6/22/2016
+ * Time: 2:32 PM
  */
 
 namespace Training\Vendor\Controller\Detail;
 
 
 use Magento\Framework\App\Action\Action;
+use Magento\Framework\App\Action\Context;
 use Magento\Framework\App\ResponseInterface;
 use Magento\Framework\Controller\ResultFactory;
+use Magento\Framework\Registry;
+use Training\Vendor\Model\VendorFactory;
 
 class Index extends Action
 {
+
+    /**
+     * @var VendorFactory
+     */
+    private $vendorFactory;
+    /**
+     * @var Registry
+     */
+    private $registry;
+
+    public function __construct(
+        Context $context,
+        VendorFactory $vendorFactory,
+        Registry $registry
+)
+    {
+        parent::__construct($context);
+        $this->vendorFactory = $vendorFactory;
+        $this->registry = $registry;
+    }
 
     /**
      * Dispatch request
@@ -24,6 +47,20 @@ class Index extends Action
      */
     public function execute()
     {
-        return $this->resultFactory->create(ResultFactory::TYPE_PAGE);
+        $vendor = $this->vendorFactory->create();
+
+        $vendorId = $this->getRequest()->getParam('id');
+
+        $vendor->load($vendorId);
+
+        if($vendor->getId()) {
+            $this->registry->register('current_vendor', $vendor);
+            $result = $this->resultFactory->create(ResultFactory::TYPE_PAGE);
+        } else {
+            $result = $this->resultFactory->create(ResultFactory::TYPE_FORWARD);
+            $result->forward('noroute');
+        }
+
+        return $result;
     }
 }

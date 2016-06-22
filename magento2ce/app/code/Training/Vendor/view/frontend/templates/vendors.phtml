@@ -1,16 +1,19 @@
-<?php /** @var \Training\Vendor\Block\Product\VendorList $block */ ?>
-<div class="vendors">
-    <h2>Vendors</h2>
-    <form method="post" action="<?php echo $block->getVendorListUrl() ?>">
+<div>
+    <form method="POST" action="<?php echo $block->getVendorListUrl() ?>">
+        <div><input type="text" name="vendor_name" value="<?php echo $block->getVendorName() ?>" /></div>
+        
         <div>
-            <input type="text" name="vendor_name" value="<?php echo $block->getVendorName() ?>">
+            <span><input type="radio" name="sort" value="asc" <?php echo $block->isChecked('asc') ?> /> Name Asc</span>
+            <span><input type="radio" name="sort" value="desc" <?php echo $block->isChecked('desc') ?> /> Name Desc</span>
         </div>
         <div>
-            <span><input type="radio" name="sort" value="asc" />Name Asc </span>
-            <span><input type="radio" name="sort" value="desc" />Name Desc </span>
-        </div>
-        <div>
-            <input type="submit" name="Submit">
+            <input type="submit" name="Submit" />
         </div>
     </form>
 </div>
+
+<?php foreach($block->getVendors() as $vendor): ?>
+    <div>
+        <a href="<?php echo $block->getVendorUrl($vendor) ?>"><?php echo $vendor->getVendorName() ?></a>
+    </div>
+<?php endforeach; ?>

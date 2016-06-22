@@ -1,4 +1,7 @@
-<?php /** @var \Training\Vendor\Block\Product\VendorList $block */ ?>
-<div class="vendors">
-    <strong> Vendor Products:</strong>
+<div>
+    <strong>Vendor Products</strong>
 </div>
+
+<?php foreach($block->getProducts() as $product): ?>
+    <div><?php echo $product->getName() ?></div>
+<?php endforeach ?>
