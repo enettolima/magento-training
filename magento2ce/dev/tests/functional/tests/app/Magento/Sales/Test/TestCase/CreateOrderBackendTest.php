@@ -18,9 +18,9 @@ use Magento\Mtf\TestCase\Scenario;
  * 2. Open Sales -> Orders.
  * 3. Click Create New Order.
  * 4. Select Customer created in preconditions.
- * 5. Add Product.
+ * 5. Add Detail.
  * 6. Fill data according dataset.
- * 7. Click Update Product qty.
+ * 7. Click Update Detail qty.
  * 8. Fill data according dataset.
  * 9. Click Get Shipping Method and rates.
  * 10. Fill data according dataset.

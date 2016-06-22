@@ -41,6 +41,6 @@ class AssertProductCompareSuccessRemoveAllProductsMessage extends AbstractConstr
      */
     public function toString()
     {
-        return 'Compare Product success message is present.';
+        return 'Compare Detail success message is present.';
     }
 }

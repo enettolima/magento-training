@@ -14,7 +14,7 @@ use Magento\Mtf\TestCase\Injectable;
 /**
  * Preconditions:
  * 1. Simple product is created.
- * 2. Product rating is created.
+ * 2. Detail rating is created.
  *
  * Steps:
  * 1. Login to backend.
@@ -35,14 +35,14 @@ class DeleteProductRatingEntityTest extends Injectable
     /* end tags */
 
     /**
-     * Product rating grid page.
+     * Detail rating grid page.
      *
      * @var RatingIndex
      */
     protected $ratingIndex;
 
     /**
-     * Product rating edit page.
+     * Detail rating edit page.
      *
      * @var RatingEdit
      */

@@ -7,7 +7,7 @@
 namespace Magento\Catalog\Model\Product\Configuration\Item;
 
 /**
- * Product configurational item interface
+ * Detail configurational item interface
  */
 interface ItemInterface
 {

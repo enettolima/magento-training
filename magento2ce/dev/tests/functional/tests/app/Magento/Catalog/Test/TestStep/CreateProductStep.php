@@ -16,7 +16,7 @@ use Magento\Mtf\TestStep\TestStepInterface;
 class CreateProductStep implements TestStepInterface
 {
     /**
-     * Product fixture from dataset.
+     * Detail fixture from dataset.
      *
      * @var string
      */

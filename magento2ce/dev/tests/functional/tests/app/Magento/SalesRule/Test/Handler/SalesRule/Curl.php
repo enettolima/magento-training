@@ -57,7 +57,7 @@ class Curl extends Conditions implements SalesRuleInterface
             'value' => '1',
             'aggregator' => 'all',
         ],
-        'Product attribute combination' => [
+        'Detail attribute combination' => [
             'type' => 'Magento\SalesRule\Model\Rule\Condition\Product\Found',
             'value' => '1',
             'aggregator' => 'all',

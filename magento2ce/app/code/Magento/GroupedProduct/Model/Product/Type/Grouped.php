@@ -24,7 +24,7 @@ class Grouped extends \Magento\Catalog\Model\Product\Type\AbstractType
     protected $_keyAssociatedProducts = '_cache_instance_associated_products';
 
     /**
-     * Cache key for Associated Product Ids
+     * Cache key for Associated Detail Ids
      *
      * @var string
      */
@@ -38,14 +38,14 @@ class Grouped extends \Magento\Catalog\Model\Product\Type\AbstractType
     protected $_keyStatusFilters = '_cache_instance_status_filters';
 
     /**
-     * Product is composite properties
+     * Detail is composite properties
      *
      * @var bool
      */
     protected $_isComposite = true;
 
     /**
-     * Product is possible to configure
+     * Detail is possible to configure
      *
      * @var bool
      */

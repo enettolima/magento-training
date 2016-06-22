@@ -14,7 +14,7 @@ use Magento\Mtf\Fixture\InjectableFixture;
 
 /**
  * Class AbstractConfigureBlock
- * Product configure block
+ * Detail configure block
  */
 abstract class AbstractConfigureBlock extends Form
 {

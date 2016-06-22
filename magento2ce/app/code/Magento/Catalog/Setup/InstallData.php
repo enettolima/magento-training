@@ -197,7 +197,7 @@ class InstallData implements InstallDataInterface
                 ->dropColumn($setup->getTable('eav_attribute'), $columnData['COLUMN_NAME']);
         }
 
-        $newGeneralTabName = 'Product Details';
+        $newGeneralTabName = 'Detail Details';
         $newPriceTabName = 'Advanced Pricing';
         $newImagesTabName = 'Image Management';
         $newMetaTabName = 'Search Engine Optimization';
@@ -269,7 +269,7 @@ class InstallData implements InstallDataInterface
         //New attributes order and properties
         $properties = ['is_required', 'default_value', 'frontend_input_renderer'];
         $attributesOrder = [
-            //Product Details tab
+            //Detail Details tab
             'name' => [$newGeneralTabName => 10],
             'sku' => [$newGeneralTabName => 20],
             'price' => [$newGeneralTabName => 30],

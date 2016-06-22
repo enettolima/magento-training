@@ -74,7 +74,7 @@ class Cart extends \Magento\Framework\App\Action\Action
     /**
      * Add shared wishlist item to shopping cart
      *
-     * If Product has required options - redirect
+     * If Detail has required options - redirect
      * to product view page with message about needed defined required options
      *
      * @return \Magento\Framework\Controller\Result\Redirect

@@ -7,7 +7,7 @@
 return [
     1 => [
         "product" => [
-            "name" => "Simple Product",
+            "name" => "Simple Detail",
             "sku" => "simple",
             "price" => "10.0000",
             "tax_class_id" => "0",

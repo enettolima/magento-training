@@ -13,7 +13,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
 use Magento\Mtf\Fixture\InjectableFixture;
 
 /**
- * Product view block on the product page.
+ * Detail view block on the product page.
  *
  * @SuppressWarnings(PHPMD.TooManyFields)
  * @SuppressWarnings(PHPMD.ExcessivePublicCount)
@@ -71,28 +71,28 @@ class View extends AbstractConfigureBlock
     protected $inContextPaypalCheckout = '#paypal-express-in-context-mini-cart';
 
     /**
-     * Product name element.
+     * Detail name element.
      *
      * @var string
      */
     protected $productName = '.page-title-wrapper.product h1.page-title .base';
 
     /**
-     * Product sku element.
+     * Detail sku element.
      *
      * @var string
      */
     protected $productSku = '[itemprop="sku"]';
 
     /**
-     * Product description element.
+     * Detail description element.
      *
      * @var string
      */
     protected $productDescription = '.product.attribute.description';
 
     /**
-     * Product short-description element.
+     * Detail short-description element.
      *
      * @var string
      */
@@ -155,7 +155,7 @@ class View extends AbstractConfigureBlock
     protected $successMessage = '[data-ui-id$=message-success]';
 
     /**
-     * Product media gallery selector.
+     * Detail media gallery selector.
      *
      * @var string
      */

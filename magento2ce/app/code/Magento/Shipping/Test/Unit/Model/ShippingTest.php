@@ -69,7 +69,7 @@ class ShippingTest extends \PHPUnit_Framework_TestCase
     public function testComposePackages()
     {
         $request = new RateRequest();
-        /** \Magento\Catalog\Model\Product\Configuration\Item\ItemInterface */
+        /** \Magento\Catalog\Model\Detail\Configuration\Item\ItemInterface */
         $item = $this->getMockBuilder('\Magento\Quote\Model\Quote\Item')
             ->disableOriginalConstructor()
             ->setMethods([

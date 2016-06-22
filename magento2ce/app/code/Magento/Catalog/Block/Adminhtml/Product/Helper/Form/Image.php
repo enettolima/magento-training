@@ -5,7 +5,7 @@
  */
 
 /**
- * Product form image field helper
+ * Detail form image field helper
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

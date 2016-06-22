@@ -54,7 +54,7 @@ class Cart extends \Magento\Checkout\Block\Cart\AbstractCart
     }
 
     /**
-     * Prepare Quote Item Product URLs
+     * Prepare Quote Item Detail URLs
      *
      * @codeCoverageIgnore
      * @return void

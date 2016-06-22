@@ -81,7 +81,7 @@ class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\Web
     }
 
     /**
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/create_attribute_service.php
+     * @magentoApiDataFixture Magento/Catalog/Model/Detail/Attribute/_files/create_attribute_service.php
      */
     public function testCreate()
     {
@@ -129,7 +129,7 @@ class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\Web
     }
 
     /**
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/create_attribute_service.php
+     * @magentoApiDataFixture Magento/Catalog/Model/Detail/Attribute/_files/create_attribute_service.php
      */
     public function testUpdate()
     {
@@ -190,7 +190,7 @@ class ProductAttributeRepositoryTest extends \Magento\TestFramework\TestCase\Web
     }
 
     /**
-     * @magentoApiDataFixture Magento/Catalog/Model/Product/Attribute/_files/create_attribute_service.php
+     * @magentoApiDataFixture Magento/Catalog/Model/Detail/Attribute/_files/create_attribute_service.php
      */
     public function testUpdateWithNewOption()
     {

@@ -73,7 +73,7 @@ class Processor extends \Magento\Framework\Indexer\AbstractProcessor
     }
 
     /**
-     * Mark Product flat indexer as invalid
+     * Mark Detail flat indexer as invalid
      *
      * @return void
      */

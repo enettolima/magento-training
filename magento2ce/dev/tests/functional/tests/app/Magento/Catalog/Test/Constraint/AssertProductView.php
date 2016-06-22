@@ -51,19 +51,19 @@ class AssertProductView extends AbstractConstraint
         \PHPUnit_Framework_Assert::assertEquals(
             $product->getName(),
             $name,
-            'Product name on product view page is not correct.'
+            'Detail name on product view page is not correct.'
         );
         \PHPUnit_Framework_Assert::assertEquals(
             $product->getSku(),
             $sku,
-            'Product sku on product view page is not correct.'
+            'Detail sku on product view page is not correct.'
         );
 
         if (isset($price['price_regular_price'])) {
             \PHPUnit_Framework_Assert::assertEquals(
                 number_format($product->getPrice(), 2),
                 $price['price_regular_price'],
-                'Product regular price on product view page is not correct.'
+                'Detail regular price on product view page is not correct.'
             );
         }
 
@@ -76,7 +76,7 @@ class AssertProductView extends AbstractConstraint
             \PHPUnit_Framework_Assert::assertEquals(
                 number_format($priceComparing, 2),
                 $price['price_special_price'],
-                'Product special price on product view page is not correct.'
+                'Detail special price on product view page is not correct.'
             );
         }
     }
@@ -88,6 +88,6 @@ class AssertProductView extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product data on product view page is not correct.';
+        return 'Detail data on product view page is not correct.';
     }
 }

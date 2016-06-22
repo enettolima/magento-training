@@ -10,8 +10,8 @@ use Magento\Mtf\Block\Form;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Class Product
- * Wish List item Product form
+ * Class Detail
+ * Wish List item Detail form
  */
 class Product extends Form
 {
@@ -114,7 +114,7 @@ class Product extends Form
     }
 
     /**
-     * Get Product options.
+     * Get Detail options.
      *
      * @return array|null
      */
@@ -155,7 +155,7 @@ class Product extends Form
     }
 
     /**
-     * Hover Product block so that possible actions appear.
+     * Hover Detail block so that possible actions appear.
      *
      * @return void
      */
@@ -165,7 +165,7 @@ class Product extends Form
     }
 
     /**
-     * Get Wish List data for the Product.
+     * Get Wish List data for the Detail.
      *
      * @param mixed $qty
      * @return array

@@ -59,13 +59,13 @@ class RssTest extends \PHPUnit_Framework_TestCase
             'link' => 'http://rss.magento.com',
             'charset' => 'UTF-8',
             'entries' => [
-                    'title' => 'Product: "Product Name" reviewed by: Product Nick',
+                    'title' => 'Detail: "Detail Name" reviewed by: Detail Nick',
                     'link' => 'http://product.magento.com',
                     'description' => [
                             'rss_url' => 'http://rss.magento.com',
-                            'name' => 'Product Name',
-                            'summary' => 'Product Title',
-                            'review' => 'Product Detail',
+                            'name' => 'Detail Name',
+                            'summary' => 'Detail Title',
+                            'review' => 'Detail Detail',
                             'store' => 'Store Name',
 
                         ],
@@ -97,7 +97,7 @@ class RssTest extends \PHPUnit_Framework_TestCase
         $productModel->expects($this->any())->method('getStoreId')->will($this->returnValue(1));
         $productModel->expects($this->any())->method('getId')->will($this->returnValue(1));
         $productModel->expects($this->once())->method('getReviewId')->will($this->returnValue(1));
-        $productModel->expects($this->any())->method('getNickName')->will($this->returnValue('Product Nick'));
+        $productModel->expects($this->any())->method('getNickName')->will($this->returnValue('Detail Nick'));
         $productModel->expects($this->any())->method('getName')
             ->will($this->returnValue($rssData['entries']['description']['name']));
         $productModel->expects($this->once())->method('getDetail')

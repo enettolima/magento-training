@@ -46,12 +46,12 @@ class AssertProductAttributeAbsenceInUnassignedAttributes extends AbstractConstr
     }
 
     /**
-     * Text absent Product Attribute Unassigned Attribute set's section
+     * Text absent Detail Attribute Unassigned Attribute set's section
      *
      * @return string
      */
     public function toString()
     {
-        return "Product Attribute is absent in Unassigned Attribute set's section.";
+        return "Detail Attribute is absent in Unassigned Attribute set's section.";
     }
 }

@@ -112,7 +112,7 @@ class SimpleProductsFixture extends Fixture
             'product_type'             => \Magento\Catalog\Model\Product\Type::TYPE_SIMPLE,
             'product_websites' => $productWebsiteClosure,
             'categories'         => $productCategoryClosure,
-            'name'              => 'Simple Product %s',
+            'name'              => 'Simple Detail %s',
             'short_description' => 'Short simple product description %s',
             'weight'            => 1,
             'description'       => 'Full simple product Description %s',

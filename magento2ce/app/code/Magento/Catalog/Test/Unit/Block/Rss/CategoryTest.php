@@ -83,7 +83,7 @@ class CategoryTest extends \PHPUnit_Framework_TestCase
         'charset' => 'UTF-8',
         'entries' => [
             [
-                'title' => 'Product Name',
+                'title' => 'Detail Name',
                 'link' => 'http://magento.com/product.html',
             ],
         ],
@@ -152,12 +152,12 @@ class CategoryTest extends \PHPUnit_Framework_TestCase
                 'getDescription',
                 'getAllowedPriceInRss',
             ])->disableOriginalConstructor()->getMock();
-        $product->expects($this->once())->method('getName')->will($this->returnValue('Product Name'));
+        $product->expects($this->once())->method('getName')->will($this->returnValue('Detail Name'));
         $product->expects($this->once())->method('getAllowedInRss')->will($this->returnValue(true));
         $product->expects($this->exactly(2))->method('getProductUrl')
             ->will($this->returnValue('http://magento.com/product.html'));
         $product->expects($this->once())->method('getDescription')
-            ->will($this->returnValue('Product Description'));
+            ->will($this->returnValue('Detail Description'));
         $product->expects($this->once())->method('getAllowedPriceInRss')->will($this->returnValue(true));
 
         $this->rssModel->expects($this->once())->method('getProductCollection')
@@ -181,7 +181,7 @@ class CategoryTest extends \PHPUnit_Framework_TestCase
         );
 
         $this->assertContains(
-            '<td  style="text-decoration:none;">Product Description </td>',
+            '<td  style="text-decoration:none;">Detail Description </td>',
             $data['entries'][0]['description']
         );
     }

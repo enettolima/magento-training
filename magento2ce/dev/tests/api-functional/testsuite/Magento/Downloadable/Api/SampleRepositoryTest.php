@@ -554,7 +554,7 @@ class SampleRepositoryTest extends WebapiAbstract
     {
         $sampleExpectation = [
             'fields' => [
-                'title' => 'Downloadable Product Sample Title',
+                'title' => 'Downloadable Detail Sample Title',
                 'sort_order' => 0,
                 'sample_type' => 'file'
             ]

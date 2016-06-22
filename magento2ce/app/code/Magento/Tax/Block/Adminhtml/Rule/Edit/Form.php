@@ -171,7 +171,7 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
             'editablemultiselect',
             [
                 'name' => 'tax_product_class',
-                'label' => __('Product Tax Class'),
+                'label' => __('Detail Tax Class'),
                 'class' => 'required-entry',
                 'values' => $options,
                 'value' => $selectedProductTax,

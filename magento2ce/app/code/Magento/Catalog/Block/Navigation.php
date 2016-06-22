@@ -65,7 +65,7 @@ class Navigation extends \Magento\Framework\View\Element\Template implements \Ma
     protected $_catalogLayer;
 
     /**
-     * Product collection factory
+     * Detail collection factory
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory
      */

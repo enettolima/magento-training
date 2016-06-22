@@ -18,23 +18,23 @@ class ProductTypeListTest extends WebapiAbstract
         $expectedProductTypes = [
             [
                 'name' => 'simple',
-                'label' => 'Simple Product',
+                'label' => 'Simple Detail',
             ],
             [
                 'name' => 'virtual',
-                'label' => 'Virtual Product',
+                'label' => 'Virtual Detail',
             ],
             [
                 'name' => 'downloadable',
-                'label' => 'Downloadable Product',
+                'label' => 'Downloadable Detail',
             ],
             [
                 'name' => 'bundle',
-                'label' => 'Bundle Product',
+                'label' => 'Bundle Detail',
             ],
             [
                 'name' => 'configurable',
-                'label' => 'Configurable Product',
+                'label' => 'Configurable Detail',
             ],
         ];
 

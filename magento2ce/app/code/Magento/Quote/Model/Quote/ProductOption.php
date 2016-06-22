@@ -9,7 +9,7 @@ use Magento\Framework\Model\AbstractExtensibleModel;
 use Magento\Quote\Api\Data\ProductOptionInterface;
 
 /**
- * Product option entity
+ * Detail option entity
  */
 class ProductOption extends AbstractExtensibleModel implements ProductOptionInterface
 {

@@ -5,7 +5,7 @@
  */
 
 /**
- * Product additional info block
+ * Detail additional info block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

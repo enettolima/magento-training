@@ -5,7 +5,7 @@
  */
 
 /**
- * Product options block
+ * Detail options block
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */
@@ -24,7 +24,7 @@ class Options extends \Magento\Framework\View\Element\Template
     protected $_product;
 
     /**
-     * Product option
+     * Detail option
      *
      * @var \Magento\Catalog\Model\Product\Option
      */
@@ -100,7 +100,7 @@ class Options extends \Magento\Framework\View\Element\Template
             if ($this->_registry->registry('current_product')) {
                 $this->_product = $this->_registry->registry('current_product');
             } else {
-                throw new \LogicException('Product is not defined');
+                throw new \LogicException('Detail is not defined');
             }
         }
         return $this->_product;

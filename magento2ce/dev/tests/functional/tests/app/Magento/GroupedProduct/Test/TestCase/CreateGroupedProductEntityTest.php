@@ -22,11 +22,11 @@ use Magento\Mtf\TestCase\Injectable;
  * Test Flow:
  * 1. Login to the backend.
  * 2. Navigate to Products > Catalog.
- * 3. Start to create Grouped Product.
+ * 3. Start to create Grouped Detail.
  * 4. Fill in data according to data set.
  * 5. Click "Add Products to Group" button and select products'.
- * 6. Click "Add Selected Product" button
- * 7. Save the Product.
+ * 6. Click "Add Selected Detail" button
+ * 7. Save the Detail.
  * 8. Perform assertions.
  *
  * @group Grouped_Product_(MX)

@@ -13,15 +13,15 @@ use Magento\Catalog\Test\Page\Adminhtml\CatalogProductActionAttributeEdit;
 
 /**
  * Precondition:
- * 1. Product is created.
- * 2. Product flat is enabled.
+ * 1. Detail is created.
+ * 2. Detail flat is enabled.
  *
  * Steps:
  * 1. Login to backend.
  * 2. Go to Products -> Catalog.
- * 3. Find Product (from preconditions) in Products grid.
- * 4. Select Product's check-box.
- * 5. Select "Update Attributes" value in "Select Product Actions" drop-down list.
+ * 3. Find Detail (from preconditions) in Products grid.
+ * 4. Select Detail's check-box.
+ * 5. Select "Update Attributes" value in "Select Detail Actions" drop-down list.
  * 6. Click on the "Submit" button.
  * 7. Open "Attributes" tab.
  * 8. Fill data.
@@ -39,7 +39,7 @@ class MassProductUpdateTest extends Injectable
     /* end tags */
 
     /**
-     * Product page with a grid.
+     * Detail page with a grid.
      *
      * @var CatalogProductIndex
      */

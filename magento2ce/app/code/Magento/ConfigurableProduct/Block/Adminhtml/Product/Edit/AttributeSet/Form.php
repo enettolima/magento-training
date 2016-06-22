@@ -5,7 +5,7 @@
  */
 
 /**
- * Product attribute set selector form
+ * Detail attribute set selector form
  */
 namespace Magento\ConfigurableProduct\Block\Adminhtml\Product\Edit\AttributeSet;
 

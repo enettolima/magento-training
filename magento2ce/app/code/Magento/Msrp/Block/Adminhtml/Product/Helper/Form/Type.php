@@ -6,7 +6,7 @@
 namespace Magento\Msrp\Block\Adminhtml\Product\Helper\Form;
 
 /**
- * Product form MSRP field helper
+ * Detail form MSRP field helper
  */
 class Type extends \Magento\Catalog\Block\Adminhtml\Product\Helper\Form\Price
 {

@@ -11,7 +11,7 @@ use Magento\Mtf\TestCase\Scenario;
 
 /**
  * Preconditions:
- * 1. Create Product.
+ * 1. Create Detail.
  *
  * Steps:
  * 1. Log in to Backend.
@@ -19,7 +19,7 @@ use Magento\Mtf\TestCase\Scenario;
  * 3. Open product created in preconditions.
  * 4. Click add new attribute.
  * 5. Fill out fields data according to data set.
- * 6. Save Product Attribute.
+ * 6. Save Detail Attribute.
  * 7. Fill attribute value.
  * 8. Save product.
  * 7. Perform appropriate assertions.

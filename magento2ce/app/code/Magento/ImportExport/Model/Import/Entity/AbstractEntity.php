@@ -240,7 +240,7 @@ abstract class AbstractEntity
     protected $errorAggregator;
 
     /**
-     * Product metadata pool
+     * Detail metadata pool
      *
      * @var \Magento\Framework\EntityManager\MetadataPool
      */

@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Product\Attribute\Backend;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Attribute\Backend\Sku.
+ * Test class for \Magento\Catalog\Model\Detail\Attribute\Backend\Sku.
  * @magentoAppArea adminhtml
  */
 class SkuTest extends \PHPUnit_Framework_TestCase
@@ -91,7 +91,7 @@ class SkuTest extends \PHPUnit_Framework_TestCase
         )->setWebsiteIds(
             [1]
         )->setName(
-            'Simple Product'
+            'Simple Detail'
         )->setSku(
             'simple'
         )->setPrice(

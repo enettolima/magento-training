@@ -172,8 +172,8 @@ class NewVideo extends \Magento\Backend\Block\Widget\Form\Generic
             'checkbox',
             [
                 'class' => 'edited-data',
-                'label' => __('Hide from Product Page'),
-                'title' => __('Hide from Product Page'),
+                'label' => __('Hide from Detail Page'),
+                'title' => __('Hide from Detail Page'),
                 'name' => 'disabled',
             ]
         );

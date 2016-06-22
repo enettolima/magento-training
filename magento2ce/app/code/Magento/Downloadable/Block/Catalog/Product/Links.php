@@ -11,7 +11,7 @@ use Magento\Downloadable\Pricing\Price\LinkPrice;
 use Magento\Framework\Json\EncoderInterface;
 
 /**
- * Downloadable Product Links part block
+ * Downloadable Detail Links part block
  */
 class Links extends \Magento\Catalog\Block\Product\AbstractProduct
 {

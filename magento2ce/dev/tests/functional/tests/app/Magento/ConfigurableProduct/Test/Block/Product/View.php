@@ -13,7 +13,7 @@ use Magento\Mtf\Fixture\InjectableFixture;
 
 /**
  * Class View
- * Product view block on frontend page
+ * Detail view block on frontend page
  */
 class View extends \Magento\Catalog\Test\Block\Product\View
 {

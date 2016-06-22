@@ -14,12 +14,12 @@ use Magento\Mtf\Client\BrowserInterface;
 use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
- * Check that after applying changes, currency symbol changed on Product Details Page.
+ * Check that after applying changes, currency symbol changed on Detail Details Page.
  */
 class AssertCurrencySymbolOnProductPage extends AbstractConstraint
 {
     /**
-     * Assert that after applying changes, currency symbol changed on Product Details Page.
+     * Assert that after applying changes, currency symbol changed on Detail Details Page.
      *
      * @param CatalogProductSimple $product
      * @param BrowserInterface $browser
@@ -45,7 +45,7 @@ class AssertCurrencySymbolOnProductPage extends AbstractConstraint
         \PHPUnit_Framework_Assert::assertEquals(
             $currencySymbol->getCustomCurrencySymbol(),
             $symbolOnPage,
-            'Wrong Currency Symbol is displayed on Product page.'
+            'Wrong Currency Symbol is displayed on Detail page.'
         );
     }
 
@@ -56,6 +56,6 @@ class AssertCurrencySymbolOnProductPage extends AbstractConstraint
      */
     public function toString()
     {
-        return "Currency Symbol has been changed on Product Details page.";
+        return "Currency Symbol has been changed on Detail Details page.";
     }
 }

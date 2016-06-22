@@ -83,7 +83,7 @@ class DeleteHandler
         if (!$linkId) {
             throw new NoSuchEntityException(
                 __(
-                    'Product with SKU %1 is not linked to product with SKU %2',
+                    'Detail with SKU %1 is not linked to product with SKU %2',
                     $entity->getLinkedProductSku(),
                     $entity->getSku()
                 )

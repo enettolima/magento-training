@@ -48,7 +48,7 @@ class Stock extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb impleme
     protected $_configMinQty;
 
     /**
-     * Product types that could have quantities
+     * Detail types that could have quantities
      *
      * @var array
      */

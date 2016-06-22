@@ -8,7 +8,7 @@ namespace Magento\ConfigurableProduct\Block\Stockqty\Type;
 use Magento\Catalog\Model\Product;
 
 /**
- * Product stock qty block for configurable product type
+ * Detail stock qty block for configurable product type
  */
 class Configurable extends \Magento\CatalogInventory\Block\Stockqty\Composite
 {

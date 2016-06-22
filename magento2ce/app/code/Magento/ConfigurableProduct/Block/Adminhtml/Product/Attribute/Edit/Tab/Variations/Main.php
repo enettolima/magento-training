@@ -5,7 +5,7 @@
  */
 
 /**
- * Product attribute add form variations main tab
+ * Detail attribute add form variations main tab
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

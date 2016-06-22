@@ -166,7 +166,7 @@ class Send extends \Magento\Framework\View\Element\Template
     }
 
     /**
-     * Retrieve Current Product Id
+     * Retrieve Current Detail Id
      *
      * @return int
      */

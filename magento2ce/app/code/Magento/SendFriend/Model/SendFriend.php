@@ -44,7 +44,7 @@ class SendFriend extends \Magento\Framework\Model\AbstractModel
     protected $_sender = [];
 
     /**
-     * Product Instance
+     * Detail Instance
      *
      * @var \Magento\Catalog\Model\Product
      */
@@ -339,7 +339,7 @@ class SendFriend extends \Magento\Framework\Model\AbstractModel
     }
 
     /**
-     * Retrieve Product instance
+     * Retrieve Detail instance
      *
      * @throws \Magento\Framework\Exception\LocalizedException
      * @return \Magento\Catalog\Model\Product

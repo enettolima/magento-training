@@ -49,7 +49,7 @@ class StockIndex implements StockIndexInterface
     protected $websites;
 
     /**
-     * Product Type Instances cache
+     * Detail Type Instances cache
      *
      * @var array
      */
@@ -245,7 +245,7 @@ class StockIndex implements StockIndexInterface
     }
 
     /**
-     * Retrieve Product Type Instances
+     * Retrieve Detail Type Instances
      * as key - type code, value - instance model
      *
      * @return array

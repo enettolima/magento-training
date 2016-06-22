@@ -153,7 +153,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['identity' => true, 'unsigned' => true, 'nullable' => false, 'primary' => true],
-                'Rule Product Id'
+                'Rule Detail Id'
             )
             ->addColumn(
                 'rule_id',
@@ -188,7 +188,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'action_operator',
@@ -268,7 +268,7 @@ class InstallSchema implements InstallSchemaInterface
                 $installer->getIdxName('catalogrule_product', ['product_id']),
                 ['product_id']
             )
-            ->setComment('CatalogRule Product');
+            ->setComment('CatalogRule Detail');
 
         $installer->getConnection()->createTable($table);
 
@@ -282,7 +282,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['identity' => true, 'unsigned' => true, 'nullable' => false, 'primary' => true],
-                'Rule Product PriceId'
+                'Rule Detail PriceId'
             )
             ->addColumn(
                 'rule_date',
@@ -303,7 +303,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'rule_price',
@@ -354,7 +354,7 @@ class InstallSchema implements InstallSchemaInterface
                 $installer->getIdxName('catalogrule_product_price', ['product_id']),
                 ['product_id']
             )
-            ->setComment('CatalogRule Product Price');
+            ->setComment('CatalogRule Detail Price');
 
         $installer->getConnection()->createTable($table);
 

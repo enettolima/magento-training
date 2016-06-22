@@ -75,7 +75,7 @@ class Viewed extends \Magento\Backend\Block\Dashboard\Grid
      */
     protected function _prepareColumns()
     {
-        $this->addColumn('name', ['header' => __('Product'), 'sortable' => false, 'index' => 'name']);
+        $this->addColumn('name', ['header' => __('Detail'), 'sortable' => false, 'index' => 'name']);
 
         $this->addColumn(
             'price',

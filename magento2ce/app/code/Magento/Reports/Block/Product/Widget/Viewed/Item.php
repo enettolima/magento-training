@@ -13,7 +13,7 @@ namespace Magento\Reports\Block\Product\Widget\Viewed;
 class Item extends \Magento\Catalog\Block\Product\AbstractProduct implements \Magento\Widget\Block\BlockInterface
 {
     /**
-     * Viewed Product Index type
+     * Viewed Detail Index type
      *
      * @var string
      */

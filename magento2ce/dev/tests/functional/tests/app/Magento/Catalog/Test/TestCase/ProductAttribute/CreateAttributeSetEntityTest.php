@@ -21,7 +21,7 @@ use Magento\Mtf\TestCase\Injectable;
  * 2. Navigate to Stores > Attributes > Attribute Set.
  * 3. Start to create new Attribute Set.
  * 4. Fill out fields data according to data set.
- * 5. Add created Product Attribute to Attribute Set.
+ * 5. Add created Detail Attribute to Attribute Set.
  * 6. Save new Attribute Set.
  * 7. Verify created Attribute Set.
  *
@@ -36,21 +36,21 @@ class CreateAttributeSetEntityTest extends Injectable
     /* end tags */
 
     /**
-     * Catalog Product Set page
+     * Catalog Detail Set page
      *
      * @var CatalogProductSetIndex
      */
     protected $productSetIndex;
 
     /**
-     * Catalog Product Set add page
+     * Catalog Detail Set add page
      *
      * @var CatalogProductSetAdd
      */
     protected $productSetAdd;
 
     /**
-     * Catalog Product Set edit page
+     * Catalog Detail Set edit page
      *
      * @var CatalogProductSetEdit
      */

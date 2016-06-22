@@ -16,12 +16,12 @@ use Magento\Mtf\Fixture\FixtureInterface;
 use Magento\Ui\Test\Block\Adminhtml\DataGrid;
 
 /**
- * Product form on backend product page.
+ * Detail form on backend product page.
  */
 class ProductForm extends FormSections
 {
     /**
-     * Attribute on the Product page.
+     * Attribute on the Detail page.
      *
      * @var string
      */
@@ -155,7 +155,7 @@ class ProductForm extends FormSections
     }
 
     /**
-     * Check custom section visibility on Product form.
+     * Check custom section visibility on Detail form.
      *
      * @param string $sectionName
      * @return bool
@@ -169,7 +169,7 @@ class ProductForm extends FormSections
     }
 
     /**
-     * Open custom section on Product form.
+     * Open custom section on Detail form.
      *
      * @param string $sectionName
      * @return void

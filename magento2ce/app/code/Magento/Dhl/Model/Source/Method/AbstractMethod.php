@@ -11,7 +11,7 @@ namespace Magento\Dhl\Model\Source\Method;
 abstract class AbstractMethod extends \Magento\Dhl\Model\Source\Method\Generic
 {
     /**
-     * Carrier Product Type Indicator
+     * Carrier Detail Type Indicator
      *
      * @var string $_contentType
      */

@@ -11,10 +11,10 @@ use Magento\Mtf\TestCase\Scenario;
 /**
  * Steps:
  * 1. Log in to Backend.
- * 2. Navigate to Stores > Attributes > Product.
- * 3. Start to create new Product Attribute.
+ * 2. Navigate to Stores > Attributes > Detail.
+ * 3. Start to create new Detail Attribute.
  * 4. Fill out fields data according to data set.
- * 5. Save Product Attribute.
+ * 5. Save Detail Attribute.
  * 6. Perform appropriate assertions.
  *
  * @group Product_Attributes_(MX)

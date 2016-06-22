@@ -18,7 +18,7 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\VersionContro
     protected $_quote;
 
     /**
-     * Product Ids array
+     * Detail Ids array
      *
      * @var int[]
      */

@@ -22,7 +22,7 @@ class ProductOptionRepositoryTest extends \Magento\TestFramework\TestCase\Webapi
             'required' => true,
             'position' => 0,
             'type' => 'select',
-            'title' => 'Bundle Product Items',
+            'title' => 'Bundle Detail Items',
             'sku' => $productSku,
             'product_links' => [
                 [
@@ -63,7 +63,7 @@ class ProductOptionRepositoryTest extends \Magento\TestFramework\TestCase\Webapi
                 'required' => true,
                 'position' => 0,
                 'type' => 'select',
-                'title' => 'Bundle Product Items',
+                'title' => 'Bundle Detail Items',
                 'sku' => $productSku,
                 'product_links' => [
                     [

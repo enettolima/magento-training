@@ -15,7 +15,7 @@ return [
     'parent_item_id' => null,
     'is_virtual' => '0',
     'sku' => 'sp01',
-    'name' => 'Simple Product',
+    'name' => 'Simple Detail',
     'description' => null,
     'applied_rule_ids' => '1',
     'additional_data' => null,

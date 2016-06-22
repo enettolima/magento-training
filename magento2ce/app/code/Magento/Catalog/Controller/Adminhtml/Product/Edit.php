@@ -35,7 +35,7 @@ class Edit extends \Magento\Catalog\Controller\Adminhtml\Product
     }
 
     /**
-     * Product edit form
+     * Detail edit form
      *
      * @return \Magento\Framework\Controller\ResultInterface
      */

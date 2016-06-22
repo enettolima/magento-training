@@ -13,14 +13,14 @@ namespace Magento\Reports\Block\Product;
 abstract class AbstractProduct extends \Magento\Catalog\Block\Product\AbstractProduct
 {
     /**
-     * Product Index model type
+     * Detail Index model type
      *
      * @var string
      */
     protected $_indexType;
 
     /**
-     * Product Index Collection
+     * Detail Index Collection
      *
      * @var \Magento\Reports\Model\ResourceModel\Product\Index\Collection\AbstractCollection
      */
@@ -81,9 +81,9 @@ abstract class AbstractProduct extends \Magento\Catalog\Block\Product\AbstractPr
     }
 
     /**
-     * Public method for retrieve Product Index model
+     * Public method for retrieve Detail Index model
      *
-     * @return \Magento\Reports\Model\Product\Index\AbstractIndex
+     * @return \Magento\Reports\Model\Detail\Index\AbstractIndex
      */
     public function getModel()
     {
@@ -97,7 +97,7 @@ abstract class AbstractProduct extends \Magento\Catalog\Block\Product\AbstractPr
     }
 
     /**
-     * Retrieve Index Product Collection
+     * Retrieve Index Detail Collection
      *
      * @return \Magento\Reports\Model\ResourceModel\Product\Index\Collection\AbstractCollection
      */

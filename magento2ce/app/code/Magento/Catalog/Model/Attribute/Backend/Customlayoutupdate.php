@@ -9,7 +9,7 @@ use Magento\Framework\View\Model\Layout\Update\ValidatorFactory;
 use Magento\Eav\Model\Entity\Attribute\Exception;
 
 /**
- * Product url key attribute backend
+ * Detail url key attribute backend
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  */

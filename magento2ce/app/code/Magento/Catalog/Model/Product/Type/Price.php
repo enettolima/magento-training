@@ -12,13 +12,13 @@ use Magento\Framework\Pricing\PriceCurrencyInterface;
 use Magento\Store\Model\Store;
 
 /**
- * Product type price model
+ * Detail type price model
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
  */
 class Price
 {
     /**
-     * Product price cache tag
+     * Detail price cache tag
      */
     const CACHE_TAG = 'PRODUCT_PRICE';
 

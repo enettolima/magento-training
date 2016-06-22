@@ -153,45 +153,45 @@ class UpgradeData implements UpgradeDataInterface
             /** @var \Magento\Catalog\Setup\CategorySetup $categorySetup */
             $categorySetup = $this->categorySetupFactory->create(['setup' => $setup]);
 
-            //Product Details tab
+            //Detail Details tab
             $categorySetup->updateAttribute(
                 ProductAttributeInterface::ENTITY_TYPE_CODE,
                 'status',
                 'frontend_label',
-                'Enable Product',
+                'Enable Detail',
                 5
             );
             $categorySetup->updateAttribute(
                 ProductAttributeInterface::ENTITY_TYPE_CODE,
                 'name',
                 'frontend_label',
-                'Product Name'
+                'Detail Name'
             );
             $categorySetup->addAttributeToGroup(
                 ProductAttributeInterface::ENTITY_TYPE_CODE,
                 'Default',
-                'Product Details',
+                'Detail Details',
                 'visibility',
                 80
             );
             $categorySetup->addAttributeToGroup(
                 ProductAttributeInterface::ENTITY_TYPE_CODE,
                 'Default',
-                'Product Details',
+                'Detail Details',
                 'news_from_date',
                 90
             );
             $categorySetup->addAttributeToGroup(
                 ProductAttributeInterface::ENTITY_TYPE_CODE,
                 'Default',
-                'Product Details',
+                'Detail Details',
                 'news_to_date',
                 100
             );
             $categorySetup->addAttributeToGroup(
                 ProductAttributeInterface::ENTITY_TYPE_CODE,
                 'Default',
-                'Product Details',
+                'Detail Details',
                 'country_of_manufacture',
                 110
             );

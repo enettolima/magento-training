@@ -118,7 +118,7 @@ class Websites extends AbstractModifier
                             'data' => [
                                 'config' => [
                                     'additionalClasses' => 'admin__fieldset-product-websites',
-                                    'label' => __('Product in Websites'),
+                                    'label' => __('Detail in Websites'),
                                     'collapsible' => true,
                                     'componentType' => Form\Fieldset::NAME,
                                     'dataScope' => self::DATA_SCOPE_PRODUCT,

@@ -5,7 +5,7 @@
  */
 
 /**
- * Catalog Rule Product Aggregated Price per date Resource Model
+ * Catalog Rule Detail Aggregated Price per date Resource Model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

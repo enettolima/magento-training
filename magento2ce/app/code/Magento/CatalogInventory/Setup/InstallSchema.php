@@ -81,7 +81,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'stock_id',
@@ -306,7 +306,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'primary' => true],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'website_id',
@@ -358,7 +358,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'primary' => true],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'website_id',
@@ -410,7 +410,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'primary' => true],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'website_id',

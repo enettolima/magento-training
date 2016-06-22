@@ -120,7 +120,7 @@ class ViewedTest extends \Magento\Reports\Test\Unit\Controller\Adminhtml\Report\
         $titleMock
             ->expects($this->once())
             ->method('prepend')
-            ->with(new Phrase('Product Views Report'));
+            ->with(new Phrase('Detail Views Report'));
 
         $this->viewMock
             ->expects($this->once())

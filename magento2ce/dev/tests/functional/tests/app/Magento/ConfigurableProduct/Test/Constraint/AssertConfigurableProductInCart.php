@@ -44,7 +44,7 @@ class AssertConfigurableProductInCart extends AbstractConstraint
         \PHPUnit_Framework_Assert::assertEquals(
             $checkoutData['cartItem']['price'],
             $price,
-            'Product price in shopping cart is not correct.'
+            'Detail price in shopping cart is not correct.'
         );
     }
 
@@ -55,6 +55,6 @@ class AssertConfigurableProductInCart extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product price in shopping cart is correct.';
+        return 'Detail price in shopping cart is correct.';
     }
 }

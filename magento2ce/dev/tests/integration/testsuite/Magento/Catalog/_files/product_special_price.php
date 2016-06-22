@@ -9,7 +9,7 @@ $product = \Magento\TestFramework\Helper\Bootstrap::getObjectManager()->create('
 $product->setTypeId('simple')
     ->setAttributeSetId(4)
     ->setWebsiteIds([1])
-    ->setName('Simple Product')
+    ->setName('Simple Detail')
     ->setSku('simple')
     ->setPrice(10)
     ->setMetaTitle('meta title')

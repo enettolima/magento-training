@@ -9,7 +9,7 @@ use Magento\Framework\DataObject\IdentityInterface;
 use Magento\Framework\View\Element\Template;
 
 /**
- * Product Review Tab
+ * Detail Review Tab
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

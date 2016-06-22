@@ -34,7 +34,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['identity' => true, 'unsigned' => true, 'nullable' => false, 'primary' => true],
-            'Product alert price id'
+            'Detail alert price id'
         )->addColumn(
             'customer_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
@@ -46,7 +46,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-            'Product id'
+            'Detail id'
         )->addColumn(
             'price',
             \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
@@ -64,25 +64,25 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_TIMESTAMP,
             null,
             ['nullable' => false, 'default' => \Magento\Framework\DB\Ddl\Table::TIMESTAMP_INIT],
-            'Product alert add date'
+            'Detail alert add date'
         )->addColumn(
             'last_send_date',
             \Magento\Framework\DB\Ddl\Table::TYPE_TIMESTAMP,
             null,
             [],
-            'Product alert last send date'
+            'Detail alert last send date'
         )->addColumn(
             'send_count',
             \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
             null,
             ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-            'Product alert send count'
+            'Detail alert send count'
         )->addColumn(
             'status',
             \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
             null,
             ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-            'Product alert status'
+            'Detail alert status'
         )->addIndex(
             $installer->getIdxName('product_alert_price', ['customer_id']),
             ['customer_id']
@@ -111,7 +111,7 @@ class InstallSchema implements InstallSchemaInterface
             'website_id',
             \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
         )->setComment(
-            'Product Alert Price'
+            'Detail Alert Price'
         );
         $installer->getConnection()->createTable($table);
 
@@ -125,7 +125,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['identity' => true, 'unsigned' => true, 'nullable' => false, 'primary' => true],
-            'Product alert stock id'
+            'Detail alert stock id'
         )->addColumn(
             'customer_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
@@ -137,7 +137,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-            'Product id'
+            'Detail id'
         )->addColumn(
             'website_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
@@ -149,13 +149,13 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_TIMESTAMP,
             null,
             ['nullable' => false, 'default' => \Magento\Framework\DB\Ddl\Table::TIMESTAMP_INIT],
-            'Product alert add date'
+            'Detail alert add date'
         )->addColumn(
             'send_date',
             \Magento\Framework\DB\Ddl\Table::TYPE_TIMESTAMP,
             null,
             [],
-            'Product alert send date'
+            'Detail alert send date'
         )->addColumn(
             'send_count',
             \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
@@ -167,7 +167,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
             null,
             ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-            'Product alert status'
+            'Detail alert status'
         )->addIndex(
             $installer->getIdxName('product_alert_stock', ['customer_id']),
             ['customer_id']
@@ -196,7 +196,7 @@ class InstallSchema implements InstallSchemaInterface
             'entity_id',
             \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
         )->setComment(
-            'Product Alert Stock'
+            'Detail Alert Stock'
         );
         $installer->getConnection()->createTable($table);
 

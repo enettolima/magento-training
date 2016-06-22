@@ -40,7 +40,7 @@ $product
     ->setTypeId(\Magento\Catalog\Model\Product\Type::TYPE_SIMPLE)
     ->setAttributeSetId($installer->getAttributeSetId('catalog_product', 'Default'))
     ->setWebsiteIds([1])
-    ->setName('Simple Product with date attribute')
+    ->setName('Simple Detail with date attribute')
     ->setSku('simple_product_with_date_attribute')
     ->setPrice(1)
     ->setCategoryIds([2])

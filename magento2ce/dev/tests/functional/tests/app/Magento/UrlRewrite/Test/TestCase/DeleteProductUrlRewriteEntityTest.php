@@ -14,8 +14,8 @@ use Magento\Mtf\TestCase\Injectable;
 /**
  * Precondition:
  * 1. Sub category is created.
- * 2. Product is created.
- * 3. Product url rewrites is created.
+ * 2. Detail is created.
+ * 3. Detail url rewrites is created.
  *
  * Steps:
  * 1. Login to backend.

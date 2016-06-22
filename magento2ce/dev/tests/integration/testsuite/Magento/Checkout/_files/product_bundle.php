@@ -17,7 +17,7 @@ $bundleProduct->setTypeId(
 )->setWebsiteIds(
     [1]
 )->setName(
-    'Bundle Product'
+    'Bundle Detail'
 )->setSku(
     'bundle-product'
 )->setDescription(
@@ -39,8 +39,8 @@ $bundleProduct->setTypeId(
 )->setBundleOptionsData(
     [
         [
-            'title' => 'Bundle Product Items',
-            'default_title' => 'Bundle Product Items',
+            'title' => 'Bundle Detail Items',
+            'default_title' => 'Bundle Detail Items',
             'type' => 'select',
             'required' => 1,
             'delete' => '',

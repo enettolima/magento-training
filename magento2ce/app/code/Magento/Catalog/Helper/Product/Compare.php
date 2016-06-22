@@ -9,7 +9,7 @@ use Magento\Catalog\Model\Product;
 use Magento\Catalog\Model\ResourceModel\Product\Compare\Item\Collection;
 
 /**
- * Catalog Product Compare Helper
+ * Catalog Detail Compare Helper
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -17,14 +17,14 @@ use Magento\Catalog\Model\ResourceModel\Product\Compare\Item\Collection;
 class Compare extends \Magento\Framework\Url\Helper\Data
 {
     /**
-     * Product Compare Items Collection
+     * Detail Compare Items Collection
      *
      * @var Collection
      */
     protected $_itemCollection;
 
     /**
-     * Product Comapare Items Collection has items flag
+     * Detail Comapare Items Collection has items flag
      *
      * @var bool
      */
@@ -73,7 +73,7 @@ class Compare extends \Magento\Framework\Url\Helper\Data
     protected $_catalogProductVisibility;
 
     /**
-     * Product compare item collection factory
+     * Detail compare item collection factory
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\Compare\Item\CollectionFactory
      */

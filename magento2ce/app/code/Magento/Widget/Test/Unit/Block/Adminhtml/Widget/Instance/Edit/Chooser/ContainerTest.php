@@ -47,7 +47,7 @@ class ContainerTest extends AbstractContainerTest
             'sidebar.additional' => 'Sidebar Additional'
         ];
         $layoutProcessorContainers = [
-            'product.info.virtual.extra' => 'Product Extra Info',
+            'product.info.virtual.extra' => 'Detail Extra Info',
             'header.panel' => 'Page Header Panel',
             'header-wrapper' => 'Page Header',
             'top.container' => 'After Page Header Top',
@@ -123,7 +123,7 @@ class ContainerTest extends AbstractContainerTest
             'sidebar.additional' => 'Sidebar Additional'
         ];
         $layoutProcessorContainers = [
-            'product.info.simple.extra' => 'Product Extra Info',
+            'product.info.simple.extra' => 'Detail Extra Info',
             'header.panel' => 'Page Header Panel',
             'header-wrapper' => 'Page Header',
             'top.container' => 'After Page Header Top',
@@ -149,7 +149,7 @@ class ContainerTest extends AbstractContainerTest
             . '<option value="footer-container" >Page Footer Container</option><option value="header-wrapper" >'
             . 'Page Header</option><option value="header.container" >Page Header Container</option>'
             . '<option value="header.panel" >Page Header Panel</option><option value="after.body.start" >'
-            . 'Page Top</option><option value="product.info.simple.extra" >Product Extra Info</option>'
+            . 'Page Top</option><option value="product.info.simple.extra" >Detail Extra Info</option>'
             . '<option value="sidebar.additional" >Sidebar Additional</option>'
             . '<option value="sidebar.main" >Sidebar Main</option></select>';
 
@@ -214,7 +214,7 @@ class ContainerTest extends AbstractContainerTest
                 ['after.body.start', null, 'after.body.start'],
                 ['Page Top', null, 'Page Top'],
                 ['product.info.simple.extra', null, 'product.info.simple.extra'],
-                ['Product Extra Info', null, 'Product Extra Info'],
+                ['Detail Extra Info', null, 'Detail Extra Info'],
                 ['sidebar.additional', null, 'sidebar.additional'],
                 ['Sidebar Additional', null, 'Sidebar Additional'],
                 ['sidebar.main', null, 'sidebar.main'],
@@ -244,11 +244,11 @@ class ContainerTest extends AbstractContainerTest
             'sidebar.additional' => 'Sidebar Additional'
         ];
         $layoutProcessorContainers = [
-            'product.info.price' => 'Product info auxiliary container',
-            'product.info.stock.sku' => 'Product auxiliary info',
+            'product.info.price' => 'Detail info auxiliary container',
+            'product.info.stock.sku' => 'Detail auxiliary info',
             'alert.urls' => 'Alert Urls',
-            'product.info.extrahint' => 'Product View Extra Hint',
-            'product.info.social' => 'Product social links container',
+            'product.info.extrahint' => 'Detail View Extra Hint',
+            'product.info.social' => 'Detail social links container',
             'product.review.form.fields.before' => 'Review Form Fields Before',
             'header.panel' => 'Page Header Panel',
             'header-wrapper' => 'Page Header',
@@ -276,10 +276,10 @@ class ContainerTest extends AbstractContainerTest
             . 'Page Footer Container</option><option value="header-wrapper" >Page Header</option>'
             . '<option value="header.container" >Page Header Container</option><option value="header.panel" >'
             . 'Page Header Panel</option><option value="after.body.start" >Page Top</option>'
-            . '<option value="product.info.extrahint" >Product View Extra Hint</option>'
-            . '<option value="product.info.stock.sku" >Product auxiliary info</option>'
-            . '<option value="product.info.price" >Product info auxiliary container</option>'
-            . '<option value="product.info.social" >Product social links container</option>'
+            . '<option value="product.info.extrahint" >Detail View Extra Hint</option>'
+            . '<option value="product.info.stock.sku" >Detail auxiliary info</option>'
+            . '<option value="product.info.price" >Detail info auxiliary container</option>'
+            . '<option value="product.info.social" >Detail social links container</option>'
             . '<option value="product.review.form.fields.before" >Review Form Fields Before</option>'
             . '<option value="sidebar.additional" >Sidebar Additional</option>'
             . '<option value="sidebar.main" >Sidebar Main</option></select>';
@@ -347,13 +347,13 @@ class ContainerTest extends AbstractContainerTest
                 ['after.body.start', null, 'after.body.start'],
                 ['Page Top', null, 'Page Top'],
                 ['product.info.extrahint', null, 'product.info.extrahint'],
-                ['Product View Extra Hint', null, 'Product View Extra Hint'],
+                ['Detail View Extra Hint', null, 'Detail View Extra Hint'],
                 ['product.info.stock.sku', null, 'product.info.stock.sku'],
-                ['Product auxiliary info', null, 'Product auxiliary info'],
+                ['Detail auxiliary info', null, 'Detail auxiliary info'],
                 ['product.info.price', null, 'product.info.price'],
-                ['Product info auxiliary container', null, 'Product info auxiliary container'],
+                ['Detail info auxiliary container', null, 'Detail info auxiliary container'],
                 ['product.info.social', null, 'product.info.social'],
-                ['Product social links container', null, 'Product social links container'],
+                ['Detail social links container', null, 'Detail social links container'],
                 ['product.review.form.fields.before', null, 'product.review.form.fields.before'],
                 ['Review Form Fields Before', null, 'Review Form Fields Before'],
                 ['sidebar.additional', null, 'sidebar.additional'],

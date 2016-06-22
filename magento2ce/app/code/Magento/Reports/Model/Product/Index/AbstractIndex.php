@@ -6,7 +6,7 @@
 namespace Magento\Reports\Model\Product\Index;
 
 /**
- * Reports Product Index Abstract Model
+ * Reports Detail Index Abstract Model
  */
 abstract class AbstractIndex extends \Magento\Framework\Model\AbstractModel
 {
@@ -214,7 +214,7 @@ abstract class AbstractIndex extends \Magento\Framework\Model\AbstractModel
     }
 
     /**
-     * Retrieve Exclude Product Ids List for Collection
+     * Retrieve Exclude Detail Ids List for Collection
      *
      * @return array
      */

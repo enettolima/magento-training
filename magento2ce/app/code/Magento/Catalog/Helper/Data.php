@@ -329,7 +329,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     }
 
     /**
-     * Retrieve current Product object
+     * Retrieve current Detail object
      *
      * @return \Magento\Catalog\Model\Product|null
      */

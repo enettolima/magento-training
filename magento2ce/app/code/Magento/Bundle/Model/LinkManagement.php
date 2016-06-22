@@ -125,7 +125,7 @@ class LinkManagement implements \Magento\Bundle\Api\ProductLinkManagementInterfa
         $product = $this->productRepository->get($sku, true);
         if ($product->getTypeId() != \Magento\Catalog\Model\Product\Type::TYPE_BUNDLE) {
             throw new InputException(
-                __('Product with specified sku: "%1" is not a bundle product', [$product->getSku()])
+                __('Detail with specified sku: "%1" is not a bundle product', [$product->getSku()])
             );
         }
 
@@ -213,7 +213,7 @@ class LinkManagement implements \Magento\Bundle\Api\ProductLinkManagementInterfa
     ) {
         if ($product->getTypeId() != \Magento\Catalog\Model\Product\Type::TYPE_BUNDLE) {
             throw new InputException(
-                __('Product with specified sku: "%1" is not a bundle product', $product->getSku())
+                __('Detail with specified sku: "%1" is not a bundle product', $product->getSku())
             );
         }
 
@@ -224,7 +224,7 @@ class LinkManagement implements \Magento\Bundle\Api\ProductLinkManagementInterfa
         if (!$existingOption->getId()) {
             throw new InputException(
                 __(
-                    'Product with specified sku: "%1" does not contain option: "%2"',
+                    'Detail with specified sku: "%1" does not contain option: "%2"',
                     [$product->getSku(), $optionId]
                 )
             );
@@ -285,7 +285,7 @@ class LinkManagement implements \Magento\Bundle\Api\ProductLinkManagementInterfa
         $product = $this->productRepository->get($sku, true);
 
         if ($product->getTypeId() != \Magento\Catalog\Model\Product\Type::TYPE_BUNDLE) {
-            throw new InputException(__('Product with specified sku: %1 is not a bundle product', $sku));
+            throw new InputException(__('Detail with specified sku: %1 is not a bundle product', $sku));
         }
 
         $excludeSelectionIds = [];

@@ -10,7 +10,7 @@ use Magento\Msrp\Test\Block\Product\Map;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Product item block on frontend category view.
+ * Detail item block on frontend category view.
  */
 class ProductItem extends \Magento\Catalog\Test\Block\Product\ProductList\ProductItem
 {

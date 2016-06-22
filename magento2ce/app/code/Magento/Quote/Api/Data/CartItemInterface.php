@@ -50,7 +50,7 @@ interface CartItemInterface extends \Magento\Framework\Api\ExtensibleDataInterfa
     /**
      * Returns the product SKU.
      *
-     * @return string|null Product SKU. Otherwise, null.
+     * @return string|null Detail SKU. Otherwise, null.
      */
     public function getSku();
 
@@ -65,7 +65,7 @@ interface CartItemInterface extends \Magento\Framework\Api\ExtensibleDataInterfa
     /**
      * Returns the product quantity.
      *
-     * @return float Product quantity.
+     * @return float Detail quantity.
      */
     public function getQty();
 
@@ -80,7 +80,7 @@ interface CartItemInterface extends \Magento\Framework\Api\ExtensibleDataInterfa
     /**
      * Returns the product name.
      *
-     * @return string|null Product name. Otherwise, null.
+     * @return string|null Detail name. Otherwise, null.
      */
     public function getName();
 
@@ -95,7 +95,7 @@ interface CartItemInterface extends \Magento\Framework\Api\ExtensibleDataInterfa
     /**
      * Returns the product price.
      *
-     * @return float|null Product price. Otherwise, null.
+     * @return float|null Detail price. Otherwise, null.
      */
     public function getPrice();
 
@@ -110,7 +110,7 @@ interface CartItemInterface extends \Magento\Framework\Api\ExtensibleDataInterfa
     /**
      * Returns the product type.
      *
-     * @return string|null Product type. Otherwise, null.
+     * @return string|null Detail type. Otherwise, null.
      */
     public function getProductType();
 

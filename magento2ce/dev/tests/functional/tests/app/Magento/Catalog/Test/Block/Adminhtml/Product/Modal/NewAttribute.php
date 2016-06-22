@@ -11,7 +11,7 @@ use Magento\Backend\Test\Block\FormPageActions;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Product new attribute modal.
+ * Detail new attribute modal.
  */
 class NewAttribute extends FormSections
 {

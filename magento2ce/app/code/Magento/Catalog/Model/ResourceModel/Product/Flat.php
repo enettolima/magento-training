@@ -9,7 +9,7 @@ use Magento\Store\Model\Store;
 use Magento\Eav\Model\ResourceModel\Attribute\DefaultEntityAttributes\ProviderInterface as DefaultAttributesProvider;
 
 /**
- * Catalog Product Flat resource model
+ * Catalog Detail Flat resource model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

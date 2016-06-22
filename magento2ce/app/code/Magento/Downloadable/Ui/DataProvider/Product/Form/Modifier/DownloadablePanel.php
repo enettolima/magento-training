@@ -116,7 +116,7 @@ class DownloadablePanel extends AbstractModifier
             'formElement' => Form\Element\Checkbox::NAME,
             'componentType' => Form\Field::NAME,
             'component' => 'Magento_Downloadable/js/components/is-downloadable-handler',
-            'description' => __('Is this downloadable Product?'),
+            'description' => __('Is this downloadable Detail?'),
             'dataScope' => ProductAttributeInterface::CODE_IS_DOWNLOADABLE,
             'sortOrder' => 10,
             'imports' => [

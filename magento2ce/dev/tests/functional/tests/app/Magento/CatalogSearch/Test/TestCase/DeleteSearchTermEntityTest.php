@@ -17,7 +17,7 @@ use Magento\Mtf\TestCase\Injectable;
  * Test Flow:
  *
  * Preconditions:
- * 1. Product is created
+ * 1. Detail is created
  *
  * Steps:
  * 1. Go to backend as admin user

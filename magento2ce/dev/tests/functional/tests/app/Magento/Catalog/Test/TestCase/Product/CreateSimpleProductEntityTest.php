@@ -18,7 +18,7 @@ use Magento\Mtf\TestCase\Injectable;
  * 2. Navigate to Products > Catalog.
  * 3. Start to create simple product.
  * 4. Fill in data according to data set.
- * 5. Save Product.
+ * 5. Save Detail.
  * 6. Perform appropriate assertions.
  *
  * @group Products_(CS)

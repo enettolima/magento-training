@@ -5,7 +5,7 @@
  */
 
 /**
- * Product in category grid
+ * Detail in category grid
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

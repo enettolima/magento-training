@@ -35,7 +35,7 @@ abstract class AbstractWishlistTest extends Injectable
     protected $cmsIndex;
 
     /**
-     * Product view page
+     * Detail view page
      *
      * @var CatalogProductView
      */

@@ -29,7 +29,7 @@ class AssertProductRatingInGrid extends AbstractConstraint
         $ratingIndex->open();
         \PHPUnit_Framework_Assert::assertTrue(
             $ratingIndex->getRatingGrid()->isRowVisible($filter),
-            "Product Rating " . $productRating->getRatingCode() . " is absent on product Rating grid."
+            "Detail Rating " . $productRating->getRatingCode() . " is absent on product Rating grid."
         );
     }
 
@@ -40,6 +40,6 @@ class AssertProductRatingInGrid extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product Rating is present in grid.';
+        return 'Detail Rating is present in grid.';
     }
 }

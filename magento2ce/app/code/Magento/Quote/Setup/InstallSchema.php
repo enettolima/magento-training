@@ -723,7 +723,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'store_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
@@ -879,7 +879,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             255,
             [],
-            'Product Type'
+            'Detail Type'
         )->addColumn(
             'base_tax_before_discount',
             \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
@@ -1105,19 +1105,19 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'super_product_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true],
-            'Super Product Id'
+            'Super Detail Id'
         )->addColumn(
             'parent_product_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true],
-            'Parent Product Id'
+            'Parent Detail Id'
         )->addColumn(
             'sku',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
@@ -1284,7 +1284,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true, 'nullable' => false],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'code',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,

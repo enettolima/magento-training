@@ -26,14 +26,14 @@ class AbstractProductTest extends \PHPUnit_Framework_TestCase
     protected $_object;
 
     /**
-     * Reflection for Magento\Rule\Model\Condition\Product\AbstractProduct::$_entityAttributeValues
+     * Reflection for Magento\Rule\Model\Condition\Detail\AbstractProduct::$_entityAttributeValues
      *
      * @var \ReflectionProperty
      */
     protected $_entityAttributeValuesProperty;
 
     /**
-     * Reflection for Magento\Rule\Model\Condition\Product\AbstractProduct::$_config
+     * Reflection for Magento\Rule\Model\Condition\Detail\AbstractProduct::$_config
      *
      * @var \ReflectionProperty
      */

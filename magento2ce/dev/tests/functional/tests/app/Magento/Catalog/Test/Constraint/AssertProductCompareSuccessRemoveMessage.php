@@ -39,6 +39,6 @@ class AssertProductCompareSuccessRemoveMessage extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product has been removed from compare products list.';
+        return 'Detail has been removed from compare products list.';
     }
 }

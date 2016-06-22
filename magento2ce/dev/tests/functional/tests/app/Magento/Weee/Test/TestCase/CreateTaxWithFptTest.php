@@ -21,12 +21,12 @@ use Magento\Mtf\TestCase\Injectable;
  * 4. Click 'Add New Tax Rule' button.
  * 5. Assign default rates to rule.
  * 6. Save Tax Rule.
- * 7. Go to Stores > Attributes > Product and add new attribute.
- * 8. Select Fixed Product Tax type and fill attribute label.
+ * 7. Go to Stores > Attributes > Detail and add new attribute.
+ * 8. Select Fixed Detail Tax type and fill attribute label.
  * 9. Save attribute.
  * 10. Go to Stores > Attributes > Attribute Set.
  * 11. Add new attribute set based on default.
- * 12. Add created FPT attribute to Product Details group and fill set name.
+ * 12. Add created FPT attribute to Detail Details group and fill set name.
  * 13. Save attribute set.
  *
  * Steps:

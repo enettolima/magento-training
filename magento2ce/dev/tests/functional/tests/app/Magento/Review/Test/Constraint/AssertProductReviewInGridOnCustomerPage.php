@@ -15,12 +15,12 @@ use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
  * Class AssertProductReviewInGridOnCustomerPage
- * Asserts all Product Review variables in the reviews grid on customer page
+ * Asserts all Detail Review variables in the reviews grid on customer page
  */
 class AssertProductReviewInGridOnCustomerPage extends AbstractConstraint
 {
     /**
-     * Asserts all Product Review variables in the reviews grid on customer page
+     * Asserts all Detail Review variables in the reviews grid on customer page
      *
      * @param Customer $customer
      * @param Review $reviewInitial

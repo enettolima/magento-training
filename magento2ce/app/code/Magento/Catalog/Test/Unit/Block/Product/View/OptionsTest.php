@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Test\Unit\Block\Product\View;
 
 /**
- * Test class for \Magento\Catalog\Block\Product\View\Options
+ * Test class for \Magento\Catalog\Block\Detail\View\Options
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  */

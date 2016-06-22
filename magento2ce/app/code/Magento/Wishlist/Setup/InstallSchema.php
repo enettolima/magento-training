@@ -104,7 +104,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-            'Product ID'
+            'Detail ID'
         )->addColumn(
             'store_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
@@ -183,7 +183,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true, 'nullable' => false],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'code',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,

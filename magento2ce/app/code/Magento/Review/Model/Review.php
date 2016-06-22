@@ -37,7 +37,7 @@ class Review extends \Magento\Framework\Model\AbstractModel implements IdentityI
     const CACHE_TAG = 'review_block';
 
     /**
-     * Product entity review code
+     * Detail entity review code
      */
     const ENTITY_PRODUCT_CODE = 'product';
 

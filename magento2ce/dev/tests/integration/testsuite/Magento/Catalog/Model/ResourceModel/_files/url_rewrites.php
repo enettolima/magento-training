@@ -27,7 +27,7 @@ foreach ($urlKeys as $i => $urlKey) {
         ->setStoreId(1)
         ->setAttributeSetId(4)
         ->setWebsiteIds([1])
-        ->setName('Simple Product ' . $id)
+        ->setName('Simple Detail ' . $id)
         ->setSku('simple-' . $id)
         ->setPrice(10)
         ->setCategoryIds([3])

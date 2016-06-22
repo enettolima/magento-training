@@ -21,7 +21,7 @@ use Magento\Mtf\TestCase\Injectable;
  * 1. Open Backend.
  * 2. Go to Marketing > Url Redirects.
  * 3. Click "Add URL Rewrite" button.
- * 4. Select "For Product" from "Create URL Rewrite:" dropdown.
+ * 4. Select "For Detail" from "Create URL Rewrite:" dropdown.
  * 5. Select created early product.
  * 6. Click "Skip Category Selection" button.
  * 7. Fill data according to dataset.

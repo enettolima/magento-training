@@ -7,12 +7,12 @@
 namespace Magento\Wishlist\Block;
 
 /**
- * Wishlist Product Items abstract Block
+ * Wishlist Detail Items abstract Block
  */
 abstract class AbstractBlock extends \Magento\Catalog\Block\Product\AbstractProduct
 {
     /**
-     * Wishlist Product Items Collection
+     * Wishlist Detail Items Collection
      *
      * @var \Magento\Wishlist\Model\ResourceModel\Item\Collection
      */
@@ -90,7 +90,7 @@ abstract class AbstractBlock extends \Magento\Catalog\Block\Product\AbstractProd
     }
 
     /**
-     * Retrieve Wishlist Product Items collection
+     * Retrieve Wishlist Detail Items collection
      *
      * @return \Magento\Wishlist\Model\ResourceModel\Item\Collection
      */
@@ -159,7 +159,7 @@ abstract class AbstractBlock extends \Magento\Catalog\Block\Product\AbstractProd
     }
 
     /**
-     * Retrieve params for adding Product to wishlist
+     * Retrieve params for adding Detail to wishlist
      *
      * @param \Magento\Catalog\Model\Product $product
      * @return string
@@ -269,7 +269,7 @@ abstract class AbstractBlock extends \Magento\Catalog\Block\Product\AbstractProd
     }
 
     /**
-     * Retrieve URL to item Product
+     * Retrieve URL to item Detail
      *
      * @param  \Magento\Wishlist\Model\Item|\Magento\Catalog\Model\Product $item
      * @param  array $additional
@@ -281,7 +281,7 @@ abstract class AbstractBlock extends \Magento\Catalog\Block\Product\AbstractProd
     }
 
     /**
-     * Product image url getter
+     * Detail image url getter
      *
      * @param \Magento\Catalog\Model\Product $product
      * @return string

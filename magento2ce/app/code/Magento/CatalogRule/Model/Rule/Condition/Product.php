@@ -5,7 +5,7 @@
  */
 
 /**
- * Catalog Rule Product Condition data model
+ * Catalog Rule Detail Condition data model
  */
 namespace Magento\CatalogRule\Model\Rule\Condition;
 

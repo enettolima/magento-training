@@ -5,7 +5,7 @@
  */
 
 /**
- * Product Downloads Report collection
+ * Detail Downloads Report collection
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

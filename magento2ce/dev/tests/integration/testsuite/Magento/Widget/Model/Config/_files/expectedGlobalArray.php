@@ -49,12 +49,12 @@ return [
                 '@' => ['type' => 'complex'],
                 'helper_block' => [
                     'type' => 'Magento\Catalog\Block\Adminhtml\Product\Widget\Chooser',
-                    'data' => ['button' => ['open' => 'Select Product...']],
+                    'data' => ['button' => ['open' => 'Select Detail...']],
                 ],
                 'visible' => '1',
                 'required' => '1',
                 'sort_order' => '10',
-                'label' => 'Product',
+                'label' => 'Detail',
             ],
         ],
         'supported_containers' => [

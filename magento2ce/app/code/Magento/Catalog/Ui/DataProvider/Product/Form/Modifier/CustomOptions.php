@@ -444,7 +444,7 @@ class CustomOptions extends AbstractModifier
                         'dataScope' => '',
                         'provider' => static::FORM_NAME . '.product_form_data_source',
                         'options' => [
-                            'title' => __('Select Product'),
+                            'title' => __('Select Detail'),
                             'buttons' => [
                                 [
                                     'text' => __('Import'),

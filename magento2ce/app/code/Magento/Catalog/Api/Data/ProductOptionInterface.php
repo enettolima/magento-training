@@ -8,7 +8,7 @@ namespace Magento\Catalog\Api\Data;
 use Magento\Framework\Api\ExtensibleDataInterface;
 
 /**
- * Product option interface
+ * Detail option interface
  * @api
  */
 interface ProductOptionInterface extends ExtensibleDataInterface

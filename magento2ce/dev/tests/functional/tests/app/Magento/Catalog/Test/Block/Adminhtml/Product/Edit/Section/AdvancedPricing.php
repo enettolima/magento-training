@@ -12,7 +12,7 @@ use Magento\Ui\Test\Block\Adminhtml\Section;
 use Magento\Catalog\Test\Block\Adminhtml\Product\Edit\Section\Options\AbstractOptions;
 
 /**
- * Product advanced pricing section.
+ * Detail advanced pricing section.
  */
 class AdvancedPricing extends Section
 {

@@ -114,7 +114,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Video Table');
+            ->setComment('Catalog Detail Video Table');
 
         $setup->getConnection()->createTable($table);
         $setup->endSetup();

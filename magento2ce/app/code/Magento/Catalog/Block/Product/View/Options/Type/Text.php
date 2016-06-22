@@ -5,7 +5,7 @@
  */
 
 /**
- * Product options text type block
+ * Detail options text type block
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Product;
 
 /**
- * Product gallery
+ * Detail gallery
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  */

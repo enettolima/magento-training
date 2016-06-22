@@ -70,7 +70,7 @@ class IndexTest extends \Magento\TestFramework\TestCase\AbstractController
     {
         $this->dispatch('wishlist/index/index');
         $body = $this->getResponse()->getBody();
-        $this->assertSelectCount('img[src~="small_image.jpg"][alt="Simple Product"]', 1, $body);
+        $this->assertSelectCount('img[src~="small_image.jpg"][alt="Simple Detail"]', 1, $body);
         $this->assertSelectCount('textarea[name~="description"]', 1, $body);
     }
 
@@ -121,7 +121,7 @@ class IndexTest extends \Magento\TestFramework\TestCase\AbstractController
 
         $this->assertEquals(0, $quoteCount);
         $this->assertSessionMessages(
-            $this->contains('You can buy this product only in quantities of 5 at a time for "Simple Product".'),
+            $this->contains('You can buy this product only in quantities of 5 at a time for "Simple Detail".'),
             \Magento\Framework\Message\MessageInterface::TYPE_ERROR
         );
     }

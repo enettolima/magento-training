@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Adminhtml\Product\Attribute;
 
 /**
- * Product attribute edit page
+ * Detail attribute edit page
  */
 class Edit extends \Magento\Backend\Block\Widget\Form\Container
 {
@@ -115,9 +115,9 @@ class Edit extends \Magento\Backend\Block\Widget\Form\Container
             if (is_array($frontendLabel)) {
                 $frontendLabel = $frontendLabel[0];
             }
-            return __('Edit Product Attribute "%1"', $this->escapeHtml($frontendLabel));
+            return __('Edit Detail Attribute "%1"', $this->escapeHtml($frontendLabel));
         }
-        return __('New Product Attribute');
+        return __('New Detail Attribute');
     }
 
     /**

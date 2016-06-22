@@ -8,7 +8,7 @@ namespace Magento\Catalog\Test\Unit\Model\Product\CopyConstructor;
 class RelatedTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @var \\Magento\Catalog\Model\Product\CopyConstructor\Related
+     * @var \\Magento\Catalog\Model\Detail\CopyConstructor\Related
      */
     protected $_model;
 

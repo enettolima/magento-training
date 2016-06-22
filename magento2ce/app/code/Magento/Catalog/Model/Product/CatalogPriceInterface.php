@@ -5,7 +5,7 @@
  */
 
 /**
- * Product price interface for external catalogs
+ * Detail price interface for external catalogs
  */
 namespace Magento\Catalog\Model\Product;
 

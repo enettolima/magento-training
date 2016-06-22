@@ -18,7 +18,7 @@ try {
     $product = $productRepository->get('virtual-product', false, null, true);
     $productRepository->delete($product);
 } catch (\Magento\Framework\Exception\NoSuchEntityException $exception) {
-    //Product already removed
+    //Detail already removed
 }
 
 $registry->unregister('isSecureArea');

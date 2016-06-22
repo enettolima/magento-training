@@ -100,7 +100,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             '64k',
             [],
-            'Product Ids'
+            'Detail Ids'
         )->addColumn(
             'sort_order',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
@@ -490,7 +490,7 @@ class InstallSchema implements InstallSchemaInterface
             'website_id',
             \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
         )->setComment(
-            'Salesrule Product Attribute'
+            'Salesrule Detail Attribute'
         );
         $installer->getConnection()->createTable($table);
 

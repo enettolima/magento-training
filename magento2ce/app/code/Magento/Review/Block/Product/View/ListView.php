@@ -6,7 +6,7 @@
 namespace Magento\Review\Block\Product\View;
 
 /**
- * Detailed Product Reviews
+ * Detailed Detail Reviews
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

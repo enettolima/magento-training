@@ -5,7 +5,7 @@
  */
 
 /**
- * Product Url model
+ * Detail Url model
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */
@@ -91,7 +91,7 @@ class Url extends \Magento\Framework\DataObject
     }
 
     /**
-     * Retrieve Product URL
+     * Retrieve Detail URL
      *
      * @param  \Magento\Catalog\Model\Product $product
      * @param  bool $useSid forced SID mode
@@ -123,7 +123,7 @@ class Url extends \Magento\Framework\DataObject
     }
 
     /**
-     * Retrieve Product URL using UrlDataObject
+     * Retrieve Detail URL using UrlDataObject
      *
      * @param \Magento\Catalog\Model\Product $product
      * @param array $params

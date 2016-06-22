@@ -143,7 +143,7 @@ class Option extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
     protected $_rowType;
 
     /**
-     * Product model instance
+     * Detail model instance
      *
      * @var \Magento\Catalog\Model\Product
      */
@@ -214,7 +214,7 @@ class Option extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
     protected $_newCustomOptionId = 0;
 
     /**
-     * Product options collection
+     * Detail options collection
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\Option\Collection
      */
@@ -311,14 +311,14 @@ class Option extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
     protected $dateTime;
 
     /**
-     * Product entity link field
+     * Detail entity link field
      *
      * @var string
      */
     private $productEntityLinkField;
 
     /**
-     * Product entity identifier field
+     * Detail entity identifier field
      *
      * @var string
      */
@@ -1780,7 +1780,7 @@ class Option extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
     /**
      * Update product data which related to custom options information
      *
-     * @param array $data Product data which will be updated
+     * @param array $data Detail data which will be updated
      * @return $this
      */
     protected function _updateProducts(array $data)

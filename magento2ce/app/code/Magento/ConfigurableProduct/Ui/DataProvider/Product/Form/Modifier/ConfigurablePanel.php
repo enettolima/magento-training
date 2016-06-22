@@ -131,7 +131,7 @@ class ConfigurablePanel extends AbstractModifier
                                 'dataScope' => '',
                                 'provider' => $this->dataSourceName,
                                 'options' => [
-                                    'title' => __('Select Associated Product'),
+                                    'title' => __('Select Associated Detail'),
                                     'buttons' => [
                                         [
                                             'text' => __('Done'),

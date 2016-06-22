@@ -15,21 +15,21 @@ use Magento\Mtf\Client\Locator;
 class GridPageAction extends ParentGridPageActions
 {
     /**
-     * Product toggle button.
+     * Detail toggle button.
      *
      * @var string
      */
     protected $toggleButton = '[data-ui-id=products-list-add-new-product-button-dropdown]';
 
     /**
-     * Product type item.
+     * Detail type item.
      *
      * @var string
      */
     protected $productItem = '[data-ui-id=products-list-add-new-product-button-item-%productType%]';
 
     /**
-     * Product type list.
+     * Detail type list.
      *
      * @var string
      */

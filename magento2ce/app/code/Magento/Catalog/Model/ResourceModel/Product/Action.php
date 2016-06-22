@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\ResourceModel\Product;
 use Magento\Eav\Model\Entity\Attribute\AbstractAttribute;
 
 /**
- * Catalog Product Mass processing resource model
+ * Catalog Detail Mass processing resource model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

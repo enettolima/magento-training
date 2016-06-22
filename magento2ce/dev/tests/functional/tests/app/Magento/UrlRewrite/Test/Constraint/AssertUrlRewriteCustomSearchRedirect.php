@@ -51,6 +51,6 @@ class AssertUrlRewriteCustomSearchRedirect extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product is found on search page.';
+        return 'Detail is found on search page.';
     }
 }

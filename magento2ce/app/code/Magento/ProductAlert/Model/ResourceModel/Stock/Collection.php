@@ -6,7 +6,7 @@
 namespace Magento\ProductAlert\Model\ResourceModel\Stock;
 
 /**
- * Product alert for back in stock collection
+ * Detail alert for back in stock collection
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

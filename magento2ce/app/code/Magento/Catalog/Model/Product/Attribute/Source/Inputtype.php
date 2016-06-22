@@ -7,7 +7,7 @@
 // @codingStandardsIgnoreFile
 
 /**
- * Product attribute source input types
+ * Detail attribute source input types
  */
 namespace Magento\Catalog\Model\Product\Attribute\Source;
 

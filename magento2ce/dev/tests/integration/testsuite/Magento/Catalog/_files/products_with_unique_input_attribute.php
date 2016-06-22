@@ -11,7 +11,7 @@ $objectManager = \Magento\TestFramework\Helper\Bootstrap::getObjectManager();
 $product = $objectManager->create('Magento\Catalog\Model\Product');
 $product->setTypeId(\Magento\Catalog\Model\Product\Type::TYPE_SIMPLE)
     ->setAttributeSetId(4)
-    ->setName('Simple Product with unique input attribute')
+    ->setName('Simple Detail with unique input attribute')
     ->setSku('simple product with unique input attribute')
     ->setPrice(10)
     ->setVisibility(\Magento\Catalog\Model\Product\Visibility::VISIBILITY_BOTH)

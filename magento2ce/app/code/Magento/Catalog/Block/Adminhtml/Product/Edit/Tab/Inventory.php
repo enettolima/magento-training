@@ -8,7 +8,7 @@ namespace Magento\Catalog\Block\Adminhtml\Product\Edit\Tab;
 use Magento\Framework\Api\SimpleDataObjectConverter;
 
 /**
- * Product inventory data
+ * Detail inventory data
  */
 class Inventory extends \Magento\Backend\Block\Widget
 {

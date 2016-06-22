@@ -5,7 +5,7 @@
  */
 
 /**
- * Reports Viewed Product Index Resource Collection
+ * Reports Viewed Detail Index Resource Collection
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
@@ -14,7 +14,7 @@ namespace Magento\Reports\Model\ResourceModel\Product\Index\Viewed;
 class Collection extends \Magento\Reports\Model\ResourceModel\Product\Index\Collection\AbstractCollection
 {
     /**
-     * Retrieve Product Index table name
+     * Retrieve Detail Index table name
      *
      * @return string
      */

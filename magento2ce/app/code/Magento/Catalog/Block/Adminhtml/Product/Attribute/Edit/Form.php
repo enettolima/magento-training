@@ -5,7 +5,7 @@
  */
 
 /**
- * Product attribute add/edit form block
+ * Detail attribute add/edit form block
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

@@ -60,13 +60,13 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
 
         $fieldset = $form->addFieldset('add_review_form', ['legend' => __('Review Details')]);
 
-        $fieldset->addField('product_name', 'note', ['label' => __('Product'), 'text' => 'product_name']);
+        $fieldset->addField('product_name', 'note', ['label' => __('Detail'), 'text' => 'product_name']);
 
         $fieldset->addField(
             'detailed-rating',
             'note',
             [
-                'label' => __('Product Rating'),
+                'label' => __('Detail Rating'),
                 'required' => true,
                 'text' => '<div id="rating_detail">' . $this->getLayout()->createBlock(
                     'Magento\Review\Block\Adminhtml\Rating\Detailed'
@@ -144,7 +144,7 @@ class Form extends \Magento\Backend\Block\Widget\Form\Generic
 
         /*$gridFieldset = $form->addFieldset('add_review_grid', array('legend' => __('Please select a product')));
           $gridFieldset->addField('products_grid', 'note', array(
-          'text' => $this->getLayout()->createBlock('Magento\Review\Block\Adminhtml\Product\Grid')->toHtml(),
+          'text' => $this->getLayout()->createBlock('Magento\Review\Block\Adminhtml\Detail\Grid')->toHtml(),
           ));*/
 
         $form->setMethod('post');

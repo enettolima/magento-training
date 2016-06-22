@@ -44,12 +44,12 @@ class AssertProductAttributeAbsenceForExport extends AbstractConstraint
     }
 
     /**
-     * Text absent Product Attribute in Filter export grid
+     * Text absent Detail Attribute in Filter export grid
      *
      * @return string
      */
     public function toString()
     {
-        return 'Product Attribute is absent in Filter export grid';
+        return 'Detail Attribute is absent in Filter export grid';
     }
 }

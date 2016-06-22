@@ -38,7 +38,7 @@ class AssertProductAttributeIsUsedPromoRules extends AbstractConstraint
         $conditionsSection = $catalogRuleNew->getEditForm()->getSection('conditions');
         \PHPUnit_Framework_Assert::assertTrue(
             $conditionsSection->isAttributeInConditions($attribute),
-            'Product attribute can\'t be used on promo rules conditions.'
+            'Detail attribute can\'t be used on promo rules conditions.'
         );
     }
 
@@ -49,6 +49,6 @@ class AssertProductAttributeIsUsedPromoRules extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product attribute can be used on promo rules conditions.';
+        return 'Detail attribute can be used on promo rules conditions.';
     }
 }

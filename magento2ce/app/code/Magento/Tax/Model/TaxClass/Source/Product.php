@@ -11,7 +11,7 @@ use Magento\Tax\Api\TaxClassManagementInterface;
 use Magento\Tax\Model\ClassModel;
 
 /**
- * Product tax class source model.
+ * Detail tax class source model.
  */
 class Product extends \Magento\Eav\Model\Entity\Attribute\Source\AbstractSource
 {

@@ -1399,19 +1399,19 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'product_type',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             255,
             [],
-            'Product Type'
+            'Detail Type'
         )->addColumn(
             'product_options',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             '64k',
             [],
-            'Product Options'
+            'Detail Options'
         )->addColumn(
             'weight',
             \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
@@ -2543,7 +2543,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             [],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'order_item_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
@@ -3407,7 +3407,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             [],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'order_item_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
@@ -4216,7 +4216,7 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             [],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'order_item_id',
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
@@ -5088,19 +5088,19 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'product_name',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             255,
             ['nullable' => true],
-            'Product Name'
+            'Detail Name'
         )->addColumn(
             'product_price',
             \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
             '12,4',
             ['nullable' => false, 'default' => '0.0000'],
-            'Product Price'
+            'Detail Price'
         )->addColumn(
             'qty_ordered',
             \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
@@ -5166,19 +5166,19 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'product_name',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             255,
             ['nullable' => true],
-            'Product Name'
+            'Detail Name'
         )->addColumn(
             'product_price',
             \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
             '12,4',
             ['nullable' => false, 'default' => '0.0000'],
-            'Product Price'
+            'Detail Price'
         )->addColumn(
             'qty_ordered',
             \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
@@ -5244,19 +5244,19 @@ class InstallSchema implements InstallSchemaInterface
             \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
             null,
             ['unsigned' => true],
-            'Product Id'
+            'Detail Id'
         )->addColumn(
             'product_name',
             \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
             255,
             ['nullable' => true],
-            'Product Name'
+            'Detail Name'
         )->addColumn(
             'product_price',
             \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
             '12,4',
             ['nullable' => false, 'default' => '0.0000'],
-            'Product Price'
+            'Detail Price'
         )->addColumn(
             'qty_ordered',
             \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,

@@ -70,7 +70,7 @@ class NewAction extends \Magento\Catalog\Controller\Adminhtml\Product
             $resultPage->addHandle(['catalog_product_' . $product->getTypeId()]);
             $resultPage->setActiveMenu('Magento_Catalog::catalog_products');
             $resultPage->getConfig()->getTitle()->prepend(__('Products'));
-            $resultPage->getConfig()->getTitle()->prepend(__('New Product'));
+            $resultPage->getConfig()->getTitle()->prepend(__('New Detail'));
         }
 
         $block = $resultPage->getLayout()->getBlock('catalog.wysiwyg.js');

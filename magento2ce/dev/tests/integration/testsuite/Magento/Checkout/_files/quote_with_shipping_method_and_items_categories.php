@@ -29,7 +29,7 @@ $product->setTypeId(
 )->setWebsiteIds(
     [1]
 )->setName(
-    'Simple Product Cat Four'
+    'Simple Detail Cat Four'
 )->setSku(
     'simple_cat_3'
 )->setPrice(
@@ -62,7 +62,7 @@ $product->setTypeId(
 )->setWebsiteIds(
     [1]
 )->setName(
-    'Simple Product Cat Five'
+    'Simple Detail Cat Five'
 )->setSku(
     'simple_cat_4'
 )->setPrice(

@@ -9,7 +9,7 @@ namespace Magento\Reports\Controller\Adminhtml\Report\Review;
 class Product extends \Magento\Reports\Controller\Adminhtml\Report\Review
 {
     /**
-     * Product reviews report action
+     * Detail reviews report action
      *
      * @return void
      */
@@ -21,7 +21,7 @@ class Product extends \Magento\Reports\Controller\Adminhtml\Report\Review
             __('Products Report'),
             __('Products Report')
         );
-        $this->_view->getPage()->getConfig()->getTitle()->prepend(__('Product Reviews Report'));
+        $this->_view->getPage()->getConfig()->getTitle()->prepend(__('Detail Reviews Report'));
         $this->_view->renderLayout();
     }
 }

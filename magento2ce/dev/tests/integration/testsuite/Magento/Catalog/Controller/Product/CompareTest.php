@@ -45,7 +45,7 @@ class CompareTest extends \Magento\TestFramework\TestCase\AbstractController
         );
 
         $this->assertSessionMessages(
-            $this->equalTo(['You added product Simple Product 1 Name to the comparison list.']),
+            $this->equalTo(['You added product Simple Detail 1 Name to the comparison list.']),
             MessageInterface::TYPE_SUCCESS
         );
 
@@ -72,7 +72,7 @@ class CompareTest extends \Magento\TestFramework\TestCase\AbstractController
         $this->dispatch('catalog/product_compare/remove/product/' . $product->getEntityId());
 
         $this->assertSessionMessages(
-            $this->equalTo(['You removed product Simple Product 2 Name from the comparison list.']),
+            $this->equalTo(['You removed product Simple Detail 2 Name from the comparison list.']),
             MessageInterface::TYPE_SUCCESS
         );
 
@@ -89,7 +89,7 @@ class CompareTest extends \Magento\TestFramework\TestCase\AbstractController
         $secondProduct = $this->productRepository->get('simple_product_2');
 
         $this->assertSessionMessages(
-            $this->equalTo(['You removed product Simple Product 1 Name from the comparison list.']),
+            $this->equalTo(['You removed product Simple Detail 1 Name from the comparison list.']),
             MessageInterface::TYPE_SUCCESS
         );
 
@@ -112,15 +112,15 @@ class CompareTest extends \Magento\TestFramework\TestCase\AbstractController
         $this->assertContains('Products Comparison List', $responseBody);
 
         $this->assertContains('simple_product_1', $responseBody);
-        $this->assertContains('Simple Product 1 Name', $responseBody);
-        $this->assertContains('Simple Product 1 Full Description', $responseBody);
-        $this->assertContains('Simple Product 1 Short Description', $responseBody);
+        $this->assertContains('Simple Detail 1 Name', $responseBody);
+        $this->assertContains('Simple Detail 1 Full Description', $responseBody);
+        $this->assertContains('Simple Detail 1 Short Description', $responseBody);
         $this->assertContains('$1,234.56', $responseBody);
 
         $this->assertContains('simple_product_2', $responseBody);
-        $this->assertContains('Simple Product 2 Name', $responseBody);
-        $this->assertContains('Simple Product 2 Full Description', $responseBody);
-        $this->assertContains('Simple Product 2 Short Description', $responseBody);
+        $this->assertContains('Simple Detail 2 Name', $responseBody);
+        $this->assertContains('Simple Detail 2 Full Description', $responseBody);
+        $this->assertContains('Simple Detail 2 Short Description', $responseBody);
         $this->assertContains('$987.65', $responseBody);
     }
 

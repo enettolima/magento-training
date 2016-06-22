@@ -5,7 +5,7 @@
  */
 
 /**
- * Product Low Stock Report Collection
+ * Detail Low Stock Report Collection
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

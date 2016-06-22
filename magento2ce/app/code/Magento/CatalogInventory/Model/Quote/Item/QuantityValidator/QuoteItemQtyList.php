@@ -8,7 +8,7 @@ namespace Magento\CatalogInventory\Model\Quote\Item\QuantityValidator;
 class QuoteItemQtyList
 {
     /**
-     * Product qty's checked
+     * Detail qty's checked
      * data is valid if you check quote item qty and use singleton instance
      *
      * @var array

@@ -5,7 +5,7 @@
  */
 
 /**
- * Catalog Product visibilite model and attribute source model
+ * Catalog Detail visibilite model and attribute source model
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */
@@ -151,7 +151,7 @@ class Visibility extends \Magento\Framework\DataObject implements OptionSourceIn
                 'extra' => null,
                 'type' => Table::TYPE_SMALLINT,
                 'nullable' => true,
-                'comment' => 'Catalog Product Visibility ' . $attributeCode . ' column',
+                'comment' => 'Catalog Detail Visibility ' . $attributeCode . ' column',
             ],
         ];
     }

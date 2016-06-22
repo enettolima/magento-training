@@ -19,7 +19,7 @@ class Compared extends \Magento\Reports\Block\Product\AbstractProduct
     const XML_PATH_RECENTLY_COMPARED_COUNT = 'catalog/recently_products/compared_count';
 
     /**
-     * Compared Product Index type
+     * Compared Detail Index type
      *
      * @var string
      */

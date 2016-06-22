@@ -16,7 +16,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
 class AssertProductInGrid extends AbstractConstraint
 {
     /**
-     * Product fixture.
+     * Detail fixture.
      *
      * @var FixtureInterface $product
      */
@@ -36,7 +36,7 @@ class AssertProductInGrid extends AbstractConstraint
         $productIndex->getProductGrid()->resetFilter();
         \PHPUnit_Framework_Assert::assertTrue(
             $productIndex->getProductGrid()->isRowVisible($this->prepareFilter()),
-            'Product \'' . $this->product->getName() . '\' is absent in Products grid.'
+            'Detail \'' . $this->product->getName() . '\' is absent in Products grid.'
         );
     }
 
@@ -71,7 +71,7 @@ class AssertProductInGrid extends AbstractConstraint
     {
         $config = $this->product->getDataConfig();
 
-        return ucfirst($config['type_id']) . ' Product';
+        return ucfirst($config['type_id']) . ' Detail';
     }
 
     /**
@@ -81,6 +81,6 @@ class AssertProductInGrid extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product is present in products grid.';
+        return 'Detail is present in products grid.';
     }
 }

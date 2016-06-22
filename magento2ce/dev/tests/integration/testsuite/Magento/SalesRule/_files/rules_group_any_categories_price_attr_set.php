@@ -34,7 +34,7 @@ $salesRule->getConditions()->loadArray([
     'conditions' =>
         [
                 [
-                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Found',
+                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Found',
                     'attribute' => null,
                     'operator' => null,
                     'value' => '1',
@@ -43,14 +43,14 @@ $salesRule->getConditions()->loadArray([
                     'conditions' =>
                         [
                                 [
-                                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product',
+                                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail',
                                     'attribute' => 'category_ids',
                                     'operator' => '==',
                                     'value' => '2',
                                     'is_value_processed' => false,
                                 ],
                                 [
-                                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product',
+                                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail',
                                     'attribute' => 'attribute_set_id',
                                     'operator' => '==',
                                     'value' => '4',
@@ -59,7 +59,7 @@ $salesRule->getConditions()->loadArray([
                         ],
                 ],
                 [
-                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Found',
+                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Found',
                     'attribute' => null,
                     'operator' => null,
                     'value' => '1',
@@ -68,14 +68,14 @@ $salesRule->getConditions()->loadArray([
                     'conditions' =>
                         [
                             [
-                                'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product',
+                                'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail',
                                 'attribute' => 'quote_item_price',
                                 'operator' => '==',
                                 'value' => '80',
                                 'is_value_processed' => false,
                             ],
                             [
-                                'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product',
+                                'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail',
                                 'attribute' => 'category_ids',
                                 'operator' => '==',
                                 'value' => '3',

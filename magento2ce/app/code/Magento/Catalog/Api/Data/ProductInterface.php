@@ -38,7 +38,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     /**#@-*/
 
     /**
-     * Product id
+     * Detail id
      *
      * @return int|null
      */
@@ -53,7 +53,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setId($id);
 
     /**
-     * Product sku
+     * Detail sku
      *
      * @return string
      */
@@ -68,7 +68,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setSku($sku);
 
     /**
-     * Product name
+     * Detail name
      *
      * @return string|null
      */
@@ -83,7 +83,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setName($name);
 
     /**
-     * Product attribute set id
+     * Detail attribute set id
      *
      * @return int|null
      */
@@ -98,7 +98,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setAttributeSetId($attributeSetId);
 
     /**
-     * Product price
+     * Detail price
      *
      * @return float|null
      */
@@ -113,7 +113,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setPrice($price);
 
     /**
-     * Product status
+     * Detail status
      *
      * @return int|null
      */
@@ -128,7 +128,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setStatus($status);
 
     /**
-     * Product visibility
+     * Detail visibility
      *
      * @return int|null
      */
@@ -143,7 +143,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setVisibility($visibility);
 
     /**
-     * Product type id
+     * Detail type id
      *
      * @return string|null
      */
@@ -158,7 +158,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setTypeId($typeId);
 
     /**
-     * Product created date
+     * Detail created date
      *
      * @return string|null
      */
@@ -173,7 +173,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setCreatedAt($createdAt);
 
     /**
-     * Product updated date
+     * Detail updated date
      *
      * @return string|null
      */
@@ -188,7 +188,7 @@ interface ProductInterface extends \Magento\Framework\Api\CustomAttributesDataIn
     public function setUpdatedAt($updatedAt);
 
     /**
-     * Product weight
+     * Detail weight
      *
      * @return float|null
      */

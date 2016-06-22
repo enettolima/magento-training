@@ -147,7 +147,7 @@ class SpecialTest extends \PHPUnit_Framework_TestCase
             'language' => 'en_US',
             'entries' => [
                 [
-                    'title' => 'Product Name',
+                    'title' => 'Detail Name',
                     'link' => 'http://magento.com/product-name.html',
                 ],
             ],
@@ -190,8 +190,8 @@ class SpecialTest extends \PHPUnit_Framework_TestCase
         $item->expects($this->once())->method('getSpecialPrice')->will($this->returnValue(15));
         $item->expects($this->exactly(2))->method('getAllowedPriceInRss')->will($this->returnValue(true));
         $item->expects($this->once())->method('getUseSpecial')->will($this->returnValue(true));
-        $item->expects($this->once())->method('getDescription')->will($this->returnValue('Product Description'));
-        $item->expects($this->once())->method('getName')->will($this->returnValue('Product Name'));
+        $item->expects($this->once())->method('getDescription')->will($this->returnValue('Detail Description'));
+        $item->expects($this->once())->method('getName')->will($this->returnValue('Detail Name'));
         $item->expects($this->exactly(2))->method('getProductUrl')
             ->will($this->returnValue('http://magento.com/product-name.html'));
 

@@ -24,7 +24,7 @@ class CreateProductsStep implements TestStepInterface
     protected $products;
 
     /**
-     * Product data
+     * Detail data
      *
      * @var array
      */

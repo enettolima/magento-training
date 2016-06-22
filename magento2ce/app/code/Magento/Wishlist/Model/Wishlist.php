@@ -586,7 +586,7 @@ class Wishlist extends \Magento\Framework\Model\AbstractModel implements \Magent
      * Update wishlist Item and set data from request
      *
      * The $params sets how current item configuration must be taken into account and additional options.
-     * It's passed to \Magento\Catalog\Helper\Product->addParamsToBuyRequest() to compose resulting buyRequest.
+     * It's passed to \Magento\Catalog\Helper\Detail->addParamsToBuyRequest() to compose resulting buyRequest.
      *
      * Basically it can hold
      * - 'current_config', \Magento\Framework\DataObject or array - current buyRequest
@@ -594,7 +594,7 @@ class Wishlist extends \Magento\Framework\Model\AbstractModel implements \Magent
      * - 'files_prefix': string[a-z0-9_] - prefix that was added at frontend to names of file options (file inputs),
      * so they won't intersect with other submitted options
      *
-     * For more options see \Magento\Catalog\Helper\Product->addParamsToBuyRequest()
+     * For more options see \Magento\Catalog\Helper\Detail->addParamsToBuyRequest()
      *
      * @param int|Item $itemId
      * @param \Magento\Framework\DataObject $buyRequest

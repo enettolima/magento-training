@@ -40,7 +40,7 @@ class ImageProvider
     {
         $itemData = [];
 
-        /** @see code/Magento/Catalog/Helper/Product.php */
+        /** @see code/Magento/Catalog/Helper/Detail.php */
         $items = $this->itemRepository->getList($cartId);
         /** @var \Magento\Quote\Model\Quote\Item $cartItem */
         foreach ($items as $cartItem) {

@@ -28,7 +28,7 @@ class Index extends \Magento\Catalog\Controller\Adminhtml\Product
     }
 
     /**
-     * Product list page
+     * Detail list page
      *
      * @return \Magento\Backend\Model\View\Result\Page
      */

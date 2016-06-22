@@ -30,7 +30,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
     }
 
     /**
-     * Remove Sub Product Discounts
+     * Remove Sub Detail Discounts
      * @param SchemaSetupInterface $setup
      * @return void
      */

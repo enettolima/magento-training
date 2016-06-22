@@ -15,7 +15,7 @@ use Magento\Mtf\TestCase\Injectable;
  *
  * Test Flow:
  * 1. Log in as default admin user.
- * 2. Go to Stores > Attributes > Product.
+ * 2. Go to Stores > Attributes > Detail.
  * 3. Search system product attribute in grid by given data.
  * 4. Click on line with search results.
  * 5. Perform assertion.

@@ -185,8 +185,8 @@ class FormTest extends \PHPUnit_Framework_TestCase
     /**
      * Data provider for testing formPostInit
      * 1) Category selected
-     * 2) Product selected
-     * 3) Product with category selected
+     * 2) Detail selected
+     * 3) Detail with category selected
      *
      * @static
      * @return array
@@ -221,8 +221,8 @@ class FormTest extends \PHPUnit_Framework_TestCase
     /**
      * Entity stores data provider
      * 1) Category assigned to 1 store
-     * 2) Product assigned to 1 store
-     * 3) Product and category are assigned to same store
+     * 2) Detail assigned to 1 store
+     * 3) Detail and category are assigned to same store
      *
      * @static
      * @return array

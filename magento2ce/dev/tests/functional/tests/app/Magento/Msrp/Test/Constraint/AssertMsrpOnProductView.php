@@ -43,11 +43,11 @@ class AssertMsrpOnProductView extends AbstractConstraint
         \PHPUnit_Framework_Assert::assertEquals(
             $product->getMsrp(),
             $priceBlock->getOldPrice(),
-            'Displayed on Product view page MAP is incorrect'
+            'Displayed on Detail view page MAP is incorrect'
         );
         \PHPUnit_Framework_Assert::assertFalse(
             $priceBlock->isRegularPriceVisible(),
-            'Regular price on Product view page is visible and not expected.'
+            'Regular price on Detail view page is visible and not expected.'
         );
 
         $viewBlock->openMapBlock();
@@ -55,14 +55,14 @@ class AssertMsrpOnProductView extends AbstractConstraint
         \PHPUnit_Framework_Assert::assertContains(
             $product->getMsrp(),
             $mapBlock->getOldPrice(),
-            'Displayed on Product view page MAP is incorrect.'
+            'Displayed on Detail view page MAP is incorrect.'
         );
         $priceData = $product->getDataFieldConfig('price')['source']->getPriceData();
         $price = isset($priceData['category_price']) ? $priceData['category_price'] : $product->getPrice();
         \PHPUnit_Framework_Assert::assertEquals(
             $price,
             $mapBlock->getActualPrice(),
-            'Displayed on Product view page price is incorrect.'
+            'Displayed on Detail view page price is incorrect.'
         );
     }
 
@@ -73,6 +73,6 @@ class AssertMsrpOnProductView extends AbstractConstraint
      */
     public function toString()
     {
-        return "Displayed Product MAP data on product view page is correct.";
+        return "Displayed Detail MAP data on product view page is correct.";
     }
 }

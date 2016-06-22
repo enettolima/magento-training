@@ -27,7 +27,7 @@ class SendfriendProductObserver implements ObserverInterface
     }
 
     /**
-     * Send Product link to friends action
+     * Send Detail link to friends action
      *
      * @param \Magento\Framework\Event\Observer $observer
      * @return void

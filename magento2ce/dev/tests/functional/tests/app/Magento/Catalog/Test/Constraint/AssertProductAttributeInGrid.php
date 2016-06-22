@@ -39,6 +39,6 @@ class AssertProductAttributeInGrid extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product attribute is present in attribute grid.';
+        return 'Detail attribute is present in attribute grid.';
     }
 }

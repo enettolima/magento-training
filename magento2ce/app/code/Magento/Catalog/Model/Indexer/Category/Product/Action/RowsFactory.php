@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Indexer\Category\Product\Action;
 
 /**
- * Factory class for \Magento\Catalog\Model\Indexer\Category\Product\Action\Rows
+ * Factory class for \Magento\Catalog\Model\Indexer\Category\Detail\Action\Rows
  */
 class RowsFactory
 {

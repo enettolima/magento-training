@@ -74,7 +74,7 @@ class Catalog extends \Magento\Framework\DataObject
             $description = strip_tags($product->getDescription());
             $result[] = [
                 'id' => 'product/1/' . $product->getId(),
-                'type' => __('Product'),
+                'type' => __('Detail'),
                 'name' => $product->getName(),
                 'description' => $this->string->substr($description, 0, 30),
                 'url' => $this->_adminhtmlData->getUrl('catalog/product/edit', ['id' => $product->getId()]),

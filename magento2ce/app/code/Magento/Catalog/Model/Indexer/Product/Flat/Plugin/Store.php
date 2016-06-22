@@ -11,7 +11,7 @@ namespace Magento\Catalog\Model\Indexer\Product\Flat\Plugin;
 class Store
 {
     /**
-     * Product flat indexer processor
+     * Detail flat indexer processor
      *
      * @var \Magento\Catalog\Model\Indexer\Product\Flat\Processor
      */

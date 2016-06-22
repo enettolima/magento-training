@@ -47,11 +47,11 @@ interface OrderItemInterface extends \Magento\Framework\Api\ExtensibleDataInterf
      */
     const UPDATED_AT = 'updated_at';
     /*
-     * Product ID.
+     * Detail ID.
      */
     const PRODUCT_ID = 'product_id';
     /*
-     * Product type.
+     * Detail type.
      */
     const PRODUCT_TYPE = 'product_type';
     /*
@@ -393,7 +393,7 @@ interface OrderItemInterface extends \Magento\Framework\Api\ExtensibleDataInterf
     const PARENT_ITEM = 'parent_item';
 
     /**
-     * Product Option
+     * Detail Option
      */
     const KEY_PRODUCT_OPTION = 'product_option';
 
@@ -850,14 +850,14 @@ interface OrderItemInterface extends \Magento\Framework\Api\ExtensibleDataInterf
     /**
      * Gets the product ID for the order item.
      *
-     * @return int|null Product ID.
+     * @return int|null Detail ID.
      */
     public function getProductId();
 
     /**
      * Gets the product type for the order item.
      *
-     * @return string|null Product type.
+     * @return string|null Detail type.
      */
     public function getProductType();
 

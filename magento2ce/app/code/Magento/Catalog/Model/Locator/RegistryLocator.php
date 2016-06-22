@@ -52,7 +52,7 @@ class RegistryLocator implements LocatorInterface
             return $this->product = $product;
         }
 
-        throw new NotFoundException(__('Product was not registered'));
+        throw new NotFoundException(__('Detail was not registered'));
     }
 
     /**

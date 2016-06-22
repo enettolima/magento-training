@@ -6,12 +6,12 @@
 namespace Magento\Catalog\Model\Config\Source\Product\Options;
 
 /**
- * Product option types mode source
+ * Detail option types mode source
  */
 class Type implements \Magento\Framework\Option\ArrayInterface
 {
     /**
-     * Product Option Config
+     * Detail Option Config
      *
      * @var \Magento\Catalog\Model\ProductOptions\ConfigInterface
      */

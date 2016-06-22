@@ -13,12 +13,12 @@ use Magento\Mtf\Client\BrowserInterface;
 use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
- * Check that created widget displayed on frontend on Product page.
+ * Check that created widget displayed on frontend on Detail page.
  */
 class AssertWidgetOnProductPage extends AbstractConstraint
 {
     /**
-     * Assert that created widget displayed on frontend on Product page.
+     * Assert that created widget displayed on frontend on Detail page.
      *
      * @param CatalogProductView $productView
      * @param BrowserInterface $browser
@@ -43,7 +43,7 @@ class AssertWidgetOnProductPage extends AbstractConstraint
 
         \PHPUnit_Framework_Assert::assertTrue(
             $productView->getWidgetView()->isWidgetVisible($widget, $widgetText),
-            'Widget is absent on Product page.'
+            'Widget is absent on Detail page.'
         );
     }
 
@@ -54,6 +54,6 @@ class AssertWidgetOnProductPage extends AbstractConstraint
      */
     public function toString()
     {
-        return "Widget is present on Product page.";
+        return "Widget is present on Detail page.";
     }
 }

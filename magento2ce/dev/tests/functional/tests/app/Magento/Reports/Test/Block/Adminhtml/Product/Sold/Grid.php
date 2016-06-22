@@ -28,7 +28,7 @@ class Grid extends \Magento\Backend\Test\Block\Widget\Grid
     ];
 
     /**
-     * Product in grid locator
+     * Detail in grid locator
      *
      * @var string
      */

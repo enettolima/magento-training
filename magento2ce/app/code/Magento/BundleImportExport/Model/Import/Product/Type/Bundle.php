@@ -14,7 +14,7 @@ use \Magento\Catalog\Model\Product\Type\AbstractType;
 
 /**
  * Class Bundle
- * @package Magento\BundleImportExport\Model\Import\Product\Type
+ * @package Magento\BundleImportExport\Model\Import\Detail\Type
  * @SuppressWarnings(PHPMD.ExcessiveClassComplexity)
  */
 class Bundle extends \Magento\CatalogImportExport\Model\Import\Product\Type\AbstractType

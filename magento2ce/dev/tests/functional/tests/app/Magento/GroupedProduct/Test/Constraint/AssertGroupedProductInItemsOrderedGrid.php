@@ -89,6 +89,6 @@ class AssertGroupedProductInItemsOrderedGrid extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product is added to Items Ordered grid from "Last Ordered Items" section on Order creation page.';
+        return 'Detail is added to Items Ordered grid from "Last Ordered Items" section on Order creation page.';
     }
 }

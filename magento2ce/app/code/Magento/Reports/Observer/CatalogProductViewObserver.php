@@ -59,7 +59,7 @@ class CatalogProductViewObserver implements ObserverInterface
     }
 
     /**
-     * View Catalog Product action
+     * View Catalog Detail action
      *
      * @param \Magento\Framework\Event\Observer $observer
      * @return void

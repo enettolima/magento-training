@@ -47,7 +47,7 @@ define([
             this._initWindowElements();
             jQuery.async('#product_composite_configure',function (el) {
                 self.dialog = jQuery(el).modal({
-                    title: jQuery.mage.__('Configure Product'),
+                    title: jQuery.mage.__('Configure Detail'),
                     type: 'slide',
                     buttons: [{
                         text: jQuery.mage.__('OK'),

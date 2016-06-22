@@ -13,7 +13,7 @@ use Magento\Customer\Test\Fixture\Customer;
  *
  * Preconditions:
  * 1. Customer is registered
- * 2. Product is created
+ * 2. Detail is created
  *
  * Steps:
  * 1. Login as a customer
@@ -45,7 +45,7 @@ class AddProductToWishlistEntityTest extends AbstractWishlistTest
     }
 
     /**
-     * Run Add Product To Wishlist test
+     * Run Add Detail To Wishlist test
      *
      * @param Customer $customer
      * @param string $product

@@ -83,7 +83,7 @@ class RegistryLocatorTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @expectedException \Magento\Framework\Exception\NotFoundException
-     * @expectedExceptionMessage Product was not registered
+     * @expectedExceptionMessage Detail was not registered
      */
     public function testGetProductWithException()
     {

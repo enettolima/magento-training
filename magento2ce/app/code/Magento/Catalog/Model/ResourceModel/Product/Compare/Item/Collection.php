@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\ResourceModel\Product\Compare\Item;
 
 /**
- * Catalog Product Compare Items Resource Collection
+ * Catalog Detail Compare Items Resource Collection
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  * @SuppressWarnings(PHPMD.LongVariable)

@@ -34,13 +34,13 @@ class ConditionsTest extends \PHPUnit_Framework_TestCase
                 "new_child" => "",
             ],
             '1--1' => [
-                "type" => "Magento\\CatalogWidget\\Model\\Rule\\Condition\\Product",
+                "type" => "Magento\\CatalogWidget\\Model\\Rule\\Condition\\Detail",
                 "attribute" => "attribute_set_id",
                 "value" => "4",
                 "operator" => "==",
             ],
             '1--2' => [
-                "type" => "Magento\\CatalogWidget\\Model\\Rule\\Condition\\Product",
+                "type" => "Magento\\CatalogWidget\\Model\\Rule\\Condition\\Detail",
                 "attribute" => "category_ids",
                 "value" => "2",
                 "operator" => "==",

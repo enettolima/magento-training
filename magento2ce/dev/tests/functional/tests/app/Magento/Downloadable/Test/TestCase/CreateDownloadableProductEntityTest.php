@@ -41,7 +41,7 @@ class CreateDownloadableProductEntityTest extends Injectable
     protected $category;
 
     /**
-     * Product page with a grid
+     * Detail page with a grid
      *
      * @var CatalogProductIndex
      */

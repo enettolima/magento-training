@@ -118,7 +118,7 @@ class FeedTest extends \PHPUnit_Framework_TestCase
      */
     public function testCheckUpdate($callInbox, $curlRequest)
     {
-        $mockName    = 'Test Product Name';
+        $mockName    = 'Test Detail Name';
         $mockVersion = '0.0.0';
         $mockEdition = 'Test Edition';
         $mockUrl = 'http://test-url';

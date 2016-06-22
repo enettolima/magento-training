@@ -5,7 +5,7 @@
  */
 
 /**
- * Test class for \Magento\Catalog\Controller\Product.
+ * Test class for \Magento\Catalog\Controller\Detail.
  */
 namespace Magento\Catalog\Controller;
 
@@ -69,19 +69,19 @@ class ProductTest extends \Magento\TestFramework\TestCase\AbstractController
         $this->assertEquals($product->getEntityId(), $lastViewedProductId);
 
         $responseBody = $this->getResponse()->getBody();
-        /* Product info */
-        $this->assertContains('Simple Product 1 Name', $responseBody);
-        $this->assertContains('Simple Product 1 Full Description', $responseBody);
-        $this->assertContains('Simple Product 1 Short Description', $responseBody);
+        /* Detail info */
+        $this->assertContains('Simple Detail 1 Name', $responseBody);
+        $this->assertContains('Simple Detail 1 Full Description', $responseBody);
+        $this->assertContains('Simple Detail 1 Short Description', $responseBody);
         /* Stock info */
         $this->assertContains('$1,234.56', $responseBody);
         $this->assertContains('In stock', $responseBody);
         $this->assertContains('Add to Cart', $responseBody);
         /* Meta info */
-        $this->assertContains('<title>Simple Product 1 Meta Title</title>', $responseBody);
-        $this->assertSelectCount('meta[name="keywords"][content="Simple Product 1 Meta Keyword"]', 1, $responseBody);
+        $this->assertContains('<title>Simple Detail 1 Meta Title</title>', $responseBody);
+        $this->assertSelectCount('meta[name="keywords"][content="Simple Detail 1 Meta Keyword"]', 1, $responseBody);
         $this->assertSelectCount(
-            'meta[name="description"][content="Simple Product 1 Meta Description"]',
+            'meta[name="description"][content="Simple Detail 1 Meta Description"]',
             1,
             $responseBody
         );

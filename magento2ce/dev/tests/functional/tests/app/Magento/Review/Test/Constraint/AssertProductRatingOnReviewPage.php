@@ -54,6 +54,6 @@ class AssertProductRatingOnReviewPage extends AbstractAssertForm
      */
     public function toString()
     {
-        return 'Product rating is displayed on edit review page(backend).';
+        return 'Detail rating is displayed on edit review page(backend).';
     }
 }

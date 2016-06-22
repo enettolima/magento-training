@@ -257,7 +257,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
 
         $this->addColumn(
             'name',
-            ['header' => __('Product'), 'type' => 'text', 'index' => 'name', 'escape' => true]
+            ['header' => __('Detail'), 'type' => 'text', 'index' => 'name', 'escape' => true]
         );
 
         $this->addColumn(

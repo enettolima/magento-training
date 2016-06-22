@@ -33,7 +33,7 @@ class ClassModel extends \Magento\Framework\Model\AbstractExtensibleModel implem
     const TAX_CLASS_TYPE_CUSTOMER = 'CUSTOMER';
 
     /**
-     * Defines Product Tax Class string
+     * Defines Detail Tax Class string
      */
     const TAX_CLASS_TYPE_PRODUCT = 'PRODUCT';
 

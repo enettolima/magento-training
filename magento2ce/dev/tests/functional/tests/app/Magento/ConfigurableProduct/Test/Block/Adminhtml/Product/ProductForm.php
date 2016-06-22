@@ -11,7 +11,7 @@ use Magento\Mtf\Fixture\InjectableFixture;
 use Magento\Mtf\Client\Element\SimpleElement;
 
 /**
- * Product creation form.
+ * Detail creation form.
  */
 class ProductForm extends \Magento\Catalog\Test\Block\Adminhtml\Product\ProductForm
 {

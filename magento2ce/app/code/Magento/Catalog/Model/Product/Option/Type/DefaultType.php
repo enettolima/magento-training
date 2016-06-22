@@ -26,7 +26,7 @@ class DefaultType extends \Magento\Framework\DataObject
     protected $_option;
 
     /**
-     * Product Instance
+     * Detail Instance
      *
      * @var \Magento\Catalog\Model\Product
      */
@@ -97,7 +97,7 @@ class DefaultType extends \Magento\Framework\DataObject
     }
 
     /**
-     * Product Instance setter
+     * Detail Instance setter
      *
      * @param \Magento\Catalog\Model\Product $product
      * @return $this
@@ -109,7 +109,7 @@ class DefaultType extends \Magento\Framework\DataObject
     }
 
     /**
-     * Product Instance getter
+     * Detail Instance getter
      *
      * @throws \Magento\Framework\Exception\LocalizedException
      * @return \Magento\Catalog\Model\Product
@@ -354,7 +354,7 @@ class DefaultType extends \Magento\Framework\DataObject
     /**
      * Return value => key all product options (using for parsing)
      *
-     * @return array Array of Product custom options, reversing option values and option ids
+     * @return array Array of Detail custom options, reversing option values and option ids
      */
     public function getProductOptions()
     {

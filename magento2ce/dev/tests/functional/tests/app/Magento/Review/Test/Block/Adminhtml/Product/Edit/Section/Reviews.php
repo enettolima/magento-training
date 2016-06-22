@@ -14,7 +14,7 @@ use Magento\Ui\Test\Block\Adminhtml\Section;
 class Reviews extends Section
 {
     /**
-     * Product reviews block selector.
+     * Detail reviews block selector.
      *
      * @var string
      */

@@ -360,7 +360,7 @@ class SendTest extends \PHPUnit_Framework_TestCase
         $this->productRepositoryMock->expects($this->once())
             ->method('getById')
             ->with($productId, false, null, false)
-            ->willThrowException(new \Magento\Framework\Exception\NoSuchEntityException(__('No Product Exception.')));
+            ->willThrowException(new \Magento\Framework\Exception\NoSuchEntityException(__('No Detail Exception.')));
 
         /** @var \Magento\Framework\Controller\Result\Forward|\PHPUnit_Framework_MockObject_MockObject $forwardMock */
         $forwardMock = $this->getMockBuilder('Magento\Framework\Controller\Result\Forward')

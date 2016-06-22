@@ -48,7 +48,7 @@ class AssertProductInCategory extends AbstractConstraint
 
         \PHPUnit_Framework_Assert::assertTrue(
             $isProductVisible,
-            'Product is absent on category page.'
+            'Detail is absent on category page.'
         );
 
         //Process price asserts
@@ -69,14 +69,14 @@ class AssertProductInCategory extends AbstractConstraint
         \PHPUnit_Framework_Assert::assertEquals(
             number_format($product->getPrice(), 2, '.', ''),
             $priceBlock->isOldPriceVisible() ? $priceBlock->getOldPrice() : $priceBlock->getPrice(),
-            'Product regular price on category page is not correct.'
+            'Detail regular price on category page is not correct.'
         );
 
         if ($product->hasData('special_price')) {
             \PHPUnit_Framework_Assert::assertEquals(
                 number_format($product->getSpecialPrice(), 2, '.', ''),
                 $priceBlock->getSpecialPrice(),
-                'Product special price on category page is not correct.'
+                'Detail special price on category page is not correct.'
             );
         }
     }
@@ -88,6 +88,6 @@ class AssertProductInCategory extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product price on category page correct.';
+        return 'Detail price on category page correct.';
     }
 }

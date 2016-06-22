@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\Product\Gallery;
 use Magento\Framework\App\Filesystem\DirectoryList;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Gallery\Processor.
+ * Test class for \Magento\Catalog\Model\Detail\Gallery\Processor.
  * @magentoDataFixture Magento/Catalog/_files/product_simple.php
  */
 class ProcessorTest extends \PHPUnit_Framework_TestCase

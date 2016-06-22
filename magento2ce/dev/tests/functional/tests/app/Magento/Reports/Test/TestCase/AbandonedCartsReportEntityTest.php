@@ -38,7 +38,7 @@ class AbandonedCartsReportEntityTest extends Injectable
     /* end tags */
 
     /**
-     * Catalog Product View page.
+     * Catalog Detail View page.
      *
      * @var CatalogProductView
      */

@@ -37,7 +37,7 @@ class CatalogProductSaveAfterObserver implements ObserverInterface
     }
 
     /**
-     * Catalog Product After Save (change status process)
+     * Catalog Detail After Save (change status process)
      *
      * @param \Magento\Framework\Event\Observer $observer
      * @return void

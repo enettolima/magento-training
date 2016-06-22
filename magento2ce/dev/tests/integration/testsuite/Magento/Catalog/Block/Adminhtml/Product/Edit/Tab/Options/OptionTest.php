@@ -30,7 +30,7 @@ class OptionTest extends \PHPUnit_Framework_TestCase
         )->setWebsiteIds(
             [1]
         )->setName(
-            'Simple Product With Custom Options'
+            'Simple Detail With Custom Options'
         )->setSku(
             'simple'
         )->setPrice(

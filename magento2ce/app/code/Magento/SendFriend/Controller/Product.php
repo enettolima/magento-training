@@ -10,7 +10,7 @@ use Magento\Framework\App\RequestInterface;
 use Magento\Framework\Exception\NoSuchEntityException;
 
 /**
- * Email to a Friend Product Controller
+ * Email to a Friend Detail Controller
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
@@ -88,7 +88,7 @@ abstract class Product extends \Magento\Framework\App\Action\Action
     }
 
     /**
-     * Initialize Product Instance
+     * Initialize Detail Instance
      *
      * @return \Magento\Catalog\Model\Product
      */

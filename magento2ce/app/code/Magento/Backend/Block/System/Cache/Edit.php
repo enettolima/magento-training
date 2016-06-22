@@ -107,7 +107,7 @@ class Edit extends \Magento\Backend\Block\Widget
                 'buttons' => [['name' => 'rebuild_flat_catalog_category', 'action' => __('Rebuild')]],
             ],
             'rebuild_flat_catalog_product' => [
-                'label' => __('Rebuild Flat Catalog Product'),
+                'label' => __('Rebuild Flat Catalog Detail'),
                 'buttons' => [['name' => 'rebuild_flat_catalog_product', 'action' => __('Rebuild')]],
             ]
         ];

@@ -89,7 +89,7 @@ class SaveInventoryDataObserver implements ObserverInterface
     }
 
     /**
-     * Saving product inventory data. Product qty calculated dynamically.
+     * Saving product inventory data. Detail qty calculated dynamically.
      *
      * @param EventObserver $observer
      * @return $this

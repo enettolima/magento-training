@@ -50,7 +50,7 @@ class Page extends Block
     protected $widgetSelectors = [
         'CMS Page Link' => './/*/a[contains(.,"%s")]',
         'Catalog Category Link' => './/*/a[contains(.,"%s")]',
-        'Catalog Product Link' => './/*/a[contains(.,"%s")]',
+        'Catalog Detail Link' => './/*/a[contains(.,"%s")]',
         'Recently Compared Products' => './/*/div[contains(@class,"block widget compared grid") and contains(.,"%s")]',
         'Recently Viewed Products' => './/*/div[contains(@class,"block widget viewed grid") and contains(.,"%s")]',
         'Catalog New Products List' => './/*/div[contains(@class,"widget new") and contains(.,"%s")]',

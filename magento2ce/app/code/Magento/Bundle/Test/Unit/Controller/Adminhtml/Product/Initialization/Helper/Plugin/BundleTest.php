@@ -1,6 +1,6 @@
 <?php
 /**
- * Test class for \Magento\Bundle\Controller\Adminhtml\Product\Initialization\Helper\Plugin\Bundle
+ * Test class for \Magento\Bundle\Controller\Adminhtml\Detail\Initialization\Helper\Plugin\Bundle
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.

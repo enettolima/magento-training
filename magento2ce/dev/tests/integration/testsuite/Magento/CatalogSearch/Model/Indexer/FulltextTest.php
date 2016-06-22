@@ -110,7 +110,7 @@ class FulltextTest extends \PHPUnit_Framework_TestCase
         $this->assertCount(1, $products);
         $this->assertEquals($this->productApple->getId(), $products[0]->getId());
 
-        $products = $this->search('Simple Product');
+        $products = $this->search('Simple Detail');
         $this->assertCount(5, $products);
     }
 
@@ -121,7 +121,7 @@ class FulltextTest extends \PHPUnit_Framework_TestCase
     {
         $this->indexer->reindexAll();
 
-        $this->productApple->setData('name', 'Simple Product Cucumber');
+        $this->productApple->setData('name', 'Simple Detail Cucumber');
         $this->productApple->save();
 
         $products = $this->search('Apple');
@@ -131,7 +131,7 @@ class FulltextTest extends \PHPUnit_Framework_TestCase
         $this->assertCount(1, $products);
         $this->assertEquals($this->productApple->getId(), $products[0]->getId());
 
-        $products = $this->search('Simple Product');
+        $products = $this->search('Simple Detail');
         $this->assertCount(5, $products);
     }
 
@@ -147,7 +147,7 @@ class FulltextTest extends \PHPUnit_Framework_TestCase
             $this->productBanana->getId(),
         ];
         $attrData = [
-            'name' => 'Simple Product Common',
+            'name' => 'Simple Detail Common',
         ];
 
         /** @var \Magento\Catalog\Model\Product\Action $action */
@@ -168,7 +168,7 @@ class FulltextTest extends \PHPUnit_Framework_TestCase
         $products = $this->search('Common');
         $this->assertCount(2, $products);
 
-        $products = $this->search('Simple Product');
+        $products = $this->search('Simple Detail');
         $this->assertCount(5, $products);
     }
 
@@ -181,7 +181,7 @@ class FulltextTest extends \PHPUnit_Framework_TestCase
 
         $this->productBanana->delete();
 
-        $products = $this->search('Simple Product');
+        $products = $this->search('Simple Detail');
 
         $this->assertCount(4, $products);
     }

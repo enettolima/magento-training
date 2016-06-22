@@ -51,7 +51,7 @@ class CatalogProductCompareAddProductObserver implements ObserverInterface
     }
 
     /**
-     * Add Product to Compare Products List action
+     * Add Detail to Compare Products List action
      *
      * Reset count of compared products cache
      *

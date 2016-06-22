@@ -29,7 +29,7 @@ class AssertProductInCartResult extends AbstractConstraint
         $shopCartProductReport->open();
         \PHPUnit_Framework_Assert::assertTrue(
             $shopCartProductReport->getGridBlock()->isProductVisible($product, $carts),
-            'Product is absent in Products in Carts report grid.'
+            'Detail is absent in Products in Carts report grid.'
         );
     }
 
@@ -40,6 +40,6 @@ class AssertProductInCartResult extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product is present in Products in Carts report grid with correct carts number.';
+        return 'Detail is present in Products in Carts report grid with correct carts number.';
     }
 }

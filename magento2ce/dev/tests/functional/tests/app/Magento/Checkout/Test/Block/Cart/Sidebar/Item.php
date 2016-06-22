@@ -10,7 +10,7 @@ use Magento\Checkout\Test\Block\Cart\Sidebar;
 
 /**
  * Class MiniCartItem
- * Product item block on mini Cart
+ * Detail item block on mini Cart
  */
 class Item extends Sidebar
 {

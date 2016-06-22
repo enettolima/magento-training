@@ -22,7 +22,7 @@ class AssertProductTierPriceOnProductPage extends AbstractConstraint implements 
      *
      * @var string
      */
-    protected $errorMessage = 'Product tier price on product page is not correct.';
+    protected $errorMessage = 'Detail tier price on product page is not correct.';
 
     /**
      * Format price

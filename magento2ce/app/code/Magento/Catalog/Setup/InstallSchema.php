@@ -106,7 +106,7 @@ class InstallSchema implements InstallSchemaInterface
                 'attribute_set_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Table');
+            ->setComment('Catalog Detail Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -197,7 +197,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Datetime Attribute Backend Table');
+            ->setComment('Catalog Detail Datetime Attribute Backend Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -288,7 +288,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Decimal Attribute Backend Table');
+            ->setComment('Catalog Detail Decimal Attribute Backend Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -369,7 +369,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Integer Attribute Backend Table');
+            ->setComment('Catalog Detail Integer Attribute Backend Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -460,7 +460,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Text Attribute Backend Table');
+            ->setComment('Catalog Detail Text Attribute Backend Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -551,7 +551,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Varchar Attribute Backend Table');
+            ->setComment('Catalog Detail Varchar Attribute Backend Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -653,7 +653,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product Gallery Attribute Backend Table');
+            ->setComment('Catalog Detail Gallery Attribute Backend Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -1220,7 +1220,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'primary' => true, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'position',
@@ -1249,7 +1249,7 @@ class InstallSchema implements InstallSchemaInterface
                 'entity_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Catalog Product To Category Linkage Table');
+            ->setComment('Catalog Detail To Category Linkage Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -1269,7 +1269,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'primary' => true, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'position',
@@ -1313,7 +1313,7 @@ class InstallSchema implements InstallSchemaInterface
                 ),
                 ['store_id', 'category_id', 'visibility', 'is_parent', 'position']
             )
-            ->setComment('Catalog Category Product Index');
+            ->setComment('Catalog Category Detail Index');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -1349,7 +1349,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'store_id',
@@ -1413,7 +1413,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'primary' => true],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'website_id',
@@ -1441,7 +1441,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product To Website Linkage Table'
+                'Catalog Detail To Website Linkage Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -1468,7 +1468,7 @@ class InstallSchema implements InstallSchemaInterface
                 'Code'
             )
             ->setComment(
-                'Catalog Product Link Type Table'
+                'Catalog Detail Link Type Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -1492,14 +1492,14 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'linked_product_id',
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Linked Product ID'
+                'Linked Detail ID'
             )
             ->addColumn(
                 'link_type_id',
@@ -1557,7 +1557,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product To Product Linkage Table'
+                'Catalog Detail To Detail Linkage Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -1574,7 +1574,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
                 null,
                 ['identity' => true, 'unsigned' => true, 'nullable' => false, 'primary' => true],
-                'Product Link Attribute ID'
+                'Detail Link Attribute ID'
             )
             ->addColumn(
                 'link_type_id',
@@ -1588,7 +1588,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                 32,
                 ['nullable' => true, 'default' => null],
-                'Product Link Attribute Code'
+                'Detail Link Attribute Code'
             )
             ->addColumn(
                 'data_type',
@@ -1614,7 +1614,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Link Attribute Table'
+                'Catalog Detail Link Attribute Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -1638,7 +1638,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
                 null,
                 ['unsigned' => true],
-                'Product Link Attribute ID'
+                'Detail Link Attribute ID'
             )
             ->addColumn(
                 'link_id',
@@ -1692,7 +1692,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Link Decimal Attribute Table'
+                'Catalog Detail Link Decimal Attribute Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -1716,7 +1716,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
                 null,
                 ['unsigned' => true],
-                'Product Link Attribute ID'
+                'Detail Link Attribute ID'
             )
             ->addColumn(
                 'link_id',
@@ -1770,7 +1770,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Link Integer Attribute Table'
+                'Catalog Detail Link Integer Attribute Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -1794,7 +1794,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product Link Attribute ID'
+                'Detail Link Attribute ID'
             )
             ->addColumn(
                 'link_id',
@@ -1848,7 +1848,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Link Varchar Attribute Table'
+                'Catalog Detail Link Varchar Attribute Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -1958,7 +1958,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Tier Price Attribute Backend Table'
+                'Catalog Detail Tier Price Attribute Backend Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2031,7 +2031,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Media Gallery Attribute Backend Table'
+                'Catalog Detail Media Gallery Attribute Backend Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2125,7 +2125,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Media Gallery Attribute Value Table'
+                'Catalog Detail Media Gallery Attribute Value Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2149,7 +2149,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'type',
@@ -2219,7 +2219,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Option Table'
+                'Catalog Detail Option Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2299,7 +2299,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Option Price Table'
+                'Catalog Detail Option Price Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2372,7 +2372,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Option Title Table'
+                'Catalog Detail Option Title Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2430,7 +2430,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Option Type Value Table'
+                'Catalog Detail Option Type Value Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2510,7 +2510,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Option Type Price Table'
+                'Catalog Detail Option Type Price Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2583,7 +2583,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Option Type Title Table'
+                'Catalog Detail Option Type Title Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2677,7 +2677,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_SMALLINT,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Is Used In Product Listing'
+                'Is Used In Detail Listing'
             )
             ->addColumn(
                 'used_for_sort_by',
@@ -2810,7 +2810,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Relation Table'
+                'Catalog Detail Relation Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2863,7 +2863,7 @@ class InstallSchema implements InstallSchemaInterface
                 ['value']
             )
             ->setComment(
-                'Catalog Product EAV Index Table'
+                'Catalog Detail EAV Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -2916,7 +2916,7 @@ class InstallSchema implements InstallSchemaInterface
                 ['value']
             )
             ->setComment(
-                'Catalog Product EAV Decimal Index Table'
+                'Catalog Detail EAV Decimal Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3035,7 +3035,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Price Index Table'
+                'Catalog Detail Price Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3115,7 +3115,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Tier Price Index Table'
+                'Catalog Detail Tier Price Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3160,7 +3160,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
             ->setComment(
-                'Catalog Product Website Index Table'
+                'Catalog Detail Website Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3215,7 +3215,7 @@ class InstallSchema implements InstallSchemaInterface
                 'Tier Price'
             )
             ->setComment(
-                'Catalog Product Price Indexer Config Option Aggregate Index Table'
+                'Catalog Detail Price Indexer Config Option Aggregate Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3274,7 +3274,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
             ->setComment(
-                'Catalog Product Price Indexer Config Option Aggregate Temp Table'
+                'Catalog Detail Price Indexer Config Option Aggregate Temp Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3329,7 +3329,7 @@ class InstallSchema implements InstallSchemaInterface
                 'Tier Price'
             )
             ->setComment(
-                'Catalog Product Price Indexer Config Option Index Table'
+                'Catalog Detail Price Indexer Config Option Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3388,7 +3388,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
             ->setComment(
-                'Catalog Product Price Indexer Config Option Temp Table'
+                'Catalog Detail Price Indexer Config Option Temp Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3471,7 +3471,7 @@ class InstallSchema implements InstallSchemaInterface
                 'Base Tier'
             )
             ->setComment(
-                'Catalog Product Price Indexer Final Index Table'
+                'Catalog Detail Price Indexer Final Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3559,7 +3559,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
             ->setComment(
-                'Catalog Product Price Indexer Final Temp Table'
+                'Catalog Detail Price Indexer Final Temp Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3614,7 +3614,7 @@ class InstallSchema implements InstallSchemaInterface
                 'Tier Price'
             )
             ->setComment(
-                'Catalog Product Price Indexer Option Index Table'
+                'Catalog Detail Price Indexer Option Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3673,7 +3673,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
             ->setComment(
-                'Catalog Product Price Indexer Option Temp Table'
+                'Catalog Detail Price Indexer Option Temp Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3735,7 +3735,7 @@ class InstallSchema implements InstallSchemaInterface
                 'Tier Price'
             )
             ->setComment(
-                'Catalog Product Price Indexer Option Aggregate Index Table'
+                'Catalog Detail Price Indexer Option Aggregate Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3801,7 +3801,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
             ->setComment(
-                'Catalog Product Price Indexer Option Aggregate Temp Table'
+                'Catalog Detail Price Indexer Option Aggregate Temp Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3854,7 +3854,7 @@ class InstallSchema implements InstallSchemaInterface
                 ['value']
             )
             ->setComment(
-                'Catalog Product EAV Indexer Index Table'
+                'Catalog Detail EAV Indexer Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3911,7 +3911,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
             ->setComment(
-                'Catalog Product EAV Indexer Temp Table'
+                'Catalog Detail EAV Indexer Temp Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -3964,7 +3964,7 @@ class InstallSchema implements InstallSchemaInterface
                 ['value']
             )
             ->setComment(
-                'Catalog Product EAV Decimal Indexer Index Table'
+                'Catalog Detail EAV Decimal Indexer Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -4021,7 +4021,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
             ->setComment(
-                'Catalog Product EAV Decimal Indexer Temp Table'
+                'Catalog Detail EAV Decimal Indexer Temp Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -4109,7 +4109,7 @@ class InstallSchema implements InstallSchemaInterface
                 ['min_price']
             )
             ->setComment(
-                'Catalog Product Price Indexer Index Table'
+                'Catalog Detail Price Indexer Index Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -4201,7 +4201,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
             ->setComment(
-                'Catalog Product Price Indexer Temp Table'
+                'Catalog Detail Price Indexer Temp Table'
             );
         $installer->getConnection()
             ->createTable($table);
@@ -4225,7 +4225,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false, 'default' => '0'],
-                'Product ID'
+                'Detail ID'
             )
             ->addColumn(
                 'position',
@@ -4264,7 +4264,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Adapter\Pdo\Mysql::ENGINE_MEMORY
             )
             ->setComment(
-                'Catalog Category Product Indexer Temp Table'
+                'Catalog Category Detail Indexer Temp Table'
             );
         $installer->getConnection()
             ->createTable($table);

@@ -48,7 +48,7 @@ class Email extends \Magento\Framework\Model\AbstractModel
     protected $_priceProducts = [];
 
     /**
-     * Product collection which of back in stock
+     * Detail collection which of back in stock
      *
      * @var array
      */
@@ -69,7 +69,7 @@ class Email extends \Magento\Framework\Model\AbstractModel
     protected $_stockBlock;
 
     /**
-     * Product alert data
+     * Detail alert data
      *
      * @var \Magento\ProductAlert\Helper\Data
      */

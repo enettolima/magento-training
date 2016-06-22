@@ -31,7 +31,7 @@ class AssertVideoProductView extends AbstractConstraint
         $browser->open($_ENV['app_frontend_url'] . $product->getUrlKey() . '.html');
         \PHPUnit_Framework_Assert::assertTrue(
             $catalogProductView->getViewBlock()->isVideoVisible(),
-            'Product video is not displayed on product view when it should.'
+            'Detail video is not displayed on product view when it should.'
         );
     }
 
@@ -42,6 +42,6 @@ class AssertVideoProductView extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product video is displayed on product view.';
+        return 'Detail video is displayed on product view.';
     }
 }

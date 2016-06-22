@@ -80,7 +80,7 @@ define([
         },
 
         /**
-         * Product has weight
+         * Detail has weight
          * @returns {Bool}
          */
         productHasWeightBySwitcher: function () {

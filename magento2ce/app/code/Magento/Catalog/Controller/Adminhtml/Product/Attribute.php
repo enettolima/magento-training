@@ -97,13 +97,13 @@ abstract class Attribute extends \Magento\Backend\App\Action
             $pageConfig->addBodyClass('attribute-popup');
         } else {
             $resultPage->addBreadcrumb(__('Catalog'), __('Catalog'))
-                ->addBreadcrumb(__('Manage Product Attributes'), __('Manage Product Attributes'))
+                ->addBreadcrumb(__('Manage Detail Attributes'), __('Manage Detail Attributes'))
                 ->setActiveMenu('Magento_Catalog::catalog_attributes_attributes');
             if (!empty($title)) {
                 $resultPage->addBreadcrumb($title, $title);
             }
         }
-        $resultPage->getConfig()->getTitle()->prepend(__('Product Attributes'));
+        $resultPage->getConfig()->getTitle()->prepend(__('Detail Attributes'));
         return $resultPage;
     }
 

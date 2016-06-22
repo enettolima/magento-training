@@ -11,14 +11,14 @@ namespace Magento\ProductAlert\Block\Email;
 use Magento\Framework\Pricing\PriceCurrencyInterface;
 
 /**
- * Product Alert Abstract Email Block
+ * Detail Alert Abstract Email Block
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */
 abstract class AbstractEmail extends \Magento\Framework\View\Element\Template
 {
     /**
-     * Product collection array
+     * Detail collection array
      *
      * @var array
      */

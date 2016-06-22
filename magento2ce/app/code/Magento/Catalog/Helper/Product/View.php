@@ -170,7 +170,7 @@ class View extends \Magento\Framework\App\Helper\AbstractHelper
     /**
      * Prepares product view page - inits layout and all needed stuff
      *
-     * $params can have all values as $params in \Magento\Catalog\Helper\Product - initProduct().
+     * $params can have all values as $params in \Magento\Catalog\Helper\Detail - initProduct().
      * Plus following keys:
      *   - 'buy_request' - \Magento\Framework\DataObject holding buyRequest to configure product
      *   - 'specify_options' - boolean, whether to show 'Specify options' message
@@ -211,7 +211,7 @@ class View extends \Magento\Framework\App\Helper\AbstractHelper
         // Standard algorithm to prepare and render product view page
         $product = $productHelper->initProduct($productId, $controller, $params);
         if (!$product) {
-            throw new \Magento\Framework\Exception\NoSuchEntityException(__('Product is not loaded'));
+            throw new \Magento\Framework\Exception\NoSuchEntityException(__('Detail is not loaded'));
         }
 
         $buyRequest = $params->getBuyRequest();

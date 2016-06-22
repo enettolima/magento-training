@@ -21,7 +21,7 @@ class Wishlist extends Block
     protected $shareWishList = '[name="save_and_share"]';
 
     /**
-     * Product items selector.
+     * Detail items selector.
      *
      * @var string
      */

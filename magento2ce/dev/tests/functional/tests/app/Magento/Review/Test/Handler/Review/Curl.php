@@ -55,7 +55,7 @@ class Curl extends AbstractCurl implements ReviewInterface
         $curl->close();
         if (!strpos($response, 'data-ui-id="messages-message-success"')) {
             throw new \Exception(
-                'Product Review entity creating by curl handler was not successful! Response:' . $response
+                'Detail Review entity creating by curl handler was not successful! Response:' . $response
             );
         }
 

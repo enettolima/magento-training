@@ -12,7 +12,7 @@ use Magento\Catalog\Model\ResourceModel\Category\Collection;
 use Magento\Framework\AuthorizationInterface;
 
 /**
- * Product form category field helper
+ * Detail form category field helper
  */
 class Category extends \Magento\Framework\Data\Form\Element\Multiselect
 {

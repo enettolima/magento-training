@@ -1,6 +1,6 @@
 <?php
 /**
- * Product Media Attribute Write Service
+ * Detail Media Attribute Write Service
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.
@@ -8,7 +8,7 @@
 namespace Magento\Catalog\Api;
 
 /**
- * @todo implement this interface as a \Magento\Catalog\Model\Product\Attribute\Media\GalleryManagement.
+ * @todo implement this interface as a \Magento\Catalog\Model\Detail\Attribute\Media\GalleryManagement.
  * Move logic from service there.
  * @api
  */

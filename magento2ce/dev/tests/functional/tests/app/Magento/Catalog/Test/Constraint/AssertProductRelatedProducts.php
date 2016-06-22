@@ -46,7 +46,7 @@ class AssertProductRelatedProducts extends AbstractConstraint
         foreach ($promotedProducts as $promotedProduct) {
             \PHPUnit_Framework_Assert::assertTrue(
                 $catalogProductView->getRelatedProductBlock()->getProductItem($promotedProduct)->isVisible(),
-                'Product \'' . $promotedProduct->getName()
+                'Detail \'' . $promotedProduct->getName()
                 . '\' is absent in related products \'' . $product->getName() . '\'.'
             );
         }
@@ -59,6 +59,6 @@ class AssertProductRelatedProducts extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product is displayed in related products section.';
+        return 'Detail is displayed in related products section.';
     }
 }

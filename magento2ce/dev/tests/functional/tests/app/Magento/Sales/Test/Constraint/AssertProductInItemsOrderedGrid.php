@@ -50,7 +50,7 @@ class AssertProductInItemsOrderedGrid extends AbstractAssertForm
         \PHPUnit_Framework_Assert::assertEquals(
             $data['fixtureData'],
             $data['pageData'],
-            'Product data on order create page not equals to passed from fixture.'
+            'Detail data on order create page not equals to passed from fixture.'
         );
     }
 
@@ -122,6 +122,6 @@ class AssertProductInItemsOrderedGrid extends AbstractAssertForm
      */
     public function toString()
     {
-        return 'Product is added to Items Ordered grid from "Last Ordered Items" section on Order creation page.';
+        return 'Detail is added to Items Ordered grid from "Last Ordered Items" section on Order creation page.';
     }
 }

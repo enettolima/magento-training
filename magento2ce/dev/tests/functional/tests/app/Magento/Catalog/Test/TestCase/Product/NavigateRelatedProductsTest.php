@@ -235,7 +235,7 @@ class NavigateRelatedProductsTest extends AbstractProductPromotedProductsTest
         foreach ($checkoutProducts as $product) {
             \PHPUnit_Framework_Assert::assertTrue(
                 $this->checkoutCart->getCartBlock()->getCartItem($product)->isVisible(),
-                "Product {$product->getName()} absent in cart."
+                "Detail {$product->getName()} absent in cart."
             );
         }
     }

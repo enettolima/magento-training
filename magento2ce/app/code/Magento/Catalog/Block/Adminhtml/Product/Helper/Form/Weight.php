@@ -5,7 +5,7 @@
  */
 
 /**
- * Product form weight field helper
+ * Detail form weight field helper
  */
 namespace Magento\Catalog\Block\Adminhtml\Product\Helper\Form;
 

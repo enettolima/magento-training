@@ -40,7 +40,7 @@ class NewProduct extends \Magento\Catalog\Block\Product\AbstractProduct implemen
     protected $_catalogProductVisibility;
 
     /**
-     * Product collection factory
+     * Detail collection factory
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory
      */

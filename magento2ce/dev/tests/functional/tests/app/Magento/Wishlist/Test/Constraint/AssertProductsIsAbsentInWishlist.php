@@ -42,7 +42,7 @@ class AssertProductsIsAbsentInWishlist extends AbstractConstraint
         foreach ($products as $itemProduct) {
             \PHPUnit_Framework_Assert::assertFalse(
                 $itemBlock->getItemProduct($itemProduct)->isVisible(),
-                'Product \'' . $itemProduct->getName() . '\' is present in Wish List on Frontend.'
+                'Detail \'' . $itemProduct->getName() . '\' is present in Wish List on Frontend.'
             );
         }
     }
@@ -54,6 +54,6 @@ class AssertProductsIsAbsentInWishlist extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product is absent in Wish List on Frontend.';
+        return 'Detail is absent in Wish List on Frontend.';
     }
 }

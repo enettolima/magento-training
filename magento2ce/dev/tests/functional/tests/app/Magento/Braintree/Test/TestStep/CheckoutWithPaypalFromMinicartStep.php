@@ -16,7 +16,7 @@ use Magento\Catalog\Test\Page\Product\CatalogProductView;
 class CheckoutWithPaypalFromMinicartStep implements TestStepInterface
 {
     /**
-     * Product fixture.
+     * Detail fixture.
      *
      * @var FixtureInterface[]
      */

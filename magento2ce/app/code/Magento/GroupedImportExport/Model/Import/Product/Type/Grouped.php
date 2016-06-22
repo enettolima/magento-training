@@ -30,7 +30,7 @@ class Grouped extends \Magento\CatalogImportExport\Model\Import\Product\Type\Abs
     protected $links;
 
     /**
-     * Product entity identifier field
+     * Detail entity identifier field
      *
      * @var string
      */

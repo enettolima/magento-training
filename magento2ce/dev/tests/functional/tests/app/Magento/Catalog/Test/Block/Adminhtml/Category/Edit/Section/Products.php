@@ -22,7 +22,7 @@ class Products extends Section
     protected $selectItem = 'tbody tr .col-in_category';
 
     /**
-     * Product grid locator.
+     * Detail grid locator.
      *
      * @var string
      */

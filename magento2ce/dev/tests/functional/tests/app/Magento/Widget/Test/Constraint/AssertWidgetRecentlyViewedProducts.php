@@ -102,7 +102,7 @@ class AssertWidgetRecentlyViewedProducts extends AbstractConstraint
         $products = $this->catalogCategoryView->getViewBlock()->getProductsFromRecentlyViewedBlock();
         \PHPUnit_Framework_Assert::assertTrue(
             in_array($productSimple->getName(), $products),
-            'Product' . $productSimple->getName() . ' is absent on Recently Viewed block on Category page.'
+            'Detail' . $productSimple->getName() . ' is absent on Recently Viewed block on Category page.'
         );
     }
 

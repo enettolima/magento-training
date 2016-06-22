@@ -13,7 +13,7 @@ use Magento\Mtf\Client\Element\SimpleElement;
 use Magento\Mtf\Client\Element;
 
 /**
- * Product additional information block on the product page.
+ * Detail additional information block on the product page.
  */
 class Additional extends Block
 {

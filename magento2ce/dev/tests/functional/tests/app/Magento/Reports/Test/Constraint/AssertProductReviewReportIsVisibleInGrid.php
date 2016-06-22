@@ -12,12 +12,12 @@ use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
  * Class AssertProductReviewReportIsVisibleInGrid
- * Assert that Product Review Report is visible in reports grid
+ * Assert that Detail Review Report is visible in reports grid
  */
 class AssertProductReviewReportIsVisibleInGrid extends AbstractConstraint
 {
     /**
-     * Assert that Product Review Report is visible in reports grid
+     * Assert that Detail Review Report is visible in reports grid
      *
      * @param ProductReportReview $productReportReview
      * @param Review $review
@@ -40,6 +40,6 @@ class AssertProductReviewReportIsVisibleInGrid extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product Review Report is visible in reports grid.';
+        return 'Detail Review Report is visible in reports grid.';
     }
 }

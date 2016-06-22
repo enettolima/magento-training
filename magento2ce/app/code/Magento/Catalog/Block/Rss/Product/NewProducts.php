@@ -9,7 +9,7 @@ use Magento\Framework\App\Rss\DataProviderInterface;
 
 /**
  * Class NewProducts
- * @package Magento\Catalog\Block\Rss\Product
+ * @package Magento\Catalog\Block\Rss\Detail
  */
 class NewProducts extends \Magento\Framework\View\Element\AbstractBlock implements DataProviderInterface
 {

@@ -64,7 +64,7 @@ class RowTest extends \Magento\TestFramework\Indexer\TestCase
         $this->_processor->reindexAll();
 
         $this->_product->load(1);
-        $this->_product->setName('Updated Product');
+        $this->_product->setName('Updated Detail');
         $this->_product->save();
 
         $category = $categoryFactory->create()->load(9);
@@ -74,18 +74,18 @@ class RowTest extends \Magento\TestFramework\Indexer\TestCase
         $productCollection = $layer->getProductCollection();
         $this->assertTrue(
             $productCollection->isEnabledFlat(),
-            'Product collection is not using flat resource when flat is on'
+            'Detail collection is not using flat resource when flat is on'
         );
 
-        $this->assertEquals(2, $productCollection->count(), 'Product collection items count must be exactly 2');
+        $this->assertEquals(2, $productCollection->count(), 'Detail collection items count must be exactly 2');
 
         foreach ($productCollection as $product) {
             /** @var $product \Magento\Catalog\Model\Product */
             if ($product->getId() == 1) {
                 $this->assertEquals(
-                    'Updated Product',
+                    'Updated Detail',
                     $product->getName(),
-                    'Product name from flat does not match with updated name'
+                    'Detail name from flat does not match with updated name'
                 );
             }
         }

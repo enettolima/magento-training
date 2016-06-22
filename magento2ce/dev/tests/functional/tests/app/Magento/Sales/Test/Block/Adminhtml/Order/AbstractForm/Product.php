@@ -10,34 +10,34 @@ use Magento\Mtf\Block\Form;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Class Product
+ * Class Detail
  * Item product form on items block
  */
 class Product extends Form
 {
     /**
-     * Product price excluding tax search mask
+     * Detail price excluding tax search mask
      *
      * @var string
      */
     protected $itemExclTax = '//td[@class="col-price"]/div[@class="price-excl-tax"]/span[@class="price"]';
 
     /**
-     * Product price including tax search mask
+     * Detail price including tax search mask
      *
      * @var string
      */
     protected $itemInclTax = '//td[@class="col-price"]/div[@class="price-incl-tax"]/span[@class="price"]';
 
     /**
-     * Product price subtotal excluding tax search mask
+     * Detail price subtotal excluding tax search mask
      *
      * @var string
      */
     protected $itemSubExclTax = '//td[@class="col-subtotal"]/div[@class="price-excl-tax"]/span[@class="price"]';
 
     /**
-     * Product price subtotal including tax search mask
+     * Detail price subtotal including tax search mask
      *
      * @var string
      */

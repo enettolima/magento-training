@@ -12,12 +12,12 @@ use Magento\Mtf\Constraint\AbstractConstraint;
 
 /**
  * Class AssertProductComparePage
- * Assert that "Compare Product" page contains product(s) that was added
+ * Assert that "Compare Detail" page contains product(s) that was added
  */
 class AssertProductComparePage extends AbstractConstraint
 {
     /**
-     * Product attribute on compare product page
+     * Detail attribute on compare product page
      *
      * @var array
      */
@@ -30,8 +30,8 @@ class AssertProductComparePage extends AbstractConstraint
     ];
 
     /**
-     * Assert that "Compare Product" page contains product(s) that was added
-     * - Product name
+     * Assert that "Compare Detail" page contains product(s) that was added
+     * - Detail name
      * - Price
      * - SKU
      * - Description (if exists, else text "No")
@@ -68,7 +68,7 @@ class AssertProductComparePage extends AbstractConstraint
                 \PHPUnit_Framework_Assert::assertEquals(
                     $attributeValue,
                     $comparePage->getCompareProductsBlock()->{'getProduct' . ucfirst($attribute)}($key + 1, $value),
-                    'Product "' . $product->getName() . '" is\'n equals with data from fixture.'
+                    'Detail "' . $product->getName() . '" is\'n equals with data from fixture.'
                 );
             }
         }
@@ -81,6 +81,6 @@ class AssertProductComparePage extends AbstractConstraint
      */
     public function toString()
     {
-        return '"Compare Product" page has valid data for all products.';
+        return '"Compare Detail" page has valid data for all products.';
     }
 }

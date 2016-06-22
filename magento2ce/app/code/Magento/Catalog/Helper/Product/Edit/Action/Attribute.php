@@ -92,7 +92,7 @@ class Attribute extends \Magento\Backend\Helper\Data
 
     /**
      * Return product collection with selected product filter
-     * Product collection didn't load
+     * Detail collection didn't load
      *
      * @return \Magento\Catalog\Model\ResourceModel\Product\Collection
      */

@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\Product\Compare;
 use Magento\Catalog\Model\ResourceModel\Product\Compare\Item\Collection;
 
 /**
- * Product Compare List Model
+ * Detail Compare List Model
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  */

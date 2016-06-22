@@ -49,7 +49,7 @@ class ProductUrlPathGenerator
     }
 
     /**
-     * Retrieve Product Url path (with category if exists)
+     * Retrieve Detail Url path (with category if exists)
      *
      * @param \Magento\Catalog\Model\Product $product
      * @param \Magento\Catalog\Model\Category $category
@@ -83,7 +83,7 @@ class ProductUrlPathGenerator
     }
 
     /**
-     * Retrieve Product Url path with suffix
+     * Retrieve Detail Url path with suffix
      *
      * @param \Magento\Catalog\Model\Product $product
      * @param int $storeId

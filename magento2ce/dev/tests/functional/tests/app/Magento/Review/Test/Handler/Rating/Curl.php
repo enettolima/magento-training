@@ -59,7 +59,7 @@ class Curl extends AbstractCurl implements RatingInterface
         $curl->close();
         if (!strpos($response, 'data-ui-id="messages-message-success"')) {
             throw new \Exception(
-                'Product Rating entity creating by curl handler was not successful! Response:' . $response
+                'Detail Rating entity creating by curl handler was not successful! Response:' . $response
             );
         }
 

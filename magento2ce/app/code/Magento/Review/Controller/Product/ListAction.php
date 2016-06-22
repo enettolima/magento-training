@@ -56,7 +56,7 @@ class ListAction extends ProductController
                     'product',
                     ['label' => $product->getName(), 'link' => $product->getProductUrl(), 'readonly' => true]
                 );
-                $breadcrumbsBlock->addCrumb('reviews', ['label' => __('Product Reviews')]);
+                $breadcrumbsBlock->addCrumb('reviews', ['label' => __('Detail Reviews')]);
             }
             return $resultPage;
         }

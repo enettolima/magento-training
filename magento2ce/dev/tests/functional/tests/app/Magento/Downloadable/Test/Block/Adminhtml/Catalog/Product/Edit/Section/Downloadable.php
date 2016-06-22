@@ -14,7 +14,7 @@ use Magento\Downloadable\Test\Block\Adminhtml\Catalog\Product\Edit\Section\Downl
 use Magento\Downloadable\Test\Block\Adminhtml\Catalog\Product\Edit\Section\Downloadable\Links;
 
 /**
- * Product downloadable section.
+ * Detail downloadable section.
  */
 class Downloadable extends Section
 {

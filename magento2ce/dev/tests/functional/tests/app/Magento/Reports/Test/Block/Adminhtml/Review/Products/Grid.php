@@ -11,7 +11,7 @@ use Magento\Mtf\Client\Locator;
 
 /**
  * Class Grid
- * Product Reviews Report grid
+ * Detail Reviews Report grid
  */
 class Grid extends AbstractGrid
 {

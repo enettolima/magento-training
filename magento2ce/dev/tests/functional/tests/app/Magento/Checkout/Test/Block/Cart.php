@@ -86,7 +86,7 @@ class Cart extends Block
     protected $cartContainer = '.cart-container';
 
     /**
-     * Locator value for "Remove Product" button.
+     * Locator value for "Remove Detail" button.
      *
      * @var string
      */
@@ -216,7 +216,7 @@ class Cart extends Block
     }
 
     /**
-     * Check if Product is present in Shopping Cart or not.
+     * Check if Detail is present in Shopping Cart or not.
      *
      * @param FixtureInterface $product
      * @return boolean

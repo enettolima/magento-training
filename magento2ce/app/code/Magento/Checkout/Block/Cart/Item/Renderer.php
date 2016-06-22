@@ -186,7 +186,7 @@ class Renderer extends \Magento\Framework\View\Element\Template implements
     }
 
     /**
-     * Check Product has URL
+     * Check Detail has URL
      *
      * @return bool
      */
@@ -220,7 +220,7 @@ class Renderer extends \Magento\Framework\View\Element\Template implements
     }
 
     /**
-     * Retrieve URL to item Product
+     * Retrieve URL to item Detail
      *
      * @return string
      */
@@ -373,7 +373,7 @@ class Renderer extends \Magento\Framework\View\Element\Template implements
     }
 
     /**
-     * Check whether Product is visible in site
+     * Check whether Detail is visible in site
      *
      * @return bool
      * @codeCoverageIgnore

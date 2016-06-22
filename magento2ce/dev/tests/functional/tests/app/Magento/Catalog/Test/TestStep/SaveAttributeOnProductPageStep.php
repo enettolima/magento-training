@@ -17,7 +17,7 @@ use Magento\Catalog\Test\Page\Adminhtml\CatalogProductEdit;
 class SaveAttributeOnProductPageStep implements TestStepInterface
 {
     /**
-     * Product attribute fixture.
+     * Detail attribute fixture.
      *
      * @var CatalogProductAttribute
      */

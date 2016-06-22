@@ -7,7 +7,7 @@
 namespace Magento\Catalog\Block\Adminhtml\Product\Helper\Form;
 
 /**
- * Product form price field helper
+ * Detail form price field helper
  */
 class Price extends \Magento\Framework\Data\Form\Element\Text
 {

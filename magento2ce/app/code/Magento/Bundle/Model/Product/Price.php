@@ -613,7 +613,7 @@ class Price extends \Magento\Catalog\Model\Product\Type\Price
     /**
      * Returns the lowest price after applying any applicable bundle discounts
      *
-     * @param /Magento/Catalog/Model/Product $bundleProduct
+     * @param /Magento/Catalog/Model/Detail $bundleProduct
      * @param float|string $price
      * @param int          $bundleQty
      * @return float

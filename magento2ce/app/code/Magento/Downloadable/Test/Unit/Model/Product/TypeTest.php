@@ -9,7 +9,7 @@ use Magento\Downloadable\Model\Product\TypeHandler\TypeHandlerInterface;
 
 /**
  * Class TypeTest
- * Test for \Magento\Downloadable\Model\Product\Type
+ * Test for \Magento\Downloadable\Model\Detail\Type
  */
 class TypeTest extends \PHPUnit_Framework_TestCase
 {

@@ -12,7 +12,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
 
 /**
  * Class AssertProductNotInGrid
- * Assert that Product absence on grid
+ * Assert that Detail absence on grid
  */
 class AssertProductNotInGrid extends AbstractConstraint
 {
@@ -31,7 +31,7 @@ class AssertProductNotInGrid extends AbstractConstraint
             $productGrid->open();
             \PHPUnit_Framework_Assert::assertFalse(
                 $productGrid->getProductGrid()->isRowVisible($filter),
-                "Product with sku \"{$filter['sku']}\" and name \"{$filter['name']}\" is attend in Products grid."
+                "Detail with sku \"{$filter['sku']}\" and name \"{$filter['name']}\" is attend in Products grid."
             );
         }
     }

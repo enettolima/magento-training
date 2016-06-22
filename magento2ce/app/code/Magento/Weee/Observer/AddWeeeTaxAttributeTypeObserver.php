@@ -23,7 +23,7 @@ class AddWeeeTaxAttributeTypeObserver implements ObserverInterface
         $types = $response->getTypes();
         $types[] = [
             'value' => 'weee',
-            'label' => __('Fixed Product Tax'),
+            'label' => __('Fixed Detail Tax'),
             'hide_fields' => [
                 'is_unique',
                 'is_required',

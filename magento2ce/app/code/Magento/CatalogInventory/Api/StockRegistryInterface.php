@@ -48,7 +48,7 @@ interface StockRegistryInterface
     public function getStockStatusBySku($productSku, $scopeId = null);
 
     /**
-     * Retrieve Product stock status
+     * Retrieve Detail stock status
      *
      * @param int $productId
      * @param int $scopeId

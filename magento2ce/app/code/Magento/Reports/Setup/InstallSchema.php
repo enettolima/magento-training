@@ -60,7 +60,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'store_id',
@@ -132,7 +132,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_SET_NULL
             )
-            ->setComment('Reports Compared Product Index Table');
+            ->setComment('Reports Compared Detail Index Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -168,7 +168,7 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'store_id',
@@ -240,7 +240,7 @@ class InstallSchema implements InstallSchemaInterface
                 'store_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_SET_NULL
             )
-            ->setComment('Reports Viewed Product Index Table');
+            ->setComment('Reports Viewed Detail Index Table');
         $installer->getConnection()->createTable($table);
 
         /**
@@ -398,7 +398,7 @@ class InstallSchema implements InstallSchemaInterface
                     \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                     null,
                     ['unsigned' => true, 'nullable' => false],
-                    'Product Id'
+                    'Detail Id'
                 )
                 ->addColumn(
                     'store_id',
@@ -465,7 +465,7 @@ class InstallSchema implements InstallSchemaInterface
                     'store_id',
                     \Magento\Framework\DB\Ddl\Table::ACTION_SET_NULL
                 )
-                ->setComment('Reports Compared Product Index Table');
+                ->setComment('Reports Compared Detail Index Table');
             $installer->getConnection()->createTable($table);
         }
 
@@ -504,7 +504,7 @@ class InstallSchema implements InstallSchemaInterface
                     \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                     null,
                     ['unsigned' => true, 'nullable' => false],
-                    'Product Id'
+                    'Detail Id'
                 )
                 ->addColumn(
                     'store_id',
@@ -566,7 +566,7 @@ class InstallSchema implements InstallSchemaInterface
                     'store_id',
                     \Magento\Framework\DB\Ddl\Table::ACTION_SET_NULL
                 )
-                ->setComment('Reports Viewed Product Index Table');
+                ->setComment('Reports Viewed Detail Index Table');
             $installer->getConnection()->createTable($table);
         }
 
@@ -601,21 +601,21 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'product_name',
                 \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                 255,
                 ['nullable' => true],
-                'Product Name'
+                'Detail Name'
             )
             ->addColumn(
                 'product_price',
                 \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
                 '12,4',
                 ['nullable' => false, 'default' => '0.0000'],
-                'Product Price'
+                'Detail Price'
             )
             ->addColumn(
                 'views_num',
@@ -701,21 +701,21 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'product_name',
                 \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                 255,
                 ['nullable' => true],
-                'Product Name'
+                'Detail Name'
             )
             ->addColumn(
                 'product_price',
                 \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
                 '12,4',
                 ['nullable' => false, 'default' => '0.0000'],
-                'Product Price'
+                'Detail Price'
             )
             ->addColumn(
                 'views_num',
@@ -801,21 +801,21 @@ class InstallSchema implements InstallSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true],
-                'Product Id'
+                'Detail Id'
             )
             ->addColumn(
                 'product_name',
                 \Magento\Framework\DB\Ddl\Table::TYPE_TEXT,
                 255,
                 ['nullable' => true],
-                'Product Name'
+                'Detail Name'
             )
             ->addColumn(
                 'product_price',
                 \Magento\Framework\DB\Ddl\Table::TYPE_DECIMAL,
                 '12,4',
                 ['nullable' => false, 'default' => '0.0000'],
-                'Product Price'
+                'Detail Price'
             )
             ->addColumn(
                 'views_num',

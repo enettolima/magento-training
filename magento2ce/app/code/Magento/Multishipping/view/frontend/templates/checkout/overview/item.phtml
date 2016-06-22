@@ -17,7 +17,7 @@
 <?php /** @var $block Magento\Checkout\Block\Cart\Item\Renderer */ ?>
 <?php $_item = $block->getItem() ?>
 <tr>
-    <td class="col item" data-th="<?php echo $block->escapeHtml(__('Product Name')); ?>">
+    <td class="col item" data-th="<?php echo $block->escapeHtml(__('Detail Name')); ?>">
         <?php echo $block->getRenderedBlock()->getItemHtml($_item) ?>
     </td>
     <td class="col price" data-th="<?php echo $block->escapeHtml(__('Price')); ?>">

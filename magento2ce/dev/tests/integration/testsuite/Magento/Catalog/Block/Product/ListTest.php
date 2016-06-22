@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Product;
 
 /**
- * Test class for \Magento\Catalog\Block\Product\List.
+ * Test class for \Magento\Catalog\Block\Detail\List.
  *
  * @magentoDataFixture Magento/Catalog/_files/product_simple.php
  * @magentoAppArea frontend

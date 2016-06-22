@@ -13,7 +13,7 @@ $product->setTypeId(
 )->setAttributeSetId(
     4
 )->setName(
-    'Simple Related Product'
+    'Simple Related Detail'
 )->setSku(
     'simple'
 )->setPrice(
@@ -36,7 +36,7 @@ $product->setTypeId(
 )->setAttributeSetId(
     4
 )->setName(
-    'Simple Product With Related Product'
+    'Simple Detail With Related Detail'
 )->setSku(
     'simple_with_cross'
 )->setPrice(

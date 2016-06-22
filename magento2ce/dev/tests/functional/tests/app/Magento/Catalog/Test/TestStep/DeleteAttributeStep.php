@@ -17,14 +17,14 @@ use Magento\Mtf\TestStep\TestStepInterface;
 class DeleteAttributeStep implements TestStepInterface
 {
     /**
-     * Catalog Product Attribute Index page.
+     * Catalog Detail Attribute Index page.
      *
      * @var CatalogProductAttributeIndex
      */
     protected $catalogProductAttributeIndex;
 
     /**
-     * Catalog Product Attribute New page.
+     * Catalog Detail Attribute New page.
      *
      * @var CatalogProductAttributeNew
      */

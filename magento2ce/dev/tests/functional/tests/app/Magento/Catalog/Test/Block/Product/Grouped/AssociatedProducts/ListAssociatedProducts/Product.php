@@ -9,7 +9,7 @@ namespace Magento\Catalog\Test\Block\Product\Grouped\AssociatedProducts\ListAsso
 use Magento\Mtf\Block\Block;
 
 /**
- * Class Product
+ * Class Detail
  */
 class Product extends Block
 {

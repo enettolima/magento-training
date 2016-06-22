@@ -10,7 +10,7 @@ use Magento\Framework\Api\AttributeValueFactory;
 use Magento\Framework\Stdlib\DateTime\DateTimeFormatterInterface;
 
 /**
- * Product attribute extension with event dispatching
+ * Detail attribute extension with event dispatching
  *
  * @method \Magento\Catalog\Model\ResourceModel\Attribute _getResource()
  * @method \Magento\Catalog\Model\ResourceModel\Attribute getResource()

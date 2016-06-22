@@ -752,7 +752,7 @@ define([
             });
 
             if ($('body.catalog-product-view').size() > 0) {
-                //Product Page
+                //Detail Page
                 productId = document.getElementsByName('product')[0].value;
             } else {
                 //Category View

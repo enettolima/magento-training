@@ -14,12 +14,12 @@ use Magento\Framework\View\Element\Template\Context;
 use Magento\Search\Model\QueryFactory;
 
 /**
- * Product search result block
+ * Detail search result block
  */
 class Result extends Template
 {
     /**
-     * Catalog Product collection
+     * Catalog Detail collection
      *
      * @var Collection
      */

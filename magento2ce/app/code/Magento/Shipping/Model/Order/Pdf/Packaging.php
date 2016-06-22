@@ -267,9 +267,9 @@ class Packaging extends \Magento\Sales\Model\Order\Pdf\AbstractPdf
             $txtIndent = 5;
             $itemCollsNumber = $packaging->displayCustomsValue() ? 5 : 4;
             $itemCollsX[0] = 30;
-            //  coordinate for Product name
+            //  coordinate for Detail name
             $itemCollsX[1] = 250;
-            // coordinate for Product name
+            // coordinate for Detail name
             $itemCollsXEnd = 565;
             $itemCollsXStep = round(($itemCollsXEnd - $itemCollsX[1]) / ($itemCollsNumber - 1));
             // calculate coordinates for all other cells (Weight, Customs Value, Qty Ordered, Qty)
@@ -289,7 +289,7 @@ class Packaging extends \Magento\Sales\Model\Order\Pdf\AbstractPdf
             $i = 0;
 
             $page->setFillColor(new \Zend_Pdf_Color_GrayScale(0));
-            $page->drawText(__('Product'), $itemCollsX[$i] + $txtIndent, $this->y, 'UTF-8');
+            $page->drawText(__('Detail'), $itemCollsX[$i] + $txtIndent, $this->y, 'UTF-8');
             $page->drawText(__('Weight'), $itemCollsX[++$i] + $txtIndent, $this->y, 'UTF-8');
             if ($packaging->displayCustomsValue()) {
                 $page->drawText(__('Customs Value'), $itemCollsX[++$i] + $txtIndent, $this->y, 'UTF-8');

@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Product\ProductList;
 
 /**
- * Test class for \Magento\Catalog\Block\Product\List\Related.
+ * Test class for \Magento\Catalog\Block\Detail\List\Related.
  *
  * @magentoDataFixture Magento/Catalog/_files/products_related.php
  */
@@ -35,7 +35,7 @@ class RelatedTest extends \PHPUnit_Framework_TestCase
 
         $html = $block->toHtml();
         $this->assertNotEmpty($html);
-        $this->assertContains('Simple Related Product', $html);
+        $this->assertContains('Simple Related Detail', $html);
         /* name */
         $this->assertContains('"product":"' . $product->getId() .'"', $html);
         /* part of url */

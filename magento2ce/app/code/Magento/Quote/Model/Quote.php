@@ -1676,7 +1676,7 @@ class Quote extends AbstractExtensibleModel implements \Magento\Quote\Api\Data\C
      * Updates quote item with new configuration
      *
      * $params sets how current item configuration must be taken into account and additional options.
-     * It's passed to \Magento\Catalog\Helper\Product->addParamsToBuyRequest() to compose resulting buyRequest.
+     * It's passed to \Magento\Catalog\Helper\Detail->addParamsToBuyRequest() to compose resulting buyRequest.
      *
      * Basically it can hold
      * - 'current_config', \Magento\Framework\DataObject or array - current buyRequest that configures product in this
@@ -1684,7 +1684,7 @@ class Quote extends AbstractExtensibleModel implements \Magento\Quote\Api\Data\C
      * - 'files_prefix': string[a-z0-9_] - prefix that was added at frontend to names of file options (file inputs),
      *   so they won't intersect with other submitted options
      *
-     * For more options see \Magento\Catalog\Helper\Product->addParamsToBuyRequest()
+     * For more options see \Magento\Catalog\Helper\Detail->addParamsToBuyRequest()
      *
      * @param int $itemId
      * @param \Magento\Framework\DataObject $buyRequest
@@ -1730,7 +1730,7 @@ class Quote extends AbstractExtensibleModel implements \Magento\Quote\Api\Data\C
 
         if ($resultItem->getId() != $itemId) {
             /**
-             * Product configuration didn't stick to original quote item
+             * Detail configuration didn't stick to original quote item
              * It either has same configuration as some other quote item's product or completely new configuration
              */
             $this->removeItem($itemId);
@@ -1738,7 +1738,7 @@ class Quote extends AbstractExtensibleModel implements \Magento\Quote\Api\Data\C
             foreach ($items as $item) {
                 if ($item->getProductId() == $productId && $item->getId() != $resultItem->getId()) {
                     if ($resultItem->compare($item)) {
-                        // Product configuration is same as in other quote item
+                        // Detail configuration is same as in other quote item
                         $resultItem->setQty($resultItem->getQty() + $item->getQty());
                         $this->removeItem($item->getId());
                         break;

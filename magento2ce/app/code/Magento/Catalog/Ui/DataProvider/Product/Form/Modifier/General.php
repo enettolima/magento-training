@@ -242,7 +242,7 @@ class General extends AbstractModifier
     }
 
     /**
-     * Customize "Set Product as New" date fields
+     * Customize "Set Detail as New" date fields
      *
      * @param array $meta
      * @return array
@@ -263,7 +263,7 @@ class General extends AbstractModifier
                 $fromFieldPath . self::META_CONFIG_PATH,
                 $meta,
                 [
-                    'label' => __('Set Product as New From'),
+                    'label' => __('Set Detail as New From'),
                     'additionalClasses' => 'admin__field-date',
                 ]
             );
@@ -280,7 +280,7 @@ class General extends AbstractModifier
                 $fromContainerPath . self::META_CONFIG_PATH,
                 $meta,
                 [
-                    'label' => __('Set Product as New From'),
+                    'label' => __('Set Detail as New From'),
                     'additionalClasses' => 'admin__control-grouped-date',
                     'breakLine' => false,
                     'component' => 'Magento_Ui/js/form/components/group',

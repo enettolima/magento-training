@@ -5,7 +5,7 @@
  */
 
 /**
- * Product options default type block
+ * Detail options default type block
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

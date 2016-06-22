@@ -9,7 +9,7 @@ namespace Magento\Catalog\Test\Block\Product\ProductList\Related;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Product item block on related products section.
+ * Detail item block on related products section.
  */
 class ProductItem extends \Magento\Catalog\Test\Block\Product\ProductList\ProductItem
 {

@@ -155,11 +155,11 @@ class InstanceTest extends \PHPUnit_Framework_TestCase
         $expectedTemplates = [
             'default' => [
                 'value' => 'product/widget/link/link_block.phtml',
-                'label' => 'Product Link Block Template',
+                'label' => 'Detail Link Block Template',
             ],
             'link_inline' => [
                 'value' => 'product/widget/link/link_inline.phtml',
-                'label' => 'Product Link Inline Template',
+                'label' => 'Detail Link Inline Template',
             ],
         ];
         $this->assertEquals($expectedTemplates, $this->_model->getWidgetTemplates());
@@ -271,8 +271,8 @@ class InstanceTest extends \PHPUnit_Framework_TestCase
         );
         $this->_viewFileSystemMock->expects($this->once())->method('getFilename')->will($this->returnValue(''));
         $expectedTemplates = [
-            ['value' => 'product/widget/link/link_block.phtml', 'label' => 'Product Link Block Template'],
-            ['value' => 'product/widget/link/link_inline.phtml', 'label' => 'Product Link Inline Template'],
+            ['value' => 'product/widget/link/link_block.phtml', 'label' => 'Detail Link Block Template'],
+            ['value' => 'product/widget/link/link_inline.phtml', 'label' => 'Detail Link Inline Template'],
         ];
         $this->assertEquals($expectedTemplates, $this->_model->getWidgetSupportedTemplatesByContainer('left'));
     }
@@ -290,7 +290,7 @@ class InstanceTest extends \PHPUnit_Framework_TestCase
         );
         $this->_viewFileSystemMock->expects($this->once())->method('getFilename')->will($this->returnValue(''));
         $expectedTemplates = [
-            ['value' => 'product/widget/link/link_block.phtml', 'label' => 'Product Link Block Template'],
+            ['value' => 'product/widget/link/link_block.phtml', 'label' => 'Detail Link Block Template'],
         ];
         $this->assertEquals($expectedTemplates, $this->_model->getWidgetSupportedTemplatesByContainer('content'));
     }

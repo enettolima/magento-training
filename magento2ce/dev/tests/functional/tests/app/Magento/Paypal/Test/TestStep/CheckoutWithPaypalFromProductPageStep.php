@@ -17,7 +17,7 @@ use Magento\Mtf\Fixture\FixtureInterface;
 class CheckoutWithPaypalFromProductPageStep implements TestStepInterface
 {
     /**
-     * Product fixture.
+     * Detail fixture.
      *
      * @var FixtureInterface
      */

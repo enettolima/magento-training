@@ -19,7 +19,7 @@ use Magento\Mtf\TestCase\Injectable;
 
 /**
  * Preconditions:
- * 1. Product is created.
+ * 1. Detail is created.
  * 2. Customer is created.
  * 3. Tax Rule is created.
  * 4. Order is placed.

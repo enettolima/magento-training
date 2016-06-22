@@ -7,7 +7,7 @@
 // @codingStandardsIgnoreFile
 
 /**
- * Product alerts tab
+ * Detail alerts tab
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

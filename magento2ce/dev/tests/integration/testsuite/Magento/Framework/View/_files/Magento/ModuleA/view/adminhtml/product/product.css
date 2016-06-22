@@ -415,7 +415,7 @@
     float: left;
 }
 
-/* Validation for Product Fields with addons  */
+/* Validation for Detail Fields with addons  */
 .field-price .control,
 .field-special_price .control,
 .field-msrp .control,
@@ -716,7 +716,7 @@
     width: 5%;
 }
 
-/* Select Associated Product popup window */
+/* Select Associated Detail popup window */
 #configurable_associated_products_grid .filter-actions,
 #configurable_associated_products_grid .filter {
     display: none;

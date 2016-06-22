@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\Product\Attribute\Backend;
 use Magento\Catalog\Api\Data\ProductInterface;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Attribute\Backend\Tierprice.
+ * Test class for \Magento\Catalog\Model\Detail\Attribute\Backend\Tierprice.
  *
  * @magentoDataFixture Magento/Catalog/_files/product_simple.php
  */

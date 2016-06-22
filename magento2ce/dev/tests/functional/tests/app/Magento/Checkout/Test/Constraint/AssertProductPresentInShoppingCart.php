@@ -28,7 +28,7 @@ class AssertProductPresentInShoppingCart extends AbstractConstraint
         foreach ($products as $product) {
             \PHPUnit_Framework_Assert::assertTrue(
                 $checkoutCart->getCartBlock()->getCartItem($product)->isVisible(),
-                'Product ' . $product->getName() . ' is absent in shopping cart.'
+                'Detail ' . $product->getName() . ' is absent in shopping cart.'
             );
         }
     }

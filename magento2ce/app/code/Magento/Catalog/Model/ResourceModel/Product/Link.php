@@ -13,7 +13,7 @@ namespace Magento\Catalog\Model\ResourceModel\Product;
 class Link extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
 {
     /**
-     * Product Link Attributes Table
+     * Detail Link Attributes Table
      *
      * @var string
      */
@@ -97,7 +97,7 @@ class Link extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
     }
 
     /**
-     * Save Product Links process
+     * Save Detail Links process
      *
      * @param int $parentId
      * @param array $data

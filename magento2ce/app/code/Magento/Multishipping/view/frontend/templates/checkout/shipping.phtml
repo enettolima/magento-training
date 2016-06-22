@@ -92,14 +92,14 @@
                             <caption class="table-caption"><?php /* @escapeNotVerified */ echo __('Items') ?></caption>
                             <thead>
                             <tr>
-                                <th class="col item" scope="col"><?php /* @escapeNotVerified */ echo __('Product Name') ?></th>
+                                <th class="col item" scope="col"><?php /* @escapeNotVerified */ echo __('Detail Name') ?></th>
                                 <th class="col qty" scope="col"><?php /* @escapeNotVerified */ echo __('Qty') ?></th>
                             </tr>
                             </thead>
                             <tbody>
                             <?php foreach ($block->getAddressItems($_address) as $_item): ?>
                                 <tr>
-                                    <td class="col item" data-th="<?php echo $block->escapeHtml(__('Product Name'));?>"><?php echo $block->getItemHtml($_item->getQuoteItem()) ?></td>
+                                    <td class="col item" data-th="<?php echo $block->escapeHtml(__('Detail Name'));?>"><?php echo $block->getItemHtml($_item->getQuoteItem()) ?></td>
                                     <td class="col qty" data-th="<?php echo $block->escapeHtml(__('Qty'));?>"><?php /* @escapeNotVerified */ echo $_item->getQty() ?></td>
                                 </tr>
                             <?php endforeach; ?>

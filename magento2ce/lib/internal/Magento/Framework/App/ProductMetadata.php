@@ -29,7 +29,7 @@ class ProductMetadata implements ProductMetadataInterface
     const PRODUCT_NAME  = 'Magento';
 
     /**
-     * Product version
+     * Detail version
      *
      * @var string
      */
@@ -55,7 +55,7 @@ class ProductMetadata implements ProductMetadataInterface
     }
 
     /**
-     * Get Product version
+     * Get Detail version
      *
      * @return string
      */
@@ -74,7 +74,7 @@ class ProductMetadata implements ProductMetadataInterface
     }
 
     /**
-     * Get Product edition
+     * Get Detail edition
      *
      * @return string
      */
@@ -84,7 +84,7 @@ class ProductMetadata implements ProductMetadataInterface
     }
 
     /**
-     * Get Product name
+     * Get Detail name
      *
      * @return string
      */

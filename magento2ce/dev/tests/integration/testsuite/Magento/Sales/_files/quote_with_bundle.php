@@ -10,7 +10,7 @@ $simpleProducts[] = $objectManager->create('Magento\Catalog\Model\Product')
     ->setTypeId(\Magento\Catalog\Model\Product\Type::TYPE_SIMPLE)
     ->setAttributeSetId(4)
     ->setWebsiteIds([1])
-    ->setName('Simple Product 1')
+    ->setName('Simple Detail 1')
     ->setSku('simple-1')
     ->setPrice(10)
     ->setDescription('Description with <b>html tag</b>')
@@ -24,7 +24,7 @@ $simpleProducts[] = $objectManager->create('Magento\Catalog\Model\Product')
     ->setTypeId(\Magento\Catalog\Model\Product\Type::TYPE_SIMPLE)
     ->setAttributeSetId(4)
     ->setWebsiteIds([1])
-    ->setName('Simple Product 2')
+    ->setName('Simple Detail 2')
     ->setSku('simple-2')
     ->setPrice(10)
     ->setDescription('Description with <b>html tag</b>')
@@ -42,7 +42,7 @@ $product
     ->setTypeId(\Magento\Catalog\Model\Product\Type::TYPE_BUNDLE)
     ->setAttributeSetId(4)
     ->setWebsiteIds([1])
-    ->setName('Bundle Product')
+    ->setName('Bundle Detail')
     ->setSku('bundle-product')
     ->setDescription('Description with <b>html tag</b>')
     ->setShortDescription('Bundle')
@@ -60,8 +60,8 @@ $product
     ->setBundleOptionsData(
         [
             [
-                'title' => 'Bundle Product Items',
-                'default_title' => 'Bundle Product Items',
+                'title' => 'Bundle Detail Items',
+                'default_title' => 'Bundle Detail Items',
                 'type' => 'checkbox',
                 'required' => 1,
                 'delete' => '',

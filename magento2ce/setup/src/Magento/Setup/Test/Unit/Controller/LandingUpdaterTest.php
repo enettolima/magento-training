@@ -14,7 +14,7 @@ use Magento\Framework\App\Filesystem\DirectoryList;
 class LandingUpdaterTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * Test Product Version Value
+     * Test Detail Version Value
      */
     const TEST_PRODUCT_VERSION = '222.333.444';
 

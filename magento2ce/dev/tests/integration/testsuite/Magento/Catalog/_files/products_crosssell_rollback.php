@@ -19,14 +19,14 @@ try {
     $firstProduct = $productRepository->get('simple', false, null, true);
     $firstProduct->delete();
 } catch (\Magento\Framework\Exception\NoSuchEntityException $exception) {
-    //Product already removed
+    //Detail already removed
 }
 
 try {
     $secondProduct = $productRepository->get('simple_with_cross', false, null, true);
     $secondProduct->delete();
 } catch (\Magento\Framework\Exception\NoSuchEntityException $exception) {
-    //Product already removed
+    //Detail already removed
 }
 
 $registry->unregister('isSecureArea');

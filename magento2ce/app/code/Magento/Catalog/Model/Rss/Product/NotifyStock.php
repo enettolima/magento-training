@@ -7,7 +7,7 @@ namespace Magento\Catalog\Model\Rss\Product;
 
 /**
  * Class NotifyStock
- * @package Magento\Catalog\Model\Rss\Product
+ * @package Magento\Catalog\Model\Rss\Detail
  */
 class NotifyStock extends \Magento\Framework\Model\AbstractModel
 {

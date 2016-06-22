@@ -5,7 +5,7 @@
  */
 
 /**
- * Product mass attribute update websites tab
+ * Detail mass attribute update websites tab
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

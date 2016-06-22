@@ -22,13 +22,13 @@ use Magento\Mtf\TestCase\Injectable;
  * Preconditions:
  * 1. Create Customer.
  * 2. Create simple product.
- * 3. Create Product review on the front.
+ * 3. Create Detail review on the front.
  *
  * Steps:
  * 1. Open backend.
  * 2. Go to Customers -> All Customers.
  * 3. Open customer from preconditions.
- * 4. Open Product Review tab.
+ * 4. Open Detail Review tab.
  * 5. Open Review created in preconditions.
  * 6. Fill data according to dataset.
  * 7. Click "Submit review".

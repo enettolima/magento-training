@@ -34,7 +34,7 @@ class AssertNoVideoCategoryView extends AbstractConstraint
         $src = $catalogCategoryView->getListProductBlock()->getProductItem($product)->getBaseImageSource();
         \PHPUnit_Framework_Assert::assertTrue(
             strpos($src, '/placeholder/') !== false,
-            'Product image is displayed on category view when it should not.'
+            'Detail image is displayed on category view when it should not.'
         );
     }
 

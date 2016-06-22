@@ -77,7 +77,7 @@ foreach ($selectOptions as $option) {
     )->setWebsiteIds(
         [1]
     )->setName(
-        'Simple Product ' . $option->getId()
+        'Simple Detail ' . $option->getId()
     )->setSku(
         'simple_product_' . $option->getId()
     )->setPrice(

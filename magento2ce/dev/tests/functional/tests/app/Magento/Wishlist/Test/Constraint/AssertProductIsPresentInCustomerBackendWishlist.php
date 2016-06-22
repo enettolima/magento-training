@@ -53,6 +53,6 @@ class AssertProductIsPresentInCustomerBackendWishlist extends AbstractConstraint
      */
     public function toString()
     {
-        return "Product is visible in customer wishlist on backend.";
+        return "Detail is visible in customer wishlist on backend.";
     }
 }

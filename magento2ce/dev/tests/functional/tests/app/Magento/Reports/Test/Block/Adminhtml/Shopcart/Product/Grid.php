@@ -16,21 +16,21 @@ use Magento\Mtf\Client\Locator;
 class Grid extends \Magento\Backend\Test\Block\Widget\Grid
 {
     /**
-     * Product row selector
+     * Detail row selector
      *
      * @var string
      */
     protected $productRow = '//tr[td[contains(@class,"col-name")] and contains(.,"%s")]';
 
     /**
-     * Product price selector
+     * Detail price selector
      *
      * @var string
      */
     protected $productPrice =  '//td[contains(@class,"col-price") and contains(.,"%s")]';
 
     /**
-     * Product carts selector
+     * Detail carts selector
      *
      * @var string
      */

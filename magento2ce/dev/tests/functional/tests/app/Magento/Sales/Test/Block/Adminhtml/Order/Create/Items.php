@@ -30,7 +30,7 @@ class Items extends Block
     protected $itemProduct = '//tr[td//*[normalize-space(text())="%s"]]';
 
     /**
-     * Product names.
+     * Detail names.
      *
      * @var string
      */

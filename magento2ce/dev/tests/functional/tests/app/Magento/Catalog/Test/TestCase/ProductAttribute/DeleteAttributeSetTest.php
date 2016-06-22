@@ -38,14 +38,14 @@ class DeleteAttributeSetTest extends Injectable
     /* end tags */
 
     /**
-     * Catalog Product Set index page
+     * Catalog Detail Set index page
      *
      * @var CatalogProductSetIndex
      */
     protected $productSetIndex;
 
     /**
-     * Catalog Product Set edit page
+     * Catalog Detail Set edit page
      *
      * @var CatalogProductSetEdit
      */

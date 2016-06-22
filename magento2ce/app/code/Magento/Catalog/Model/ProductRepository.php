@@ -404,7 +404,7 @@ class ProductRepository implements \Magento\Catalog\Api\ProductRepositoryInterfa
                     $linkedSku = $link->getLinkedProductSku();
                     if (!isset($linkedProductIds[$linkedSku])) {
                         throw new NoSuchEntityException(
-                            __('Product with SKU "%1" does not exist', $linkedSku)
+                            __('Detail with SKU "%1" does not exist', $linkedSku)
                         );
                     }
                     $linkDataArray['product_id'] = $linkedProductIds[$linkedSku];

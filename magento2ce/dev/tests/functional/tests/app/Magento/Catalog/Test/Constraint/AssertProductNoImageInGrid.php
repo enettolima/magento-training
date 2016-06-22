@@ -32,7 +32,7 @@ class AssertProductNoImageInGrid extends AbstractConstraint
         $src = $productGrid->getProductGrid()->getBaseImageSource();
         \PHPUnit_Framework_Assert::assertTrue(
             strpos($src, '/placeholder/') !== false,
-            'Product image is displayed in product grid when it should not'
+            'Detail image is displayed in product grid when it should not'
         );
     }
 
@@ -43,6 +43,6 @@ class AssertProductNoImageInGrid extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product image is not displayed in product grid.';
+        return 'Detail image is not displayed in product grid.';
     }
 }

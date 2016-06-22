@@ -1,6 +1,6 @@
 <?php
 /**
- * Test class for \Magento\Catalog\Block\Product\View
+ * Test class for \Magento\Catalog\Block\Detail\View
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.

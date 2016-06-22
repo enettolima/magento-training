@@ -45,7 +45,7 @@ $product->setTypeId(
 )->setWebsiteIds(
     [1]
 )->setName(
-    'Simple Product One'
+    'Simple Detail One'
 )->setSku(
     'simple'
 )->setPrice(
@@ -74,7 +74,7 @@ $product->setTypeId(
 )->setWebsiteIds(
     [1]
 )->setName(
-    'Simple Product Two'
+    'Simple Detail Two'
 )->setSku(
     '12345'
 )->setPrice(

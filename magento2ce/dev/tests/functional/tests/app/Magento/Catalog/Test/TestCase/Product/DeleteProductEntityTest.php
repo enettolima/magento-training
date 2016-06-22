@@ -34,7 +34,7 @@ class DeleteProductEntityTest extends Injectable
     /* end tags */
 
     /**
-     * Product page with a grid.
+     * Detail page with a grid.
      *
      * @var CatalogProductIndex
      */

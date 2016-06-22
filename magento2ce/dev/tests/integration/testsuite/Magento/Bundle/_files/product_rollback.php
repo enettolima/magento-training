@@ -22,7 +22,7 @@ try {
     $product = $productRepository->get('bundle-product', false, null, true);
     $productRepository->delete($product);
 } catch (\Magento\Framework\Exception\NoSuchEntityException $e) {
-    //Product already removed
+    //Detail already removed
 }
 
 $registry->unregister('isSecureArea');

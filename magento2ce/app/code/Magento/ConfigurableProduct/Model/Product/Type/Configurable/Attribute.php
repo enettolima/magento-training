@@ -1,6 +1,6 @@
 <?php
 /**
- * Catalog Configurable Product Attribute Model
+ * Catalog Configurable Detail Attribute Model
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.

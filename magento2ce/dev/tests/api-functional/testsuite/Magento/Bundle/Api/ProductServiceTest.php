@@ -13,7 +13,7 @@ use Magento\TestFramework\TestCase\WebapiAbstract;
 use Magento\Bundle\Api\Data\LinkInterface;
 
 /**
- * Class ProductServiceTest for testing Bundle Product API
+ * Class ProductServiceTest for testing Bundle Detail API
  */
 class ProductServiceTest extends WebapiAbstract
 {

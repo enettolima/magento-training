@@ -47,7 +47,7 @@ class InstallData implements InstallDataInterface
             \Magento\Catalog\Model\Product::ENTITY,
             'tax_class_id',
             [
-                'group' => 'Product Details',
+                'group' => 'Detail Details',
                 'sort_order' => 40,
                 'type' => 'int',
                 'backend' => '',

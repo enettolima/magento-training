@@ -22,7 +22,7 @@ use Magento\Mtf\TestCase\Injectable;
  * Preconditions:
  * 1. Create customer
  * 2. Create simple product
- * 3. Open Product created in preconditions
+ * 3. Open Detail created in preconditions
  * 4. Click "Be the first to review this product "
  * 5. Fill data according to DataSet
  * 6. Click Submit review
@@ -53,7 +53,7 @@ class CustomerReviewReportEntityTest extends Injectable
     protected $customerAccountLogout;
 
     /**
-     * Product reviews report page
+     * Detail reviews report page
      *
      * @var ProductReportReview
      */

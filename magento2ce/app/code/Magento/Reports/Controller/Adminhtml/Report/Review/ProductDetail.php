@@ -21,8 +21,8 @@ class ProductDetail extends \Magento\Reports\Controller\Adminhtml\Report\Review
             __('Products Report'),
             __('Products Report')
         )->_addBreadcrumb(
-            __('Product Reviews'),
-            __('Product Reviews')
+            __('Detail Reviews'),
+            __('Detail Reviews')
         )->_addContent(
             $this->_view->getLayout()->createBlock('Magento\Reports\Block\Adminhtml\Review\Detail')
         );

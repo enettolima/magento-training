@@ -20,7 +20,7 @@ $product->setTypeId(
 )->setWebsiteIds(
     [1]
 )->setName(
-    'Grouped Product'
+    'Grouped Detail'
 )->setSku(
     'grouped-product'
 )->setPrice(

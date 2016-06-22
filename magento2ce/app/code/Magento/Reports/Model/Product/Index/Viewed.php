@@ -6,17 +6,17 @@
 namespace Magento\Reports\Model\Product\Index;
 
 /**
- * Catalog Viewed Product Index
+ * Catalog Viewed Detail Index
  *
  * @method \Magento\Reports\Model\ResourceModel\Product\Index\Viewed _getResource()
  * @method \Magento\Reports\Model\ResourceModel\Product\Index\Viewed getResource()
- * @method \Magento\Reports\Model\Product\Index\Viewed setVisitorId(int $value)
- * @method \Magento\Reports\Model\Product\Index\Viewed setCustomerId(int $value)
+ * @method \Magento\Reports\Model\Detail\Index\Viewed setVisitorId(int $value)
+ * @method \Magento\Reports\Model\Detail\Index\Viewed setCustomerId(int $value)
  * @method int getProductId()
- * @method \Magento\Reports\Model\Product\Index\Viewed setProductId(int $value)
- * @method \Magento\Reports\Model\Product\Index\Viewed setStoreId(int $value)
+ * @method \Magento\Reports\Model\Detail\Index\Viewed setProductId(int $value)
+ * @method \Magento\Reports\Model\Detail\Index\Viewed setStoreId(int $value)
  * @method string getAddedAt()
- * @method \Magento\Reports\Model\Product\Index\Viewed setAddedAt(string $value)
+ * @method \Magento\Reports\Model\Detail\Index\Viewed setAddedAt(string $value)
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */
@@ -40,7 +40,7 @@ class Viewed extends \Magento\Reports\Model\Product\Index\AbstractIndex
     }
 
     /**
-     * Retrieve Exclude Product Ids List for Collection
+     * Retrieve Exclude Detail Ids List for Collection
      *
      * @return array
      */

@@ -233,24 +233,24 @@ class Product extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
         ValidatorInterface::ERROR_INVALID_WEBSITE => 'Invalid value in Website column (website does not exist?)',
         ValidatorInterface::ERROR_INVALID_STORE => 'Invalid value in Store column (store doesn\'t exist?)',
         ValidatorInterface::ERROR_INVALID_ATTR_SET => 'Invalid value for Attribute Set column (set doesn\'t exist?)',
-        ValidatorInterface::ERROR_INVALID_TYPE => 'Product Type is invalid or not supported',
+        ValidatorInterface::ERROR_INVALID_TYPE => 'Detail Type is invalid or not supported',
         ValidatorInterface::ERROR_INVALID_CATEGORY => 'Category does not exist',
         ValidatorInterface::ERROR_VALUE_IS_REQUIRED => 'Please make sure attribute "%s" is not empty.',
         ValidatorInterface::ERROR_TYPE_CHANGED => 'Trying to change type of existing products',
         ValidatorInterface::ERROR_SKU_IS_EMPTY => 'SKU is empty',
         ValidatorInterface::ERROR_NO_DEFAULT_ROW => 'Default values row does not exist',
-        ValidatorInterface::ERROR_CHANGE_TYPE => 'Product type change is not allowed',
+        ValidatorInterface::ERROR_CHANGE_TYPE => 'Detail type change is not allowed',
         ValidatorInterface::ERROR_DUPLICATE_SCOPE => 'Duplicate scope',
         ValidatorInterface::ERROR_DUPLICATE_SKU => 'Duplicate SKU',
         ValidatorInterface::ERROR_CHANGE_ATTR_SET => 'Attribute set change is not allowed',
-        ValidatorInterface::ERROR_TYPE_UNSUPPORTED => 'Product type is not supported',
+        ValidatorInterface::ERROR_TYPE_UNSUPPORTED => 'Detail type is not supported',
         ValidatorInterface::ERROR_ROW_IS_ORPHAN => 'Orphan rows that will be skipped due default row errors',
         ValidatorInterface::ERROR_INVALID_TIER_PRICE_QTY => 'Tier Price data price or quantity value is invalid',
         ValidatorInterface::ERROR_INVALID_TIER_PRICE_SITE => 'Tier Price data website is invalid',
         ValidatorInterface::ERROR_INVALID_TIER_PRICE_GROUP => 'Tier Price customer group ID is invalid',
         ValidatorInterface::ERROR_TIER_DATA_INCOMPLETE => 'Tier Price data is incomplete',
-        ValidatorInterface::ERROR_SKU_NOT_FOUND_FOR_DELETE => 'Product with specified SKU not found',
-        ValidatorInterface::ERROR_SUPER_PRODUCTS_SKU_NOT_FOUND => 'Product with specified super products SKU not found',
+        ValidatorInterface::ERROR_SKU_NOT_FOUND_FOR_DELETE => 'Detail with specified SKU not found',
+        ValidatorInterface::ERROR_SUPER_PRODUCTS_SKU_NOT_FOUND => 'Detail with specified super products SKU not found',
         ValidatorInterface::ERROR_MEDIA_DATA_INCOMPLETE => 'Media data is incomplete',
         ValidatorInterface::ERROR_EXCEEDED_MAX_LENGTH => 'Attribute %s exceeded max length',
         ValidatorInterface::ERROR_INVALID_ATTRIBUTE_TYPE => 'Value for \'%s\' attribute contains incorrect value',
@@ -261,7 +261,7 @@ class Product extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
         ValidatorInterface::ERROR_INVALID_MEDIA_URL_OR_PATH => 'Wrong URL/path used for attribute %s',
         ValidatorInterface::ERROR_MEDIA_PATH_NOT_ACCESSIBLE => 'Imported resource (image) does not exist in the local media storage',
         ValidatorInterface::ERROR_MEDIA_URL_NOT_ACCESSIBLE => 'Imported resource (image) could not be downloaded from external resource due to timeout or access permissions',
-        ValidatorInterface::ERROR_INVALID_WEIGHT => 'Product weight is invalid',
+        ValidatorInterface::ERROR_INVALID_WEIGHT => 'Detail weight is invalid',
         ValidatorInterface::ERROR_DUPLICATE_URL_KEY => 'Specified URL key already exists',
     ];
 
@@ -613,14 +613,14 @@ class Product extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
     protected $rowNumbers = [];
 
     /**
-     * Product entity link field
+     * Detail entity link field
      *
      * @var string
      */
     private $productEntityLinkField;
 
     /**
-     * Product entity identifier field
+     * Detail entity identifier field
      *
      * @var string
      */
@@ -904,7 +904,7 @@ class Product extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
     }
 
     /**
-     * Create Product entity from raw data.
+     * Create Detail entity from raw data.
      *
      * @throws \Exception
      * @return bool Result of operation.
@@ -1030,7 +1030,7 @@ class Product extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
     }
 
     /**
-     * Initialize Product error templates
+     * Initialize Detail error templates
      */
     protected function _initErrorTemplates()
     {
@@ -1501,7 +1501,7 @@ class Product extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
                 if (!array_key_exists($rowSku, $this->websitesCache)) {
                     $this->websitesCache[$rowSku] = [];
                 }
-                // 2. Product-to-Website phase
+                // 2. Detail-to-Website phase
                 if (!empty($rowData[self::COL_PRODUCT_WEBSITES])) {
                     $websiteCodes = explode($this->getMultipleValueSeparator(), $rowData[self::COL_PRODUCT_WEBSITES]);
                     foreach ($websiteCodes as $websiteCode) {

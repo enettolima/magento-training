@@ -20,7 +20,7 @@ use Magento\Mtf\Client\Element\SimpleElement;
 abstract class AbstractReview extends Block
 {
     /**
-     * Product item block locator.
+     * Detail item block locator.
      *
      * @var string
      */
@@ -97,14 +97,14 @@ abstract class AbstractReview extends Block
     protected $shippingInclTax = '.totals.shipping.incl .price';
 
     /**
-     * Product price excluding tax search mask.
+     * Detail price excluding tax search mask.
      *
      * @var string
      */
     protected $itemExclTax = '.price-excluding-tax .price';
 
     /**
-     * Product price including tax search mask.
+     * Detail price including tax search mask.
      *
      * @var string
      */
@@ -112,14 +112,14 @@ abstract class AbstractReview extends Block
 
     // @codingStandardsIgnoreStart
     /**
-     * Product price subtotal excluding tax search mask.
+     * Detail price subtotal excluding tax search mask.
      *
      * @var string
      */
     protected $itemSubExclTax = '.subtotal .price-excluding-tax .price';
 
     /**
-     * Product price subtotal including tax search mask.
+     * Detail price subtotal including tax search mask.
      *
      * @var string
      */

@@ -17,7 +17,7 @@ use Magento\Mtf\TestCase\Injectable;
  *
  * Test Flow:
  * 1. Log in as default admin user.
- * 2. Go to Stores > Attributes > Product.
+ * 2. Go to Stores > Attributes > Detail.
  * 3. Search product attribute in grid by given data.
  * 4. Click on the required product attribute.
  * 5. Click on the "Delete Attribute" button.

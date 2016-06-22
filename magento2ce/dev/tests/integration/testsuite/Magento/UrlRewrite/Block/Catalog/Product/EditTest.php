@@ -6,7 +6,7 @@
 namespace Magento\UrlRewrite\Block\Catalog\Product;
 
 /**
- * Test for \Magento\UrlRewrite\Block\Catalog\Product\Edit
+ * Test for \Magento\UrlRewrite\Block\Catalog\Detail\Edit
  * @magentoAppArea adminhtml
  */
 class EditTest extends \PHPUnit_Framework_TestCase
@@ -90,7 +90,7 @@ class EditTest extends \PHPUnit_Framework_TestCase
             );
 
             $this->assertEquals(
-                'Product:',
+                'Detail:',
                 $productLinkBlock->getLabel(),
                 'Child block with product link has invalid item label'
             );

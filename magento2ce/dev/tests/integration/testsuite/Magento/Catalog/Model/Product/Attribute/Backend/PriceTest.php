@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Product\Attribute\Backend;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Attribute\Backend\Price.
+ * Test class for \Magento\Catalog\Model\Detail\Attribute\Backend\Price.
  *
  * @magentoDataFixture Magento/Catalog/_files/product_simple.php
  */

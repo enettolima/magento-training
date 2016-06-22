@@ -6,7 +6,7 @@
 namespace Magento\SalesRule\Model\Rule\Condition;
 
 /**
- * Product rule condition data model
+ * Detail rule condition data model
  *
  * @author Magento Core Team <core@magentocommerce.com>
  */
@@ -27,7 +27,7 @@ class Product extends \Magento\Rule\Model\Condition\Product\AbstractProduct
     }
 
     /**
-     * Validate Product Rule Condition
+     * Validate Detail Rule Condition
      *
      * @param \Magento\Framework\Model\AbstractModel $model
      * @return bool

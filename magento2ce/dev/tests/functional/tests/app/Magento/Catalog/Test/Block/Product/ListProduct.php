@@ -12,7 +12,7 @@ use Magento\Mtf\Client\Locator;
 use Magento\Mtf\Fixture\FixtureInterface;
 
 /**
- * Product list block.
+ * Detail list block.
  */
 class ListProduct extends Block
 {

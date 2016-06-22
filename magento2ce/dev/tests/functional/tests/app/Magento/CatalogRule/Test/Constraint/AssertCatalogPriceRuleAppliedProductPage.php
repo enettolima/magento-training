@@ -13,12 +13,12 @@ use Magento\Catalog\Test\Page\Product\CatalogProductView;
 use Magento\Catalog\Test\Page\Category\CatalogCategoryView;
 
 /**
- * Assert that Catalog Price Rule is applied on Product page.
+ * Assert that Catalog Price Rule is applied on Detail page.
  */
 class AssertCatalogPriceRuleAppliedProductPage extends AbstractConstraint
 {
     /**
-     * Assert that Catalog Price Rule is applied & it impacts on product's discount price on Product page.
+     * Assert that Catalog Price Rule is applied & it impacts on product's discount price on Detail page.
      *
      * @param CatalogProductView $catalogProductViewPage
      * @param CmsIndex $cmsIndexPage

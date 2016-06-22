@@ -91,7 +91,7 @@ class AssertProductInCart extends AbstractConstraint
         \PHPUnit_Framework_Assert::assertEquals(
             $fixtureActualPrice,
             $formPrice,
-            'Product price in shopping cart is not correct.'
+            'Detail price in shopping cart is not correct.'
         );
     }
 
@@ -102,6 +102,6 @@ class AssertProductInCart extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product is correctly displayed in cart.';
+        return 'Detail is correctly displayed in cart.';
     }
 }

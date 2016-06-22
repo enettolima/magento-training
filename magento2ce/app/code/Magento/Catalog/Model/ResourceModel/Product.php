@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\ResourceModel;
 use Magento\Catalog\Api\Data\ProductInterface;
 
 /**
- * Product entity resource model
+ * Detail entity resource model
  *
  * @SuppressWarnings(PHPMD.LongVariable)
  * @SuppressWarnings(PHPMD.CouplingBetweenObjects)
@@ -16,14 +16,14 @@ use Magento\Catalog\Api\Data\ProductInterface;
 class Product extends AbstractResource
 {
     /**
-     * Product to website linkage table
+     * Detail to website linkage table
      *
      * @var string
      */
     protected $_productWebsiteTable;
 
     /**
-     * Product to category linkage table
+     * Detail to category linkage table
      *
      * @var string
      */
@@ -129,7 +129,7 @@ class Product extends AbstractResource
     }
 
     /**
-     * Product Website table name getter
+     * Detail Website table name getter
      *
      * @return string
      */
@@ -142,7 +142,7 @@ class Product extends AbstractResource
     }
 
     /**
-     * Product Category table name getter
+     * Detail Category table name getter
      *
      * @return string
      */

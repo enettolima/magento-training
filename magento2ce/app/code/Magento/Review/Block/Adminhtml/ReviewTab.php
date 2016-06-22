@@ -57,7 +57,7 @@ class ReviewTab extends TabWrapper
      */
     public function getTabLabel()
     {
-        return __('Product Reviews');
+        return __('Detail Reviews');
     }
 
     /**

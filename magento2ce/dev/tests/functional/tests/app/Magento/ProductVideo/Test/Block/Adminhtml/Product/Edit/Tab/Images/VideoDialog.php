@@ -10,7 +10,7 @@ use Magento\Mtf\Block\Form;
 use Magento\Mtf\Client\Locator;
 
 /**
- * Product new video dialog.
+ * Detail new video dialog.
  */
 class VideoDialog extends Form
 {

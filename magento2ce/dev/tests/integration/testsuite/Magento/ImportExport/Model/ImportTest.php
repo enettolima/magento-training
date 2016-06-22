@@ -34,7 +34,7 @@ class ImportTest extends \PHPUnit_Framework_TestCase
             'token' => 'Magento\ImportExport\Model\Source\Import\Behavior\Basic',
             'code' => 'basic_behavior',
             'notes' => [
-                \Magento\ImportExport\Model\Import::BEHAVIOR_REPLACE => "Note: Product IDs will be regenerated."
+                \Magento\ImportExport\Model\Import::BEHAVIOR_REPLACE => "Note: Detail IDs will be regenerated."
             ],
         ],
         'customer_composite' => [

@@ -6,7 +6,7 @@
 namespace Magento\Downloadable\Model\ResourceModel\Link;
 
 /**
- * Downloadable Product link purchased resource model
+ * Downloadable Detail link purchased resource model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

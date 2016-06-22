@@ -54,6 +54,6 @@ class AssertProductCanBeOpenedFromSearchResult extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product can be opened from search results page.';
+        return 'Detail can be opened from search results page.';
     }
 }

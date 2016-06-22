@@ -10,7 +10,7 @@ use Magento\Backend\Test\Block\Widget\Grid as ParentGrid;
 
 /**
  * Class Grid
- * Product grid
+ * Detail grid
  */
 class Grid extends ParentGrid
 {

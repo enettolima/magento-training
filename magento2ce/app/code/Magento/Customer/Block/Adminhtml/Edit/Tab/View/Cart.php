@@ -109,7 +109,7 @@ class Cart extends \Magento\Backend\Block\Widget\Grid\Extended
     {
         $this->addColumn('product_id', ['header' => __('ID'), 'index' => 'product_id', 'width' => '100px']);
 
-        $this->addColumn('name', ['header' => __('Product'), 'index' => 'name']);
+        $this->addColumn('name', ['header' => __('Detail'), 'index' => 'name']);
 
         $this->addColumn('sku', ['header' => __('SKU'), 'index' => 'sku', 'width' => '100px']);
 

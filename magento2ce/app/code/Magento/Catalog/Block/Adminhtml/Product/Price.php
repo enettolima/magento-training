@@ -5,7 +5,7 @@
  */
 
 /**
- * Product price block
+ * Detail price block
  *
  */
 namespace Magento\Catalog\Block\Adminhtml\Product;

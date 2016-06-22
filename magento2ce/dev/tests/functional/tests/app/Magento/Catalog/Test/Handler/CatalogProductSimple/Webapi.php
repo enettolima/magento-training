@@ -35,7 +35,7 @@ class Webapi extends AbstractWebApi implements CatalogProductSimpleInterface
     protected $fields;
 
     /**
-     * Product Curl handler instance.
+     * Detail Curl handler instance.
      *
      * @var Curl
      */
@@ -104,7 +104,7 @@ class Webapi extends AbstractWebApi implements CatalogProductSimpleInterface
 
         if (!isset($response['id'])) {
             $this->eventManager->dispatchEvent(['curl_failed'], [$response]);
-            throw new \Exception("Product creation by webapi handler was not successful! Response: {$encodedResponse}");
+            throw new \Exception("Detail creation by webapi handler was not successful! Response: {$encodedResponse}");
         }
 
         return $this->parseResponse($response);

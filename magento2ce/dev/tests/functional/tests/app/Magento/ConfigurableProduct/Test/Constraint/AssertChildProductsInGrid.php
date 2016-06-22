@@ -38,7 +38,7 @@ class AssertChildProductsInGrid extends AbstractConstraint
             $filter = [
                 'name' => $variation['name'],
                 'type' => (isset($variation['weight']) && (int)$variation['weight'] > 0)
-                    ? 'Simple Product' : 'Virtual Product',
+                    ? 'Simple Detail' : 'Virtual Detail',
                 'sku' => $variation['sku'],
                 'visibility' => self::NOT_VISIBLE_INDIVIDUALLY,
             ];

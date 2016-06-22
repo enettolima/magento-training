@@ -32,14 +32,14 @@ class AssertAddedProductAttributeOnProductForm extends AbstractConstraint
     protected $fixtureFactory;
 
     /**
-     * Catalog Product Index page.
+     * Catalog Detail Index page.
      *
      * @var CatalogProductIndex
      */
     protected $catalogProductIndex;
 
     /**
-     * Catalog Product Edit page.
+     * Catalog Detail Edit page.
      *
      * @var CatalogProductEdit
      */
@@ -97,17 +97,17 @@ class AssertAddedProductAttributeOnProductForm extends AbstractConstraint
         }
         \PHPUnit_Framework_Assert::assertTrue(
             $catalogProductEdit->getProductForm()->checkAttributeLabel($catalogProductAttribute),
-            "Product Attribute is absent on Product form."
+            "Detail Attribute is absent on Detail form."
         );
     }
 
     /**
-     * Text of Product Attribute is present on the Product form.
+     * Text of Detail Attribute is present on the Detail form.
      *
      * @return string
      */
     public function toString()
     {
-        return 'Product Attribute is present on Product form.';
+        return 'Detail Attribute is present on Detail form.';
     }
 }

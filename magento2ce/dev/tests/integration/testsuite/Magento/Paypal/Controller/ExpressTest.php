@@ -24,7 +24,7 @@ class ExpressTest extends \Magento\TestFramework\TestCase\AbstractController
         $this->dispatch('paypal/express/review');
 
         $html = $this->getResponse()->getBody();
-        $this->assertContains('Simple Product', $html);
+        $this->assertContains('Simple Detail', $html);
         $this->assertContains('Review', $html);
         $this->assertContains('/paypal/express/placeOrder/', $html);
     }

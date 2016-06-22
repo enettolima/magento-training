@@ -74,7 +74,7 @@ class Startdate extends \Magento\Eav\Model\Entity\Attribute\Backend\Datetime
     }
 
     /**
-     * Product from date attribute validate function.
+     * Detail from date attribute validate function.
      * In case invalid data throws exception.
      *
      * @param \Magento\Framework\DataObject $object

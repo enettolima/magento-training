@@ -77,7 +77,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
                 \Magento\Framework\DB\Ddl\Table::TYPE_INTEGER,
                 null,
                 ['unsigned' => true, 'nullable' => false],
-                'Product entity ID'
+                'Detail entity ID'
             )
             ->addIndex(
                 $setup->getIdxName(
@@ -112,7 +112,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
                 'entity_id',
                 \Magento\Framework\DB\Ddl\Table::ACTION_CASCADE
             )
-            ->setComment('Link Media value to Product entity table');
+            ->setComment('Link Media value to Detail entity table');
         $setup->getConnection()->createTable($table);
     }
 

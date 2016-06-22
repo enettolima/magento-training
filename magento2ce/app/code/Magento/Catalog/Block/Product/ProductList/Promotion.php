@@ -12,7 +12,7 @@ use Magento\Catalog\Model\ResourceModel\Product\CollectionFactory;
 class Promotion extends \Magento\Catalog\Block\Product\ListProduct
 {
     /**
-     * Product collection factory
+     * Detail collection factory
      *
      * @var CollectionFactory
      */

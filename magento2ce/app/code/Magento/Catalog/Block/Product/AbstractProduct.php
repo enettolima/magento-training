@@ -32,7 +32,7 @@ class AbstractProduct extends \Magento\Framework\View\Element\Template
     protected $_defaultColumnCount = 3;
 
     /**
-     * Product amount per row depending on custom page layout of category
+     * Detail amount per row depending on custom page layout of category
      *
      * @var array
      */
@@ -173,7 +173,7 @@ class AbstractProduct extends \Magento\Framework\View\Element\Template
     }
 
     /**
-     * Retrieve Add Product to Compare Products List URL
+     * Retrieve Add Detail to Compare Products List URL
      *
      * @return string
      */
@@ -244,7 +244,7 @@ class AbstractProduct extends \Magento\Framework\View\Element\Template
     }
 
     /**
-     * Retrieve Product URL using UrlDataObject
+     * Retrieve Detail URL using UrlDataObject
      *
      * @param \Magento\Catalog\Model\Product $product
      * @param array $additional the route params
@@ -263,7 +263,7 @@ class AbstractProduct extends \Magento\Framework\View\Element\Template
     }
 
     /**
-     * Check Product has URL
+     * Check Detail has URL
      *
      * @param \Magento\Catalog\Model\Product $product
      * @return bool

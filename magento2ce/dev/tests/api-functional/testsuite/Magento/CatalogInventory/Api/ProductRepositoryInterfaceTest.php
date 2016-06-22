@@ -173,7 +173,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
     }
 
     /**
-     * Get Simple Product Data
+     * Get Simple Detail Data
      *
      * @param int $qty
      * @return array
@@ -192,7 +192,7 @@ class ProductRepositoryInterfaceTest extends WebapiAbstract
 
         if ($qty != null) {
             $productData[self::KEY_CUSTOM_ATTRIBUTES] = [
-                [self::KEY_ATTRIBUTE_CODE => 'description', 'value' => 'My Product Description'],
+                [self::KEY_ATTRIBUTE_CODE => 'description', 'value' => 'My Detail Description'],
                 [self::KEY_ATTRIBUTE_CODE => self::CODE_QUANTITY_AND_STOCK_STATUS, 'value' => [true, $qty]],
             ];
         }

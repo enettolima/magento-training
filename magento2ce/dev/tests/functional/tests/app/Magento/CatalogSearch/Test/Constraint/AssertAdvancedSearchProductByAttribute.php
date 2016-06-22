@@ -56,7 +56,7 @@ class AssertAdvancedSearchProductByAttribute extends AbstractConstraint
             $isVisible = $catalogSearchResult->getListProductBlock()->getProductItem($product)->isVisible();
         }
 
-        \PHPUnit_Framework_Assert::assertTrue($isVisible, 'Product attribute is not searchable on Frontend.');
+        \PHPUnit_Framework_Assert::assertTrue($isVisible, 'Detail attribute is not searchable on Frontend.');
     }
 
     /**
@@ -81,6 +81,6 @@ class AssertAdvancedSearchProductByAttribute extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product attribute is searchable on Frontend.';
+        return 'Detail attribute is searchable on Frontend.';
     }
 }

@@ -55,7 +55,7 @@ class AssertProductAbsentCrossSells extends AbstractConstraint
         foreach ($promotedProducts as $promotedProduct) {
             \PHPUnit_Framework_Assert::assertFalse(
                 $checkoutCart->getCrosssellBlock()->getProductItem($promotedProduct)->isVisible(),
-                'Product \'' . $promotedProduct->getName() . '\' exists in cross-sell section.'
+                'Detail \'' . $promotedProduct->getName() . '\' exists in cross-sell section.'
             );
         }
     }
@@ -67,6 +67,6 @@ class AssertProductAbsentCrossSells extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product is not displayed in cross-sell section.';
+        return 'Detail is not displayed in cross-sell section.';
     }
 }

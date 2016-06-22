@@ -34,7 +34,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
     protected $_catalogConfig;
 
     /**
-     * Product factory
+     * Detail factory
      *
      * @var \Magento\Catalog\Model\ProductFactory
      */
@@ -178,7 +178,7 @@ class Grid extends \Magento\Backend\Block\Widget\Grid\Extended
         $this->addColumn(
             'name',
             [
-                'header' => __('Product'),
+                'header' => __('Detail'),
                 'renderer' => 'Magento\Sales\Block\Adminhtml\Order\Create\Search\Grid\Renderer\Product',
                 'index' => 'name'
             ]

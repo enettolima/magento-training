@@ -15,7 +15,7 @@ use Magento\Mtf\Constraint\AbstractConstraint;
 class AssertProductAttributeSaveMessage extends AbstractConstraint
 {
     /**
-     * Product attribute success save message.
+     * Detail attribute success save message.
      */
     const SUCCESS_MESSAGE = 'You saved the product attribute.';
 

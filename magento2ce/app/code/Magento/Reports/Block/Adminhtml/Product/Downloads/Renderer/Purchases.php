@@ -6,7 +6,7 @@
 namespace Magento\Reports\Block\Adminhtml\Product\Downloads\Renderer;
 
 /**
- * Adminhtml Product Downloads Purchases Renderer
+ * Adminhtml Detail Downloads Purchases Renderer
  *
  * @author     Magento Core Team <core@magentocommerce.com>
  */

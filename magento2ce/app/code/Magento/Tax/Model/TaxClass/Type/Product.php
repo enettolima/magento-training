@@ -5,7 +5,7 @@
  */
 
 /**
- * Product Tax Class
+ * Detail Tax Class
  */
 namespace Magento\Tax\Model\TaxClass\Type;
 

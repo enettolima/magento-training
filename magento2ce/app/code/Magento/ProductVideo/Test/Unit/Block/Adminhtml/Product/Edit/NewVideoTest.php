@@ -44,7 +44,7 @@ class NewVideoTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @var \Magento\Framework\TestFramework\Unit\Helper\ObjectManager
-     * |\Magento\ProductVideo\Block\Adminhtml\Product\Edit\NewVideo
+     * |\Magento\ProductVideo\Block\Adminhtml\Detail\Edit\NewVideo
      */
     protected $block;
 

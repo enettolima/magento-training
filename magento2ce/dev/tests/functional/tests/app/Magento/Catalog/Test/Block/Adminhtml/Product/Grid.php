@@ -63,7 +63,7 @@ class Grid extends DataGrid
     ];
 
     /**
-     * Product base image.
+     * Detail base image.
      *
      * @var string
      */

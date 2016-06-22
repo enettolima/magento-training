@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin for \Magento\Catalog\Model\Product\Attribute\Repository
+ * Plugin for \Magento\Catalog\Model\Detail\Attribute\Repository
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.

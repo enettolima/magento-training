@@ -121,7 +121,7 @@ class Option extends Widget
     }
 
     /**
-     * Get Product
+     * Get Detail
      *
      * @return Product
      */

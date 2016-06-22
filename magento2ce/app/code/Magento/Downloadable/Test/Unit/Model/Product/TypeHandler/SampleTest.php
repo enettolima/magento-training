@@ -9,7 +9,7 @@ use Magento\Downloadable\Model\Product\TypeHandler\Sample;
 use Magento\Framework\TestFramework\Unit\Helper\ObjectManager as ObjectManagerHelper;
 
 /**
- * Test for \Magento\Downloadable\Model\Product\TypeHandler\Sample
+ * Test for \Magento\Downloadable\Model\Detail\TypeHandler\Sample
  */
 class SampleTest extends \PHPUnit_Framework_TestCase
 {
@@ -104,7 +104,7 @@ class SampleTest extends \PHPUnit_Framework_TestCase
                         [
                             'is_delete' => 0,
                             'sample_id' => 0,
-                            'title' => 'Downloadable Product Sample Title',
+                            'title' => 'Downloadable Detail Sample Title',
                             'type' => \Magento\Downloadable\Helper\Download::LINK_TYPE_FILE,
                             'sample_url' => null,
                             'sort_order' => '0',
@@ -112,7 +112,7 @@ class SampleTest extends \PHPUnit_Framework_TestCase
                     ],
                 ],
                 'modelData' => [
-                    'title' => 'Downloadable Product Sample Title',
+                    'title' => 'Downloadable Detail Sample Title',
                     'type' => \Magento\Downloadable\Helper\Download::LINK_TYPE_FILE,
                     'sample_url' => null,
                     'sort_order' => '0',

@@ -431,7 +431,7 @@ class StockStateProviderTest extends \PHPUnit_Framework_TestCase
         $stockItem->expects($this->any())->method('getSuppressCheckQtyIncrements')->willReturn(false);
         $stockItem->expects($this->any())->method('getQtyIncrements')->willReturn($qtyIncrements);
         $stockItem->expects($this->any())->method('getIsChildItem')->willReturn($isChildItem);
-        $stockItem->expects($this->any())->method('getProductName')->willReturn('Simple Product');
+        $stockItem->expects($this->any())->method('getProductName')->willReturn('Simple Detail');
         $this->mathDivision->expects($this->any())->method('getExactDivision')->willReturn(1);
 
         $result = $this->stockStateProvider->checkQtyIncrements($stockItem, $qty);
@@ -442,7 +442,7 @@ class StockStateProviderTest extends \PHPUnit_Framework_TestCase
     public function checkQtyIncrementsMsgDataProvider()
     {
         return [
-            [true, 'You can buy Simple Product only in quantities of 5 at a time.'],
+            [true, 'You can buy Simple Detail only in quantities of 5 at a time.'],
             [false, 'You can buy this product only in quantities of 5 at a time.'],
         ];
     }

@@ -23,7 +23,7 @@ class DownloadCustomOptionTest extends \PHPUnit_Framework_TestCase
     const OPTION_CODE = 'option_123456';
 
     /**
-     * Option Product ID Value
+     * Option Detail ID Value
      */
     const OPTION_PRODUCT_ID = 'option_test_product_id';
 
@@ -239,7 +239,7 @@ class DownloadCustomOptionTest extends \PHPUnit_Framework_TestCase
                 [],
                 true
             ],
-            [ //No Product Option
+            [ //No Detail Option
                 [
                     self::OPTION_ID => self::OPTION_ID,
                     self::OPTION_CODE => self::OPTION_CODE,
@@ -249,7 +249,7 @@ class DownloadCustomOptionTest extends \PHPUnit_Framework_TestCase
                 [],
                 true
             ],
-            [ //No Product Option ID
+            [ //No Detail Option ID
                 [
                     self::OPTION_ID => self::OPTION_ID,
                     self::OPTION_CODE => self::OPTION_CODE,
@@ -263,7 +263,7 @@ class DownloadCustomOptionTest extends \PHPUnit_Framework_TestCase
                 ],
                 true
             ],
-            [ //Not Matching Product IDs in Inventory Option
+            [ //Not Matching Detail IDs in Inventory Option
                 [
                     self::OPTION_ID => self::OPTION_ID,
                     self::OPTION_CODE => self::OPTION_CODE,
@@ -277,7 +277,7 @@ class DownloadCustomOptionTest extends \PHPUnit_Framework_TestCase
                 ],
                 true
             ],
-            [ //Not Matching Product IDs in Product Option
+            [ //Not Matching Detail IDs in Detail Option
                 [
                     self::OPTION_ID => self::OPTION_ID,
                     self::OPTION_CODE => self::OPTION_CODE,

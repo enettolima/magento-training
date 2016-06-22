@@ -85,7 +85,7 @@ class Review extends AbstractModifier
             'arguments' => [
                 'data' => [
                     'config' => [
-                        'label' => __('Product Reviews'),
+                        'label' => __('Detail Reviews'),
                         'collapsible' => true,
                         'opened' => false,
                         'componentType' => Form\Fieldset::NAME,

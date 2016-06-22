@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\ResourceModel\Product\Indexer\Price;
 use Magento\Catalog\Model\ResourceModel\Product\Indexer\AbstractIndexer;
 
 /**
- * Default Product Type Price Indexer Resource model
+ * Default Detail Type Price Indexer Resource model
  * For correctly work need define product type id
  *
  * @author      Magento Core Team <core@magentocommerce.com>
@@ -16,14 +16,14 @@ use Magento\Catalog\Model\ResourceModel\Product\Indexer\AbstractIndexer;
 class DefaultPrice extends AbstractIndexer implements PriceInterface
 {
     /**
-     * Product type code
+     * Detail type code
      *
      * @var string
      */
     protected $_typeId;
 
     /**
-     * Product Type is composite flag
+     * Detail Type is composite flag
      *
      * @var bool
      */
@@ -87,7 +87,7 @@ class DefaultPrice extends AbstractIndexer implements PriceInterface
     }
 
     /**
-     * Set Product Type code
+     * Set Detail Type code
      *
      * @param string $typeCode
      * @return $this
@@ -99,7 +99,7 @@ class DefaultPrice extends AbstractIndexer implements PriceInterface
     }
 
     /**
-     * Retrieve Product Type Code
+     * Retrieve Detail Type Code
      *
      * @return string
      * @throws \Magento\Framework\Exception\LocalizedException
@@ -115,7 +115,7 @@ class DefaultPrice extends AbstractIndexer implements PriceInterface
     }
 
     /**
-     * Set Product Type Composite flag
+     * Set Detail Type Composite flag
      *
      * @param bool $flag
      * @return $this

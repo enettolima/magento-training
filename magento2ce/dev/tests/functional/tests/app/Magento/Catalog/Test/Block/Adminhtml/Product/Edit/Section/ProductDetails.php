@@ -10,7 +10,7 @@ use Magento\Ui\Test\Block\Adminhtml\Section;
 use Magento\Mtf\Client\Element\SimpleElement;
 
 /**
- * Product details section.
+ * Detail details section.
  */
 class ProductDetails extends Section
 {

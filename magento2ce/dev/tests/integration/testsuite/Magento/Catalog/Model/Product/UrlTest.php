@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Model\Product;
 
 /**
- * Test class for \Magento\Catalog\Model\Product\Url.
+ * Test class for \Magento\Catalog\Model\Detail\Url.
  *
  * @magentoDataFixture Magento/Catalog/_files/url_rewrites.php
  * @magentoAppArea frontend

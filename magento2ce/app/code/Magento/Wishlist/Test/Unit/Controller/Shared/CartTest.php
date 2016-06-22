@@ -280,7 +280,7 @@ class CartTest extends \PHPUnit_Framework_TestCase
 
     /**
      * 1. Wishlist Item ID
-     * 2. Product Name
+     * 2. Detail Name
      * 3. Quote has errors
      * 4. Should redirect to Cart flag
      * 5. Referer URL

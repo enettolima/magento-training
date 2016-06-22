@@ -464,7 +464,7 @@ class TaxRuleRepositoryInterfaceTest extends WebapiAbstract
         $this->assertEquals(
             $expectedRuleData['product_tax_class_ids'],
             array_values(array_unique($taxRuleModel->getProductTaxClasses())),
-            'Product Tax classes were updated incorrectly.'
+            'Detail Tax classes were updated incorrectly.'
         );
         $this->assertEquals(
             $expectedRuleData['tax_rate_ids'],

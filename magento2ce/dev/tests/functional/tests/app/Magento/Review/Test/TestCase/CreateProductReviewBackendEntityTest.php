@@ -16,7 +16,7 @@ use Magento\Mtf\TestCase\Injectable;
 
 /**
  * Preconditions:
- * 1. Simple Product created.
+ * 1. Simple Detail created.
  *
  * Steps:
  * 1. Login to backend.
@@ -66,7 +66,7 @@ class CreateProductReviewBackendEntityTest extends Injectable
     protected $ratingEdit;
 
     /**
-     * Product rating fixture.
+     * Detail rating fixture.
      *
      * @var Rating
      */
@@ -101,7 +101,7 @@ class CreateProductReviewBackendEntityTest extends Injectable
     }
 
     /**
-     * Run Create Product Review Entity Backend Test.
+     * Run Create Detail Review Entity Backend Test.
      *
      * @param Review $review
      * @return array

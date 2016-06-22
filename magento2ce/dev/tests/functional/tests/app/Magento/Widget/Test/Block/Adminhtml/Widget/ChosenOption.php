@@ -52,7 +52,7 @@ class ChosenOption extends SimpleElement
     protected $categoryWidgetChooserBlockClass = '\Magento\Catalog\Test\Block\Adminhtml\Category\Widget\Chooser';
 
     /**
-     * Product widget chooser block class.
+     * Detail widget chooser block class.
      *
      * @var string
      */

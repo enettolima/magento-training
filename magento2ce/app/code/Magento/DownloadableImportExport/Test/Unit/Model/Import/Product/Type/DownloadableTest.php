@@ -279,7 +279,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                     [
                         'sku' => 'downloadablesku1',
                         'product_type' => 'downloadable',
-                        'name' => 'Downloadable Product 1',
+                        'name' => 'Downloadable Detail 1',
                         'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4'
                             .',sortorder=1|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
                         'downloadable_links' => 'group_title=Group Title Links, title=Title 1, price=10,'
@@ -350,7 +350,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                     [
                         'sku' => 'downloadablesku2',
                         'product_type' => 'downloadable',
-                        'name' => 'Downloadable Product 1',
+                        'name' => 'Downloadable Detail 1',
                         'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4'
                             .',sortorder=1|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
                         'downloadable_links' => 'group_title=Group Title Links, title=Title 1, price=10,'
@@ -374,7 +374,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                     [
                         'sku' => 'downloadablesku3',
                         'product_type' => 'downloadable',
-                        'name' => 'Downloadable Product 1',
+                        'name' => 'Downloadable Detail 1',
                         'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4,'
                             .'sortorder=1|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
                         'downloadable_links' => 'group_title=Group Title Links, title=Title 1, price=10,'
@@ -398,7 +398,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                     [
                         'sku' => 'downloadablesku4',
                         'product_type' => 'downloadable',
-                        'name' => 'Downloadable Product 1',
+                        'name' => 'Downloadable Detail 1',
                         'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4,'
                             .'sortorder=1|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
                         'downloadable_links' => 'group_title=Group Title Links, title=Title 1, price=10,'
@@ -469,7 +469,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                     [
                         'sku' => 'downloadablesku5',
                         'product_type' => 'downloadable',
-                        'name' => 'Downloadable Product 1',
+                        'name' => 'Downloadable Detail 1',
                         'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4,'
                             .'sortorder=1|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
                         'downloadable_links' => 'group_title=Group Title, title=Title 2, price=10, downloads=unlimited,'
@@ -577,7 +577,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 [
                     'sku' => 'downloadablesku1',
                     'product_type' => 'downloadable',
-                    'name' => 'Downloadable Product 1',
+                    'name' => 'Downloadable Detail 1',
                     'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4,'
                         .'sortorder=1|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
                     'downloadable_links' => 'group_title=Group Title Links, title=Title 1, price=10, '
@@ -591,7 +591,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 [
                     'sku' => 'downloadablesku12',
                     'product_type' => 'downloadable',
-                    'name' => 'Downloadable Product 2',
+                    'name' => 'Downloadable Detail 2',
                     'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4'
                         .',sortorder=1|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
                     'downloadable_links' => 'group_title=Group Title Links, title=Title 1, price=10,'
@@ -605,7 +605,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 [
                     'sku' => 'downloadablesku12',
                     'product_type' => 'downloadable',
-                    'name' => 'Downloadable Product 2',
+                    'name' => 'Downloadable Detail 2',
                 ],
                 2,
                 true
@@ -614,7 +614,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 [
                     'sku' => 'downloadablesku12',
                     'product_type' => 'downloadable',
-                    'name' => 'Downloadable Product 2',
+                    'name' => 'Downloadable Detail 2',
                     'downloadable_samples' => 'title=Title 1, file=media/file.mp4,sortorder=1|title=Title 2,'
                         .' url=media/file2.mp4,sortorder=0',
                     'downloadable_links' => 'title=Title 1, price=10, downloads=unlimited, file=media/file.mp4,'
@@ -628,7 +628,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 [
                     'sku' => 'downloadablesku12',
                     'product_type' => 'downloadable',
-                    'name' => 'Downloadable Product 2',
+                    'name' => 'Downloadable Detail 2',
                     'downloadable_samples' => 'file=media/file.mp4,sortorder=1|group_title=Group Title, '
                         .'url=media/file2.mp4,sortorder=0',
                     'downloadable_links' => 'title=Title 1, price=10, downloads=unlimited, file=media/file.mp4,'
@@ -642,7 +642,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 [
                     'sku' => 'downloadablesku12',
                     'product_type' => 'downloadable',
-                    'name' => 'Downloadable Product 2',
+                    'name' => 'Downloadable Detail 2',
                     'downloadable_samples' => 'group_title=, title=Title 1, file=media/file.mp4,sortorder=1'
                         .'|group_title=, title=Title 2, url=media/file2.mp4,sortorder=0',
                     'downloadable_links' => 'group_title=Group Title Links, title=Title 1, price=10,'
@@ -656,7 +656,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 [
                     'sku' => 'downloadablesku12',
                     'product_type' => 'downloadable',
-                    'name' => 'Downloadable Product 2',
+                    'name' => 'Downloadable Detail 2',
                     'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4,'
                         .'sortorder=1|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
                     'downloadable_links' => 'group_title=, title=Title 1, price=10, downloads=unlimited, '
@@ -670,7 +670,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                 [
                     'sku' => 'downloadablesku12',
                     'product_type' => 'downloadable',
-                    'name' => 'Downloadable Product 2',
+                    'name' => 'Downloadable Detail 2',
                     'downloadable_samples' => '',
                     'downloadable_links' => '',
                 ],
@@ -751,7 +751,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
                     [
                         'sku' => 'downloadablesku1',
                         'product_type' => 'downloadable',
-                        'name' => 'Downloadable Product 1',
+                        'name' => 'Downloadable Detail 1',
                         'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4'
                             .',sortorder=1|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
                         'downloadable_links' => 'group_title=Group Title Links, title=Title 1, price=10, downloads='
@@ -773,7 +773,7 @@ class DownloadableTest extends \Magento\ImportExport\Test\Unit\Model\Import\Abst
             '_attribute_set' => 'Default',
             'sku' => 'downloadablesku1',
             'product_type' => 'downloadable',
-            'name' => 'Downloadable Product 1',
+            'name' => 'Downloadable Detail 1',
             'downloadable_samples' => 'group_title=Group Title Samples, title=Title 1, file=media/file.mp4,sortorder=1'
                 .'|group_title=Group Title, title=Title 2, url=media/file2.mp4,sortorder=0',
             'downloadable_links' => 'group_title=Group Title Links, title=Title 1, price=10, downloads=unlimited,'

@@ -87,7 +87,7 @@ class PriceBox extends PriceBoxRender
      */
     public function getCanDisplayQty(Product $product)
     {
-        //TODO Refactor - change to const similar to Model\Product\Type\Grouped::TYPE_CODE
+        //TODO Refactor - change to const similar to Model\Detail\Type\Grouped::TYPE_CODE
         if ($product->getTypeId() == 'grouped') {
             return false;
         }

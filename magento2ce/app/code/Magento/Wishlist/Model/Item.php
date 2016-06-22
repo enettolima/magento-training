@@ -427,7 +427,7 @@ class Item extends AbstractModel implements ItemInterface
         }
 
         if (!$product->isSalable()) {
-            throw new ProductException(__('Product is not salable.'));
+            throw new ProductException(__('Detail is not salable.'));
         }
 
         $buyRequest = $this->getBuyRequest();
@@ -445,7 +445,7 @@ class Item extends AbstractModel implements ItemInterface
     }
 
     /**
-     * Retrieve Product View Page URL
+     * Retrieve Detail View Page URL
      *
      * If product has required options add special key to URL
      *
@@ -741,7 +741,7 @@ class Item extends AbstractModel implements ItemInterface
 
     /**
      * Returns special download params (if needed) for custom option with type = 'file'.
-     * Needed to implement \Magento\Catalog\Model\Product\Configuration\Item\Interface.
+     * Needed to implement \Magento\Catalog\Model\Detail\Configuration\Item\Interface.
      *
      * We have to customize only controller url, so return it.
      *

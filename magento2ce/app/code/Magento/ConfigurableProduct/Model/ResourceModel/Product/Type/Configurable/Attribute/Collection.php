@@ -1,6 +1,6 @@
 <?php
 /**
- * Catalog Configurable Product Attribute Collection
+ * Catalog Configurable Detail Attribute Collection
  *
  * Copyright © 2016 Magento. All rights reserved.
  * See COPYING.txt for license details.
@@ -28,7 +28,7 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
     protected $_labelTable;
 
     /**
-     * Product instance
+     * Detail instance
      *
      * @var \Magento\Catalog\Model\Product
      */
@@ -104,7 +104,7 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
     }
 
     /**
-     * Set Product filter (Configurable)
+     * Set Detail filter (Configurable)
      *
      * @param \Magento\Catalog\Model\Product $product
      * @return $this
@@ -189,7 +189,7 @@ class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\Ab
     }
 
     /**
-     * Add Associated Product Filters (From Product Type Instance)
+     * Add Associated Detail Filters (From Detail Type Instance)
      *
      * @return $this
      */

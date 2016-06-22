@@ -33,7 +33,7 @@ define([
     }
 
     /**
-     * Product gallery widget
+     * Detail gallery widget
      */
     $.widget('mage.productGallery', {
         options: {

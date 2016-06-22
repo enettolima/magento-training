@@ -1,0 +1,7 @@
+<div>
+    <strong>Vendor Products</strong>
+</div>
+
+<?php foreach($block->getProducts() as $product): ?>
+    <div><?php echo $product->getName() ?></div>
+<?php endforeach ?>

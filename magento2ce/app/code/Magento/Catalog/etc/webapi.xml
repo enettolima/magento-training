@@ -8,7 +8,7 @@
 <routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
 
-    <!-- Product Service -->
+    <!-- Detail Service -->
     <route url="/V1/products" method="POST">
         <service class="Magento\Catalog\Api\ProductRepositoryInterface" method="save"/>
         <resources>
@@ -284,7 +284,7 @@
         </resources>
     </route>
 
-    <!-- Product Custom Options -->
+    <!-- Detail Custom Options -->
     <route url="/V1/products/options/types" method="GET">
         <service class="Magento\Catalog\Api\ProductCustomOptionTypeListInterface" method="getItems"/>
         <resources>
@@ -322,7 +322,7 @@
         </resources>
     </route>
 
-    <!-- Product Links -->
+    <!-- Detail Links -->
     <route url="/V1/products/links/types" method="GET">
         <service class="Magento\Catalog\Api\ProductLinkTypeListInterface" method="getItems"/>
         <resources>
@@ -360,7 +360,7 @@
         </resources>
     </route>
 
-    <!-- Category Product Links -->
+    <!-- Category Detail Links -->
     <route url="/V1/categories/:categoryId/products" method="GET">
         <service class="Magento\Catalog\Api\CategoryLinkManagementInterface" method="getAssignedProducts" />
         <resources>
@@ -386,7 +386,7 @@
         </resources>
     </route>
 
-    <!-- Product Website Links -->
+    <!-- Detail Website Links -->
     <route url="/V1/products/:sku/websites" method="POST">
         <service class="Magento\Catalog\Api\ProductWebsiteLinkRepositoryInterface" method="save" />
         <resources>

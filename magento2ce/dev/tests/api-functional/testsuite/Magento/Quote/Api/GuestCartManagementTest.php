@@ -322,7 +322,7 @@ class GuestCartManagementTest extends WebapiAbstract
         $order = $this->objectManager->create('Magento\Sales\Model\Order')->load($orderId);
         $items = $order->getAllItems();
         $this->assertCount(1, $items);
-        $this->assertEquals('Simple Product', $items[0]->getName());
+        $this->assertEquals('Simple Detail', $items[0]->getName());
     }
 
     /**

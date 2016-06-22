@@ -37,7 +37,7 @@ class Link extends \Magento\Framework\Model\AbstractModel
     protected $_attributes = null;
 
     /**
-     * Product collection factory
+     * Detail collection factory
      *
      * @var \Magento\Catalog\Model\ResourceModel\Product\Link\Product\CollectionFactory
      */

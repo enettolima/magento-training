@@ -16,8 +16,8 @@ use Magento\Mtf\Fixture\FixtureFactory;
  * 2. Customer created.
  *
  * Steps:
- * 1. Add to Compare Product $products.
- * 2. Navigate to Compare Product page.
+ * 1. Add to Compare Detail $products.
+ * 2. Navigate to Compare Detail page.
  * 3. Click (X) icon near the $product from dataset.
  * 4. Perform assertions.
  *

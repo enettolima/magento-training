@@ -10,7 +10,7 @@ return [
             'label' => 'Label_One',
             'model' => 'Model\One',
             'types' => [
-                'product_type_one' => ['name' => 'product_type_one', 'model' => 'Product\Model\Type\One'],
+                'product_type_one' => ['name' => 'product_type_one', 'model' => 'Detail\Model\Type\One'],
                 'type_two' => ['name' => 'type_two', 'model' => 'Model\Type\Two'],
             ],
             'entityAttributeFilterType' => 'product',

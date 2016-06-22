@@ -37,7 +37,7 @@ class GalleryTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @var \Magento\Framework\TestFramework\Unit\Helper\ObjectManager
-     * |\Magento\ProductVideo\Block\Adminhtml\Product\Video\Gallery
+     * |\Magento\ProductVideo\Block\Adminhtml\Detail\Video\Gallery
      */
     protected $gallery;
 

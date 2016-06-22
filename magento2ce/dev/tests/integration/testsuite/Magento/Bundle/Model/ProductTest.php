@@ -6,7 +6,7 @@
 
 /**
  * As far none class is present as separate bundle product,
- * this test is clone of \Magento\Catalog\Model\Product with product type "bundle"
+ * this test is clone of \Magento\Catalog\Model\Detail with product type "bundle"
  */
 namespace Magento\Bundle\Model;
 
@@ -64,7 +64,7 @@ class ProductTest extends \PHPUnit_Framework_TestCase
         )->setAttributeSetId(
             4
         )->setName(
-            'Bundle Product'
+            'Bundle Detail'
         )->setSku(
             uniqid()
         )->setPrice(

@@ -29,7 +29,7 @@ $productLink->setLinkType('crosssell');
 $product = $objectManager->create('Magento\Catalog\Model\Product');
 $product->setTypeId(\Magento\Catalog\Model\Product\Type::TYPE_SIMPLE)
     ->setAttributeSetId(4)
-    ->setName('Simple Product With Cross Sell')
+    ->setName('Simple Detail With Cross Sell')
     ->setSku('simple_with_cross')
     ->setPrice(10)
     ->setVisibility(\Magento\Catalog\Model\Product\Visibility::VISIBILITY_BOTH)

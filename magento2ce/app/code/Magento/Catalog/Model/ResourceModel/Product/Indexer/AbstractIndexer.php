@@ -8,7 +8,7 @@ namespace Magento\Catalog\Model\ResourceModel\Product\Indexer;
 use Magento\Catalog\Api\Data\ProductInterface;
 
 /**
- * Catalog Product Indexer Abstract Resource Model
+ * Catalog Detail Indexer Abstract Resource Model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

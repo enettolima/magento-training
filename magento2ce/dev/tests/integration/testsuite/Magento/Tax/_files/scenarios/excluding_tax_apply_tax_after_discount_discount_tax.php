@@ -20,7 +20,7 @@ $taxCalculationData['excluding_tax_apply_tax_after_discount_discount_tax'] = [
         SetupUtil::TAX_RULE_OVERRIDES => [
             [
                 //tax rule for product
-                'code' => 'Product Tax Rule',
+                'code' => 'Detail Tax Rule',
                 'product_tax_class_ids' => [SetupUtil::PRODUCT_TAX_CLASS_1],
             ],
             [

@@ -6,7 +6,7 @@
 namespace Magento\Catalog\Block\Product\View;
 
 /**
- * Test class for \Magento\Catalog\Block\Product\View\Options.
+ * Test class for \Magento\Catalog\Block\Detail\View\Options.
  */
 class OptionsTest extends \PHPUnit_Framework_TestCase
 {

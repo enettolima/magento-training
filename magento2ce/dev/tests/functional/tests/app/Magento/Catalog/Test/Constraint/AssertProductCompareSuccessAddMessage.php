@@ -48,6 +48,6 @@ class AssertProductCompareSuccessAddMessage extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product has been added compare products list.';
+        return 'Detail has been added compare products list.';
     }
 }

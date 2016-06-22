@@ -109,13 +109,13 @@ class CartPriceRulesFixture extends Fixture
                     'value' => $this->cartPriceRulesProductsFloor + $ruleId,
                 ],
                 '1--2' => [
-                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Found',
+                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Found',
                     'value' => '1',
                     'aggregator' => 'all',
                     'new_child' => '',
                 ],
                 '1--2--1' => [
-                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product',
+                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail',
                     'attribute' => 'category_ids',
                     'operator' => '==',
                     'value' => $categoriesArray[$ruleId % count($categoriesArray)][0],
@@ -123,7 +123,7 @@ class CartPriceRulesFixture extends Fixture
             ],
             'actions' => [
                 1 => [
-                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Combine',
+                    'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Combine',
                     'aggregator' => 'all',
                     'value' => '1',
                     'new_child' => '',
@@ -228,7 +228,7 @@ class CartPriceRulesFixture extends Fixture
         if ($ruleId < ($this->cartPriceRulesCount - 200)) {
             // Category
             $firstCondition = [
-                'type'      => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product',
+                'type'      => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail',
                 'attribute' => 'category_ids',
                 'operator'  => '==',
                 'value'     => $categoriesArray[($ruleId / 4 ) % count($categoriesArray)][0],
@@ -252,7 +252,7 @@ class CartPriceRulesFixture extends Fixture
                         'new_child' => '',
                     ],
                     '1--1'=> [
-                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Found',
+                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Found',
                         'aggregator' => 'all',
                         'value' => '1',
                         'new_child' => '',
@@ -262,7 +262,7 @@ class CartPriceRulesFixture extends Fixture
                 ],
                 'actions' => [
                     1 => [
-                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Combine',
+                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Combine',
                         'aggregator' => 'all',
                         'value' => '1',
                         'new_child' => '',
@@ -307,7 +307,7 @@ class CartPriceRulesFixture extends Fixture
                 ],
                 'actions' => [
                     1 => [
-                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Product\\Combine',
+                        'type' => 'Magento\\SalesRule\\Model\\Rule\\Condition\\Detail\\Combine',
                         'aggregator' => 'all',
                         'value' => '1',
                         'new_child' => '',

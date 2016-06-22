@@ -49,9 +49,9 @@ class Edit extends \Magento\UrlRewrite\Block\Edit
     protected function _prepareLayoutFeatures()
     {
         if ($this->_getUrlRewrite()->getId()) {
-            $this->_headerText = __('Edit URL Rewrite for a Product');
+            $this->_headerText = __('Edit URL Rewrite for a Detail');
         } else {
-            $this->_headerText = __('Add URL Rewrite for a Product');
+            $this->_headerText = __('Add URL Rewrite for a Detail');
         }
 
         if ($this->_getProduct()->getId()) {
@@ -124,7 +124,7 @@ class Edit extends \Magento\UrlRewrite\Block\Edit
             [
                 'item_url' => $this->_adminhtmlData->getUrl('adminhtml/*/*') . 'product',
                 'item_name' => $this->_getProduct()->getName(),
-                'label' => __('Product:')
+                'label' => __('Detail:')
             ]
         );
     }

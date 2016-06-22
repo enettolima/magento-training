@@ -91,7 +91,7 @@ class CatalogPriceRulesFixture extends Fixture
                             'new_child' => '',
                         ],
                         '1--1' => [
-                            'type' => 'Magento\\CatalogRule\\Model\\Rule\\Condition\\Product',
+                            'type' => 'Magento\\CatalogRule\\Model\\Rule\\Condition\\Detail',
                             'attribute' => 'category_ids',
                             'operator' => '==',
                             'value' => $categoriesArray[$i % count($categoriesArray)][0],

@@ -10,7 +10,7 @@ use Magento\Framework\App\ObjectManager;
 use Magento\Framework\EntityManager\MetadataPool;
 
 /**
- * Downloadable Product  Samples resource model
+ * Downloadable Detail  Samples resource model
  *
  * @author      Magento Core Team <core@magentocommerce.com>
  */

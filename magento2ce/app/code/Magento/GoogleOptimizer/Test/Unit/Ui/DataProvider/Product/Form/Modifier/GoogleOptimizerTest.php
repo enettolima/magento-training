@@ -176,7 +176,7 @@ class GoogleOptimizerTest extends \PHPUnit_Framework_TestCase
                 'data' => [
                     'config' => [
                         'componentType' => Fieldset::NAME,
-                        'label' => __('Product View Optimization'),
+                        'label' => __('Detail View Optimization'),
                         'collapsible' => true,
                         'opened' => false,
                         'sortOrder' => 100,

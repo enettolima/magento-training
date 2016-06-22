@@ -26,28 +26,28 @@ class Items extends Block
 
     // @codingStandardsIgnoreStart
     /**
-     * Product price excluding tax search mask
+     * Detail price excluding tax search mask
      *
      * @var string
      */
     protected $itemExclTax = '//tr[contains (.,"%s")]/td[@class="col-price"]/div[@class="price-excl-tax"]/span[@class="price"]';
 
     /**
-     * Product price including tax search mask
+     * Detail price including tax search mask
      *
      * @var string
      */
     protected $itemInclTax = '//tr[contains (.,"%s")]/td[@class="col-price"]/div[@class="price-incl-tax"]/span[@class="price"]';
 
     /**
-     * Product price subtotal excluding tax search mask
+     * Detail price subtotal excluding tax search mask
      *
      * @var string
      */
     protected $itemSubExclTax = '//tr[contains (.,"%s")]/td[@class="col-subtotal"]/div[@class="price-excl-tax"]/span[@class="price"]';
 
     /**
-     * Product price subtotal including tax search mask
+     * Detail price subtotal including tax search mask
      *
      * @var string
      */

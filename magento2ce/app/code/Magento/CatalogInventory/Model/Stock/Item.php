@@ -183,7 +183,7 @@ class Item extends AbstractExtensibleModel implements StockItemInterface
     }
 
     /**
-     * Retrieve Product Id
+     * Retrieve Detail Id
      *
      * @return int
      */

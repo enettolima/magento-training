@@ -60,7 +60,7 @@ class Option
         );
         if (!$stockItem->getItemId()) {
             throw new \Magento\Framework\Exception\LocalizedException(
-                __('The stock item for Product in option is not valid.')
+                __('The stock item for Detail in option is not valid.')
             );
         }
         /**

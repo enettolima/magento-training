@@ -187,7 +187,7 @@ class Row extends \Magento\Framework\Model\AbstractModel
                 'T0300' => __('General Funding of PayPal Account '),
                 'T0900' => __('General Redemption'),
                 'T0400' => __('General Withdrawal from PayPal Account'),
-                'T1000' => __('General. Product no longer supported'),
+                'T1000' => __('General. Detail no longer supported'),
                 'T0500' => __('General: Use of PayPal account for purchasing as well as receiving payments'),
                 'T0600' => __('General: Withdrawal from PayPal Account'),
                 'T1700' => __('General: Withdrawal to Non-Bank Entity'),

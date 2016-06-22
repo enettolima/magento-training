@@ -95,7 +95,7 @@ class Wishlist extends \Magento\Backend\Block\Widget\Grid\Extended
         $this->addColumn(
             'product_name',
             [
-                'header' => __('Product'),
+                'header' => __('Detail'),
                 'index' => 'product_name',
                 'renderer' => 'Magento\Customer\Block\Adminhtml\Edit\Tab\View\Grid\Renderer\Item'
             ]

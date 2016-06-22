@@ -53,8 +53,8 @@ class NotifyStockTest extends \PHPUnit_Framework_TestCase
         'charset' => 'UTF-8',
         'entries' => [
             [
-                'title' => 'Low Stock Product',
-                'description' => 'Low Stock Product has reached a quantity of 1.',
+                'title' => 'Low Stock Detail',
+                'description' => 'Low Stock Detail has reached a quantity of 1.',
                 'link' => 'http://magento.com/catalog/product/edit/id/1',
             ],
         ],
@@ -88,7 +88,7 @@ class NotifyStockTest extends \PHPUnit_Framework_TestCase
             ->getMock();
         $item->expects($this->once())->method('getId')->will($this->returnValue(1));
         $item->expects($this->once())->method('getQty')->will($this->returnValue(1));
-        $item->expects($this->any())->method('getName')->will($this->returnValue('Low Stock Product'));
+        $item->expects($this->any())->method('getName')->will($this->returnValue('Low Stock Detail'));
 
         $this->rssModel->expects($this->once())->method('getProductsCollection')
             ->will($this->returnValue([$item]));

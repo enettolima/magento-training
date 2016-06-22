@@ -44,6 +44,6 @@ class AssertProductSaveMessage extends AbstractConstraint
      */
     public function toString()
     {
-        return 'Product success save message is present.';
+        return 'Detail success save message is present.';
     }
 }

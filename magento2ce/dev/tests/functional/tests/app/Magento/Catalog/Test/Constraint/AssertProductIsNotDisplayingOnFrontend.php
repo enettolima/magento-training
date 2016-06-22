@@ -26,7 +26,7 @@ class AssertProductIsNotDisplayingOnFrontend extends AbstractConstraint
     const NOT_FOUND_MESSAGE = 'Whoops, our bad...';
 
     /**
-     * Product view page
+     * Detail view page
      *
      * @var CatalogProductView
      */

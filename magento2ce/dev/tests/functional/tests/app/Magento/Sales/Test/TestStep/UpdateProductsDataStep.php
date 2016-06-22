@@ -11,7 +11,7 @@ use Magento\Mtf\TestStep\TestStepInterface;
 
 /**
  * Class UpdateProductsDataStep
- * Fill Product Data
+ * Fill Detail Data
  */
 class UpdateProductsDataStep implements TestStepInterface
 {

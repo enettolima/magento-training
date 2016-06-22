@@ -36,7 +36,7 @@ abstract class AssertTaxRuleApplying extends AbstractConstraint
     protected $taxRule;
 
     /**
-     * Product simple.
+     * Detail simple.
      *
      * @var CatalogProductSimple
      */

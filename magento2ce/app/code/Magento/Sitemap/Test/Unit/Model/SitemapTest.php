@@ -542,7 +542,7 @@ class SitemapTest extends \PHPUnit_Framework_TestCase
                                         ),
                                     ],
                                     'thumbnail' => 'thumbnail.jpg',
-                                    'title' => 'Product & > title < "',
+                                    'title' => 'Detail & > title < "',
                                 ]
                             ),
                         ]
