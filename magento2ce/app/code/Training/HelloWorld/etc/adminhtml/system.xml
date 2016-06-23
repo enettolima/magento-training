@@ -25,7 +25,6 @@
                        showInWebsite="1"
                        showInStore="1">
                     <label>Custom Exercise 6.6.1</label>
-                    <frontend_model>Training\HelloWorld\Block\System\Config\Form\Field\HelloWorld</frontend_model>
                 </field>
             </group>
         </section>
