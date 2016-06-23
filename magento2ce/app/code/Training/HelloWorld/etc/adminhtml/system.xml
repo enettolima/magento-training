@@ -17,15 +17,15 @@
                    showInWebsite="1"
                    showInStore="1">
                 <label>Training</label>
-                <field id="save_vendors"
-                       translate="label comment"
-                       type="note"
-                       sortOrder="10"
+                <field id="custom_exercise"
+                       translate="label"
+                       type="label"
+                       sortOrder="3"
                        showInDefault="1"
                        showInWebsite="1"
-                       showInStore="1" >
-                    <label>Hello World</label>
-                    <comment>This is part of execise 6.6.1.</comment>
+                       showInStore="1">
+                    <label>Custom Exercise 6.6.1</label>
+                    <frontend_model>Training\HelloWorld\Block\System\Config\Form\Field\HelloWorld</frontend_model>
                 </field>
             </group>
         </section>
